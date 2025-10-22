@@ -1,4 +1,4 @@
-# Návrh štruktúry dizertácie — „Online art collections as containers of visual storytelling“
+# Návrh štruktúry dizertačnej práce — „Online art collections as containers of visual storytelling“
 
 
 ---
