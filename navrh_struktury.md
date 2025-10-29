@@ -50,7 +50,36 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 3\. Literature review
+## 3. State of the Art: Local and Global Contexts
+
+Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umenia – mapuje aktuálne prístupy k digitálnemu sprístupňovaniu, kurátorským rozhraniam a otvoreným dátam v globálnom aj lokálnom kontexte. Kapitola dopĺňa historický a inštitucionálny rámec a vytvára základ pre následnú analytickú a praktickú časť práce.
+
+### 3.1 Global context
+
+- **Rijksmuseum (NL)** – priekopník otvorených dát a public-domain politiky; ich API, download program a filozofia „Rijksstudio“ ako príklad demokratizácie kultúrneho dedičstva.  
+- **Cooper Hewitt Smithsonian Design Museum (US)** – open collection API + **Cooper Hewitt Labs** ako model inštitucionálneho R&D s prepojením na kurátorov aj vývojárov.  
+- **Science Museum Group (UK)** – „Never Been Seen“ initiative; dôraz na experimentálne prehliadanie a prácu s obrovským množstvom nezverejnených objektov.  
+- **Whitney Museum of American Art**, **MoMA**, **Artsy** – rozhrania prehliadania a autorské API ako formy súkromno-verejných platforiem; rôzne stratégie prístupu k dátam a vizualizácii.  
+- **IIIF (International Image Interoperability Framework)** – technologický rámec, ktorý prepája inštitúcie a umožňuje spoločné zdieľanie obrazových dát a manifestov; de facto globálny štandard pre interoperabilitu.  
+- Prehľad trendov: „generous interfaces“, AI-asistované kurátorstvo, vizuálne vyhľadávanie, otvorené API ako platformy výskumu.
+
+### 3.2 Local context
+
+- **webumenia.sk (SNG)** – národný referenčný príklad; spolupráca 21 inštitúcií, politika public domain, rozhrania pre širokú verejnosť a otvorený kód.  
+- **Slovakiana**, **CEAD.space**, **Artlist.cz** – porovnanie lokálnych prístupov (štátne vs nezávislé, kurátorské vs archivačné ambície).  
+- **Digitální kurátor (Lukáš Pilka)** – prepojenie vedeckého výskumu a kurátorskej praxe; algoritmická analýza kultúrneho dedičstva.  
+- Lokálne R&D aktivity: lab.SNG, projekty DAMU/UJEP – výskum digitálneho rozhrania ako umeleckej praxe.  
+- Kľúčové problémy: fragmentácia, rôzna úroveň otvorenosti dát, absencia dlhodobého výskumu používateľských skúseností.
+
+### 3.3 Syntéza a pozícia práce
+
+- Porovnanie trendov: **otvorené vs kurátorsky kontrolované** kolekcie; **vizuálna prehliadateľnosť vs textová databázovosť**.  
+- Identifikácia priestoru, v ktorom sa pohybuje táto dizertácia: experiment medzi otvorenými dátami a naratívnym rozhraním.  
+- Určenie výskumnej medzery: chýba hlbšia analýza, ako technické a rozhraniové stratégie formujú príbehy digitálnych zbierok.
+
+---
+
+## 4\. Literature review
 
 -   Digitálne zbierky: teoretické prístupy — Generous Interfaces (2015) — rozobrať princípy a implikácie.
     
@@ -67,7 +96,7 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 4\. Technical architecture of online collections (case: webumenia.sk)
+## 5\. Technical architecture of online collections (case: webumenia.sk)
 
 -   Vysvetlenie harvesting pipeline (zdroje: inštitucionálne databázy, CEDVU, importné procesy).
     
@@ -86,7 +115,7 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 5\. Limitations and critical analysis of online collections
+## 6\. Limitations and critical analysis of online collections
 
 -   Long-tail effect — kto dostane visibility (populárne diela vs menšina). Podpora / meranie as well.
     
@@ -105,7 +134,7 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 6\. Approaches to restoring and enriching storytelling
+## 7\. Approaches to restoring and enriching storytelling
 
 -   Generous Interfaces — princípy a praktické príklady (plenerizmus.sng.sk). Implementačné odporúčania (exploratory interfaces, serendipity, visual browsing).
     
@@ -115,16 +144,14 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
     
 -   Spatial-temporal context — mobilné sprievodné aplikácie (atlas.sng.sk). Prepojenie fyzického a digitálneho.
     
--   Vizuálne vyhľadávanie a similarity search: img2vec, embeddings, CLIP — metódy na objavovanie ornamentov, motifov, formálnych prvkov.
-    
--   Aby Warburg & Mnemosyne — remix ako metodológia pre tvorbu nových naratívov.
+-   Vizuálne vyhľadávanie a similarity search: img2vec, embeddings, CLIP — metódy na objavovanie ornamentov, motívov, formálnych prvkov.
     
 -   Návrhy UX patterns a architektúry pre multi-layered discovery (metadata + visual similarity + curatorial narratives).
     
 
 ---
 
-## 7\. Implementation: tools, datasets, and prototypes
+## 8\. Implementation: tools, datasets, and prototypes
 
 -   Datasets: export z webumenia.sk (sample subset), metadata + IIIF images; krátky popis spracovania.
     
@@ -136,39 +163,7 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
     
 -   Prototype 3 (aplikácia): **Atlas Re/mix** — UX flow, technická architektúra (mobile scanner → server-side embedding → similarity search → diptych composer → print/export).
     
--   Implementačné detaily, datové ukážky, kódy (odkazy na GitHub) a krátke screenshoty/flowy.
-    
-
----
-
-## 8\. Evaluation & methodology
-
-Mix kvalitatívnych a kvantitatívnych metód:
-
-### Quantitative
-
--   Metrics for discovery: diversity metrics (e.g., Gini coefficient of visibility), novelty/serendipity scores, click-through rates in prototypes.
-    
--   Retrieval metrics for visual search: precision@k, recall@k, mean average precision (MAP) on curated ground-truth pairs (napr. ornament matches).
-    
--   A/B testing interface variants (search-first vs browse-first).
-    
-
-### Qualitative
-
--   User studies: think-aloud sessions, semi-structured interviews with rôznymi skupinami (curators, students, verejnosť).
-    
--   Case studies: deeper analysis of several themed journeys (e.g., creating a narrative around 1989 theme).
-    
--   Expert evaluations: kurátori a historiografi hodnotia kvalitu naratívnych výstupov (relevance, contextual richness).
-    
-
-### Mixed
-
--   Log analysis: path analysis, drop-off points, time-to-serendipity.
-    
--   Evaluačné kritériá pre Atlas Re/mix: zmysluplnosť vytvoreného diptychu (v subjektívnom hodnotení užívateľa), emocionálny engagement, porovnanie s kontrolnou skupinou.
-    
+-   Implementačné detaily, datové ukážky, kódy (odkazy na GitHub) a krátke screenshoty/flowy. 
 
 ---
 
@@ -187,15 +182,28 @@ Mix kvalitatívnych a kvantitatívnych metód:
 
 ---
 
-## 10\. Discussion
+## 10\. Methodology, Discussion & Reflection
 
--   Interpretácia výsledkov (čo fungovalo, čo nie).
-    
--   Teoretické implikácie pre galérie (prepojenie databázy a naratívu).
-    
--   Politické & etické otázky: verejné financovanie, otvorenosť dát, zodpovednosť voči verejnosti (v kontexte nedávnych udalostí v SNG).
-    
--   Limity práce (dataset, generalizability, technical constraints).
+Táto kapitola spája metodologický rámec s kritickou interpretáciou výsledkov, v súlade s umeleckým výskumom, kde hodnotenie nie je primárne kvantitatívne, ale reflektívne a diskurzívne.
+
+### 10.1 Methodological stance
+
+- Mixed methods v širšom zmysle: kombinácia archívneho výskumu, kurátorskej analýzy, technologického vývoja a umeleckého experimentu.  
+- Pozícia autora ako „researcher-designer-curator“ – reflexia vlastnej praxe.  
+
+### 10.2 Reflection on prototypes and results
+
+- Čo fungovalo v prototypoch (Generous Interface, Ornament Explorer, Atlas Re/mix).  
+- Čo prototypy odhalili o limitoch súčasných online zbierok (technické, kurátorské, naratívne).  
+- Porovnanie s inšpiračnými príkladmi (Rijksmuseum, Cooper Hewitt Labs, Digitální kurátor).
+
+### 10.3 Interpretation and future implications
+
+- Teoretické dôsledky: ako môžu online zbierky slúžiť ako „kontajnery príbehov“.  
+- Spoločenský a inštitucionálny dopad: otvorené dáta, zodpovednosť galérií, nové formy verejného prístupu.  
+- Odporúčania pre budúcu prax: R&D v múzejných kontextoch, kurátorstvo AI, multimodálne rozhrania.  
+- Limity a sebariadenie výskumu: časovosť, vlastná angažovanosť, špecifickosť umeleckého výskumu.
+
     
 
 ---
@@ -220,7 +228,7 @@ Mix kvalitatívnych a kvantitatívnych metód:
 
 ---
 
-## Bibliography (vybrané kľúčové zdroje — zahrň svoje požadované)
+## Bibliography (vybrané kľúčové zdroje)
 
 -   „Generous Interfaces: Interfaces for Digital Cultural Collections“ (2015).
     
