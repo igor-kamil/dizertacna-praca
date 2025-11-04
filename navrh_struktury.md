@@ -204,7 +204,9 @@ Táto kapitola spája metodologický rámec s kritickou interpretáciou výsledk
 - Odporúčania pre budúcu prax: R&D v múzejných kontextoch, kurátorstvo AI, multimodálne rozhrania.  
 - Limity a sebariadenie výskumu: časovosť, vlastná angažovanosť, špecifickosť umeleckého výskumu.
 
-    
+### 10.4 Publishing and care
+Zamyslenie nad publikovaním (otvorením, sprístupnením, zdieľaním kódu, dát, rozhraní) ako formou starostlivosti („care“) o digitálne kultúrne dedičstvo.
+
 
 ---
 
