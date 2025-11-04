@@ -9,29 +9,40 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 1\. Introduction
+## 1. Introduction
 
--   Kontext, motivácia.
-    
--   10r webumenia.sk (kick-off).
-    
--   Ciele dizertácie a hlavné výskumné otázky (RQ).
-    
--   Metodologický prehľad (archívna práca, systémová analýza, implementácia prototypov, užívateľské štúdie, kvantitatívne merania).
-    
--   Stručný opis praktickej časti (Atlas Re/mix + výstava).
-    
+### 1.1 Context: Culture in Transformation
+- Rámcovanie doby: kultúrna inštitúcia v čase neistoty, digitálny obrat a zmena paradigmy uchovávania.  
+- Krátka reflexia „ťažkých časov kultúry“ – ako sa mení spôsob existencie diela mimo tradičných múrov galérie.  
+- Vnímanie digitálnych médií ako priestoru starostlivosti, reinterpretácie a komunikácie.
 
-### Možné výskumné otázky (RQ)
+### 1.2 Motivation and Research Background
+- Osobná a profesionálna motivácia – 13 rokov v **lab.SNG** a skúsenosti s digitálnymi zbierkami, rozhraním webumenia.sk, otvorenými dátami.  
+- Plynulý prechod od praktického vývoja k výskumnému uchopeniu témy.  
+- Cieľ práce: pochopiť a rozvíjať spôsoby, ako digitálne nástroje umožňujú rozprávať príbehy prostredníctvom zbierok umenia.  
 
-1.  Ako moderné online katalógy (napr. webumenia.sk) „obsahujú“ a „uchovávajú“ vizuálne príbehy diel a zbierok — čo sa stráca pri digitálnom sprostredkovaní?
-    
-2.  Aké technické a rozhraniové stratégie (IIIF, generous interfaces, vector search, contextual storytelling) pomáhajú obnoviť alebo vytvoriť naratívne vrstvy v online zbierkach?
-    
-3.  Aký je prínos systémov založených na vizuálnej podobnosti (img2vec/embeddingy) pre tvorbu nových, osobných príbehov (remix / mnemosyne-style montáže) pre verejnosť?
-    
-4.  Ako navrhnúť a vyhodnotiť interaktívnu skúsenosť (Atlas Re/mix), ktorá umožní ne-linkovaným návštevníkom vytvárať zmysluplné vizuálne spojenia medzi prírodným artefaktom a dielami zo zbierok?
-    
+### 1.3 Author’s Position
+- Pozícia autora ako „developer-researcher“ v rámci národnej kultúrnej inštitúcie.  
+- Reflexia hranice medzi inštitucionálnym výskumom a umeleckým výskumom.  
+- Kritická sebareflexia: výhody i obmedzenia práce zvnútra inštitúcie (SNG).  
+
+### 1.4 Problem Statement and Research Questions
+- Identifikácia centrálneho problému: strata naratívnej vrstvy v online zbierkach umenia.  
+- Ako možno pomocou rozhrania, algoritmov a kurátorských stratégií obnoviť zmysel, súvislosť a serendipitu?  
+- Otázky:  
+  - Ako môžu byť online zbierky chápané ako rozprávači?  
+  - Aký je ich príbeh v ére otvorených dát a generatívnych nástrojov?  
+  - Ako možno rozhranie chápať ako kurátorský akt?
+
+### 1.5 Overview of the Practical Part
+- Teaser k praktickej časti: séria experimentálnych aplikácií (napr. *Atlas Re/mix*, *Ornament Explorer*, *Plenérizmus - Objav svoje obľúbené dielo*).  
+- Tieto projekty ako „testovacie prostredia“ pre teoretické hypotézy práce.  
+- Prepojenie s témou kurátorského rozhrania, serendipity a generatívnych naratívov.  
+
+### 1.6 Structure and Outline
+- Stručný prehľad architektúry práce (bude doplnené po finalizácii).  
+- Popis logiky: od kontextu → teórie → metodológie → analýzy → experimentu → reflexie.  
+- Krátke vysvetlenie, ako sa prelínajú teoretické a praktické časti. 
 
 ---
 
