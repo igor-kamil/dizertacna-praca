@@ -46,7 +46,49 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 2\. Historical and institutional background
+## 2. Metodológia
+
+### 2.1 Výskumný rámec a prístup
+- Vymedzenie prístupu: kombinácia umeleckého, dizajnérskeho a reflexívneho inštitucionálneho výskumu.  
+- Odlišnosť od klasickej akademickej metodológie – dôraz na tvorbu ako nástroj poznania („research through making“).  
+- Výskum ako neustále oscilovanie medzi praxou, teóriou a reflexiou.  
+- Prečo je táto hybridnosť nevyhnutná pri skúmaní digitálnych zbierok umenia.
+
+### 2.2 Kontext a koncept laboratória
+- Popis **lab.SNG** ako experimentálnej platformy v rámci Slovenskej národnej galérie: otvorená spolupráca, prepojenie vývoja, kurátorstva a dizajnu.  
+- „Laboratórium“ ako metodologický rámec – miesto pre skúšanie, iteráciu, otvorený výskum.  
+- Vnútorný rytmus práce: iteratívny prístup, agilné prototypovanie, „release soon – improve later“.  
+- Reflexia skúseností z vývoja nástrojov ako *Web umenia*, *Ornament Explorer*, *Atlas Re/mix*.  
+- Ako proces vývoja sám generuje poznanie.
+
+### 2.3 Výskumné prístupy a stratégie
+- **Art-based research** – tvorivý experiment ako forma poznania.  
+- **Research through design** – rozhranie ako výskumný artefakt.  
+- **Comparative institutional analysis** – sledovanie a porovnávanie prístupov iných digitálnych laboratórií (Cooper Hewitt Labs, Rijksmuseum, Science Museum Group, Europeana).  
+- Prepojenie s akademickými rámcami (Barok, Pilka): metóda ako spôsob „starostlivosti o dielo“ vs. algoritmická analýza kultúrnych dát.  
+- Metodológia ako dynamický rámec – učenie sa z vlastného procesu.
+
+### 2.4 Komparácia a inšpirácie
+- Porovnanie inštitucionálnych laboratórií (SNG vs Cooper Hewitt Labs, Rijksmuseum Digital Studio).  
+- Kľúčové rozdiely v prístupe: kurátor ako výskumník, otvorenosť dát, spolupráca s komunitou.  
+- Paralely s dizertačnými prácami Dušana Baroka (*Publishing as a Conservation Strategy*) a Lukáša Pilku (*Digitální kurátor*).  
+- Prepojenie na širší rámec „digital humanities“ a „curatorial R&D“.  
+
+### 2.5 Etické a inštitucionálne rámce
+- Otázky prístupu, autorstva a vlastníctva digitálneho obsahu.  
+- Konflikt s organizáciami typu **LITA** – hranice medzi právom autora a právom verejnosti.  
+- Otvorený prístup ako kultúrna zodpovednosť: čo znamená verejnosť v ére digitálnych múzeí.  
+- Etika algoritmickej prezentácie – viditeľnosť a zabúdanie v kurátorskom rozhraní.  
+- Ako etické dilemy formujú metodológiu a výskumnú zodpovednosť.
+
+### 2.6 Záver
+- Reinterpretácia Andrásovho rámca „prečo a ako“ – syntéza motivácie a metodologického postoja.  
+- Stručné zhrnutie metodologických pilierov: laboratórium, experiment, otvorenosť, reflexia.  
+- Nadviazanie na nasledujúcu kapitolu (3. Historical and institutional background) – metodológia ako optika, cez ktorú sa číta história digitálnych zbierok.
+
+---
+
+## 3\. Historical and institutional background
 
 -   História katalogizácie v ČSSR / Československu: procesy v 1970s (normalizácia), centralizácia evidencie diel.
     
@@ -61,11 +103,11 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 3. State of the Art: Local and Global Contexts
+## 4. State of the Art: Local and Global Contexts
 
 Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umenia – mapuje aktuálne prístupy k digitálnemu sprístupňovaniu, kurátorským rozhraniam a otvoreným dátam v globálnom aj lokálnom kontexte. Kapitola dopĺňa historický a inštitucionálny rámec a vytvára základ pre následnú analytickú a praktickú časť práce.
 
-### 3.1 Global context
+### 4.1 Global context
 
 - **Rijksmuseum (NL)** – priekopník otvorených dát a public-domain politiky; ich API, download program a filozofia „Rijksstudio“ ako príklad demokratizácie kultúrneho dedičstva.  
 - **Cooper Hewitt Smithsonian Design Museum (US)** – open collection API + **Cooper Hewitt Labs** ako model inštitucionálneho R&D s prepojením na kurátorov aj vývojárov.  
@@ -74,7 +116,7 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 - **IIIF (International Image Interoperability Framework)** – technologický rámec, ktorý prepája inštitúcie a umožňuje spoločné zdieľanie obrazových dát a manifestov; de facto globálny štandard pre interoperabilitu.  
 - Prehľad trendov: „generous interfaces“, AI-asistované kurátorstvo, vizuálne vyhľadávanie, otvorené API ako platformy výskumu.
 
-### 3.2 Local context
+### 4.2 Local context
 
 - **webumenia.sk (SNG)** – národný referenčný príklad; spolupráca 21 inštitúcií, politika public domain, rozhrania pre širokú verejnosť a otvorený kód.  
 - **Slovakiana**, **CEAD.space**, **Artlist.cz** – porovnanie lokálnych prístupov (štátne vs nezávislé, kurátorské vs archivačné ambície).  
@@ -82,7 +124,7 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 - Lokálne R&D aktivity: lab.SNG, projekty DAMU/UJEP – výskum digitálneho rozhrania ako umeleckej praxe.  
 - Kľúčové problémy: fragmentácia, rôzna úroveň otvorenosti dát, absencia dlhodobého výskumu používateľských skúseností.
 
-### 3.3 Syntéza a pozícia práce
+### 4.3 Syntéza a pozícia práce
 
 - Porovnanie trendov: **otvorené vs kurátorsky kontrolované** kolekcie; **vizuálna prehliadateľnosť vs textová databázovosť**.  
 - Identifikácia priestoru, v ktorom sa pohybuje táto dizertácia: experiment medzi otvorenými dátami a naratívnym rozhraním.  
@@ -90,7 +132,7 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 
 ---
 
-## 4\. Literature review
+## 5\. Literature review
 
 -   Digitálne zbierky: teoretické prístupy — Generous Interfaces (2015) — rozobrať princípy a implikácie.
     
@@ -107,7 +149,7 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 
 ---
 
-## 5\. Technical architecture of online collections (case: webumenia.sk)
+## 6\. Technical architecture of online collections (case: webumenia.sk)
 
 -   Vysvetlenie harvesting pipeline (zdroje: inštitucionálne databázy, CEDVU, importné procesy).
     
@@ -126,7 +168,7 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 
 ---
 
-## 6\. Limitations and critical analysis of online collections
+## 7\. Limitations and critical analysis of online collections
 
 -   Long-tail effect — kto dostane visibility (populárne diela vs menšina). Podpora / meranie as well.
     
@@ -145,7 +187,7 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 
 ---
 
-## 7\. Approaches to restoring and enriching storytelling
+## 8\. Approaches to restoring and enriching storytelling
 
 -   Generous Interfaces — princípy a praktické príklady (plenerizmus.sng.sk). Implementačné odporúčania (exploratory interfaces, serendipity, visual browsing).
     
@@ -162,7 +204,7 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 
 ---
 
-## 8\. Implementation: tools, datasets, and prototypes
+## 9\. Implementation: tools, datasets, and prototypes
 
 -   Datasets: export z webumenia.sk (sample subset), metadata + IIIF images; krátky popis spracovania.
     
@@ -178,7 +220,7 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 
 ---
 
-## 9\. Applied part — Atlas Re/mix (dizajn výstavy / interaktívneho artefaktu)
+## 10\. Applied part — Atlas Re/mix (dizajn výstavy / interaktívneho artefaktu)
 
 -   Koncept: flâneur-style picking → scanning object → search in webumenia → create diptych → print / share.
     
@@ -193,35 +235,35 @@ Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umeni
 
 ---
 
-## 10\. Methodology, Discussion & Reflection
+## 11\. Discussion & Reflection
 
 Táto kapitola spája metodologický rámec s kritickou interpretáciou výsledkov, v súlade s umeleckým výskumom, kde hodnotenie nie je primárne kvantitatívne, ale reflektívne a diskurzívne.
 
-### 10.1 Methodological stance
+### 11.1 Methodological stance
 
 - Mixed methods v širšom zmysle: kombinácia archívneho výskumu, kurátorskej analýzy, technologického vývoja a umeleckého experimentu.  
 - Pozícia autora ako „researcher-designer-curator“ – reflexia vlastnej praxe.  
 
-### 10.2 Reflection on prototypes and results
+### 11.2 Reflection on prototypes and results
 
 - Čo fungovalo v prototypoch (Generous Interface, Ornament Explorer, Atlas Re/mix).  
 - Čo prototypy odhalili o limitoch súčasných online zbierok (technické, kurátorské, naratívne).  
 - Porovnanie s inšpiračnými príkladmi (Rijksmuseum, Cooper Hewitt Labs, Digitální kurátor).
 
-### 10.3 Interpretation and future implications
+### 11.3 Interpretation and future implications
 
 - Teoretické dôsledky: ako môžu online zbierky slúžiť ako „kontajnery príbehov“.  
 - Spoločenský a inštitucionálny dopad: otvorené dáta, zodpovednosť galérií, nové formy verejného prístupu.  
 - Odporúčania pre budúcu prax: R&D v múzejných kontextoch, kurátorstvo AI, multimodálne rozhrania.  
 - Limity a sebariadenie výskumu: časovosť, vlastná angažovanosť, špecifickosť umeleckého výskumu.
 
-### 10.4 Publishing and care
+### 11.4 Publishing and care
 Zamyslenie nad publikovaním (otvorením, sprístupnením, zdieľaním kódu, dát, rozhraní) ako formou starostlivosti („care“) o digitálne kultúrne dedičstvo.
 
 
 ---
 
-## 11\. Conclusion & Future work
+## 12\. Conclusion & Future work
 
 -   Zhrnutie príspevkov (teória + praktické riešenia).
     
@@ -232,7 +274,7 @@ Zamyslenie nad publikovaním (otvorením, sprístupnením, zdieľaním kódu, d�
 
 ---
 
-## 12\. Appendix
+## 13\. Appendix
 
 -   Technické appendices (kódy, nastavenia).
         
