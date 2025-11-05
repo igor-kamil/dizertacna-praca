@@ -88,47 +88,103 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 3\. Historical and institutional background
+## 3. Od katalógu k platforme: vývoj, inštitúcie a súčasný ekosystém online zbierok
 
--   História katalogizácie v ČSSR / Československu: procesy v 1970s (normalizácia), centralizácia evidencie diel.
-    
--   Zrod CEDVU — motivácie digitalizácie v 1990s (politický a technologický kontext).
-    
--   Krátka historia SNG a vznik webumenia.sk (2013–2015), otvorenie verejných dát, lab.SNG.
-    
--   Stav dnes: kolaborácie (21 múzeí), rozsah online katalógu (≈200k položiek), public-domain politika.
-    
--   Metodológia archivnej práce (primárne zdroje, interview s aktérmi, interné dokumenty).
-    
+### 3.1 Korene a predpoklady digitalizácie
+- Rané formy evidencie diel: katalógy, kartotéky, systémové prístupy múzeí v 20. storočí.  
+- Počítačové databázy v múzejnom prostredí (1970s–1990s): MuseumPlus, TMS, interné registre.  
+- Teoretické východiská: *museum as information system*, *digital turn* v kurátorstve.  
+- Premena roly kurátora a návštevníka: od uchovávania k sprostredkovaniu.
+
+### 3.2 Prvé digitálne iniciatívy a infraštruktúry
+- Vznik Europeany a formovanie európskych štandardov (LIDO, OAI-PMH, Dublin Core).  
+- Fedora Commons, DSpace a konzorciá univerzít a múzeí – základy inštitucionálnych repozitárov.  
+- Rola metadátových štandardov a autoritatívnych zoznamov (ULAN, AAT, VIAF).  
+- Otvorené dáta a API ako nástroje pre zdieľanie a remix.  
+
+### 3.3 Vývoj a prax vo svetovom kontexte
+- Rijksmuseum: otvorenie zbierky ako verejnej služby, *Rijksstudio* ako prelomový model.  
+- Cooper Hewitt a **Cooper Hewitt Labs**: dizajnové prístupy k sprístupňovaniu dát.  
+- Science Museum Group: *Never Been Seen* a etika viditeľnosti.  
+- ACMI a **Seb Chan**: kurátorstvo ako výskum a vývoj; dôraz na komunitu a návštevnícku skúsenosť.  
+- Tate, MoMA a ďalšie inštitúcie s otvorenými repozitármi (GitHub ako priestor experimentu).  
+- Paralely s open-source komunitou a transparentným vývojom.
+
+### 3.4 Československý kontext
+- Historický rámec digitalizácie v kultúrnych inštitúciách ČR/SR (2000s–2010s).  
+- Slovakiana, CEAD.space, Artlist.cz – ich ciele, metodológie a limity.  
+- Rola štátnych politík a dotačných programov (digitalizácia, otvorené údaje, autorské práva).  
+- Prepojenie so vznikom SNG-labu a vývojom projektov Web umenia.
+
+### 3.5 Príbeh Web umenia
+- Od centrálnej evidencie diel výtvarného umenia (CEDVU) k webovej zbierke.  
+- Technologické pozadie: Fedora Commons, prepojenie na medzinárodné štandardy.  
+- Zmeny paradigmy: od evidencie k naratívnemu rozhraniu.  
+- Web umenia ako laboratórny projekt – iterácie, prepojenie vývoja a kurátorského myslenia.  
+- Reflexia prelomových momentov (zverejnenie API, open access, redizajn).  
+
+### 3.6 Súčasné tendencie a smerovanie
+- Súčasný „state of the art“: od sprístupňovania k interpretácii.  
+- Kurátor ako vývojár, dizajnér, výskumník.  
+- Nové výzvy: kontextualizácia, etika algoritmov, personalizácia, serendipity.  
+- Prepojenie na tvoju výskumnú otázku – ako môžu digitálne rozhrania sprostredkovať nové formy naratívu.  
 
 ---
 
-## 4. State of the Art: Local and Global Contexts
+## 4. Pod povrchom rozhrania: technológie a princípy Web umenia
 
-Táto kapitola predstavuje „stav disciplíny“ v oblasti online zbierok umenia – mapuje aktuálne prístupy k digitálnemu sprístupňovaniu, kurátorským rozhraniam a otvoreným dátam v globálnom aj lokálnom kontexte. Kapitola dopĺňa historický a inštitucionálny rámec a vytvára základ pre následnú analytickú a praktickú časť práce.
+### 4.1 Architektúra ako filozofia
+- Východisková téza: architektúra nie je neutrálna – technické rozhodnutia formujú spôsob, akým používateľ vníma dielo.  
+- Princíp „rozhrania ako kurátora“ – to, ako sa zbierka zobrazuje, filtruje, triedi a odporúča, je formou interpretácie.  
+- Historický kontext: od digitálnych katalógov k kurátorským rozhraniam.  
+- Prečo architektúra Web umenia vychádza z potreby kombinovať *presnosť* a *hravosť*.
 
-### 4.1 Global context
+### 4.2 Technické prostredie a dátová infraštruktúra
+- Systémové pozadie: **CEDVU** (centrálna evidencia diel výtvarného umenia) ako základná databáza.  
+- Prepojenie s repozitárom **Fedora Commons** – dôraz na trvácnosť, verziovanie a otvorené formáty.  
+- Viacvrstvová architektúra Web umenia:  
+  - dátová vrstva (metadáta, médiá, authority files)  
+  - aplikačná vrstva (API, vyhľadávanie, indexácia)  
+  - prezentačná vrstva (webové rozhranie, vizualizácie, interakcie).  
+- Oddeľovanie týchto vrstiev ako metodologický princíp: udržiavateľnosť, rozšíriteľnosť, nezávislosť na technológii.
 
-- **Rijksmuseum (NL)** – priekopník otvorených dát a public-domain politiky; ich API, download program a filozofia „Rijksstudio“ ako príklad demokratizácie kultúrneho dedičstva.  
-- **Cooper Hewitt Smithsonian Design Museum (US)** – open collection API + **Cooper Hewitt Labs** ako model inštitucionálneho R&D s prepojením na kurátorov aj vývojárov.  
-- **Science Museum Group (UK)** – „Never Been Seen“ initiative; dôraz na experimentálne prehliadanie a prácu s obrovským množstvom nezverejnených objektov.  
-- **Whitney Museum of American Art**, **MoMA**, **Artsy** – rozhrania prehliadania a autorské API ako formy súkromno-verejných platforiem; rôzne stratégie prístupu k dátam a vizualizácii.  
-- **IIIF (International Image Interoperability Framework)** – technologický rámec, ktorý prepája inštitúcie a umožňuje spoločné zdieľanie obrazových dát a manifestov; de facto globálny štandard pre interoperabilitu.  
-- Prehľad trendov: „generous interfaces“, AI-asistované kurátorstvo, vizuálne vyhľadávanie, otvorené API ako platformy výskumu.
+### 4.3 Vyhľadávanie ako kľúčový nástroj poznania
+- Filozofia „search first“: dôležitosť navigácie, objavovania a serendipity.  
+- Implementácia **Elasticsearch**: prečo a ako.  
+- Vývoj jazykovej podpory pre slovenčinu – projekt [elasticsearch-slovencina](https://github.com/SlovakNationalGallery/elasticsearch-slovencina).  
+  - lematizácia, synonymá, diakritika  
+  - prečo ide o najpoužívanejší open-source projekt SNG.  
+- Vyhľadávanie ako kurátorský akt – ako výsledky formujú interpretáciu zbierky.  
+- Výzvy: zrozumiteľnosť algoritmu, predvídateľnosť, spravodlivosť výsledkov.
 
-### 4.2 Local context
+### 4.4 Otvorené dáta, štandardy a interoperabilita
+- Dôvody pre otvorenosť: prečo inštitúcia financovaná z verejných zdrojov má sprístupňovať aj dáta.  
+- Štandardy a protokoly: **OAI-PMH**, **LIDO**, **IIIF**, **ULAN**, **AAT**, **VIAF**.  
+- Ako tieto štandardy umožnili prepájanie s inými systémami (Slovakiana, Europeana, CEAD.space).  
+- Príklady využitia otvoreného API: hackathony, projekty tretích strán (*DigitalCurator.art*).  
+- API ako kurátorské gesto – rozhodnutie, čo a ako sa zdieľa.  
+- Riziká otvorenosti: autorskoprávne dilemy, ochrana citlivých metadát.
 
-- **webumenia.sk (SNG)** – národný referenčný príklad; spolupráca 21 inštitúcií, politika public domain, rozhrania pre širokú verejnosť a otvorený kód.  
-- **Slovakiana**, **CEAD.space**, **Artlist.cz** – porovnanie lokálnych prístupov (štátne vs nezávislé, kurátorské vs archivačné ambície).  
-- **Digitální kurátor (Lukáš Pilka)** – prepojenie vedeckého výskumu a kurátorskej praxe; algoritmická analýza kultúrneho dedičstva.  
-- Lokálne R&D aktivity: lab.SNG, projekty DAMU/UJEP – výskum digitálneho rozhrania ako umeleckej praxe.  
-- Kľúčové problémy: fragmentácia, rôzna úroveň otvorenosti dát, absencia dlhodobého výskumu používateľských skúseností.
+### 4.5 Open-source prístup a komunitný vývoj
+- Filozofia open-source v kultúrnej inštitúcii: transparentnosť, zdieľanie vedomostí, inštitucionálna zodpovednosť.  
+- Repozitáre SNG na GitHube – vývoj ako forma komunikácie s verejnosťou.  
+- Ako otvorený kód mení vnútornú kultúru inštitúcie (spolupráca s externými vývojármi, študentmi, dizajnérmi).  
+- Open-source ako nový druh dokumentácie – čitateľnej pre technikov aj pre historikov umenia.  
 
-### 4.3 Syntéza a pozícia práce
+### 4.6 Data governance a licencovanie
+- Rôzne režimy prístupu: **public domain vs rights-managed**.  
+- Ako SNG pristupuje k sprístupňovaniu – kompromisy medzi otvorenosťou, autorským právom a zodpovednosťou.  
+- Licencie (Creative Commons, RightsStatements.org) ako nástroj aj vyjadrenie hodnotového postoja.  
+- Riadenie dát (data governance): zodpovednosť, dlhodobá archivácia, trvácnosť formátov.  
+- Konflikt s kolektívnymi správcami práv (napr. LITA) ako súčasť širšieho kultúrneho diskurzu.  
+- Etické aspekty zverejňovania – čo a koho reprezentujeme.
 
-- Porovnanie trendov: **otvorené vs kurátorsky kontrolované** kolekcie; **vizuálna prehliadateľnosť vs textová databázovosť**.  
-- Identifikácia priestoru, v ktorom sa pohybuje táto dizertácia: experiment medzi otvorenými dátami a naratívnym rozhraním.  
-- Určenie výskumnej medzery: chýba hlbšia analýza, ako technické a rozhraniové stratégie formujú príbehy digitálnych zbierok.
+### 4.7 Reflexia: infraštruktúra ako médium
+- Architektúra a infraštruktúra ako aktéri naratívu.  
+- Technické rozhodnutia ako gestá starostlivosti, ale aj vylúčenia.  
+- Ako infraštruktúra podmieňuje spôsob, akým rozprávame o umení.  
+- Most k nasledujúcej kapitole o interpretácii a rozhraní:  
+  „Ak architektúra určuje rámec, rozhranie určuje tón príbehu.“
 
 ---
 
