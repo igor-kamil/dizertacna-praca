@@ -188,95 +188,115 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 5\. Literature review
+## 5. Digitálne zbierky umenia: súčasná diskusia a limity reprezentácie
 
--   Digitálne zbierky: teoretické prístupy — Generous Interfaces (2015) — rozobrať princípy a implikácie.
-    
--   Lev Manovich — *The Language of New Media* (2001) — mediálnosť obrazu, digitálne representácie, databáza vs naratív.
-    
--   Algoritmy a kultúra: „Filterworld: How Algorithms Flattened Culture“ — algoritmické dôsledky na diverzitu a „long tail“ problém.
-    
--   Súčinné literatúry: digitálne humanitné vedy (digital humanities), muzeológia, vizuálna semiotika, UX pre DH.
-    
--   Prehľad technických literatúr: IIIF, image retrieval, embeddingy (img2vec, CLIP), lematizácia/NLP v cultural heritage search.
-    
--   Identifikuj medzery: malé štúdie o tom, ako digitálne katalógy konštruujú alebo znižujú naratívy diel.
-    
+### 5.1 Úvod: od otvorenosti k zahlteniu
+- Od eufórie digitalizácie k únave z digitálneho nadbytku.  
+- Prístup ≠ porozumenie: čo znamená, že máme „všetko dostupné“.  
+- Cieľ kapitoly: pomenovať limity, ktoré formujú spôsob, akým rozprávame príbeh umenia v digitálnom prostredí.  
+- Otázka: Aký typ naratívu vzniká, keď sa diela menia na dáta?
 
----
+### 5.2 Long tail a hierarchie pozornosti
+- „Long tail effect“ (Anderson, 2004): internet demokratizoval distribúciu, ale nie pozornosť.  
+- Väčšina návštev a zdieľaní sa sústreďuje na niekoľko ikonických diel → vzniká „kanonizácia algoritmom“.  
+- Reflexia: ako môže digitálna inštitúcia bojovať proti viditeľnostnej asymetrii.  
+- Príklady: Google Arts & Culture, Europeana, Web umenia (analýza návštevnosti).
 
-## 6\. Technical architecture of online collections (case: webumenia.sk)
+### 5.3 Naratívne prázdno: keď chýba príbeh
+- Online zbierky ako súbory izolovaných objektov bez vzťahov.  
+- Lev Manovich: databáza ako forma, ktorá nahrádza naratív (*The Language of New Media*).  
+- Problém: strata kurátorského rámca → diela bez „histórie“, len s metadátami.  
+- Ako možno obnoviť naratívnu vrstvu: prepojenia, témy, kurátorské cesty, kontextualizácia.  
+- Spojenie s tvojím výskumom: experimenty s „asociatívnym“ rozhraním (serendipita, remix, emergentné poradie).
 
--   Vysvetlenie harvesting pipeline (zdroje: inštitucionálne databázy, CEDVU, importné procesy).
-    
--   Metadata modely (MODS, Dublin Core, vlastné polia) a ich limity pre naratívne prepojenia.
-    
--   IIIF — deep-zoom images (technical overview: IIIF image API, presentation API, benefits pre hi-res access).
-    
--   Search architecture: Elasticsearch (indexing, analyzers, lemmatization, synonyms), full-text vs faceted search.
-    
--   Open-source workflow: GitHub repo, CI/CD, community contributions.
-    
--   Data governance, licensing (public domain vs rights-managed), etické & právne aspekty.
-    
--   Diagramy + ukážky kľúčových JSON/IIIF manifestov.
-    
+### 5.4 Algoritmická plochosť a strata prekvapenia
+- Kyle Chayka: *Filterworld – How Algorithms Flattened Culture* (2024).  
+- Algoritmy odporúčajú predvídateľné obsahy → homogenizácia vizuálnej skúsenosti.  
+- „Chýba wow moment“ – estetická únava z opakovania známeho.  
+- Mitchell Whitelaw: *Generous Interfaces* – návrh rozhraní, ktoré podporujú zvedavosť, prekvapenie a objavovanie.  
+- Východisko: ako by mohli digitálne zbierky znova umožniť „nečakané stretnutie s dielom“.
 
----
+### 5.5 Infrastructural aesthetics
+- Shannon Mattern: *Code and Clay, Data and Dirt* – infraštruktúry ako estetické a politické objekty.  
+- Ako technická architektúra sama formuje naratív (čo je viditeľné, v akom poradí, s akými metadátami).  
+- Nadväznosť na predchádzajúcu kapitolu: infraštruktúra nie je neutrálna – je to médium rozprávania.  
+- Otázka: Môže byť infraštruktúra „kurátorom“?
 
-## 7\. Limitations and critical analysis of online collections
+### 5.6 Digitálna únava a potreba starostlivosti
+- John Durham Peters: *The Marvelous Clouds* – médiá ako prostredie, v ktorom žijeme, nie ako nástroj.  
+- Digitálna hojnosť → kognitívne presýtenie, strata hĺbky, fragmentácia vnímania.  
+- Fiona Cameron, Dušan Barok: starostlivosť ako protiklad prebytku – „care“ ako kurátorský postoj.  
+- Ako môže starostlivosť nahradiť kontrolu – humanistická reakcia na algoritmickú logiku.  
 
--   Long-tail effect — kto dostane visibility (populárne diela vs menšina). Podpora / meranie as well.
-    
--   Discoverability vs search model: potreba užívateľa poznať, čo hľadá → implicitná bariéra.
-    
--   Strata „wow“ momentu — skúsenosť z fyzického múzea vs lineárne / predvídateľné online prehliadanie.
-    
--   Chýbajúca naratívna vrstva: izolované záznamy, slabé prepojenia medzi dielami (tematické, chronologické, formálne).
-    
--   Algoritmická homogenizácia (filter bubble / popularity bias).
-    
--   Metadata quality issues (inconsistent fields, multilinguality, authority control) a ich dopad na naratívnosť.
-    
--   Príklady ilustrujúce vyššie body (case studies z webumenia.sk, analytics).
-    
+### 5.7 Záver: otvorené otázky
+- Ako znovuobjaviť „príbeh“ v prostredí nadbytku dát?  
+- Ako navrhnúť rozhrania, ktoré nefiltrujú, ale rozvíjajú významy?  
+- Ako prinavrátiť moment prekvapenia a estetickej skúsenosti?  
 
 ---
 
-## 8\. Approaches to restoring and enriching storytelling
+## 6. Prístupy k obohateniu a reinterpretácii digitálnych zbierok umenia
 
--   Generous Interfaces — princípy a praktické príklady (plenerizmus.sng.sk). Implementačné odporúčania (exploratory interfaces, serendipity, visual browsing).
-    
--   Visual accenting / faceting — color search, pattern search (inšpirácia: Cooper Hewitt Labs).
-    
--   Storytelling modules — tie-in exhibitions like 1989.sng.sk; kontextualizácia diel cez text, hisotické udalosti, mapy.
-    
--   Spatial-temporal context — mobilné sprievodné aplikácie (atlas.sng.sk). Prepojenie fyzického a digitálneho.
-    
--   Vizuálne vyhľadávanie a similarity search: img2vec, embeddings, CLIP — metódy na objavovanie ornamentov, motívov, formálnych prvkov.
-    
--   Návrhy UX patterns a architektúry pre multi-layered discovery (metadata + visual similarity + curatorial narratives).
-    
+6.1 Úvod: Od vyhľadávania k objavovaniu
+
+* Rekapitulácia otázok z predchádzajúcej kapitoly (long tail, predvídateľnosť, izolovanosť diel).
+* Cieľ: ako cez dizajn rozhraní a naratívne stratégie obnoviť moment prekvapenia, kontextu a serendipity.
+* Princípy: **objavovanie namiesto hľadania**, **kontext namiesto katalógu**, **vzťahy namiesto objektov**.
+
+### 6.2 Generous Interfaces – objavovanie namiesto vyhľadávania
+
+* *Koncept:* „generous interfaces“ (Mitchell Whitelaw) — rozhrania, ktoré vizuálne odhaľujú bohatstvo kolekcie namiesto skrytého vyhľadávania.
+* *Príklady:*
+
+  * **plenerizmus.sng.sk** – vizuálna explorácia diel podľa motívov a farieb.
+  * Referencie: Whitelaw, Cooper Hewitt Labs.
+* *Implementation note:* vizuálna segmentácia + tematické zoskupenia, prepojené s API Web umenia.
+* *Reflexia:* ako vizuálne rozhranie pomáha prelomiť „long tail“ efekt.
+
+### 6.3 Vizuálne akcentovanie a podobnosť (faceting, color & pattern search)
+
+* *Koncept:* ako „visual similarity“ otvára nové spôsoby čítania zbierok (formálne, nie obsahovo).
+* *Príklady:*
+
+  * Experimenty **Cooper Hewitt Labs** (color browsing, shape search).
+  * **Ornament Explorer** – vnútorný experiment lab.SNG pre vyhľadávanie podobných motívov.
+* *Implementation note:* img2vec / CLIP embeddingy, lemmatizácia + vektorové vyhľadávanie.
+* *Reflexia:* od „hľadania rovnakého“ k „hľadaniu príbuzného“ – vizuálna empatia ako forma čítania.
+
+### 6.4 Naratívne moduly a kurátorské vrstvy
+
+* *Koncept:* prepojenie kurátorského hlasu a algoritmickej databázy – „storytellingové moduly“.
+* *Príklady:*
+
+  * **1989.sng.sk**, **Sen x Skutočnosť**, **Môj zrkadlový obraz** – longform formát s API z Web umenia (Grav CMS).
+* *Implementation note:* modularita textu a dát; prepájanie diel cez metadáta a historické témy.
+* *Reflexia:* ako API umožňuje „publishing as conservation“ (Dušan Barok), ale s dôrazom na rozprávanie.
+
+### 6.5 Priestorový a časový kontext (spojenie fyzického a digitálneho)
+
+* *Koncept:* rozšírenie naratívu o dimenziu miesta a prítomnosti – „situovaný storytelling“.
+* *Príklady:*
+
+  * **Atlas SNG** – mobilný sprievodca (reálne diela v priestore galérie).
+  * Mapové a geolokačné vrstvy vo Web umení.
+* *Implementation note:* prepojenie fyzických ID diel (bodky) s digitálnym obsahom cez API.
+* *Reflexia:* ako mobilné rozhranie vytvára „temporal serendipity“ – digitálno-fyzický zážitok.
+
+### 6.6 UX architektúra pre objavovanie (multi-layered discovery)
+
+* *Koncept:* integrácia viacerých spôsobov objavovania – metadata, vizuálna podobnosť, kurátorské naratívy.
+* *Príklady:* porovnanie implementácií v **MoMA**, **Rijksmuseum**, **Tate** a **Webumenia**.
+* *Implementation note:* návrhové princípy pre „discovery-driven UX“.
+* *Reflexia:* čo znamená „kurátor algoritmov“ v prostredí otvorených dát.
+
+### 6.7 Záver kapitoly: k smeru Atlas Re/mix
+
+* Prechodový „teaser“ na ďalšiu kapitolu.
+* Ako predchádzajúce prístupy pripravili pôdu pre experiment *Atlas Re/mix* (ako praktickú syntézu).
 
 ---
 
-## 9\. Implementation: tools, datasets, and prototypes
-
--   Datasets: export z webumenia.sk (sample subset), metadata + IIIF images; krátky popis spracovania.
-    
--   Technické stacky: Elasticsearch + custom analyzers (lemmatizer, synonyms), IIIF server, image embedding pipeline (CNN pretrained / fine-tuned / img2vec), vector DB (faiss / annoy / milvus) — návrh a dôvody voľby.
-    
--   Prototype 1: Generous browsing interface (filtering, themed pathways).
-    
--   Prototype 2: Ornament Explorer — použitie img2vec pre ornament/similarity discovery (popis pipeline: preprocessing, embedding generation, indexing, retrieval).
-    
--   Prototype 3 (aplikácia): **Atlas Re/mix** — UX flow, technická architektúra (mobile scanner → server-side embedding → similarity search → diptych composer → print/export).
-    
--   Implementačné detaily, datové ukážky, kódy (odkazy na GitHub) a krátke screenshoty/flowy. 
-
----
-
-## 10\. Applied part — Atlas Re/mix (dizajn výstavy / interaktívneho artefaktu)
+## 7\. Applied part — Atlas Re/mix (dizajn výstavy / interaktívneho artefaktu)
 
 -   Koncept: flâneur-style picking → scanning object → search in webumenia → create diptych → print / share.
     
@@ -291,35 +311,35 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 11\. Discussion & Reflection
+## 8\. Discussion & Reflection
 
 Táto kapitola spája metodologický rámec s kritickou interpretáciou výsledkov, v súlade s umeleckým výskumom, kde hodnotenie nie je primárne kvantitatívne, ale reflektívne a diskurzívne.
 
-### 11.1 Methodological stance
+### 8.1 Methodological stance
 
 - Mixed methods v širšom zmysle: kombinácia archívneho výskumu, kurátorskej analýzy, technologického vývoja a umeleckého experimentu.  
 - Pozícia autora ako „researcher-designer-curator“ – reflexia vlastnej praxe.  
 
-### 11.2 Reflection on prototypes and results
+### 8.2 Reflection on prototypes and results
 
 - Čo fungovalo v prototypoch (Generous Interface, Ornament Explorer, Atlas Re/mix).  
 - Čo prototypy odhalili o limitoch súčasných online zbierok (technické, kurátorské, naratívne).  
 - Porovnanie s inšpiračnými príkladmi (Rijksmuseum, Cooper Hewitt Labs, Digitální kurátor).
 
-### 11.3 Interpretation and future implications
+### 8.3 Interpretation and future implications
 
 - Teoretické dôsledky: ako môžu online zbierky slúžiť ako „kontajnery príbehov“.  
 - Spoločenský a inštitucionálny dopad: otvorené dáta, zodpovednosť galérií, nové formy verejného prístupu.  
 - Odporúčania pre budúcu prax: R&D v múzejných kontextoch, kurátorstvo AI, multimodálne rozhrania.  
 - Limity a sebariadenie výskumu: časovosť, vlastná angažovanosť, špecifickosť umeleckého výskumu.
 
-### 11.4 Publishing and care
+### 8.4 Publishing and care
 Zamyslenie nad publikovaním (otvorením, sprístupnením, zdieľaním kódu, dát, rozhraní) ako formou starostlivosti („care“) o digitálne kultúrne dedičstvo.
 
 
 ---
 
-## 12\. Conclusion & Future work
+## 9\. Conclusion & Future work
 
 -   Zhrnutie príspevkov (teória + praktické riešenia).
     
@@ -330,7 +350,7 @@ Zamyslenie nad publikovaním (otvorením, sprístupnením, zdieľaním kódu, d�
 
 ---
 
-## 13\. Appendix
+## 10\. Appendix
 
 -   Technické appendices (kódy, nastavenia).
         
@@ -357,7 +377,7 @@ Zamyslenie nad publikovaním (otvorením, sprístupnením, zdieľaním kódu, d�
 
 ---
 
-## Expected contributions (explicitne vypíš)
+## Expected contributions
 
 1.  Analytická kapitola o tom, čo sa stráca/ostáva pri digitalizácii kultúrnych zbierok.
     
