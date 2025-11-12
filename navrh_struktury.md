@@ -296,17 +296,69 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 7\. Applied part — Atlas Re/mix (dizajn výstavy / interaktívneho artefaktu)
+## **7. Atlas Re/mix — od digitálnej zbierky k tvorivému nástroju**
 
--   Koncept: flâneur-style picking → scanning object → search in webumenia → create diptych → print / share.
-    
--   Technická realizácia: scanner (webcam), preprocessing (crop, background removal), embedding + similarity retrieval, UI pre výber & kompozíciu, tlač/AR výstava.
-    
--   Kurátorský rámec: ako vystaviť remixy, tlačové výstavy ako participatívne momenty.
-    
--   Hodnotenie interakcie: user feedback, návštevnosť výstavy, kvalitatívne príbehy vzniknuté v procese.
-    
--   Výstavný plán, logistika, sprievodné materiály.
+*(Applied part — design of exhibition / interactive artefact)*
+
+---
+
+### **7.1 Koncepčný rámec projektu**
+
+* *Východisko:* kontinuita s predchádzajúcou kapitolou – ako reakcia na limity „predvídateľných“ digitálnych rozhraní.
+* *Hlavná výskumná otázka:* môže algoritmické vyhľadávanie viesť k zmysluplným, poetickým a interpretačne bohatým spojeniam?
+* *Inšpirácia:* koncept flâneura (prechádzka ako poznávací akt), serendipita ako tvorivý princíp.
+* *Zámer:* vytvoriť interaktívne prostredie, ktoré spája náhodu, vizuálnu podobnosť a osobnú skúsenosť návštevníka.
+
+---
+
+### **7.2 Dizajn interakcie: od prechádzky k diptychu**
+
+* *Proces:* flâneur-style prechádzka → skenovanie objektu → vizuálne vyhľadávanie → výber diela → tvorba diptychu.
+* *Cieľ:* posunúť návštevníka z pasívneho pozorovateľa do roly spolutvorcu.
+* *Reflexia:* prepojenie náhodného a zmysluplného; interpretácia ako dialóg medzi svetom a zbierkou.
+
+---
+
+### **7.3 Technologická realizácia**
+
+* *Systémová architektúra:*
+
+  * vstup: obraz z webkamery / skenera, preprocessing (crop, background removal);
+  * embedding & similarity search (img2vec / CLIP / vlastné trénovanie);
+  * retrieval cez API Web umenia;
+  * rozhranie pre tvorbu diptychu + zdieľanie / tlač.
+* *Implementation insights:* stručné vysvetlenie, ako technológia umožňuje zmysluplnú analógiu, nie len vizuálnu podobnosť.
+* *Otázka:* kde končí algoritmus a začína interpretácia?
+
+---
+
+### **7.4 Kurátorský rámec a výstavný dizajn**
+
+* *Miesto:* fyzická inštalácia v záhrade + domček (interiér).
+* *Zážitkový priebeh:* návštevník objavuje predmet, vstupuje do priestoru, kde ho skenuje → digitálny systém vytvorí diptych.
+* *Kurátorský cieľ:* prepojiť digitálny systém s osobným, telesným gestom (nález, výber, rozhodnutie).
+* *Vizualita výstavy:* tlač, projekcie, architektúra priestoru, ambientné zvuky.
+
+---
+
+### **7.5 Zber dát a interakčná odozva**
+
+* *Mechanizmus:* ukladanie diptychov označených používateľom ako *„it’s a match“*.
+* *Doplňujúce pozorovania:* kvalitatívne komentáre, rozhovory, spontánne reakcie.
+* *Cieľ:* zachytiť, ako návštevníci čítajú súvislosti, ktoré vznikajú z vizuálnej podobnosti.
+* *Poznámka:* nejde o kvantitatívny výskum, ale o mapovanie interpretačných ciest.
+
+---
+
+### **7.6 Záver: otvorený experiment**
+
+* *Zhrnutie:* Atlas Re/mix ako príklad „research through design“.
+* *Otvorené otázky:*
+
+  * Môže byť algoritmus kurátorom?
+  * Kedy sa náhoda stáva významom?
+* *Výhľad:* príprava fyzickej výstavy (máj 2026), plánovaná iterácia podľa reakcií publika.
+
     
 
 ---
