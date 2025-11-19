@@ -34,3 +34,5 @@ Súčasná verzia rozvíja tieto otázky v špecifickom prostredí **online gal�
 
 🟢 *Aktívny výskum a štrukturalizácia textu*  
 Práca je vo fáze prepisu pôvodného rámca (2021) do konkrétnej podoby zameranej na digitálne zbierky a vizuálne rozhrania.
+
+![Progress](https://img.shields.io/badge/Writing%20Progress-0%20pages%20|%20goal:%200%20(ON TRACK)-blue?style=for-the-badge)
