@@ -87,10 +87,13 @@ else
     COLOR="red"
 fi
 
+# URL-safe status (spaces → %20 for Shields)
+STATUS_ENCODED=${STATUS// /%20}
+
 # -----------------------------
 # Badge URL
 # -----------------------------
-BADGE="https://img.shields.io/badge/Writing%20Progress-${PAGES}%20pages%20|%20goal:%20${SHOULD_HAVE}%20(${STATUS})-${COLOR}?style=for-the-badge"
+BADGE="https://img.shields.io/badge/Writing%20Progress-${PAGES}%20pages%20%7C%20goal:%20${SHOULD_HAVE}%20(${STATUS_ENCODED})-${COLOR}?style=for-the-badge"
 
 # -----------------------------
 # Update README.md
