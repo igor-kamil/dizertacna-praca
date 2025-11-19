@@ -95,10 +95,10 @@ BADGE="https://img.shields.io/badge/Writing%20Progress-${PAGES}%20pages%20|%20go
 # -----------------------------
 # Update README.md
 # -----------------------------
-if grep -q "![Progress]" README.md; then
-    sed -i.bak "s|!\[Progress\].*|![Progress](${BADGE})|" README.md
+if grep -q "![Progress]" readme.md; then
+    sed -i.bak "s|!\[Progress\].*|![Progress](${BADGE})|" readme.md
 else
-    echo -e "\n![Progress](${BADGE})" >> README.md
+    echo -e "\n![Progress](${BADGE})" >> readme.md
 fi
 
 echo "Strany: $PAGES | Malo by byť dnes: $SHOULD_HAVE | Status: $STATUS"
