@@ -28,6 +28,7 @@ Súčasná verzia rozvíja tieto otázky v špecifickom prostredí **online gal�
 - `notes/` – pracovné poznámky, porovnania, nápady  
 - `literature/` – bibliografia a poznámky k literatúre  
 - `figures/` – vizuálne materiály a diagramy  
+ - `roadmap` – [časový plán písania a výskumu](roadmap.md)  
 
 ## Stav projektu
 
