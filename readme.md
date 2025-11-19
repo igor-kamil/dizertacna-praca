@@ -37,3 +37,5 @@ Práca je vo fáze prepisu pôvodného rámca (2021) do konkrétnej podoby zamer
 
 ![Progress](https://img.shields.io/badge/Writing%20Progress-0%20pages%20%7C%20goal:%200%20(ON%20TRACK)-blue?style=for-the-badge)
 
+
+![Progress](https://img.shields.io/badge/Writing%20Progress-0%20pages%20|%20goal:%200%20(ON TRACK)-blue?style=for-the-badge)
