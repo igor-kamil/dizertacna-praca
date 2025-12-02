@@ -200,6 +200,82 @@ API predstavuje okamih, keď:
 * jej logika prestáva byť kurátorská a stáva sa algoritmicko-technickou,
 * vzniká priestor pre nové formy práce s naratívom.
 
+---
+
+# **3.3 Vývoj a prax vo svetovom kontexte**
+
+Digitálne zbierky sa v posledných dvoch dekádach formovali v rôznych geografických, technologických aj inštitucionálnych podmienkach. Napriek tejto diverzite vzniklo niekoľko projektov, ktoré zásadným spôsobom ovplyvnili premýšľanie o tom, čo môže online zbierka byť: či len reprezentáciou fyzickej kolekcie, alebo samostatným kultúrnym priestorom. Nasledujúce príklady nepredstavujú opis svetovej produkcie v úplnosti, ale výber kľúčových iniciatív, ktoré posunuli diskusiu o digitálnych zbierkach dopredu a vytvorili rámce, s ktorými sa stretáva aj slovenská prax.
+
+---
+
+## **3.3.1 Rijksmuseum: otvorenie zbierky ako verejnej služby**
+
+Rijksmuseum bolo jednou z prvých európskych inštitúcií, ktoré spojili digitalizáciu s princípmi otvorených kultúrnych dát. V roku 2012 sprístupnilo tisíce diel vo verejnej doméne vrátane vysokokvalitných reprodukcií, čo odborná literatúra označuje za prelomový moment v európskom kontexte (Kapsalis, 2016). Otvorenie dát nebolo chápané ako rezignácia na kontrolu nad obsahom, ale ako rozšírenie verejnej služby — gesto umožňujúce, aby diela žili v nových kultúrnych prostrediach.
+
+Spustením služby **Rijksstudio** sa zároveň etabloval nový spôsob práce s reprodukciami.
+Rijksstudio umožnilo používateľom vytvárať vlastné kolekcie, výrezy a vizuálne interpretácie diel; neskôr bolo ocenené aj v dizajnérskych kruhoch za inovácie v oblasti používateľskej skúsenosti. Ako uvádza van der Zee (2013), tento projekt ukázal, že muzeálne dáta sa môžu stať „materiálom pre vizuálnu tvorivosť“.
+
+Rijksstudio zároveň potvrdilo, že **vysoké rozlíšenie nie je len technický benefit**, ale aj kurátorská voľba, ktorá umožňuje detailnú prácu s obrazom a podporuje interpretáciu prostredníctvom vizuálnej blízkosti. Rijksmuseum tu vytvorilo model, ktorý neskôr ovplyvnil aj inštitúcie mimo Európy.
+
+---
+
+## **3.3.2 Cooper Hewitt Labs: rozhranie ako výskum**
+
+Cooper Hewitt, Smithsonian Design Museum, predstavuje v digitálnej transformácii múzeí jeden z najintenzívnejších a najprepracovanejších prístupov. Pod vedením Seba Chana a Aarona Copeho vzniklo v rokoch 2011–2015 interné laboratórium Cooper Hewitt Labs, ktoré spojilo kurátorský diskurz so softvérovým vývojom. Chan (2015) opisuje tento model ako „R&D v múzejnom kontexte“ — výskum založený na neustálej iterácii.
+
+Zásadným výsledkom bol **Object API**, ktoré poskytlo prístup ku kompletnej zbierke ako k modifikovateľnej dátovej vrstve. V literatúre sa často zdôrazňuje, že Cooper Hewitt bolo prvým múzeom, kde webová stránka nebola primárnym rozhraním, ale „jednou z mnohých aplikácií nad API“ (Cope, 2014). Tento API-centrický prístup umožnil experimentovať s alternatívnymi spôsobmi prehliadania zbierky.
+
+Tím labu vytvoril aj sériu experimentálnych rozhraní: medzi najznámejšie patrí **Color Browser**, ktorý prehliada zbierku na základe dominantných farieb. Chan a kolegovia opisujú, že ich cieľom bolo „umožniť používateľovi stretnúť objekty cez vizuálne kvality, nie cez taxonomické kategórie“ (Chan, 2015). Z hľadiska naratívnosti je to dôležitý moment: rozhranie môže vytvoriť „cesty“ medzi objektmi, ktoré v tradičnej katalogizácii neexistujú.
+
+V roku 2014 predstavilo múzeum **The Pen** — zariadenie, ktoré umožňovalo návštevníkom zbierať digitálne reprodukcie objektov počas prehliadky výstavy. Ako opisuje Cope (2015), The Pen bolo navrhnuté tak, aby prepájalo fyzickú skúsenosť s digitálnou vrstvou. Ide o príklad, ktorý ukazuje, že digitálne kurátorstvo môže zasahovať do všetkých fáz návštevníckej cesty — nielen do webového prostredia.
+
+Dôležitým prvkom praxe Cooper Hewitt Labs bola aj digitálna transparentnosť.
+Všetky rozhodnutia, kódy, dátové modely aj vizualizácie boli publikované na GitHube. Tento krok umožnil, aby sa laboratórna práca stala predmetom akademického aj odborného skúmania, čo prispelo k širšej diskusii o tom, ako digitálne múzeá môžu myslieť s technológiami.
+
+---
+
+## **3.3.3 Science Museum Group: viditeľnosť ako kurátorská otázka**
+
+Science Museum Group upozornilo na dôležitý aspekt digitálnych zbierok — na nerovnomernú viditeľnosť objektov. Experiment **Never Been Seen** bol prezentovaný ako pokus narušiť hierarchiu pozornosti, ktorá vzniká nielen vo fyzickom múzeu, ale aj v metadátach a v online katalógových systémoch. Ako uvádzajú autori projektu (Science Museum Group, 2020), digitalizácia často reprodukuje výberové mechanizmy tradičného kurátorstva: ikonické objekty sa zverejňujú ako prvé, zatiaľ čo menej známe ostávajú nezdigitalizované alebo neviditeľné.
+
+Tento experiment otvoril dôležitú otázku:
+**ako formuje poradie digitalizácie a kvalita metadát naratív zbierky?**
+
+V kontexte tejto práce je to zásadný moment — naratív nie je daný len tým, čo je v zbierke, ale aj tým, čo je dostupné a vyhľadateľné. Viditeľnosť sa stáva kultúrno-politickou kategóriou.
+
+---
+
+## **3.3.4 ACMI: kurátorstvo, technológia a návštevnícka skúsenosť**
+
+Australian Centre for the Moving Image (ACMI) rozvinulo v posledných rokoch model, ktorý stiera hranicu medzi fyzickým a digitálnym priestorom múzea. Ako opisuje Chan (2020), ACMI pracuje s princípom „visitor-centred design“, čo znamená, že kurátorská práca zahŕňa aj návrh digitálnej infraštruktúry, nástrojov a interakcií.
+
+Jedným z nosných prvkov je zariadenie **The Lens**, ktoré umožňuje návštevníkovi vytvárať personalizované digitálne zbierky objektov pri pohybe vo výstavnom priestore a neskôr ich doma ďalej skúmať. Tento model posúva ťažisko z objektu na používateľský zážitok a rozvíja myšlienku, že digitálna zbierka môže predstavovať pokračovanie výstavy v osobnom digitálnom priestore.
+
+ACMI tak ponúka dôležitý kontrast k tradičnej predstave centrálneho katalógu. Digitálny systém tu funguje ako predĺženie kurátorského zámeru a ako nástroj na modulovanie návštevníckej skúsenosti.
+
+---
+
+## **3.3.5 Otvorené vývojové prístupy v Tate, MoMA a ďalších inštitúciách**
+
+Viaceré inštitúcie — Tate, MoMA, Walker Art Center, či The Getty — pracujú systematicky s otvoreným publikovaním kódu, dátových modelov a dokumentácie.
+MoMA sprístupňuje svoje dátové sady a schémy na GitHube (MoMA, 2015), Tate zverejňuje podrobné metodiky digitalizácie a workflowy výstavných projektov (Tate Digital, 2017) a Walker Art Center vyvíjal open-source publikačné platformy, ktoré ovplyvnili celý múzejno-publikačný ekosystém.
+
+Tieto prístupy ukazujú, že digitálne kurátorstvo nie je iba otázkou výsledného webu, ale aj transparentnosti procesov, ktoré k nemu vedú. Jadrom týchto iniciatív je vedomie, že technická infraštruktúra je súčasťou kultúrneho dedičstva, nie len jeho servisnou vrstvou.
+
+---
+
+## **3.3.6 Syntéza: digitálne zbierky ako infraštruktúry významu**
+
+Uvedené príklady ukazujú, že vývoj digitálnych zbierok nie je uniformný, ale opiera sa o niekoľko spoločných princípov.
+Po prvé, zbierka sa prestáva chápať ako katalóg — stáva sa **platformou**, ktorá umožňuje nové formy interpretácie.
+Po druhé, rozhranie prestáva byť len prezentačnou vrstvou — stáva sa **nosičom naratívnych možností**.
+A napokon, technológia v múzejnom kontexte nie je iba nástrojom — je **aktérom**, ktorý vstupuje do kurátorských rozhodnutí.
+
+Tieto projekty sú dôležité aj preto, že ukazujú spektrum prístupov: od radikálne otvorených modelov (Rijksmuseum), cez experimentálne laboratóriá (Cooper Hewitt), kritickú prácu s viditeľnosťou (Science Museum Group) až po integráciu fyzickej a digitálnej skúsenosti (ACMI). V tejto diverzite je možné vidieť spoločne sa formujúcu predstavu o digitálnom kultúrnom dedičstve ako o **živom systéme**, v ktorom sa stretávajú kurátorské, technické, dizajnérske a spoločenské aspekty.
+
+Kapitola zároveň vytvára rámec pre ďalšiu časť práce, ktorá sa zameriava na československý kontext. Tam sa ukazuje, ako sa tieto globálne trendy stretli s inými infraštruktúrami, inými historickými podmienkami a iným tempom technologického vývoja — a ako sa v tejto hybridnej situácii postupne formoval aj projekt Web umenia.
+
+---
 
 ## **Poznámky**
 
