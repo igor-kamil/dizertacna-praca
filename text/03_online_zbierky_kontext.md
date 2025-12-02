@@ -277,6 +277,212 @@ Kapitola zároveň vytvára rámec pre ďalšiu časť práce, ktorá sa zameria
 
 ---
 
+# **3.4 Československý kontext**
+
+## **3.4.0 Úvod: Špecifiká vývoja, ktorý sa nedá importovať**
+
+Digitálne sprístupňovanie zbierok umenia na Slovensku a v Česku sa formovalo v prostredí, ktoré sa výrazne odlišovalo od kontextu západoeurópskych múzeí. Kým Rijksmuseum či MoMA stavali svoje digitálne stratégie na kontinuite dlhodobo fungujúcich informačných systémov a silných kurátorských tímov, v Československu bol vývoj formovaný prerušeniami, politickými zásahmi, limitmi infraštruktúry a neskôr aj turbulenciami transformácie po roku 1989. To však neznamená, že vznikala „slabšia“ digitálna kultúra — skôr odlišná, nerovnomerná, no v mnohom prekvapivo inovatívna.
+
+Jednou z hlavných téz tejto kapitoly je, že práve **historická vrstvenosť, diskontinuity a špecifické impulzy**, ktoré by v inom prostredí pôsobili ako prekážky, vytvorili základ pre vznik robustnej infraštruktúry, na ktorej dnes stojí Web umenia. Práve preto má zmysel načrtnúť československý príbeh osobitne — s jeho paradoxmi, odbočkami aj prekvapivými kontinuitami.
+
+---
+
+## **3.4.1 Normalizačné korene CEDVU (1970s–1990s)**
+
+### **3.4.1.1 Impulz štátu a potreba centrálneho prehľadu**
+
+Vznik Centrálnej evidencie diel výtvarného umenia (CEDVU) v 70. rokoch bol priamym dôsledkom normalizačnej snahy o štandardizáciu a kontrolu zbierok. Projekt nevznikal ako digitálna iniciatíva — prirodzene, technológie to neumožňovali — ale ako **štátna stratégia vytvoriť úplný súpis umeleckých diel v galériách a múzeách na Slovensku**.
+
+Hoci išlo o rámec, ktorý bol motivovaný dobovým administratívnym poriadkom, jeho dopady boli ďalekosiahle: vznikol **systematizovaný súbor lístkov, opisov a terénnych fotografií**, ktorý sa stal trvácou pamäťou slovenského galerijného prostredia.
+
+*(Poznámka: niektoré tvrdenia v tejto časti treba overiť u pamätníčky Jany Bahurinskej.)*
+
+### **3.4.1.2 Analógová kartotéka ako priestor práce a poznania**
+
+Dnešný používateľ digitálnych zbierok má len ťažko predstaviteľnú mieru materiálnej náročnosti práce s analógovou dokumentáciou. V SNG sa od 70. rokov vytvárala rozsiahla kartotéka, v ktorej každý záznam pozostával z popisného lístka a priloženej čiernobielej fotografie. Niektoré tieto fotografie vznikali priamo v teréne — pracovníci SNG cestovali po Slovensku a zaznamenávali diela v regionálnych galériách či múzeách.
+
+Kartotéka bola **priestorom práce**, nie len úložiskom informácií. Študovňa centrálneho katalógu bola miestom výskumu kunsthistorikov, kurátorov a reštaurátorov. A dodnes — čo je v európskom kontexte unikátne — kartotéka pretrváva ako paralelný systém popri digitálnej evidencii. V roku 2025 sa lístky stále tlačia z moderného katalogačného systému, aby dopĺňali fyzický kartotečný celok.
+
+Jasné — toto je veľmi dôležité a zároveň fakticky presné prepojenie, ktoré pekne ukazuje **kontinuitu dátovej línie**:
+kartotéka → CDS/ISIS → ISG-CEDVU → Web umenia.
+
+Upravujem danú podkapitolu tak, aby toto prepojenie bolo zrozumiteľné, presné, a aby nenarúšalo celkový tón kapitoly:
+
+---
+
+## **3.4.1.3 Predinternetová digitalizácia: Micro CDS/ISIS a prvé databázy**
+
+Koncom 80. a najmä v 90. rokoch sa pristúpilo k prvému systematickému prepísaniu údajov z kartotékových lístkov do elektronickej podoby. Kľúčovú rolu pritom zohral systém **Micro CDS/ISIS**, distribuovaný UNESCO — jednoduchý, no zároveň flexibilný nástroj, ktorý umožňoval vytvárať textové databázy bez potreby internetu a bez nárokov na špeciálnu infraštruktúru.
+
+Ako uvádzajú Bohumelová a Kusá v súvislosti s digitalizačným projektom SNG, prepis údajov z analógovej kartotéky nebol mechanickým „prepísaním políčok“. Bol to proces, ktorý si vyžadoval **zjednotenie terminológie, revíziu štruktúry údajov a preformulovanie niektorých opisov**, najmä tam, kde staršie lístky pracovali s nejednotným jazykovým alebo metodologickým prístupom.
+
+Elektronická evidencia v Micro CDS/ISIS ešte nepredstavovala „digitálne zbierky“ v dnešnom zmysle. Bola to interná databáza — bez obrazu, bez vizuálnej vrstvy, bez publikačných ambícií. Jej kľúčový význam spočíval v niečom inom:
+
+### **v tom, že po prvý raz existovala kompletná digitálna kópia analógovej kartotéky.**
+
+Vďaka tomuto ručnému prepisu bolo možné v 2000s pri prechode na nový systém **ISG-CEDVU** (informačný systém správy galerijných zbierok) prevziať údaje priamo z CDS/ISIS bez potreby opätovného katalogizačného „reštartu“.
+
+Inými slovami:
+**Micro CDS/ISIS vytvoril prvý digitálny základný korpus dát, ktorý sa dal migrovať ďalej.**
+
+Bez tohto „predinternetového“ medzikroku by CEDVU nemal pri spustení k dispozícii jednotnú, elektronicky spracovanú bázu, a Web umenia by o dekádu neskôr nemohol ťažiť z kontinuálneho identifikátora, stabilnej terminológie ani z dlhodobo zhromaždených opisných údajov.
+
+Týmto sa uzatvára dôležitá časť príbehu: **prvá digitalizácia prebehla ešte pred digitálnymi technológiami v dnešnom zmysle**, v podobe ručne prepisovaných textových polí. A práve táto vrstva umožnila neskorší technologický skok.
+
+---
+
+Rozumiem — odstránim odrážky, nahradím ich plynulým textom, zjemním jazyk a vyčistím všetky „ChatGPT signály“.
+Tu je prepracovaná verzia 3.4.2 — súvislá, pokojná, akademickejšia.
+
+---
+
+## **3.4.2 ISG-CEDVU: štandardizácia a profesionalizácia (2000s)**
+
+*(prepracovaná verzia bez odrážok, v súvislom texte, s prirodzenejším tónom)*
+
+Po dlhom období analógovej evidencie a prvých elektronických pokusov v systéme Micro CDS/ISIS priniesla prvá dekáda 21. storočia zásadnú zmenu. Slovenská národná galéria začala budovať **ISG-CEDVU**, moderný informačný systém galérií, ktorý mal prvýkrát v histórii umožniť jednotnú, profesionálnu a dlhodobo udržateľnú evidenciu diel výtvarného umenia na národnej úrovni. Hoci legislatívne poverenie existovalo už od 70. rokov, až teraz sa vytvorili technické a organizačné podmienky na to, aby sa evidencia stala skutočnou infraštruktúrou.
+
+### **Od kartotéky k digitálnemu jadru**
+
+Základom novej platformy bola rozsiahla databáza údajov, ktorá vznikla v 90. rokoch prepisom analógových kartotékových lístkov do systému Micro CDS/ISIS. Tento krok bol mimoriadne náročný: pracovníci SNG museli nielen mechanicky prepisovať údaje, ale zároveň postupne zjednocovať terminológiu, opravovať nepresnosti a vytvárať štruktúru, ktorá by bola kompatibilná s neskoršími normami. Bohumelová a Kusá zdôrazňujú, že pôvodné kartičky obsahovali veľké množstvo nesúrodých údajov – rozdielne poradie autorov, rôzne spôsoby zapisovania dátumu, nejednotnú formu rozmerov či techník.
+Práve vďaka tomuto ručnému prepisu však vznikol digitálny korpus, ktorý bolo možné priamo migrovať do ISG-CEDVU. Elektronizácia v ISIS nebola modernou digitalizáciou v zmysle obrazu či vizuality; jej prínos spočíval v tom, že **po prvý raz existovala ucelená digitálna verzia národnej evidencie**, pripravená na ďalší vývoj.
+
+### **Normy, ktorým rozumie celá krajina**
+
+Vstup do 2000s si vyžiadal nielen nový softvér, ale aj aktualizáciu metodických zásad. SNG preto pripravila publikáciu *Pravidlá katalogizácie umeleckých diel*, ktorá systematicky definovala povinné a voliteľné polia, spôsob zapisovania údajov, autoritné termíny aj metodiku práce s atribúciami, dielami bez autora či zložitými prípadmi ikonografie.
+Na rozdiel od skorších predpisov išlo o text vytvorený s vedomím, že údaje budú spracovávané digitálne, prenášané medzi inštitúciami a pravdepodobne aj zdieľané mimo odborného prostredia. Podkladom boli medzinárodné odporúčania CIDOC–ICOM aj skúsenosti pracoviska CEDVU z 90. rokov.
+
+### **Vznik centralizovaného systému**
+
+Nové rozhranie ISG-CEDVU umožnilo po prvý raz pracovať so spoločnou databázou na jednom serveri. Regionálne galérie sa do nej pripájali pomocou klientských aplikácií a zdieľali rovnaký systém polí, rovnaké pravidlá a rovnaké autority.
+Zmena architektúry mala aj praktické dôsledky: odstránila lokálne rozdiely, ktoré vznikali v izolovaných systémoch, a umožnila školenia, metodickú podporu a pravidelné revízie. Evidencia sa stala spoločnou úlohou, nie len súborom samostatných praktík.
+
+### **Predpoklad pre verejné sprístupnenie**
+
+Keď bol ISG-CEDVU plne v prevádzke, objavil sa nový, dovtedy nepredstaviteľný scenár. Ak sa galérie dokázali pripájať k centrálnej databáze na diaľku a pracovať s rovnakým súborom údajov, znamenalo to, že popisné dáta existujú v podobe, ktorú možno automaticky exportovať.
+V tejto chvíli sa otvorila otázka, ktorá neskôr povedie k vzniku Webu umenia: **môže mať verejnosť prístup aspoň k časti údajov, ktoré sa dovtedy považovali za interné?**
+Nebolo to výsledkom strategického plánovania, ale prirodzený dôsledok každodennej práce s novým systémom. Pracovníci, ktorí dovtedy evidenciu vnímali ako komunikačný nástroj medzi kurátormi, dokumentátormi a depozitom, zrazu videli, že dáta možno automaticky zdieľať, aktualizovať a publikovať.
+
+### **Dualita, ktorá pretrvala**
+
+Aj po zavedení ISG-CEDVU ostala analógová kartotéka zachovaná ako oficiálny výstup evidencie – nie z nostalgie, ale z legislatívnej povinnosti a potreby trvalého záznamu. Nové kartičky sa tlačia priamo z dát uložených v ISG-CEDVU.
+V praxi tak vznikol neobvyklý stav: **analogová a digitálna evidencia existujú paralelne**. Staršie kartičky sú svedectvom o vývoji popisu diel v 70. a 80. rokoch, novšie predstavujú presnú tlačovú verziu súčasnej databázy. Tento súbeh dvoch médií umožňuje pozorovať kontinuitu aj diskontinuity v uvažovaní o dielach – od ručne písaných lístkov až po digitálne autority.
+
+### **Poznámka k histórii CEDVU**
+
+_Presný priebeh vzniku CEDVU v 70. rokoch, najmä súvislosti s celoštátnym súpisom zbierok, kombináciou galerijných a muzeálnych fondov a prvými metodikami, bude potrebné doplniť vo fáze finálnej verzie na základe rozhovorov s pamätníčkami, najmä s Janou Bahurinskou._
+
+---
+
+
+## **3.4.3 Slovakiana ako paralelná cesta (2013–2015)**
+
+Slovakiana vznikla ako **národný projekt** v rámci operačných programov, s ambíciou vytvoriť centrálny agregátor digitálneho kultúrneho dedičstva. Jej logika bola prirodzene „top-down“ — vyplývajúca z mandátu štátu, s výrazne vyšším rozpočtom a povinnosťou zahrnúť široké spektrum pamäťových inštitúcií.
+
+Z pohľadu galérií mala Slovakiana tri prínosy:
+
+1. **Zjednotenie technického formátu dát** pre odovzdávanie do Europeany,
+2. **Stabilnú infraštruktúru pre centrálnu prezentáciu**,
+3. **Zvýšenie viditeľnosti slovenského kultúrneho dedičstva** v európskom prostredí.
+
+Zároveň však vznikala **paralelne s Webom umenia**, ktorý bol presne opačný typ iniciatívy: bottom-up, vychádzajúci z konkrétnych potrieb SNG a s dôrazom na experimentovanie.
+
+
+---
+
+## **3.4.4 Český kontext: Artlist.cz a CEAD.space**
+
+V českom prostredí vznikli platformy, ktoré môžeme chápať ako paralelné — nie technicky, ale typologicky.
+
+### **Artlist.cz**
+
+Projekt Umeleckoprůmyslového musea v Prahe bol od začiatku **kurátorsko-encyklopedickým modelom**. Obsahoval autorské heslá, biografie, kurátorské texty. Jeho význam pre slovenský kontext spočíval v inom príklade autority: ukázal, že databáza môže mať **hlas**, nie len popis.
+
+### **CEAD.space**
+
+Projekt Centra súčasného umenia DOX predstavoval **archívne-výskumnú platformu** so špecifickou orientáciou na stredoeurópske umenie. Pre SNG bol inšpiráciou v tom, že kombinoval **archívny materiál, kurátorský výklad a digitálne nástroje**.
+
+Tieto české projekty neboli priamymi technologickými predlohami Web umenia, ale formovali **predstavu o tom, čo môže digitálna platforma byť**.
+
+---
+
+## **3.4.5 Dvojkoľajnosť digitálnej transformácie: paralelné projekty, odlišné logiky**
+
+Jednou z charakteristík slovenského vývoja je **paralelné vznikanie dvoch typov digitálnych projektov**:
+
+* národných, agregátorových (Slovakiana),
+* inštitucionálnych, experimentálnych (Web umenia).
+
+Tento paralelizmus nevytváral duplicitu, skôr **viacvrstvové prostredie**, v ktorom bolo možné sledovať rozdielne prístupy:
+
+* agregácia vs. interpretácia,
+* štandardizácia vs. flexibilita,
+* plošná reprezentácia vs. kurátorská hĺbka.
+
+Výsledkom bolo, že Web umenia mohol vzniknúť takmer organicky, „odspodu“ — bez prehnaného projektového tlaku, s malým tímom a s možnosťou učiť sa počas procesu. Ako si spomínam zo svojho pôsobenia v SNG, práve táto nízka programová zaviazanosť paradoxne umožnila vysokú kvalitu finálneho výsledku.
+
+---
+
+## **3.4.6 Vznik lab.SNG (2010–2015): in-house ako stratégia**
+
+### **3.4.6.1 Prečo in-house?**
+
+Jedna z najpozoruhodnejších čŕt slovenského príbehu je rozhodnutie SNG vytvoriť **vlastný interný tím vývoja**.
+Toto riešenie nebolo typické — väčšina galérií v Európe využívala externé dodávateľské firmy.
+
+Dôvody boli tri:
+
+1. **Potrebná blízkosť ku kurátorom**: vývojári museli rozumieť tomu, ako kurátori pracujú, čo hľadajú v dielach, ako uvažujú o kontexte.
+2. **Uchovávanie know-how v inštitúcii**: digitálne projekty nie sú krátkodobé; potrebujú dlhú kontinuitu.
+3. **Inšpirácie zo sveta (Cooper Hewitt Labs, Rijksmuseum, Brooklyn Museum)**: ukazovali, že aj v kultúrnej inštitúcii môže fungovať výskumno-vývojové prostredie.
+
+### **3.4.6.2 Prvé experimenty: SoundWalk a mikrostránky**
+
+Vznik lab.SNG nebol administratívnym rozhodnutím, ale **postupným formovaním praxe**.
+Prvým projektom bola mobilná aplikácia SoundWalk pre Kaštieľ Strážky, ktorej produkcia ukázala, ako potrebná je koordinácia kurátorov, pedagogiky, editorov a vývojárov.
+
+Nasledovali „mikrostránky“ pre výstavy — prototypové prostredia, kde sme testovali:
+
+* harvesting dát z CEDVU,
+* mapové zobrazenia diel,
+* timeline,
+* prácu s vysokým rozlíšením,
+* vyhľadávanie.
+
+Vývoj bol iteratívny, experimentálny, a často spätý s konkrétnymi kurátorskými zadaniami.
+Ako som postupne zistil, tento proces nebol len technologický: **upravoval spôsob, akým inštitúcia premýšľa o digitálnom obsahu**.
+
+### **3.4.6.3 Zrodenie novej verzie Web umenia**
+
+Nová verzia Web umenia (spustená v roku 2016) bola výsledkom uvedomenia, že nestačí „zobraziť dáta“. Potrebné bolo:
+
+* prepájať diela do kontextu,
+* pracovať s vizuálnymi vzťahmi,
+* rozprávať kurátorské príbehy,
+* vytvárať používateľsky prívetivé rozhranie.
+
+Web umenia bol — a naďalej je — **laboratórnym projektom**, v ktorom architektúra, dizajn a kurátorstvo spolu vytvárajú nový druh naratívneho priestoru.
+
+---
+
+## **3.4.7 Zhrnutie: slovenský príbeh ako paradox a výhoda**
+
+Slovenský vývoj digitálnych zbierok je pozoruhodný tým, že kombinuje tri vrstvy, ktoré sa inde v Európe bežne nevyskytujú pohromade:
+
+1. **historicky silná centrálna evidencia**,
+2. **národná agregátorská platforma**,
+3. **inštitucionálne laboratórium so schopnosťou in-house vývoja**.
+
+Tieto vrstvy vznikali nezávisle, z odlišných dôvodov, s rôznymi motiváciami — no práve ich prepojenie vytvorilo základ pre výskum a inovácie, ktoré by inde neboli samozrejmé.
+
+Z dnešného pohľadu je fascinujúce, že mnohé z toho, čo sa ukazuje ako kľúčové pre digitálne kurátorstvo (štandardizované metadáta, stabilné identifikátory, jednotné slovníky, kvalitná evidencia), vzniklo ešte v období, keď cieľom nebola digitálna interpretácia, ale **administratívna dôslednosť**.
+
+Je to paradox dejín:
+*to, čo vzniklo v období centralizácie a kontroly, dnes umožňuje otvorenosť, experimentovanie a kreatívny výskum*.
+
+Príbeh Web umenia tak nie je len príbehom technologického projektu, ale aj príbehom kultúrnej pamäte, ktorá sa — niekedy nečakane — ukazuje ako moderná infraštruktúra pre digitálny vek.
+
+
 ## **Poznámky**
 
 1. Bahurinská, J., Bohumelová, M.: kapitola o evidencii a katalogizácii zbierkových predmetov.
