@@ -95,6 +95,112 @@ Porozumenie tejto genealógii je preto kľúčové: ukazuje, že ak chceme prepr
 
 ---
 
+# **3.2 Prvé digitálne iniciatívy a infraštruktúry**
+
+Digitalizácia zbierok v 90. rokoch a prvej dekáde 21. storočia vznikala v prostredí, kde boli technické aj politické podmienky radikálne odlišné od dnešných. Nasledujúce podkapitoly mapujú vznik kľúčových infraštruktúr, ktoré formovali podobu online zbierok – od európskej agregácie po prvé repozitáre a štandardy interoperability.
+
+---
+
+## **3.2.1 Europeana a vznik európskeho rámca**
+
+Europeana nevznikla ako technický experiment, ale ako výsledok kultúrnej politiky Európskej únie.
+Jej vznik nadväzuje na projekty **MINERVA**, **MICHAEL** a koordináciu zdigitalizovaného dedičstva v rámci CENL (Conference of European National Librarians).
+Ako uvádza Jill Cousins, prvá výkonná riaditeľka Europeany, cieľom nebolo vytvoriť nový portál, ale *„spôsob, akým môžu zdroje voľne cestovať medzi inštitúciami a krajinami“* (Cousins, 2009).
+
+Kľúčovým krokom bol vznik **Europeana Data Model (EDM)**, ktorý zaviedol koncept *agregácie* a *prepojených dát* (Gradmann, 2011). EDM umožňuje, aby múzejné, galerijné a archívne objekty existovali v jednom modeli bez straty vlastnej identity — čo bol zásadný rozdiel oproti skorším rámcom, ktoré nútili dáta do jednej štruktúry.
+
+Europeana tak vytvorila:
+
+* spoločný dátový model pre kultúrne dedičstvo v EÚ (EDM),
+* rámec pre automatizované harvestovanie cez OAI-PMH,
+* politický argument pre sprístupňovanie kultúrnych zdrojov.
+
+Od prvej verzie portálu (2008) sa Europeana vyvinula z prezentačného webu na **dátovú infraštruktúru**, ktorá definuje technickú interoperabilitu naprieč Európou (Terras, 2015).
+
+---
+
+## **3.2.2 Štandardizácia: LIDO, Dublin Core, OAI-PMH**
+
+Prvá dekáda digitalizácie bola založená na štandardizácii metadát.
+Tri štandardy mali zásadný význam:
+
+### **LIDO (Lightweight Information Describing Objects)**
+
+Vznikol pod CIDOC ICOM a publikoval ho G. Coburn a kol. v roku 2010.
+LIDO je určený pre múzejné objekty a dodnes sa používa ako štandard pre export dát do Europeany a národných agregátorov.
+
+Výhoda LIDO spočíva v jeho komplexnosti; slabina v jeho abstrakcii. Ako uvádza Coburn (2010), LIDO je kompromis medzi „interpretatívnymi“ a „transakčnými“ potrebami múzeí.
+
+### **Dublin Core (DCMI, 1995–)**
+
+Dublin Core bol pôvodne navrhnutý ako *„základný popisný systém pre heterogénne digitálne zdroje“* (Weibel et al., 1998).
+V múzejnom prostredí fungoval najmä ako „najnižší spoločný menovateľ“, ktorý umožnil jednoduché harvestovanie, ale redukoval bohaté múzejné metadáta na niekoľko všeobecných polí.
+
+### **OAI-PMH (Open Archives Initiative, 2001)**
+
+Ako uvádzajú Van de Sompel a Lagoze (2002), OAI-PMH bol navrhnutý pre akademické repozitáre, no rýchlo sa stal základom pre Europeanu aj národné digitálne knižnice.
+Bez neho by agregácia v rozsahu miliónov objektov nebola možná.
+
+---
+
+## **3.2.3 Repozitáre: Fedora Commons, DSpace a digitálne knižnice**
+
+Repozitáre predstavovali kľúčový technologický krok medzi „internou databázou“ a „otvorenou digitálnou zbierkou“.
+
+**Fedora Commons** (Lagoze et al., 2006) zaviedla:
+
+* koncept *komplexného digitálneho objektu*
+* striktné oddeľovanie dát a aplikácie (model vs. prezentačná vrstva)
+* robustné verziovanie a prácu s viacerými reprezentáciami.
+
+Fedora bola pôvodne určená pre akademické knižnice, no ukázalo sa, že jej model výborne sedí aj múzejným potrebám — najmä tam, kde je dôležitá trvácnosť a uchovateľnosť dát.
+
+**DSpace** (Smith et al., 2003) ponúkal jednoduchší, viac „knižnično-orientovaný“ model a stal sa najrozšírenejším open-source repozitárom pre univerzity.
+Mnohé múzeá prebrali tieto technológie práve preto, že existovali ako stabilné, komunitou spravované riešenia.
+
+Ako upozorňuje Seamus Ross (2012), kľúčovým problémom týchto systémov bolo to, že **neboli navrhnuté pre umelecké diela**, takže múzeá museli prispôsobiť svoju evidenciu technologickým možnostiam — nie naopak.
+
+---
+
+## **3.2.4 Autoritatívne zoznamy: ULAN, AAT, VIAF**
+
+Authority files vznikli v kontexte snahy o normalizáciu názvov a identít v múzejnom a knižničnom prostredí.
+
+* **ULAN (Union List of Artist Names)** – Getty, od 1980s
+* **AAT (Art & Architecture Thesaurus)** – Getty, od 1990s
+* **VIAF (Virtual International Authority File)** – OCLC, 2003–
+
+Ich úlohou je riešiť problém variantných zápisov a poskytnúť stabilné identifikátory pre osoby, miesta, témy a koncepty.
+
+Ako upozorňuje Baca (2016), authority files nie sú len technické riešenia: definujú, *čo je uznané, pomenovateľné a prepojiteľné* v kultúrnom systéme.
+
+V kontexte múzejných zbierok authority files určujú:
+
+* ktoré kategórie existujú,
+* aké pojmy môžu byť priradené k dielam,
+* ako sú diela prepojiteľné v agregátoroch (napr. Europeana),
+* a aké naratívne línie sú v dátach čitateľné.
+
+---
+
+## **3.2.5 Otvorené dáta a API: posun k platformovému mysleniu**
+
+Od roku 2010 sa digitalizácia presunula od „zverejnenia“ smerom k otvorenosti.
+
+Beckett a Terras (2014) opisujú, ako hnutie **OpenGLAM** spojilo technologické inovácie s agendou kultúrnej spoločenskej zodpovednosti.
+Licencie **Creative Commons** a **RightsStatements.org** umožnili múzeám transparentne komunikovať podmienky použitia reprodukcií.
+
+Najzásadnejší posun však priniesli **API** — aplikačné rozhrania, ktoré umožnili, aby sa zbierka stala platformou.
+Ako uvádza Chan (2015), API v Cooper Hewitt Museum zmenilo spôsob, akým môže verejnosť a vývojári pracovať s dátami: od jednoduchého prezerania k experimentu, vizualizácii a tvorke nových aplikácií.
+
+API predstavuje okamih, keď:
+
+* zbierka prestáva byť webom,
+* stáva sa digitálnou infraštruktúrou,
+* jej logika prestáva byť kurátorská a stáva sa algoritmicko-technickou,
+* vzniká priestor pre nové formy práce s naratívom.
+
+
 ## **Poznámky**
 
 1. Bahurinská, J., Bohumelová, M.: kapitola o evidencii a katalogizácii zbierkových predmetov.
