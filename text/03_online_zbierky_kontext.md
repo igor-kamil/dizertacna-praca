@@ -482,11 +482,196 @@ Je to paradox dejín:
 
 Príbeh Web umenia tak nie je len príbehom technologického projektu, ale aj príbehom kultúrnej pamäte, ktorá sa — niekedy nečakane — ukazuje ako moderná infraštruktúra pre digitálny vek.
 
+---
 
-## **Poznámky**
+# **3.5 Príbeh Web umenia**
 
-1. Bahurinská, J., Bohumelová, M.: kapitola o evidencii a katalogizácii zbierkových predmetov.
-2. Tamže — opis centrálneho kartotékového katalógu SNG.
-3. Tamže — opis retrospektívnej konverzie do CDS/ISIS.
-4. *Pravidlá katalogizácie umeleckých diel* — SNG. Kolektív autorov [doplň].
-5. Cameron, Fiona. “The Politics of Heritage and Digital Access.” In Theorizing Digital Cultural Heritage, MIT Press, 2007.
+Vznik Web umenia často pôsobí ako prirodzené pokračovanie CEDVU: ak existuje centrálna databáza, zdá sa logické sprístupniť ju. Historická realita je však odlišná. Web umenia nevznikol ako súčasť strategických plánov SNG či ministerstva, ani ako „front-end“ k novému informačnému systému. Bol výsledkom dvoch síl, ktoré sa stretli v správnej chvíli: technologickej pripravenosti ISG-CEDVU a potreby hľadať spôsob, ako prezentovať zbierky v prostredí, ktoré sa rýchlo menilo.
+
+## **3.5.1 Od CEDVU k prvému webu (2010): spontánny začiatok**
+
+Keď SNG okolo rokov 2008–2010 dokončovala prvé veľké digitalizačné cykly (najmä maliarstvo 19. a 20. storočia), stalo sa zrejmým, že kvalitné digitálne reprodukcie, uložené v interných zložkách, neplnia svoj potenciál. Boli primárne určené na dokumentáciu, odborné účely a tlač; verejnosť k nim nemala prístup, hoci záujem o digitálne kultúrne dedičstvo medzitým vo svete rástol.
+
+V tom čase prebiehal v SNG vývoj nového rozhrania ISG-CEDVU a zároveň prvé experimenty s prehliadaním digitalizovaných diel. Prepojenie týchto liniek však nebolo plánované. Myšlienka „urobiť web“, ktorý umožní verejnosti prezerať diela všetkých galérií, bola bottom-up gestom — jednoduchým nápadom, ktorý vznikol pri práci s databázou.
+
+Keď si človek uvedomil, že údaje sú centralizované a môžu sa exportovať, otázka už nebola *či*, ale *ako*. Prvá verzia webu bola preto skôr prototyp než produkt. Mala minimalistickú podobu, jednoduchú detailovú stránku a základný vyhľadávač. V tom čase však išlo o prelom: po prvý raz bolo možné vidieť na jednom mieste diela SNG aj regionálnych galérií, s rovnakými metadátami a rovnakou logikou popisu.
+
+Spätným pohľadom je možné povedať, že Web umenia vznikol skôr z presvedčenia než z poverenia. A možno práve preto sa stal autentickým projektom: neodvádzal prácu od teoretických stratégií, ale testoval možnosti, ktoré dáta a infraštruktúra ponúkali.
+
+## **3.5.2 Technologické pozadie: Fedora Commons a prvé integračné pokusy**
+
+Ak prvotný impuls vznikol z evidenčnej praxe, technologické zázemie Webu umenia sa formovalo v už odlišnom prostredí. Projekt Digitálna galéria (2012–2015) priniesol nielen masívnu vlnu digitalizácie, ale aj zásadné rozhodnutie: vybudovať repozitár na báze **Fedora Commons**, technológie, ktorá bola v tom čase rozšírená najmä v akademických a knižničných inštitúciách.
+
+Fedora umožňovala uchovávať digitálne objekty (snímky, metadáta, odvodeniny) v podobe, ktorá bola dlhodobo udržateľná, verzovateľná a prepojená s ďalšími systémami. Hoci ISG-CEDVU ostal primárnym miestom katalogizácie, Fedora sa stala úložiskom digitálnych objektov, ktoré bolo možné publikovať smerom von.
+
+To znamenalo, že Web umenia už nestál na ad hoc riešeniach, ale na infraštruktúre, ktorá vedela zabezpečiť kvalitu reprodukcií, ich životný cyklus a vzťahy medzi objektami. Zároveň sa otvorila možnosť API — prístupového rozhrania, ktoré umožnilo vytvárať aplikácie alebo vizualizácie nad dátami. Táto vrstva neskôr zohrá kľúčovú úlohu pri výskume naratívnych možností digitálnych zbierok.
+
+## **3.5.3 Zmena paradigmy: od evidencie k rozhraniu**
+
+Prvé roky Webu umenia ukázali, že evidencia a prezentácia nie sú dve oddelené praxe. Aj keď to na úrovni inštitúcie tak pôsobí — katalogizácia je „technikálna“, prezentácia „komunikačná“ — online prostredie tieto hranice zmazáva.
+
+V digitálnej platforme prestáva byť dielo len evidenčným objektom. Stáva sa vstupným bodom, rozhraním, naratívnou jednotkou. Ako ukázala skúsenosť s prvou verziou Webu umenia, už samotná voľba, čo z ISG-CEDVU preniesť na web, vytvára hierarchiu informácií. Ešte výraznejšie sa to prejavilo v momente, keď priebežne pribúdali nové funkcie — detailné zoomy, tematické kolekcie, fulltextové vyhľadávanie, geografické mapy či časová os.
+
+Každé z týchto rozhraní bolo zároveň interpretáciou. Menilo spôsob, akým sa dielo čítalo, aké súvislosti sa stávali viditeľnými a aké úplne mizli.
+V tejto fáze som si začal silnejšie uvedomovať, že platforma nie je „okno“ do databázy, ale autonómny priestor, ktorý produkuje vlastné významy. A že dizajn rozhrania je formou kurátorstva, aj keď sa tvári neutrálne.
+
+## **3.5.4 Web umenia ako laboratórium: iterácia, dialóg a vývoj v reálnom čase**
+
+Okolo roku 2013–2014 sa vývoj Webu umenia prelial do širšieho experimentálneho rámca. Z iniciatívy Michala Čudrnáka vznikol **lab.SNG** — najprv ako neformálna skupina ľudí pracujúcich „bokom popri oficiálnych úlohách“, neskôr ako stabilizovanejšia vnútorná platforma.
+Inšpirácia prichádzala aj zo zahraničia: Cooper Hewitt Labs, tým okolo Seba Chana v ACMI či Rijksstudio ukazovali, že technologický vývoj môže byť súčasťou galerijnej kultúry, nie službou, ktorú si inštitúcia objednáva.
+
+To, čo bolo pre lab.SNG špecifické, bola jeho blízkosť ku kurátorom a editorkám. Náš stôl bol fyzicky pár metrov od depozitárov a kancelárií odborných pracovníkov, čo znamenalo, že pri každom rozhodnutí — od zobrazovania techník po tvorbu filtrov — prebiehal dialóg.
+Táto bezprostrednosť sa premietla aj do samotného rozhrania: funkcie Webu umenia nevznikali v izolácii, ale v kontexte výstav, zbierkových revízií, akvizičných debát či spätnej väzby od pedagógov a návštevníkov.
+
+Výsledkom bola postupná transformácia Webu umenia z katalógu na platformu:
+nielen pre prezeranie, ale pre skúmanie, hra­nie, prepájanie a v niektorých prípadoch aj pre rozprávanie (Príbehy umenia).
+
+## **3.5.5 Prelomové momenty: API, open access a nový dizajn**
+
+Z technického hľadiska možno označiť tri momenty za rozhodujúce.
+
+**Zverejnenie API** umožnilo otvoriť dáta externým developerom, študentom či výskumníkom. Zbierka sa tým stala nielen prístupnou, ale aj „použiteľnou“ — čo v akademickej oblasti znamenalo zásadnú zmenu.
+
+**Prechod na open access** (voľné diela vo voľnej licencií, prístupné na stiahnutie) bol reakciou na medzinárodné trendy, najmä Rijksmuseum, ale aj výsledkom praktickej skúsenosti: ľudia si už aj tak sťahovali obrázky cez rôzne neoficiálne spôsoby. Legitimácia tejto praxe bola prirodzeným krokom.
+
+**Nová verzia Web umenia** (cca 2015–2016) prepojila tieto vrstvy do jedného rozhrania. Už to nebola „stránka s databázou“, ale ekosystém, ktorý vedel zobrazovať tisíce diel na rôznych úrovniach granularity — od detailu obrazu po mapu kultúrnych súvislostí.
+
+## **3.5.6 Čo Web umenia zmenil: metadáta ako naratív a platforma ako aktér**
+
+Tým, že Web umenia začal uvažovať o rozhraní ako o priestore interpretácie, posunul diskusiu o digitálnych zbierkach na nové pole. Zbierka prestala byť statickým súborom diel; stala sa **dynamickou konštrukciou**, v ktorej:
+
+* metadáta vytvárajú príbeh,
+* vyhľadávanie konštruuje vzťahy,
+* dizajn sprostredkováva odborné rozhodnutia,
+* a vývojári sa nevyhnutne stávajú spolutvorcami významu.
+
+Pre moju vlastnú prácu bol tento moment rozhodujúci. Práve tu sa ukázalo, že digitálne platformy nezviditeľňujú len samotné diela, ale aj logiku ich výberu, spôsob katalogizácie, kvalitu opisov, a dokonca aj rozhodnutia, ktoré pôsobia banálne (napr. ktoré polia sa zobrazia ako prvé).
+Digitálne rozhranie je interpretáciou — nie preto, že mu to kurátor prikáže, ale preto, že je technickým aktérom so svojimi obmedzeniami a možnosťami.
+
+## **3.5.7 Záver: Web umenia ako produkt aj symptóm**
+
+Keď sa dnes pozeráme na Web umenia, môže pôsobiť ako prirodzená súčasť sveta online zbierok. V skutočnosti je však výsledkom veľmi špecifickej konštelácie: normalizačná kartotéka → ručný prepis do Micro CDS/ISIS → centralizácia ISG-CEDVU → digitalizačný boom 2010s → experimentálny tím lab.SNG → medzinárodné open-access impulzy.
+
+Až kombinácia týchto vrstiev umožnila vznik platformy, ktorá dokáže byť súčasne databázou, výskumným nástrojom, rozhraním a — do istej miery — aj rozprávačom.
+
+V tomto zmysle je Web umenia nielen produktom slovenského vývoja, ale aj jeho zrkadlom.
+Je výsledkom série rozhodnutí, ktoré sa pôvodne netýkali naratívov, ale infraštruktúry, organizácie práce a každodennej evidencie. A zároveň je symptómom širšieho posunu: od múzea ako strážcu k múzeu ako aktívnemu účastníkovi digitálnych kultúrnych procesov.
+
+---
+
+# **3.6 Súčasné tendencie a smerovanie: od sprístupňovania k interpretácii**
+
+Ak prvé dve dekády digitalizácie patrili infraštruktúre — skenerom, databázam a workflowom — posledné roky ukazujú zásadný posun. Online zbierky už nie sú chápané len ako „digitálne katalógy“, ale ako **rozhrania, ktoré sprostredkúvajú spôsoby poznania**. To, čo bolo kedysi technickým problémom, sa dnes stáva problémom epistemologickým: ako v digitálnom prostredí vzniká význam, naratív a kontext.
+
+Tento posun je viditeľný v celom globálnom poli. Po otvorení zbierok Rijksmusea, po experimentoch Cooper Hewitt Labs a po úspešných participatívnych projektoch v Tate či MoMA sa online platformy zmenili z „výkladov“ na priestory skúmania.
+Rozhranie už nie je len spôsobom, *ako* sa dielo ukazuje; čoraz viac sa stáva spôsobom, *ako* sa dielo chápe.
+
+## **3.6.1 Nová zodpovednosť rozhraní**
+
+Digitálne platformy dnes vykonávajú úlohy, ktoré boli kedysi prirodzene pripisované kurátorom a editorom. Automatizované odporúčania, radenie výsledkov vyhľadávania, vizuálne podobnosti či tematické kolekcie — to všetko sú mechanizmy, ktoré generujú implicitné interpretácie.
+V tomto prostredí nie je možné oddeľovať technické riešenie od odborného významu. Ako upozorňuje Fiona Cameron, digitálne prostredia do zbierok vnášajú **ontologickú dynamiku**: objekty menia svoju povahu podľa toho, v akom informačnom systéme sa nachádzajú, aké prepojenia sú im priradené a aké vzťahy im rozhranie umožní nadviazať.
+
+V praxi to znamená, že každý „mechanizmus“ rozhrania — automatické tagy, podobnostné algoritmy, časové osi či mapy — je súčasťou kultúrneho príbehu. Nevytvára iba navigáciu, ale aj interpretáciu.
+
+## **3.6.2 Kurátor ako vývojár, vývojár ako kurátor**
+
+Táto situácia prirodzene mení odborné roly.
+Kurátorská práca už nie je len výberom diel a textovou interpretáciou. Zahŕňa prácu s dátovými modelmi, s digitálnymi reprezentáciami a s mechanizmami, ktoré umožňujú (alebo znemožňujú) určité čítanie zbierky.
+
+Na druhej strane, vývojár a dizajnér prestávajú byť „technickou podporou“.
+Ich rozhodnutia majú dosah na epistemológiu zbierky: určujú, ktoré informácie sú v rozhraní centrálne, ktoré sú skryté, ktoré vzťahy sú vizualizované a ktoré vôbec nevzniknú.
+
+V ideálnom prípade sa medzi týmito profesiami formuje **hybridná expertíza** — nie osoba, ktorá vie robiť všetko, ale tímová kompetencia, ktorá dokáže myslieť digitálne rozhranie ako kultúrny priestor, nie ako službu.
+
+Tento model sa objavuje v inštitúciách ako ACMI, Tate, Cooper Hewitt či SFMOMA Labs.
+V slovenskom prostredí bol lab.SNG jedným z prvých miest, kde sa tento typ hybridnej praxe stal reálnou súčasťou každodennosti.
+
+## **3.6.3 Nové výzvy: etika algoritmov, personalizácia, serendipity**
+
+S narastajúcim množstvom dát a pokročilejšími nástrojmi (počítačové videnie, NLP, strojové učenie) vzniká napätie medzi dvoma princípmi:
+
+* **personalizáciou**, ktorá prispôsobuje obsah jednotlivcovi,
+* **serendipitou**, ktorá umožňuje objaviť nečakané vzťahy a súvislosti.
+
+V oblasti online zbierok sa práve serendipita ukazuje ako mimoriadne dôležitá.
+Zbierky majú svoju vlastnú logiku: sú výsledkom dejín akvizícií, preferencií, uvažovania o tom, čo je dôležité uchovať. Personalizované rozhrania túto logiku môžu prepisovať — posúvať diela na okraj, zvýrazňovať iné, alebo potvrdzovať existujúce predsudky.
+
+Zároveň sa objavuje otázka **transparentnosti algoritmov**.
+Ak platforma odporúči dielo „podobné“ inému, na základe čoho tak robí?
+Je podobnosť vizuálna, tematická, formálna, historická?
+A kto rozhoduje, ktorá podobnosť je dôležitá?
+
+Táto diskusia sa dotýka samotnej podstaty naratívnej vrstvy:
+digitálne rozhranie nevytvára príbeh ako text, ale ako súbor cestičiek, filtrov, vzťahov a návratností.
+
+## **3.6.4 Kontekstualizácia ako kľúčový problém**
+
+Ak je dnes niečo všeobecne uznávanou slabinou online zbierok, je to **nekontinuálna naratívnosť**.
+Digitálne rozhrania excelujú v šírke, ale bojujú s hĺbkou.
+Ponúkajú státisíce objektov, ale len málo z nich zasadzujú do zmysluplných kontextov.
+
+Preto sa vo svete presadzuje trend „interpretácie ako služby“ — nie ako exteriérového textu či katalógu, ale ako integrálnej vrstvy digitálneho systému.
+Príklady sú rôzne: Rijksstudio Stories, SFMOMA’s Send Me SFMOMA, projekty ACMI, ale aj kurátorsky vedené kolekcie Tate či tematické prehliadky v MoMA.
+
+Všetky pracujú s rovnakou ambíciou:
+vrátiť rozhraniu schopnosť vytvárať *vzťahy*, nielen *záznamy*.
+
+## **3.6.5 Prepojenie na výskumnú otázku: digitálne rozhranie ako naratívna technológia**
+
+V kontexte tejto kapitoly sa vraciame k ústrednej myšlienke celej dizertačnej práce:
+**digitálne zbierky často trpia stratou naratívnej vrstvy, pretože sú dedičmi databázového myslenia.**
+
+Databáza uchováva, rozhranie sprístupňuje — ale ani jedno z toho samo osebe neinterpretuje.
+To, čo vzniká medzi nimi, je priestor neistoty:
+priestor, kde sa významy môžu utvárať, strácať alebo fragmentovať.
+
+Keďže rozhranie je dnes hlavným médiom zbierky, práve ono preberá rolu rozprávača.
+Nie textového, ale topologického: rozpráva vzťahmi, filtrami, výbermi, dynamikou prezerania a nelineárnou logikou.
+
+Súčasné tendencie — tlak na kontextualizáciu, hybridné kurátorsko-technické prístupy, transparentné algoritmy, podporu serendipity — sú reakciou na tento problém.
+Ukazujú, že naratív nie je dodatok; je to spôsob, ako digitálna zbierka nadobúda význam.
+
+A v tejto situácii sa otvára priestor pre tvoju dizertačnú prácu:
+ako možno myslieť naratív v digitálnom prostredí inak než ako text?
+Ako možno navrhovať rozhrania, ktoré nevytvárajú len vstupy a výstupy, ale aj *vzťahy*?
+A napokon: ako môže múzeum sprostredkovať digitálny príbeh, ktorý nie je lineárny, ale ani chaotický?
+
+---
+
+### **Použitá literatúra **
+
+1. Bahurinská, Jana; Bohumelová, Mária. Kapitola o evidencii a katalogizácii zbierkových predmetov. In: *Rituál múzea v digitálnom veku* (resp. interné materiály SNG – doplniť presnú publikáciu).
+2. *Pravidlá katalogizácie umeleckých diel.* Slovenská národná galéria, kolektív autorov.
+3. Vyhláška č. 523/2009 Z. z. o podrobnostiach o základných odborných činnostiach v múzeu a galérii.
+4. UNESCO. *Micro CDS/ISIS – Documentation.* UNESCO, 1990s.
+5. Cameron, Fiona. “Digital Futures and the Politics of Heritage.” In: Cameron, F.; Kenderdine, S. (eds.). *Theorizing Digital Cultural Heritage.* MIT Press, 2007.
+6. Cameron, Fiona. “Beyond the Cult of the Replicant: Museums and the Digital.” In: Knell, S. et al. (eds.). *Museum Revolutions.* Routledge, 2007.
+7. Manovich, Lev. *The Language of New Media.* MIT Press, 2001.
+8. Parry, Ross. *Recoding the Museum: Digital Heritage and the Technologies of Change.* Routledge, 2007.
+9. Hooper-Greenhill, Eilean. *Museums and the Shaping of Knowledge.* Routledge, 1992.
+10. Cousins, Jill. “Europeana: Think Culture.” *Europeana White Papers*, 2009.
+11. Gradmann, Stefan. “Knowledge = Information in Context: On the Importance of Semantic Contextualisation in Europeana.” *Library Hi Tech*, 2011.
+12. Terras, Melissa. “Digitization and Digital Resources in Europeana.” In: Schreibman, S.; Siemens, R. (eds.). *A New Companion to Digital Humanities.* Wiley-Blackwell, 2015.
+13. Coburn, Erin et al. *LIDO – Lightweight Information Describing Objects.* CIDOC ICOM, 2010.
+14. Weibel, Stuart et al. “The Dublin Core Metadata Element Set.” *D-Lib Magazine*, 1998.
+15. Lagoze, Carl; Van de Sompel, Herbert. “The Open Archives Initiative: Building a Low-Barrier Interoperability Framework.” *JCDL Proceedings*, 2001.
+16. Lagoze, Carl et al. “Fedora and the Architecture of Complex Objects.” *International Journal on Digital Libraries*, 2006.
+17. Smith, MacKenzie et al. “DSpace: An Open Source Dynamic Digital Repository.” *D-Lib Magazine*, 2003.
+18. Baca, Murtha (ed.). *Introduction to Metadata.* Getty Publications, 2016.
+19. Getty Research Institute. *Art & Architecture Thesaurus (AAT); Union List of Artist Names (ULAN).*
+20. OCLC. *Virtual International Authority File (VIAF).*
+21. Kapsalis, Effie. “The OpenGLAM Principles and the Cultural Commons.” Smithsonian Institution, 2016.
+22. van der Zee, Egbert. “Rijksstudio: Make Your Own Masterpiece.” Rijksmuseum, 2013.
+23. Chan, Seb. “The API at Cooper Hewitt.” Cooper Hewitt Labs Blog, 2015.
+24. Chan, Seb. “The Pen: Designing a Visitor Tool for a Hybrid Museum Experience.” Cooper Hewitt, 2015.
+25. Cope, Aaron. “Everything is Miscellaneous, and Everything is a Museum Object.” Cooper Hewitt Labs Blog, 2014.
+26. Science Museum Group. “Never Been Seen.” Science Museum Blog, 2020.
+27. Chan, Seb. “ACMI’s Renewal: Designing the Lens.” ACMI, 2020.
+28. MoMA. *MoMA GitHub Data Project.* MoMA, 2015.
+29. Tate Digital. *Digital Transformation Strategy Reports.* Tate, 2017.
+30. Walker Art Center. *Open Source Publishing and Digital Projects.* Walker, 2008–2015.
+31. Drucker, Johanna. *Graphesis: Visual Forms of Knowledge Production.* Harvard University Press, 2014.
+32. Whitelaw, Mitchell. “Generous Interfaces for Digital Cultural Collections.” *Digital Humanities Quarterly*, 2015.
+33. Berry, David; Fagerjord, Anders. *Digital Humanities: Knowledge and Critique in a Digital Age.* Polity Press, 2017.
+34. Manovich, Lev. *Software Takes Command.* Bloomsbury Academic, 2013.
+

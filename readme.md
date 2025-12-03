@@ -36,4 +36,4 @@ Súčasná verzia rozvíja tieto otázky v špecifickom prostredí **online gal�
 Práca je vo fáze prepisu pôvodného rámca (2021) do konkrétnej podoby zameranej na digitálne zbierky a vizuálne rozhrania.
 
 
-![Progress](https://img.shields.io/badge/Writing%20Progress-0%20pages%20%7C%20goal:%204%20(BEHIND)-red?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Writing%20Progress-21%20pages%20%7C%20goal:%209%20(ON%20TRACK)-brightgreen?style=for-the-badge)
