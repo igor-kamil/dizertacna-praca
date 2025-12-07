@@ -3,7 +3,7 @@
 # -----------------------------
 # Configuration
 # -----------------------------
-TARGET_DIR="text"
+TARGET_DIR="chapters"
 TARGET_PAGES=60
 CHARS_PER_PAGE=2500
 
@@ -77,7 +77,7 @@ if [[ -z "$SHOULD_HAVE" ]]; then SHOULD_HAVE=0; fi
 # Status (AHEAD / ON TRACK / BEHIND)
 # -----------------------------
 if (( PAGES > SHOULD_HAVE )); then
-    STATUS="AHEAD"
+    STATUS="ON TRACK"
     COLOR="brightgreen"
 elif (( PAGES >= SHOULD_HAVE * 90 / 100 )); then
     STATUS="ON TRACK"
