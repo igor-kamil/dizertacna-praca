@@ -1,0 +1,25 @@
+name: Update Writing Progress Badge
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Make script executable
+        run: chmod +x update_progress.sh
+
+      - name: Run update script
+        run: ./update_progress.sh
+
+      - name: Commit badge update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update: writing progress badge"
+          file_pattern: readme.md

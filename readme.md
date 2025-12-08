@@ -23,12 +23,23 @@ Súčasná verzia rozvíja tieto otázky v špecifickom prostredí **online gal�
 
 ## Štruktúra repozitára
 
-- `text/` – kapitoly dizertácie v Markdown formáte  
+- `chapters/` – kapitoly dizertácie v Markdown formáte  
 - `konzultacie/` – zápisy z konzultácií a akčné body  
 - `notes/` – pracovné poznámky, porovnania, nápady  
 - `literature/` – bibliografia a poznámky k literatúre  
 - `figures/` – vizuálne materiály a diagramy  
- - `roadmap` – [časový plán písania a výskumu](roadmap.md)  
+- `roadmap` – [časový plán písania a výskumu](roadmap.md)  
+
+## Generovanie PDF
+
+**Požiadavky:** Pandoc + XeLaTeX (macOS: `brew install pandoc` + [TinyTeX](https://yihui.org/tinytex/) )
+
+```bash
+chmod +x build.sh      # prvýkrát
+./build.sh             # vytvorí dissertation.pdf
+```
+
+Bibliografia: `ENABLE_BIB=1 ./build.sh` (vyžaduje `references.bib`)
 
 ## Stav projektu
 
