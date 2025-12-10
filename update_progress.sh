@@ -98,10 +98,30 @@ BADGE="https://img.shields.io/badge/Writing%20Progress-${PAGES}%20pages%20%7C%20
 # -----------------------------
 # Update README.md
 # -----------------------------
-if grep -q "![Progress]" readme.md; then
-    sed -i.bak "s|!\[Progress\].*|![Progress](${BADGE})|" readme.md
-else
-    echo -e "\n![Progress](${BADGE})" >> readme.md
-fi
+README_FILE="readme.md"
+BADGE_LINE="![Progress](${BADGE})"
+
+# Get the first line (title)
+FIRST_LINE=$(head -n 1 "$README_FILE")
+
+# Process the rest of the file: remove badge line and any immediately following empty lines
+# Use awk to cleanly handle this
+REST_CONTENT=$(tail -n +2 "$README_FILE" | awk '
+    BEGIN { skip_next_empty = 0; content_started = 0 }
+    /!\[Progress\]/ { skip_next_empty = 1; next }
+    skip_next_empty && /^[[:space:]]*$/ { next }
+    { skip_next_empty = 0 }
+    !content_started && /^[[:space:]]*$/ { next }
+    { content_started = 1; print }
+')
+
+# Write: title, empty line, badge, empty line, rest of file
+{
+    echo "$FIRST_LINE"
+    echo ""
+    echo "$BADGE_LINE"
+    echo ""
+    echo "$REST_CONTENT"
+} > "${README_FILE}.tmp" && mv "${README_FILE}.tmp" "$README_FILE"
 
 echo "Strany: $PAGES | Malo by byť dnes: $SHOULD_HAVE | Status: $STATUS"

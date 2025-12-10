@@ -329,13 +329,6 @@ Bez tohto „predinternetového“ medzikroku by CEDVU nemal pri spustení k dis
 
 Týmto sa uzatvára dôležitá časť príbehu: **prvá digitalizácia prebehla ešte pred digitálnymi technológiami v dnešnom zmysle**, v podobe ručne prepisovaných textových polí. A práve táto vrstva umožnila neskorší technologický skok.
 
----
-
-Rozumiem — odstránim odrážky, nahradím ich plynulým textom, zjemním jazyk a vyčistím všetky „ChatGPT signály“.
-Tu je prepracovaná verzia 3.4.2 — súvislá, pokojná, akademickejšia.
-
----
-
 ## **3.4.2 ISG-CEDVU: štandardizácia a profesionalizácia (2000s)**
 
 *(prepracovaná verzia bez odrážok, v súvislom texte, s prirodzenejším tónom)*
