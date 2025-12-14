@@ -221,7 +221,7 @@ Rijksstudio zároveň potvrdilo, že **vysoké rozlíšenie nie je len technick�
 
 ## **3.3.2 Cooper Hewitt Labs: rozhranie ako výskum**
 
-Cooper Hewitt, Smithsonian Design Museum, predstavuje v digitálnej transformácii múzeí jeden z najintenzívnejších a najprepracovanejších prístupov. Pod vedením Seba Chana a Aarona Copeho vzniklo v rokoch 2011–2015 interné laboratórium Cooper Hewitt Labs, ktoré spojilo kurátorský diskurz so softvérovým vývojom. Chan (2015) opisuje tento model ako „R&D v múzejnom kontexte“ — výskum založený na neustálej iterácii.
+Cooper Hewitt, Smithsonian Design Museum, predstavuje v digitálnej transformácii múzeí jeden z najvýraznejších prístupov. Pod vedením Seba Chana a Aarona Copeho vzniklo v rokoch 2011–2015 interné laboratórium Cooper Hewitt Labs, ktoré spojilo kurátorský diskurz so softvérovým vývojom. Chan (2015) opisuje tento model ako „R&D v múzejnom kontexte“ — výskum založený na neustálej iterácii.
 
 Zásadným výsledkom bol **Object API**, ktoré poskytlo prístup ku kompletnej zbierke ako k modifikovateľnej dátovej vrstve. V literatúre sa často zdôrazňuje, že Cooper Hewitt bolo prvým múzeom, kde webová stránka nebola primárnym rozhraním, ale „jednou z mnohých aplikácií nad API“ (Cope, 2014). Tento API-centrický prístup umožnil experimentovať s alternatívnymi spôsobmi prehliadania zbierky.
 
@@ -301,12 +301,9 @@ Hoci išlo o rámec, ktorý bol motivovaný dobovým administratívnym poriadkom
 
 Dnešný používateľ digitálnych zbierok má len ťažko predstaviteľnú mieru materiálnej náročnosti práce s analógovou dokumentáciou. V SNG sa od 70. rokov vytvárala rozsiahla kartotéka, v ktorej každý záznam pozostával z popisného lístka a priloženej čiernobielej fotografie. Niektoré tieto fotografie vznikali priamo v teréne — pracovníci SNG cestovali po Slovensku a zaznamenávali diela v regionálnych galériách či múzeách.
 
-Kartotéka bola **priestorom práce**, nie len úložiskom informácií. Študovňa centrálneho katalógu bola miestom výskumu kunsthistorikov, kurátorov a reštaurátorov. A dodnes — čo je v európskom kontexte unikátne — kartotéka pretrváva ako paralelný systém popri digitálnej evidencii. V roku 2025 sa lístky stále tlačia z moderného katalogačného systému, aby dopĺňali fyzický kartotečný celok.
+Kartotéka bola **priestorom práce**, nie len úložiskom informácií. Študovňa centrálneho katalógu bola miestom výskumu kunsthistorikov, kurátorov a reštaurátorov. Kartotéka pretrvávala aj po nástupe digitálnej evidencie ako paralelná pracovná vrstva: aj v roku 2025 sa lístky tlačia z katalogačného systému, aby dopĺňali fyzický kartotečný celok.
 
-Jasné — toto je veľmi dôležité a zároveň fakticky presné prepojenie, ktoré pekne ukazuje **kontinuitu dátovej línie**:
-kartotéka → CDS/ISIS → ISG-CEDVU → Web umenia.
-
-Upravujem danú podkapitolu tak, aby toto prepojenie bolo zrozumiteľné, presné, a aby nenarúšalo celkový tón kapitoly:
+Ak sa na tento vývoj pozrieme ako na kontinuálnu dátovú líniu, dá sa zhrnúť ako sled prepojených vrstiev: **kartotéka → Micro CDS/ISIS → ISG-CEDVU → Web umenia**. Táto kontinuita je dôležitá najmä preto, že vysvetľuje, prečo bolo možné neskôr publikovať (a postupne rozvíjať) verejné rozhranie bez úplného „reštartu“ evidencie.
 
 ---
 
@@ -330,8 +327,6 @@ Bez tohto „predinternetového“ medzikroku by CEDVU nemal pri spustení k dis
 Týmto sa uzatvára dôležitá časť príbehu: **prvá digitalizácia prebehla ešte pred digitálnymi technológiami v dnešnom zmysle**, v podobe ručne prepisovaných textových polí. A práve táto vrstva umožnila neskorší technologický skok.
 
 ## **3.4.2 ISG-CEDVU: štandardizácia a profesionalizácia (2000s)**
-
-*(prepracovaná verzia bez odrážok, v súvislom texte, s prirodzenejším tónom)*
 
 Po dlhom období analógovej evidencie a prvých elektronických pokusov v systéme Micro CDS/ISIS priniesla prvá dekáda 21. storočia zásadnú zmenu. Slovenská národná galéria začala budovať **ISG-CEDVU**, moderný informačný systém galérií, ktorý mal prvýkrát v histórii umožniť jednotnú, profesionálnu a dlhodobo udržateľnú evidenciu diel výtvarného umenia na národnej úrovni. Hoci legislatívne poverenie existovalo už od 70. rokov, až teraz sa vytvorili technické a organizačné podmienky na to, aby sa evidencia stala skutočnou infraštruktúrou.
 
@@ -412,7 +407,7 @@ Tento paralelizmus nevytváral duplicitu, skôr **viacvrstvové prostredie**, v 
 * štandardizácia vs. flexibilita,
 * plošná reprezentácia vs. kurátorská hĺbka.
 
-Výsledkom bolo, že Web umenia mohol vzniknúť takmer organicky, „odspodu“ — bez prehnaného projektového tlaku, s malým tímom a s možnosťou učiť sa počas procesu. Ako si spomínam zo svojho pôsobenia v SNG, práve táto nízka programová zaviazanosť paradoxne umožnila vysokú kvalitu finálneho výsledku.
+Výsledkom bolo, že Web umenia mohol vzniknúť takmer organicky, „odspodu“ — bez prehnaného projektového tlaku, s malým tímom a s možnosťou učiť sa počas procesu. Z vlastnej skúsenosti z prostredia SNG vnímam, že práve táto nízka programová zaviazanosť (a tým aj priestor na iteráciu) umožnila vyzrieť rozhraniu aj dátovým rozhodnutiam do podoby, ktorá sa v inštitúciách často rodí ťažšie.
 
 ---
 
@@ -420,41 +415,31 @@ Výsledkom bolo, že Web umenia mohol vzniknúť takmer organicky, „odspodu“
 
 ### **3.4.6.1 Prečo in-house?**
 
-Jedna z najpozoruhodnejších čŕt slovenského príbehu je rozhodnutie SNG vytvoriť **vlastný interný tím vývoja**.
+Jednou z dôležitých čŕt slovenského príbehu je rozhodnutie SNG vytvoriť **vlastný interný tím vývoja**.
 Toto riešenie nebolo typické — väčšina galérií v Európe využívala externé dodávateľské firmy.
 
-Dôvody boli tri:
-
-1. **Potrebná blízkosť ku kurátorom**: vývojári museli rozumieť tomu, ako kurátori pracujú, čo hľadajú v dielach, ako uvažujú o kontexte.
-2. **Uchovávanie know-how v inštitúcii**: digitálne projekty nie sú krátkodobé; potrebujú dlhú kontinuitu.
-3. **Inšpirácie zo sveta (Cooper Hewitt Labs, Rijksmuseum, Brooklyn Museum)**: ukazovali, že aj v kultúrnej inštitúcii môže fungovať výskumno-vývojové prostredie.
+Dôvody boli najmä tri: potrebná blízkosť ku kurátorom (aby vývojári rozumeli praxi interpretácie a práce so zbierkami), uchovávanie know-how priamo v inštitúcii (digitálne projekty potrebujú dlhú kontinuitu) a napokon inšpirácie zo sveta (Cooper Hewitt Labs, Rijksmuseum, Brooklyn Museum), ktoré ukazovali, že aj v kultúrnej inštitúcii môže fungovať výskumno‑vývojové prostredie.
 
 ### **3.4.6.2 Prvé experimenty: SoundWalk a mikrostránky**
 
 Vznik lab.SNG nebol administratívnym rozhodnutím, ale **postupným formovaním praxe**.
 Prvým projektom bola mobilná aplikácia SoundWalk pre Kaštieľ Strážky, ktorej produkcia ukázala, ako potrebná je koordinácia kurátorov, pedagogiky, editorov a vývojárov.
 
-Nasledovali „mikrostránky“ pre výstavy — prototypové prostredia, kde sme testovali:
+Nasledovali „mikrostránky“ pre výstavy — prototypové prostredia, kde sme testovali harvesting dát z CEDVU, mapové zobrazenia diel, časové osi, prácu s vysokým rozlíšením aj vyhľadávanie.
 
-* harvesting dát z CEDVU,
-* mapové zobrazenia diel,
-* timeline,
-* prácu s vysokým rozlíšením,
-* vyhľadávanie.
+Vývoj bol iteratívny, experimentálny a často priamo viazaný na konkrétne kurátorské zadania. Ako som postupne zisťoval, tento proces nebol len technologický: **menil spôsob, akým inštitúcia premýšľa o digitálnom obsahu**.
 
-Vývoj bol iteratívny, experimentálny, a často spätý s konkrétnymi kurátorskými zadaniami.
-Ako som postupne zistil, tento proces nebol len technologický: **upravoval spôsob, akým inštitúcia premýšľa o digitálnom obsahu**.
+Osobitnú rolu v tejto fáze zohral prototyp k výstave **Dve krajiny** (`https://dvekrajiny.sng.sk`), ktorý mimochodom dodnes beží ako samostatný web. Vznikol v situácii, keď ešte nebolo samozrejmé, že SNG „má na to“ nahradiť existujúcu verziu Webu umenia vlastným vývojom; prototyp preto slúžil aj ako praktický argument dovnútra inštitúcie. Od začiatku sa vyvíjal s ambíciou, aby sa stal základom budúceho Webu umenia: implementovali sa v ňom kľúčové vlastnosti ako fazetové filtrovanie, kolekcie a katalógové prehliadanie.
+
+Už vtedy sme riešili aj import dát cez OAI‑PMH; interný importér sme volali „**spice harvester**“ (v repozitári je aj obrázok: `https://github.com/SlovakNationalGallery/webumenia.sk/blob/main/public/images/spice_harvester.jpg`). Dôležitejšie než interný názov je fakt, že tým vznikol opakovateľný most medzi evidenciou a verejným rozhraním.
+
+Pri importovaní väčších setov diel prototyp rýchlo narážal na limity výkonu relačnej databázy, najmä pri kombinácii filtrovania a fulltextu. Práve tu sa začal rodiť plán nasadiť **Elasticsearch** ako vyhľadávaciu vrstvu; tejto téme sa vraciam v kapitole 4.
 
 ### **3.4.6.3 Zrodenie novej verzie Web umenia**
 
-Nová verzia Web umenia (spustená v roku 2016) bola výsledkom uvedomenia, že nestačí „zobraziť dáta“. Potrebné bolo:
+Nová verzia Web umenia (spustená v roku 2016) bola výsledkom uvedomenia, že nestačí „zobraziť dáta“. Potrebné bolo prepájať diela do kontextu, pracovať s vizuálnymi vzťahmi, rozprávať kurátorské príbehy a vytvárať používateľsky prívetivé rozhranie.
 
-* prepájať diela do kontextu,
-* pracovať s vizuálnymi vzťahmi,
-* rozprávať kurátorské príbehy,
-* vytvárať používateľsky prívetivé rozhranie.
-
-Web umenia bol — a naďalej je — **laboratórnym projektom**, v ktorom architektúra, dizajn a kurátorstvo spolu vytvárajú nový druh naratívneho priestoru.
+Web umenia bol — a naďalej je — **laboratórnym projektom**, v ktorom architektúra, dizajn a kurátorstvo spolu vytvárajú nový druh naratívneho priestoru. Podrobnejšie sa k tomu vraciam v časti 3.5, kde ťažisko lab.SNG rámujem priamo cez vývoj Webu umenia.
 
 ---
 
@@ -506,7 +491,7 @@ Prvé roky Webu umenia ukázali, že evidencia a prezentácia nie sú dve oddele
 V digitálnej platforme prestáva byť dielo len evidenčným objektom. Stáva sa vstupným bodom, rozhraním, naratívnou jednotkou. Ako ukázala skúsenosť s prvou verziou Webu umenia, už samotná voľba, čo z ISG-CEDVU preniesť na web, vytvára hierarchiu informácií. Ešte výraznejšie sa to prejavilo v momente, keď priebežne pribúdali nové funkcie — detailné zoomy, tematické kolekcie, fulltextové vyhľadávanie, geografické mapy či časová os.
 
 Každé z týchto rozhraní bolo zároveň interpretáciou. Menilo spôsob, akým sa dielo čítalo, aké súvislosti sa stávali viditeľnými a aké úplne mizli.
-V tejto fáze som si začal silnejšie uvedomovať, že platforma nie je „okno“ do databázy, ale autonómny priestor, ktorý produkuje vlastné významy. A že dizajn rozhrania je formou kurátorstva, aj keď sa tvári neutrálne.
+V tejto fáze som si čoraz jasnejšie uvedomoval, že platforma nie je „okno“ do databázy, ale autonómny priestor, ktorý produkuje vlastné významy — a že dizajn rozhrania je formou kurátorstva, aj keď sa navonok tvári neutrálne.
 
 ## **3.5.4 Web umenia ako laboratórium: iterácia, dialóg a vývoj v reálnom čase**
 
@@ -515,6 +500,8 @@ Inšpirácia prichádzala aj zo zahraničia: Cooper Hewitt Labs, tým okolo Seba
 
 To, čo bolo pre lab.SNG špecifické, bola jeho blízkosť ku kurátorom a editorkám. Náš stôl bol fyzicky pár metrov od depozitárov a kancelárií odborných pracovníkov, čo znamenalo, že pri každom rozhodnutí — od zobrazovania techník po tvorbu filtrov — prebiehal dialóg.
 Táto bezprostrednosť sa premietla aj do samotného rozhrania: funkcie Webu umenia nevznikali v izolácii, ale v kontexte výstav, zbierkových revízií, akvizičných debát či spätnej väzby od pedagógov a návštevníkov.
+
+Za dôležitý „dôkazový“ moment vnímam prototyp **Dve krajiny**: bol to konkrétny prípad, kde sa dalo v praxi ukázať, že nová verzia Webu umenia nie je len otázkou grafiky, ale najmä dátovej a interakčnej architektúry (filtrovanie, kolekcie, import, spôsob prehliadania katalógu). Zároveň sa na ňom rýchlo ukázalo, že aj infraštruktúra má svoje limity — a že pri určitej mierke treba uvažovať o vyhľadávacej vrstve ako o samostatnom systéme.
 
 Výsledkom bola postupná transformácia Webu umenia z katalógu na platformu:
 nielen pre prezeranie, ale pre skúmanie, hra­nie, prepájanie a v niektorých prípadoch aj pre rozprávanie (Príbehy umenia).
