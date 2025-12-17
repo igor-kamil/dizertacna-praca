@@ -8,7 +8,7 @@ TARGET_PAGES=60
 CHARS_PER_PAGE=2500
 
 START_DATE="2025-11-19"
-DEADLINE="2026-02-15"
+DEADLINE="2026-01-31"
 
 # -----------------------------
 # Date conversion function
@@ -79,7 +79,7 @@ if [[ -z "$SHOULD_HAVE" ]]; then SHOULD_HAVE=0; fi
 if (( PAGES > SHOULD_HAVE )); then
     STATUS="ON TRACK"
     COLOR="brightgreen"
-elif (( PAGES >= SHOULD_HAVE * 90 / 100 )); then
+elif (( PAGES == SHOULD_HAVE )); then
     STATUS="ON TRACK"
     COLOR="blue"
 else
