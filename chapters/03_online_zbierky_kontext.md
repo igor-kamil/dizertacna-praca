@@ -1,33 +1,33 @@
 # **3.1 Korene a predpoklady digitalizácie**
 
-Digitálna transformácia múzeí a galérií nevznikla ako radikálny zlom, ale ako postupný proces, ktorý nadviazal na dlhodobé tradície evidencie, správy a organizácie zbierok. To, ako dnes vyzerajú online zbierky a ich rozhrania, je významne determinované tým, aké predstavy o diele, údajoch a poriadku sa formovali v analógovej a ranodigitálnej ére. Kapitola preto načrtáva historické a metodologické pozadie, bez ktorého nie je možné porozumieť súčasným limitom ani možnostiam digitálnych zbierok.
+> “Database and narrative are natural enemies.”  
+> — Lev Manovich, *The Language of New Media* [@manovich_language_new_media_2001]
+
+Manovich týmto jednoduchým výrokom pomenúva základné napätie: databázy vedia veci presne triediť a filtrovať, ale samy od seba nevytvárajú súvislý príbeh [@manovich_language_new_media_2001]. Fiona Cameron zas pripomína, že metadáta nie sú „čistý prepis“ objektu – vznikajú cez konkrétne odborné rozhodnutia (čo zapísať, čo vynechať, ako pomenovať) [@cameron_digital_futures_politics_heritage_2007; @cameron_beyond_cult_replicant_2007]. V tejto kapitole preto beriem online zbierky ako výsledok dvoch vecí naraz: historických evidenčných návykov (ako sa diela opisovali) a dizajnových rozhodnutí (ako sa tieto údaje prezentujú ľuďom). Odborná diskusia pritom nie je jednotná: jedna línia pomenúva príčiny problému (napr. Manovich), druhá hľadá praktické dizajnové odpovede – napr. cez „generous interfaces“ [@whitelaw_generous_interfaces_2015] alebo cez prácu s návštevníckou skúsenosťou pri navrhovaní digitálnych/imerzívnych výstav [@popoli_derda_developing_experiences_2021].
+
+Digitálna transformácia múzeí a galérií nevznikla ako radikálny zlom, ale ako postupný proces, ktorý nadviazal na dlhodobé tradície evidencie, správy a organizácie zbierok [@parry_recoding_museum_2007]. To, ako dnes vyzerajú online zbierky a ich rozhrania, je významne determinované tým, aké predstavy o diele, údajoch a poriadku sa formovali v analógovej a ranodigitálnej ére [@hooper_greenhill_shaping_knowledge_1992; @cameron_kenderdine_theorizing_digital_cultural_heritage_2007]. Kapitola preto načrtáva historické a metodologické pozadie, bez ktorého nie je možné porozumieť súčasným limitom ani možnostiam digitálnych zbierok.
 
 ---
 
 ## **3.1.1 Pred-digitálne evidenčné praxe: stabilita, štandardy a obmedzenia**
 
-Tradičné múzeá a galérie pracovali s evidenciou zbierok prostredníctvom stabilných a presne definovaných nástrojov: inventárnych kníh, kartotékových lístkov, depozitárnych protokolov a dokumentačných kariet. Ako uvádzajú **Bahurinská a Bohumelová**, základné kritériá pre vytváranie záznamov o zbierkových predmetoch sa zásadne nemenili celé desaťročia a boli overené dlhodobou praxou.¹ Tieto štandardy boli zámerne faktické a uniformné — ich cieľom bolo zabezpečiť spoľahlivú identifikáciu diela, umožniť vyhľadávanie a podporiť odborný výskum.
+Tradičné múzeá a galérie pracovali s evidenciou zbierok prostredníctvom stabilných a presne definovaných nástrojov: inventárnych kníh, kartotékových lístkov, depozitárnych protokolov a dokumentačných kariet. Ako uvádzajú **Bahurinská a Bohumelová**, základné kritériá pre vytváranie záznamov o zbierkových predmetoch sa zásadne nemenili celé desaťročia a boli overené dlhodobou praxou [@bahurinska_bohumelova_evidence_kapitola_nd]. Tieto štandardy boli zámerne faktické a uniformné — ich cieľom bolo zabezpečiť spoľahlivú identifikáciu diela, umožniť vyhľadávanie a podporiť odborný výskum.
 
 V tejto ére bola evidencia predovšetkým **interným nástrojom**. Slúžila kurátorom, dokumentátorom, archivárom či reštaurátorom, a len okrajovo externým odborníkom. Sprístupnenie širokej verejnosti prakticky nebolo možné.
 Každá zmena v údajoch vyžadovala manuálny zásah a aktualizácie boli časovo náročné. Rovnako prístup k informáciám bol fyzicky limitovaný: kto chcel overiť podrobnosti o predmete, musel fyzicky navštíviť archív alebo kartotéku inštitúcie.
 
-V kontexte Slovenskej národnej galérie má táto história špecifickú podobu. Dokumentácia zbierok sa začína až v 70. rokoch 20. storočia — čo je v porovnaní s inými európskymi inštitúciami relatívne neskoro, no o to presnejšie zdokumentované. Pracovníci SNG v tom čase manuálne zhromažďovali kartičky a čiernobiele fotografie z galérií a múzeí po celom Slovensku, aby ich uložili do **centrálneho kartotékového katalógu**, ktorý bol dlhé roky základnou infraštruktúrou pre odborné rešerše.²
+V kontexte Slovenskej národnej galérie má táto história špecifickú podobu. Dokumentácia zbierok sa začína až v 70. rokoch 20. storočia — čo je v porovnaní s inými európskymi inštitúciami relatívne neskoro, no o to presnejšie zdokumentované. Pracovníci SNG v tom čase manuálne zhromažďovali kartičky a čiernobiele fotografie z galérií a múzeí po celom Slovensku, aby ich uložili do **centrálneho kartotékového katalógu**, ktorý bol dlhé roky základnou infraštruktúrou pre odborné rešerše. *(Doplniť zdroj – interné dokumenty SNG / rozhovor.)*
 
-Pred-digitálne praxe tak formovali nielen technickú stránku evidencie, ale aj **kultúrny model práce s dielom**:
-
-* dielo bolo objektom,
-* informácie o ňom boli uložené v pevne definovaných formátoch,
-* aktualizácia aj interpretácia boli oddelené procesy,
-* a evidencia nebola chápaná ako priestor významotvorby, ale ako nástroj poriadku.
+Pred-digitálne praxe tak formovali nielen technickú stránku evidencie, ale aj **kultúrny model práce s dielom**. Dielo sa v nej spravidla chápalo ako stabilný objekt a informácie o ňom ako súbor faktov uložených v pevne definovaných formátoch. Aktualizácia údajov a interpretácia (t. j. „čo to znamená“) boli v praxi oddelené – evidencia mala primárne udržiavať poriadok a umožniť identifikáciu, nie vytvárať významy. Tento spôsob uvažovania zodpovedá širšiemu poznatku, že múzeá nevytvárajú len zbierky, ale aj systémy kategórií a poznania, cez ktoré sa objekty stávajú čitateľnými [@hooper_greenhill_shaping_knowledge_1992].
 
 ---
 
 ## **3.1.2 Prechod k databázam: formovanie dátovej ontológie**
 
-S nástupom výpočtovej techniky v 80. a 90. rokoch sa analógová evidencia začala transformovať do elektronickej podoby. V slovenskom kontexte ide najmä o konverziu dokumentačných kariet do systému **micro CDS/ISIS**, ktorá si vyžadovala rozsiahle zjednotenie údajov a vytvorenie novej formalizovanej štruktúry.³
+S nástupom výpočtovej techniky v 80. a 90. rokoch sa analógová evidencia začala transformovať do elektronickej podoby. V slovenskom kontexte ide najmä o konverziu dokumentačných kariet do systému **micro CDS/ISIS**, ktorá si vyžadovala rozsiahle zjednotenie údajov a vytvorenie novej formalizovanej štruktúry [@unesco_micro_cds_isis_1990s].
 
 Tento prepis bol viac než mechanická digitalizácia. Znamenal prechod k **dátovej ontológii** — súboru kategórií, polí a pravidiel, ktoré definujú, čo je možné o diele zaznamenať.
-V priebehu týchto rokov vznikla príručka **Pravidlá katalogizácie umeleckých diel**, ktorá bola navrhnutá pre potreby CEDVU a reflektovala odporúčania CIDOC–ICOM.⁴
+V priebehu týchto rokov vznikla príručka **Pravidlá katalogizácie umeleckých diel**, ktorá bola navrhnutá pre potreby CEDVU a reflektovala odporúčania CIDOC–ICOM [@sng_pravidla_katalogizacie_umeleckych_diel_nd].
 Neskôr bola táto štruktúra doplnená o legislatívny rámec vo forme **Vyhlášky č. 523/2009 Z. z.**, ktorá presne definuje povinné atribúty pri evidencii diel.
 
 Dátová ontológia má vplyv, ktorý presahuje čisto technickú rovinu:
@@ -43,8 +43,11 @@ Parametre, ktoré dnes určujú možnosti vyhľadávania, facetingu či vizualiz
 
 ## **3.1.3 Teoretické rámce: múzeum ako informačný a dátový systém**
 
-V rovnakom období, v ktorom sa digitalizuje evidencia, sa začína meniť aj teoretické chápanie múzea. Výskum v oblasti múzejnej informatiky (napr. A. Cameron, F. MacDonald) posúva dôraz od fyzického objektu k systému, ktorý ho eviduje, spravuje a reprezentuje.
-Múzeum sa prestáva chápať ako súbor artefaktov a začína byť čítané ako **informačný systém**, ktorého základom je tok dát.
+V rovnakom období, v ktorom sa digitalizuje evidencia, sa začína meniť aj teoretické chápanie múzea. V diskusiách o digitálnom kultúrnom dedičstve sa pozornosť postupne presúva od „samotného objektu“ k tomu, **v akom systéme informácií objekt existuje** – ako je opísaný, prepojený, sprístupnený a znovu použitý [@cameron_kenderdine_theorizing_digital_cultural_heritage_2007]. Podobný posun – ešte pred masovým internetom – pomenovali aj George F. MacDonald a Stephen Alsford, keď navrhli chápať múzeum ako informačnú službu pre spoločnosť, nielen ako sklad artefaktov:
+
+> “Today there is a growing appreciation in the museum world that museums do not exist primarily to service their collections of material heritage, but rather to serve society by helping provide the knowledge its members need to survive and progress.” [@macdonald_alsford_museum_information_utility_1991, p. 305]
+
+Múzeum sa tak prestáva chápať len ako súbor artefaktov a začína byť čítané ako **informačný systém**, ktorého základom je tok dát – a teda aj rozhodnutia o tom, čo sa eviduje, ako sa to pomenúva a akými cestami sa k tomu vie dostať používateľ.
 
 Kľúčovým mediamickým rámcom je v tomto kontexte aj Lev Manovich a jeho téza o databáze ako kultúrnej forme. Databáza nahrádza naratív tým, že usporadúva objekty podľa atribútov, nie podľa významových súvislostí. Tento posun je pre múzejný sektor obzvlášť relevantný:
 múzeá tradične pracovali s príbehom, kontextom a interpretáciou; databázy pracujú s položkami, kategóriami a filtrami.
@@ -71,10 +74,10 @@ Ak je databáza dostupná verejne, každý technický prvok – názvy polí, sp
 V tomto zmysle sa dizajnér dátovej infraštruktúry stáva **tichým spoluautorom naratívu zbierky**.
 Technické rozhodnutia určujú, ktoré vzťahy medzi dielami je možné objaviť, ako sú objekty prepojené a čo systém považuje za relevantnú alebo nerozhodujúcu informáciu.
 
-Na túto dimenziu upozorňuje aj Fiona Cameron, ktorá opisuje digitálne metadáta a evidenčné štruktúry ako mediated knowledge – sprostredkovanú, inštitucionálne formovanú podobu poznania. Podľa Cameron digitálne popisy nevznikajú ako transparentný prepis objektu, ale ako výsledok sérií rozhodnutí, ktoré stabilizujú určité významy a zároveň vylučujú iné ⁵
+Na túto dimenziu upozorňuje aj Fiona Cameron, ktorá opisuje digitálne metadáta a evidenčné štruktúry ako mediated knowledge – sprostredkovanú, inštitucionálne formovanú podobu poznania. Podľa Cameron digitálne popisy nevznikajú ako transparentný prepis objektu, ale ako výsledok sérií rozhodnutí, ktoré stabilizujú určité významy a zároveň vylučujú iné [@cameron_beyond_cult_replicant_2007].
 Každé doplnenie, úprava alebo preusporiadanie metadát tak mení rámec, v ktorom bude dielo neskôr čítané odborníkmi, výskumníkmi či verejnosťou. Evidencia v tomto zmysle nie je len technickým úkonom, ale významotvorným aktom, ktorý zásadne formuje podobu kultúrneho dedičstva.
 
-Toto rozšírenie rolí zásadným spôsobom ovplyvňuje aj vývoj digitálnych platforiem, ktoré neskôr vznikajú (vrátane Web umenia). Digitálne zbierky nie sú „produkty“ kurátorov, ale výsledok spolupráce profesií, ktoré majú rozdielne zručnosti, perspektívy a priority. Porozumenie týmto vztahom je dôležité najmä preto, že technické rozhodnutia sa v online prostredí okamžite stávajú súčasťou verejného rozhrania – a tým aj súčasťou príbehu, ktorý zbierka rozpráva.
+Toto rozšírenie rolí zásadným spôsobom ovplyvňuje aj vývoj digitálnych platforiem, ktoré neskôr vznikajú (vrátane Web umenia). Digitálne zbierky nie sú „produkty“ kurátorov, ale výsledok spolupráce profesií, ktoré majú rozdielne zručnosti, perspektívy a priority. Porozumenie týmto vzťahom je dôležité najmä preto, že technické rozhodnutia sa v online prostredí okamžite stávajú súčasťou verejného rozhrania – a tým aj súčasťou príbehu, ktorý zbierka rozpráva.
 
 ---
 
@@ -105,9 +108,9 @@ Digitalizácia zbierok v 90. rokoch a prvej dekáde 21. storočia vznikala v pro
 
 Europeana nevznikla ako technický experiment, ale ako výsledok kultúrnej politiky Európskej únie.
 Jej vznik nadväzuje na projekty **MINERVA**, **MICHAEL** a koordináciu zdigitalizovaného dedičstva v rámci CENL (Conference of European National Librarians).
-Ako uvádza Jill Cousins, prvá výkonná riaditeľka Europeany, cieľom nebolo vytvoriť nový portál, ale *„spôsob, akým môžu zdroje voľne cestovať medzi inštitúciami a krajinami“* (Cousins, 2009).
+Ako uvádza Jill Cousins, prvá výkonná riaditeľka Europeany, cieľom nebolo vytvoriť nový portál, ale *„spôsob, akým môžu zdroje voľne cestovať medzi inštitúciami a krajinami“* [@cousins_europeana_2009].
 
-Kľúčovým krokom bol vznik **Europeana Data Model (EDM)**, ktorý zaviedol koncept *agregácie* a *prepojených dát* (Gradmann, 2011). EDM umožňuje, aby múzejné, galerijné a archívne objekty existovali v jednom modeli bez straty vlastnej identity — čo bol zásadný rozdiel oproti skorším rámcom, ktoré nútili dáta do jednej štruktúry.
+Kľúčovým krokom bol vznik **Europeana Data Model (EDM)**, ktorý zaviedol koncept *agregácie* a *prepojených dát* [@gradmann_edm_2011]. EDM umožňuje, aby múzejné, galerijné a archívne objekty existovali v jednom modeli bez straty vlastnej identity — čo bol zásadný rozdiel oproti skorším rámcom, ktoré nútili dáta do jednej štruktúry.
 
 Europeana tak vytvorila:
 
@@ -115,7 +118,7 @@ Europeana tak vytvorila:
 * rámec pre automatizované harvestovanie cez OAI-PMH,
 * politický argument pre sprístupňovanie kultúrnych zdrojov.
 
-Od prvej verzie portálu (2008) sa Europeana vyvinula z prezentačného webu na **dátovú infraštruktúru**, ktorá definuje technickú interoperabilitu naprieč Európou (Terras, 2015).
+Od prvej verzie portálu (2008) sa Europeana vyvinula z prezentačného webu na **dátovú infraštruktúru**, ktorá definuje technickú interoperabilitu naprieč Európou [@terras_europeana_2015].
 
 ---
 
@@ -126,19 +129,19 @@ Tri štandardy mali zásadný význam:
 
 ### **LIDO (Lightweight Information Describing Objects)**
 
-Vznikol pod CIDOC ICOM a publikoval ho G. Coburn a kol. v roku 2010.
+Vznikol pod CIDOC ICOM a publikoval ho G. Coburn a kol.
 LIDO je určený pre múzejné objekty a dodnes sa používa ako štandard pre export dát do Europeany a národných agregátorov.
 
-Výhoda LIDO spočíva v jeho komplexnosti; slabina v jeho abstrakcii. Ako uvádza Coburn (2010), LIDO je kompromis medzi „interpretatívnymi“ a „transakčnými“ potrebami múzeí.
+Výhoda LIDO spočíva v jeho komplexnosti; slabina v jeho abstrakcii. Ako uvádza Coburn, LIDO je kompromis medzi „interpretatívnymi“ a „transakčnými“ potrebami múzeí [@coburn_lido_2010].
 
 ### **Dublin Core (DCMI, 1995–)**
 
-Dublin Core bol pôvodne navrhnutý ako *„základný popisný systém pre heterogénne digitálne zdroje“* (Weibel et al., 1998).
+Dublin Core bol pôvodne navrhnutý ako *„základný popisný systém pre heterogénne digitálne zdroje“* [@weibel_dc_1998].
 V múzejnom prostredí fungoval najmä ako „najnižší spoločný menovateľ“, ktorý umožnil jednoduché harvestovanie, ale redukoval bohaté múzejné metadáta na niekoľko všeobecných polí.
 
 ### **OAI-PMH (Open Archives Initiative, 2001)**
 
-Ako uvádzajú Van de Sompel a Lagoze (2002), OAI-PMH bol navrhnutý pre akademické repozitáre, no rýchlo sa stal základom pre Europeanu aj národné digitálne knižnice.
+Ako uvádzajú Van de Sompel a Lagoze, OAI-PMH bol navrhnutý pre akademické repozitáre, no rýchlo sa stal základom pre Europeanu aj národné digitálne knižnice [@vandesompel_lagoze_oai_pmh_2002].
 Bez neho by agregácia v rozsahu miliónov objektov nebola možná.
 
 ---
@@ -147,7 +150,7 @@ Bez neho by agregácia v rozsahu miliónov objektov nebola možná.
 
 Repozitáre predstavovali kľúčový technologický krok medzi „internou databázou“ a „otvorenou digitálnou zbierkou“.
 
-**Fedora Commons** (Lagoze et al., 2006) zaviedla:
+**Fedora Commons** zaviedla [@lagoze_fedora_2006]:
 
 * koncept *komplexného digitálneho objektu*
 * striktné oddeľovanie dát a aplikácie (model vs. prezentačná vrstva)
@@ -155,10 +158,10 @@ Repozitáre predstavovali kľúčový technologický krok medzi „internou data
 
 Fedora bola pôvodne určená pre akademické knižnice, no ukázalo sa, že jej model výborne sedí aj múzejným potrebám — najmä tam, kde je dôležitá trvácnosť a uchovateľnosť dát.
 
-**DSpace** (Smith et al., 2003) ponúkal jednoduchší, viac „knižnično-orientovaný“ model a stal sa najrozšírenejším open-source repozitárom pre univerzity.
+**DSpace** ponúkal jednoduchší, viac „knižnično-orientovaný“ model a stal sa najrozšírenejším open-source repozitárom pre univerzity [@smith_dspace_2003].
 Mnohé múzeá prebrali tieto technológie práve preto, že existovali ako stabilné, komunitou spravované riešenia.
 
-Ako upozorňuje Seamus Ross (2012), kľúčovým problémom týchto systémov bolo to, že **neboli navrhnuté pre umelecké diela**, takže múzeá museli prispôsobiť svoju evidenciu technologickým možnostiam — nie naopak.
+Ako upozorňuje Seamus Ross, kľúčovým problémom týchto systémov bolo to, že **neboli navrhnuté pre umelecké diela**, takže múzeá museli prispôsobiť svoju evidenciu technologickým možnostiam — nie naopak [@ross_digital_preservation_2012].
 
 ---
 
@@ -172,7 +175,7 @@ Authority files vznikli v kontexte snahy o normalizáciu názvov a identít v m�
 
 Ich úlohou je riešiť problém variantných zápisov a poskytnúť stabilné identifikátory pre osoby, miesta, témy a koncepty.
 
-Ako upozorňuje Baca (2016), authority files nie sú len technické riešenia: definujú, *čo je uznané, pomenovateľné a prepojiteľné* v kultúrnom systéme.
+Ako upozorňuje Baca, authority files nie sú len technické riešenia: definujú, *čo je uznané, pomenovateľné a prepojiteľné* v kultúrnom systéme [@baca_introduction_to_metadata_2016].
 
 V kontexte múzejných zbierok authority files určujú:
 
@@ -187,11 +190,11 @@ V kontexte múzejných zbierok authority files určujú:
 
 Od roku 2010 sa digitalizácia presunula od „zverejnenia“ smerom k otvorenosti.
 
-Beckett a Terras (2014) opisujú, ako hnutie **OpenGLAM** spojilo technologické inovácie s agendou kultúrnej spoločenskej zodpovednosti.
+Beckett a Terras opisujú, ako hnutie **OpenGLAM** spojilo technologické inovácie s agendou kultúrnej spoločenskej zodpovednosti [@beckett_terras_openglam_2014].
 Licencie **Creative Commons** a **RightsStatements.org** umožnili múzeám transparentne komunikovať podmienky použitia reprodukcií.
 
 Najzásadnejší posun však priniesli **API** — aplikačné rozhrania, ktoré umožnili, aby sa zbierka stala platformou.
-Ako uvádza Chan (2015), API v Cooper Hewitt Museum zmenilo spôsob, akým môže verejnosť a vývojári pracovať s dátami: od jednoduchého prezerania k experimentu, vizualizácii a tvorke nových aplikácií.
+Ako uvádza Chan, API v Cooper Hewitt Museum zmenilo spôsob, akým môže verejnosť a vývojári pracovať s dátami: od jednoduchého prezerania k experimentu, vizualizácii a tvorbe nových aplikácií [@chan_api_2015].
 
 API predstavuje okamih, keď:
 
@@ -210,10 +213,10 @@ Digitálne zbierky sa v posledných dvoch dekádach formovali v rôznych geograf
 
 ## **3.3.1 Rijksmuseum: otvorenie zbierky ako verejnej služby**
 
-Rijksmuseum bolo jednou z prvých európskych inštitúcií, ktoré spojili digitalizáciu s princípmi otvorených kultúrnych dát. V roku 2012 sprístupnilo tisíce diel vo verejnej doméne vrátane vysokokvalitných reprodukcií, čo odborná literatúra označuje za prelomový moment v európskom kontexte (Kapsalis, 2016). Otvorenie dát nebolo chápané ako rezignácia na kontrolu nad obsahom, ale ako rozšírenie verejnej služby — gesto umožňujúce, aby diela žili v nových kultúrnych prostrediach.
+Rijksmuseum bolo jednou z prvých európskych inštitúcií, ktoré spojili digitalizáciu s princípmi otvorených kultúrnych dát. V roku 2012 sprístupnilo tisíce diel vo verejnej doméne vrátane vysokokvalitných reprodukcií, čo odborná literatúra označuje za prelomový moment v európskom kontexte [@kapsalis_openglam_principles_2016]. Otvorenie dát nebolo chápané ako rezignácia na kontrolu nad obsahom, ale ako rozšírenie verejnej služby — gesto umožňujúce, aby diela žili v nových kultúrnych prostrediach.
 
 Spustením služby **Rijksstudio** sa zároveň etabloval nový spôsob práce s reprodukciami.
-Rijksstudio umožnilo používateľom vytvárať vlastné kolekcie, výrezy a vizuálne interpretácie diel; neskôr bolo ocenené aj v dizajnérskych kruhoch za inovácie v oblasti používateľskej skúsenosti. Ako uvádza van der Zee (2013), tento projekt ukázal, že muzeálne dáta sa môžu stať „materiálom pre vizuálnu tvorivosť“.
+Rijksstudio umožnilo používateľom vytvárať vlastné kolekcie, výrezy a vizuálne interpretácie diel; neskôr bolo ocenené aj v dizajnérskych kruhoch za inovácie v oblasti používateľskej skúsenosti. Ako uvádza van der Zee, tento projekt ukázal, že muzeálne dáta sa môžu stať „materiálom pre vizuálnu tvorivosť“ [@van_der_zee_rijksstudio_2013].
 
 Rijksstudio zároveň potvrdilo, že **vysoké rozlíšenie nie je len technický benefit**, ale aj kurátorská voľba, ktorá umožňuje detailnú prácu s obrazom a podporuje interpretáciu prostredníctvom vizuálnej blízkosti. Rijksmuseum tu vytvorilo model, ktorý neskôr ovplyvnil aj inštitúcie mimo Európy.
 
@@ -221,13 +224,13 @@ Rijksstudio zároveň potvrdilo, že **vysoké rozlíšenie nie je len technick�
 
 ## **3.3.2 Cooper Hewitt Labs: rozhranie ako výskum**
 
-Cooper Hewitt, Smithsonian Design Museum, predstavuje v digitálnej transformácii múzeí jeden z najvýraznejších prístupov. Pod vedením Seba Chana a Aarona Copeho vzniklo v rokoch 2011–2015 interné laboratórium Cooper Hewitt Labs, ktoré spojilo kurátorský diskurz so softvérovým vývojom. Chan (2015) opisuje tento model ako „R&D v múzejnom kontexte“ — výskum založený na neustálej iterácii.
+Cooper Hewitt, Smithsonian Design Museum, predstavuje v digitálnej transformácii múzeí jeden z najvýraznejších prístupov. Pod vedením Seba Chana a Aarona Copeho vzniklo v rokoch 2011–2015 interné laboratórium Cooper Hewitt Labs, ktoré spojilo kurátorský diskurz so softvérovým vývojom. Chan opisuje tento model ako „R&D v múzejnom kontexte“ — výskum založený na neustálej iterácii [@chan_api_2015].
 
-Zásadným výsledkom bol **Object API**, ktoré poskytlo prístup ku kompletnej zbierke ako k modifikovateľnej dátovej vrstve. V literatúre sa často zdôrazňuje, že Cooper Hewitt bolo prvým múzeom, kde webová stránka nebola primárnym rozhraním, ale „jednou z mnohých aplikácií nad API“ (Cope, 2014). Tento API-centrický prístup umožnil experimentovať s alternatívnymi spôsobmi prehliadania zbierky.
+Zásadným výsledkom bol **Object API**, ktoré poskytlo prístup ku kompletnej zbierke ako k modifikovateľnej dátovej vrstve. V literatúre sa často zdôrazňuje, že Cooper Hewitt bolo prvým múzeom, kde webová stránka nebola primárnym rozhraním, ale „jednou z mnohých aplikácií nad API“ [@cope_everything_miscellaneous_2014]. Tento API-centrický prístup umožnil experimentovať s alternatívnymi spôsobmi prehliadania zbierky.
 
-Tím labu vytvoril aj sériu experimentálnych rozhraní: medzi najznámejšie patrí **Color Browser**, ktorý prehliada zbierku na základe dominantných farieb. Chan a kolegovia opisujú, že ich cieľom bolo „umožniť používateľovi stretnúť objekty cez vizuálne kvality, nie cez taxonomické kategórie“ (Chan, 2015). Z hľadiska naratívnosti je to dôležitý moment: rozhranie môže vytvoriť „cesty“ medzi objektmi, ktoré v tradičnej katalogizácii neexistujú.
+Tím labu vytvoril aj sériu experimentálnych rozhraní: medzi najznámejšie patrí **Color Browser**, ktorý prehliada zbierku na základe dominantných farieb. Chan a kolegovia opisujú, že ich cieľom bolo „umožniť používateľovi stretnúť objekty cez vizuálne kvality, nie cez taxonomické kategórie“ [@chan_api_2015]. Z hľadiska naratívnosti je to dôležitý moment: rozhranie môže vytvoriť „cesty“ medzi objektmi, ktoré v tradičnej katalogizácii neexistujú.
 
-V roku 2014 predstavilo múzeum **The Pen** — zariadenie, ktoré umožňovalo návštevníkom zbierať digitálne reprodukcie objektov počas prehliadky výstavy. Ako opisuje Cope (2015), The Pen bolo navrhnuté tak, aby prepájalo fyzickú skúsenosť s digitálnou vrstvou. Ide o príklad, ktorý ukazuje, že digitálne kurátorstvo môže zasahovať do všetkých fáz návštevníckej cesty — nielen do webového prostredia.
+V roku 2014 predstavilo múzeum **The Pen** — zariadenie, ktoré umožňovalo návštevníkom zbierať digitálne reprodukcie objektov počas prehliadky výstavy. Ako opisuje Cope, The Pen bolo navrhnuté tak, aby prepájalo fyzickú skúsenosť s digitálnou vrstvou [@cope_pen_2015]. Ide o príklad, ktorý ukazuje, že digitálne kurátorstvo môže zasahovať do všetkých fáz návštevníckej cesty — nielen do webového prostredia.
 
 Dôležitým prvkom praxe Cooper Hewitt Labs bola aj digitálna transparentnosť.
 Všetky rozhodnutia, kódy, dátové modely aj vizualizácie boli publikované na GitHube. Tento krok umožnil, aby sa laboratórna práca stala predmetom akademického aj odborného skúmania, čo prispelo k širšej diskusii o tom, ako digitálne múzeá môžu myslieť s technológiami.
@@ -236,7 +239,7 @@ Všetky rozhodnutia, kódy, dátové modely aj vizualizácie boli publikované n
 
 ## **3.3.3 Science Museum Group: viditeľnosť ako kurátorská otázka**
 
-Science Museum Group upozornilo na dôležitý aspekt digitálnych zbierok — na nerovnomernú viditeľnosť objektov. Experiment **Never Been Seen** bol prezentovaný ako pokus narušiť hierarchiu pozornosti, ktorá vzniká nielen vo fyzickom múzeu, ale aj v metadátach a v online katalógových systémoch. Ako uvádzajú autori projektu (Science Museum Group, 2020), digitalizácia často reprodukuje výberové mechanizmy tradičného kurátorstva: ikonické objekty sa zverejňujú ako prvé, zatiaľ čo menej známe ostávajú nezdigitalizované alebo neviditeľné.
+Science Museum Group upozornilo na dôležitý aspekt digitálnych zbierok — na nerovnomernú viditeľnosť objektov. Experiment **Never Been Seen** bol prezentovaný ako pokus narušiť hierarchiu pozornosti, ktorá vzniká nielen vo fyzickom múzeu, ale aj v metadátach a v online katalógových systémoch. Ako uvádzajú autori projektu, digitalizácia často reprodukuje výberové mechanizmy tradičného kurátorstva: ikonické objekty sa zverejňujú ako prvé, zatiaľ čo menej známe ostávajú nezdigitalizované alebo neviditeľné [@science_museum_group_never_been_seen_2020].
 
 Tento experiment otvoril dôležitú otázku:
 **ako formuje poradie digitalizácie a kvalita metadát naratív zbierky?**
@@ -247,7 +250,7 @@ V kontexte tejto práce je to zásadný moment — naratív nie je daný len tý
 
 ## **3.3.4 ACMI: kurátorstvo, technológia a návštevnícka skúsenosť**
 
-Australian Centre for the Moving Image (ACMI) rozvinulo v posledných rokoch model, ktorý stiera hranicu medzi fyzickým a digitálnym priestorom múzea. Ako opisuje Chan (2020), ACMI pracuje s princípom „visitor-centred design“, čo znamená, že kurátorská práca zahŕňa aj návrh digitálnej infraštruktúry, nástrojov a interakcií.
+Australian Centre for the Moving Image (ACMI) rozvinulo v posledných rokoch model, ktorý stiera hranicu medzi fyzickým a digitálnym priestorom múzea. Ako opisuje Chan, ACMI pracuje s princípom „visitor-centred design“, čo znamená, že kurátorská práca zahŕňa aj návrh digitálnej infraštruktúry, nástrojov a interakcií [@chan_acmi_renewal_lens_2020].
 
 Jedným z nosných prvkov je zariadenie **The Lens**, ktoré umožňuje návštevníkovi vytvárať personalizované digitálne zbierky objektov pri pohybe vo výstavnom priestore a neskôr ich doma ďalej skúmať. Tento model posúva ťažisko z objektu na používateľský zážitok a rozvíja myšlienku, že digitálna zbierka môže predstavovať pokračovanie výstavy v osobnom digitálnom priestore.
 
@@ -258,7 +261,7 @@ ACMI tak ponúka dôležitý kontrast k tradičnej predstave centrálneho katal�
 ## **3.3.5 Otvorené vývojové prístupy v Tate, MoMA a ďalších inštitúciách**
 
 Viaceré inštitúcie — Tate, MoMA, Walker Art Center, či The Getty — pracujú systematicky s otvoreným publikovaním kódu, dátových modelov a dokumentácie.
-MoMA sprístupňuje svoje dátové sady a schémy na GitHube (MoMA, 2015), Tate zverejňuje podrobné metodiky digitalizácie a workflowy výstavných projektov (Tate Digital, 2017) a Walker Art Center vyvíjal open-source publikačné platformy, ktoré ovplyvnili celý múzejno-publikačný ekosystém.
+MoMA sprístupňuje svoje dátové sady a schémy na GitHube [@moma_github_data_project_2015], Tate zverejňuje podrobné metodiky digitalizácie a workflowy výstavných projektov [@tate_digital_transformation_reports_2017] a Walker Art Center vyvíjal open-source publikačné platformy, ktoré ovplyvnili celý múzejno-publikačný ekosystém [@walker_open_source_publishing_2008_2015].
 
 Tieto prístupy ukazujú, že digitálne kurátorstvo nie je iba otázkou výsledného webu, ale aj transparentnosti procesov, ktoré k nemu vedú. Jadrom týchto iniciatív je vedomie, že technická infraštruktúra je súčasťou kultúrneho dedičstva, nie len jeho servisnou vrstvou.
 
@@ -354,7 +357,7 @@ Nebolo to výsledkom strategického plánovania, ale prirodzený dôsledok každ
 ### **Dualita, ktorá pretrvala**
 
 Aj po zavedení ISG-CEDVU ostala analógová kartotéka zachovaná ako oficiálny výstup evidencie – nie z nostalgie, ale z legislatívnej povinnosti a potreby trvalého záznamu. Nové kartičky sa tlačia priamo z dát uložených v ISG-CEDVU.
-V praxi tak vznikol neobvyklý stav: **analogová a digitálna evidencia existujú paralelne**. Staršie kartičky sú svedectvom o vývoji popisu diel v 70. a 80. rokoch, novšie predstavujú presnú tlačovú verziu súčasnej databázy. Tento súbeh dvoch médií umožňuje pozorovať kontinuitu aj diskontinuity v uvažovaní o dielach – od ručne písaných lístkov až po digitálne autority.
+V praxi tak vznikol neobvyklý stav: **analógová a digitálna evidencia existujú paralelne**. Staršie kartičky sú svedectvom o vývoji popisu diel v 70. a 80. rokoch, novšie predstavujú presnú tlačovú verziu súčasnej databázy. Tento súbeh dvoch médií umožňuje pozorovať kontinuitu aj diskontinuity v uvažovaní o dielach – od ručne písaných lístkov až po digitálne autority.
 
 ### **Poznámka k histórii CEDVU**
 
@@ -618,40 +621,8 @@ A napokon: ako môže múzeum sprostredkovať digitálny príbeh, ktorý nie je 
 
 ---
 
-### **Použitá literatúra **
+### **Použitá literatúra**
 
-1. Bahurinská, Jana; Bohumelová, Mária. Kapitola o evidencii a katalogizácii zbierkových predmetov. In: *Rituál múzea v digitálnom veku* (resp. interné materiály SNG – doplniť presnú publikáciu).
-2. *Pravidlá katalogizácie umeleckých diel.* Slovenská národná galéria, kolektív autorov.
-3. Vyhláška č. 523/2009 Z. z. o podrobnostiach o základných odborných činnostiach v múzeu a galérii.
-4. UNESCO. *Micro CDS/ISIS – Documentation.* UNESCO, 1990s.
-5. Cameron, Fiona. “Digital Futures and the Politics of Heritage.” In: Cameron, F.; Kenderdine, S. (eds.). *Theorizing Digital Cultural Heritage.* MIT Press, 2007.
-6. Cameron, Fiona. “Beyond the Cult of the Replicant: Museums and the Digital.” In: Knell, S. et al. (eds.). *Museum Revolutions.* Routledge, 2007.
-7. Manovich, Lev. *The Language of New Media.* MIT Press, 2001.
-8. Parry, Ross. *Recoding the Museum: Digital Heritage and the Technologies of Change.* Routledge, 2007.
-9. Hooper-Greenhill, Eilean. *Museums and the Shaping of Knowledge.* Routledge, 1992.
-10. Cousins, Jill. “Europeana: Think Culture.” *Europeana White Papers*, 2009.
-11. Gradmann, Stefan. “Knowledge = Information in Context: On the Importance of Semantic Contextualisation in Europeana.” *Library Hi Tech*, 2011.
-12. Terras, Melissa. “Digitization and Digital Resources in Europeana.” In: Schreibman, S.; Siemens, R. (eds.). *A New Companion to Digital Humanities.* Wiley-Blackwell, 2015.
-13. Coburn, Erin et al. *LIDO – Lightweight Information Describing Objects.* CIDOC ICOM, 2010.
-14. Weibel, Stuart et al. “The Dublin Core Metadata Element Set.” *D-Lib Magazine*, 1998.
-15. Lagoze, Carl; Van de Sompel, Herbert. “The Open Archives Initiative: Building a Low-Barrier Interoperability Framework.” *JCDL Proceedings*, 2001.
-16. Lagoze, Carl et al. “Fedora and the Architecture of Complex Objects.” *International Journal on Digital Libraries*, 2006.
-17. Smith, MacKenzie et al. “DSpace: An Open Source Dynamic Digital Repository.” *D-Lib Magazine*, 2003.
-18. Baca, Murtha (ed.). *Introduction to Metadata.* Getty Publications, 2016.
-19. Getty Research Institute. *Art & Architecture Thesaurus (AAT); Union List of Artist Names (ULAN).*
-20. OCLC. *Virtual International Authority File (VIAF).*
-21. Kapsalis, Effie. “The OpenGLAM Principles and the Cultural Commons.” Smithsonian Institution, 2016.
-22. van der Zee, Egbert. “Rijksstudio: Make Your Own Masterpiece.” Rijksmuseum, 2013.
-23. Chan, Seb. “The API at Cooper Hewitt.” Cooper Hewitt Labs Blog, 2015.
-24. Chan, Seb. “The Pen: Designing a Visitor Tool for a Hybrid Museum Experience.” Cooper Hewitt, 2015.
-25. Cope, Aaron. “Everything is Miscellaneous, and Everything is a Museum Object.” Cooper Hewitt Labs Blog, 2014.
-26. Science Museum Group. “Never Been Seen.” Science Museum Blog, 2020.
-27. Chan, Seb. “ACMI’s Renewal: Designing the Lens.” ACMI, 2020.
-28. MoMA. *MoMA GitHub Data Project.* MoMA, 2015.
-29. Tate Digital. *Digital Transformation Strategy Reports.* Tate, 2017.
-30. Walker Art Center. *Open Source Publishing and Digital Projects.* Walker, 2008–2015.
-31. Drucker, Johanna. *Graphesis: Visual Forms of Knowledge Production.* Harvard University Press, 2014.
-32. Whitelaw, Mitchell. “Generous Interfaces for Digital Cultural Collections.” *Digital Humanities Quarterly*, 2015.
-33. Berry, David; Fagerjord, Anders. *Digital Humanities: Knowledge and Critique in a Digital Age.* Polity Press, 2017.
-34. Manovich, Lev. *Software Takes Command.* Bloomsbury Academic, 2013.
+::: {#refs}
+:::
 

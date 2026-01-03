@@ -33,6 +33,9 @@ printf "%s\n" "${chapters[@]}" | xargs cat > "${merged_md}"
 extra_opts=()
 if [[ "${ENABLE_BIB:-0}" == "1" && -f "${root_dir}/references.bib" ]]; then
   extra_opts+=(--citeproc --bibliography="${root_dir}/references.bib")
+  if [[ -f "${root_dir}/style.csl" ]]; then
+    extra_opts+=(--csl="${root_dir}/style.csl")
+  fi
 fi
 
 pandoc "${merged_md}" \
