@@ -196,14 +196,17 @@ V kontexte múzejných zbierok authority files určujú:
 
 ## **3.2.5 Otvorené dáta a API: posun k platformovému mysleniu**
 
-Od roku 2010 sa digitalizácia presunula od „zverejnenia“ smerom k otvorenosti.
+Po roku 2010 sa v oblasti digitalizácie kultúrneho dedičstva začína presadzovať posun, ktorý presahuje samotné „zverejňovanie“ digitálnych reprodukcií. Do popredia sa dostáva otázka **podmienok použitia, znovupoužiteľnosti a technickej prístupnosti dát**. Digitalizácia sa tak postupne mení z publikačnej aktivity na infraštruktúrnu – nejde už len o to, *čo* je online, ale *ako* s tým možno ďalej pracovať.
 
-Beckett a Terras opisujú, ako hnutie **OpenGLAM** spojilo technologické inovácie s agendou kultúrnej spoločenskej zodpovednosti [@beckett_terras_openglam_2014].
-Licencie **Creative Commons** a **RightsStatements.org** umožnili múzeám transparentne komunikovať podmienky použitia reprodukcií.
+Tento posun je úzko spätý so vznikom a šírením iniciatívy **OpenGLAM** [@openglam_principles_2018], ktorá prepája technologické nástroje s normatívnym rámcom otvoreného prístupu ku kultúrnemu dedičstvu. Ako ukazujú Valeonti, Terras a Hudson-Smith, OpenGLAM sa neformoval ako jednotný model, ale ako **postupne sa rozširujúce hnutie**, v ktorom jednotlivé múzeá, galérie, knižnice a archívy pristupovali k otvorenosti rôznou mierou a rôznym tempom [valeonti_how_open_openglam_2019]. Autori zároveň upozorňujú, že otvorenosť nie je binárna vlastnosť, ale spektrum rozhodnutí – od opatrného sprístupnenia náhľadov až po plnohodnotné otvorenie vysokokvalitných dát a reprodukcií.
 
-Z praxe lab.SNG však viem, že „otvorenosť“ nie je len technické rozhodnutie, ale aj právno‑komunikačná disciplína. Keď sme na Webe umenia začali s nadšením sprístupňovať autorskoprávne voľné diela (autor je viac ako 70 rokov po smrti), pôvodne sme ich označili licenciou Creative Commons. Aby sme mali istotu, že to robíme správne, kontaktovali sme priamo **Creative Commons Slovensko**. Veľmi rýchlo nám vysvetlili dôležitý rozdiel: licenciu Creative Commons si vie udeliť (alebo sprostredkovať) držiteľ práv k dielu, no pri dielach vo verejnej doméne nejde o „licencovanie“, ale o označenie statusu. Odvtedy preto pri voľných dielach používame **Public Domain Mark 1.0** [@cc_public_domain_mark_1_0; @cc_slovakia], a na Webe umenia ho uvádzame pri dielach, kde s tým materská galéria súhlasila [@webumenia_informacie].
+V tomto kontexte zohrali kľúčovú úlohu aj štandardizované právne označenia. Nástroje ako **Creative Commons** a **RightsStatements.org** umožnili inštitúciám jednoznačne komunikovať právny status digitálnych objektov a odstrániť časť neistoty, ktorá bránila ich ďalšiemu používaniu. Ako ukazuje výskum OpenGLAM, práve nejasné alebo nejednoznačné označovanie práv patrilo medzi hlavné bariéry znovupoužitia digitalizovaných diel – a to nielen v komerčnom, ale aj v nekomerčnom a výskumnom prostredí [valeonti_how_open_openglam_2019].
 
-Najzásadnejší posun však priniesli **API** — aplikačné rozhrania, ktoré umožnili, aby sa zbierka stala platformou.
+Otvorené dáta sa tak postupne prestali chápať ako gesto „uvoľnenia obsahu“ a začali byť vnímané ako **súčasť verejnej služby a inštitucionálnej zodpovednosti**. Zároveň sa ukázalo, že otvorenosť nie je len technickou otázkou formátu alebo licencie, ale zahŕňa aj právne, komunikačné a organizačné rozhodnutia, ktoré majú priamy vplyv na to, či sú dáta skutočne použiteľné.
+
+Z praxe lab.SNG však viem, že „otvorenosť“ nie je len technické rozhodnutie, ale aj právno-komunikačná disciplína. Keď sme na Webe umenia začali s nadšením sprístupňovať autorskoprávne voľné diela (autor je viac ako 70 rokov po smrti), pôvodne sme ich označili licenciou Creative Commons. Aby sme mali istotu, že to robíme správne, kontaktovali sme priamo **Creative Commons Slovensko**. Veľmi rýchlo nám vysvetlili dôležitý rozdiel: licenciu Creative Commons si vie udeliť (alebo sprostredkovať) držiteľ práv k dielu, no pri dielach vo verejnej doméne nejde o „licencovanie“, ale o označenie statusu. Odvtedy preto pri voľných dielach používame **Public Domain Mark 1.0** [@cc_public_domain_mark_1_0; @cc_slovakia], a na Webe umenia ho uvádzame pri dielach, kde s tým materská galéria súhlasila [@webumenia_informacie].
+
+Významný posun v praxi však prinieslo zavádzanie **API** — aplikačných rozhraní, ktoré umožnili, aby zbierka fungovala ako platforma.
 Ako uvádza Chan, API v Cooper Hewitt Museum zmenilo spôsob, akým môže verejnosť a vývojári pracovať s dátami: od jednoduchého prezerania k experimentu, vizualizácii a tvorbe nových aplikácií [@chan_api_2015].
 
 API je v tomto zmysle moment, keď zbierka prestáva byť „len webom“ a začína fungovať ako digitálna infraštruktúra: údaje a médiá sa dajú čítať, kombinovať a znovu použiť aj mimo pôvodnej stránky. Zároveň sa mení aj logika toho, ako sa zbierka správa navonok — vedľa kurátorských rozhodnutí do nej vstupujú aj algoritmické a technické pravidlá (napr. vyhľadávanie, radenie, filtrovanie). Práve vďaka tomu vzniká priestor pre nové formy práce s naratívom: od experimentálnych vizualizácií a aplikácií až po rozhrania, ktoré podporujú objavovanie a nečakané súvislosti [@chan_api_2015].
@@ -218,7 +221,7 @@ Digitálne zbierky sa v posledných dvoch dekádach formovali v rôznych geograf
 
 ## **3.3.1 Rijksmuseum: otvorenie zbierky ako verejnej služby**
 
-Rijksmuseum patrilo medzi prvé európske inštitúcie, ktoré systematicky prepojili digitalizáciu zbierok s princípmi otvorených kultúrnych dát. V roku 2012 sprístupnilo tisíce diel vo verejnej doméne vrátane vysokokvalitných digitálnych reprodukcií, čo odborná literatúra označuje za prelomový moment v európskom kontexte otvoreného prístupu k múzejným zbierkam [@kapsalis_openglam_principles_2016]. Otvorenie dát tu nebolo chápané ako strata kontroly nad obsahom, ale ako rozšírenie verejnej služby – gesto, ktoré umožňuje, aby zbierkové objekty cirkulovali v nových kultúrnych, vzdelávacích a tvorivých kontextoch.
+Rijksmuseum patrilo medzi prvé európske inštitúcie, ktoré systematicky prepojili digitalizáciu zbierok s princípmi otvorených kultúrnych dát. V roku 2012 sprístupnilo tisíce diel vo verejnej doméne vrátane vysokokvalitných digitálnych reprodukcií, čo odborná literatúra označuje za prelomový moment v európskom kontexte otvoreného prístupu k múzejným zbierkam [@kapsalis_impact_open_access_2016]. Otvorenie dát tu nebolo chápané ako strata kontroly nad obsahom, ale ako rozšírenie verejnej služby – gesto, ktoré umožňuje, aby zbierkové objekty cirkulovali v nových kultúrnych, vzdelávacích a tvorivých kontextoch.
 
 Podstatným aspektom tohto posunu bol aj širší inštitucionálny kontext. Rijksmuseum bolo v rokoch 2003 – 2013 **dlhodobo zatvorené z dôvodu rozsiahlej rekonštrukcie**, čo výrazne obmedzilo fyzický kontakt verejnosti so zbierkami. Digitálne platformy sa v tomto období nestali len sprievodným komunikačným kanálom, ale jedným z hlavných spôsobov, ako múzeum udržiavalo vzťah s publikom. Digitalizácia tu nebola reakciou na technologický trend, ale praktickou odpoveďou na situáciu, v ktorej bolo potrebné hľadať nové formy sprístupnenia.
 
@@ -303,7 +306,7 @@ V kontexte tejto kapitoly je Artsy dôležité aj ako príklad platformy, ktorá
 Osobitnú pozornosť si zaslúži aj vývojárska kultúra Artsy. Vtedajší vedúci vývoja **Daniel Doubrovkine** (známy ako DBlock) v eseji *Becoming Open Source by Default* formuloval postoj, ktorý presahuje technickú rovinu licencovania a dotýka sa samotného spôsobu práce s kultúrnymi dátami:
 
 > “We believe that if we’re building software to help people understand and discover art, then the work we do should be open, shareable, and reusable by others.”
-> — Doubrovkine, 2015 [doubrovkine_open_source_2015]
+> — Doubrovkine, 2015 [@doubrovkine_open_source_2015]
 
 Otvorený prístup tu nie je chápaný len ako praktické riešenie, ale ako hodnotový rámec, ktorý zahŕňa transparentnosť rozhodnutí, zdieľanie procesu a možnosť, aby sa k vývoju mohli vzťahovať aj aktéri mimo pôvodného tímu. Tento postoj je pozoruhodný najmä v porovnaní s inštitucionálnymi príkladmi opísanými v predchádzajúcich podkapitolách. Kým múzeá ako Tate, MoMA či Walker Art Center otvárali svoje dáta a kód ako súčasť verejnej misie, Artsy k podobným princípom dospelo z prostredia komerčnej technologickej platformy.
 
@@ -482,7 +485,7 @@ Výsledkom bolo, že Web umenia mohol vzniknúť takmer organicky, „odspodu“
 Jednou z dôležitých čŕt slovenského príbehu je rozhodnutie SNG vytvoriť **vlastný interný tím vývoja**.
 Toto riešenie nebolo typické — väčšina galérií v Európe využívala externé dodávateľské firmy.
 
-Dôvody boli najmä tri: potrebná blízkosť ku kurátorom (aby vývojári rozumeli praxi interpretácie a práce so zbierkami), uchovávanie know-how priamo v inštitúcii (digitálne projekty potrebujú dlhú kontinuitu) a napokon inšpirácie zo sveta (Cooper Hewitt Labs, Rijksmuseum, Brooklyn Museum), ktoré ukazovali, že aj v kultúrnej inštitúcii môže fungovať výskumno‑vývojové prostredie.
+Dôvody boli najmä tri: potrebná blízkosť ku kurátorom (aby vývojári rozumeli praxi interpretácie a práce so zbierkami), uchovávanie know-how priamo v inštitúcii (digitálne projekty potrebujú dlhú kontinuitu) a napokon inšpirácie zo sveta (Cooper Hewitt Labs, Rijksmuseum, Brooklyn Museum), ktoré ukazovali, že aj v kultúrnej inštitúcii môže fungovať výskumno-vývojové prostredie.
 
 ### **3.4.6.2 Prvé experimenty: SoundWalk a mikrostránky**
 
@@ -495,7 +498,7 @@ Vývoj bol iteratívny, experimentálny a často priamo viazaný na konkrétne k
 
 Osobitnú rolu v tejto fáze zohral prototyp k výstave **Dve krajiny** (`https://dvekrajiny.sng.sk`), ktorý mimochodom dodnes beží ako samostatný web. Vznikol v situácii, keď ešte nebolo samozrejmé, že SNG „má na to“ nahradiť existujúcu verziu Webu umenia vlastným vývojom; prototyp preto slúžil aj ako praktický argument dovnútra inštitúcie. Od začiatku sa vyvíjal s ambíciou, aby sa stal základom budúceho Webu umenia: implementovali sa v ňom kľúčové vlastnosti ako fazetové filtrovanie, kolekcie a katalógové prehliadanie.
 
-Už vtedy sme riešili aj import dát cez OAI‑PMH; interný importér sme volali „**spice harvester**“ (v repozitári je aj obrázok: `https://github.com/SlovakNationalGallery/webumenia.sk/blob/main/public/images/spice_harvester.jpg`). Dôležitejšie než interný názov je fakt, že tým vznikol opakovateľný most medzi evidenciou a verejným rozhraním.
+Už vtedy sme riešili aj import dát cez OAI-PMH; interný importér sme volali „**spice harvester**“ (v repozitári je aj obrázok: `https://github.com/SlovakNationalGallery/webumenia.sk/blob/main/public/images/spice_harvester.jpg`). Dôležitejšie než interný názov je fakt, že tým vznikol opakovateľný most medzi evidenciou a verejným rozhraním.
 
 Pri importovaní väčších setov diel prototyp rýchlo narážal na limity výkonu relačnej databázy, najmä pri kombinácii filtrovania a fulltextu. Práve tu sa začal rodiť plán nasadiť **Elasticsearch** ako vyhľadávaciu vrstvu; tejto téme sa vraciam v kapitole 4.
 
@@ -629,7 +632,7 @@ V praxi to znamená, že každý „mechanizmus“ rozhrania — automatické ta
 ## **3.6.2 Kurátor ako vývojár, vývojár ako kurátor**
 
 Táto situácia prirodzene mení odborné roly.
-Kurátorská práca už nie je len výberom diel a textovou interpretáciou. Zahŕňa prácu s dátovými modelmi, s digitálnymi reprezentáciami a s mechanizmami, ktoré umožňujú (alebo znemožňujú) určité čítanie zbierky – teda rozhodovanie o tom, aké vzťahy môžu v systéme vzniknúť a aké zostávajú neartikulateľné [@cameron_museum_knowledge_base_2008; @drucker_humanities_approaches_2011].
+Kurátorská práca už nie je len výberom diel a textovou interpretáciou. Zahŕňa prácu s dátovými modelmi, s digitálnymi reprezentáciami a s mechanizmami, ktoré umožňujú (alebo znemožňujú) určité čítanie zbierky – teda rozhodovanie o tom, aké vzťahy môžu v systéme vzniknúť a aké zostávajú neartikulateľné [@cameron_museum_collections_documentation_2010; @drucker_humanities_approaches_2011].
 
 Na druhej strane, vývojár a dizajnér prestávajú byť „technickou podporou“.
 Ich rozhodnutia majú dosah na epistemológiu zbierky: určujú, ktoré informácie sú v rozhraní centrálne, ktoré sú skryté, ktoré vzťahy sú vizualizované a ktoré vôbec nevzniknú.

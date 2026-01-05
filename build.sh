@@ -46,6 +46,8 @@ pandoc "${merged_md}" \
   -V monofont="Menlo" \
   -V fontsize=11pt \
   -V geometry:margin=3cm \
+  -V header-includes="\\usepackage{newunicodechar}" \
+  -V header-includes="\\newunicodechar{→}{\\ensuremath{\\rightarrow}}" \
   ${extra_opts[@]+"${extra_opts[@]}"} \
   -o "${output_pdf}"
 
