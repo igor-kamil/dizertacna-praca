@@ -104,3 +104,49 @@ Dôležitým momentom bolo uvedomenie si, že ani v dátovej vrstve neexistuje n
 Tu sa prirodzene otvára téma, ktorú Kyle Chayka opisuje ako **algoritmické splošťovanie kultúry** [@chayka_filterworld_2024]. Aj dobre mienené algoritmy môžu systematicky zvýhodňovať „bohaté“ a viditeľné záznamy na úkor menej reprezentovaných. V prostredí Webu umenia sa tento problém neobjavuje ako abstraktná teória, ale ako každodenná otázka: ako nastaviť relevanciu tak, aby pomáhala orientácii, a zároveň nezatvárala cestu k objavovaniu. K tejto téme sa podrobnejšie vraciam v kapitole 5.
 
 Spätne sa ukazuje, že **oddeľovanie vrstiev** nebolo len technickým opatrením, ale aj metodologickým postojom. Umožnilo Webu umenia rásť, rozširovať sa o nové aplikácie a zároveň si zachovať kontinuitu dát. Nešlo o čistý, teoretický návrh architektúry, ale o postupné hľadanie rovnováhy medzi tým, čo je stabilné, a tým, čo sa ešte môže meniť.
+
+## **4.3 Vyhľadávanie ako kľúčový nástroj poznania**
+
+Vyhľadávanie bolo od začiatku vedomým východiskom architektúry Webu umenia. Prvým vizuálnym prvkom, s ktorým sa používateľ stretáva, je výrazný vyhľadávací riadok — nie navigačné menu ani výber kolekcií, ale otvorená otázka. Tento dizajnový krok vychádzal z jednoduchého predpokladu: zbierka v digitálnom prostredí sa neprehliada lineárne, ale vstupuje sa do nej z rôznych strán, s rôznou mierou znalosti a s rôznymi očakávaniami.
+
+V praxi sa rýchlo ukázalo, že vyhľadávanie používa každý inak. Odborníci často zadávajú presné mená autorov, názvy diel alebo terminologicky ustálené pojmy. Iní používatelia naopak hľadajú tematicky, intuitívne, bez znalosti „správneho“ jazyka dejín umenia. Do toho vstupujú špecifiká slovenčiny — diakritika, skloňovanie, synonymá — ktoré robia z jednoduchého fulltextu prekvapivo zložitý problém. Vyhľadávanie sa tak stalo miestom, kde sa stretáva odborné poznanie, jazyková prax aj každodenná skúsenosť používateľa.
+
+### Elasticsearch ako infraštruktúrne rozhodnutie
+
+Technickým predchodcom bol v tomto smere Apache Solr, použitý v staršej verzii systému. Elasticsearch sa v čase návrhu novej architektúry javil ako prirodzený krok — nielen ako „novší nástroj“, ale ako systém, ktorý explicitne pracuje s relevanciou, váhami a analytickými vrstvami. Rozhodnutie nebolo motivované ambíciou experimentovať, ale veľmi praktickým dôvodom: prvá verzia Webu umenia už pracovala s desiatkami tisíc záznamov a tradičné databázové dotazy prestávali byť použiteľné, najmä pri facetingu a kombinovaných filtroch.
+
+> *(aside: Facetové vyhľadávanie)*
+> Facetové vyhľadávanie umožňuje zužovať výsledky podľa viacerých dimenzií naraz — napríklad autor, technika, obdobie či inštitúcia. Na prvý pohľad ide o používateľský komfort, no na technickej úrovni vyžaduje rýchlu agregáciu nad veľkým objemom dát, čo je presne oblasť, kde fulltextové indexy prekonávajú relačné databázy.
+
+Elasticsearch sa tak postupne stal viac než len vyhľadávacím modulom. Väčšina zoznamových stránok — diela, autori, súvisiace objekty — je generovaná priamo z indexu. Databáza ostáva „single source of truth“, no index slúži ako rýchla, flexibilná interpretačná vrstva. Detail diela sa vždy načítava priamo z databázy, no všetko, čo súvisí s objavovaním, radením a porovnávaním, prechádza cez Elasticsearch. Rozdiel v odozve bol citeľný: dotazy, ktoré predtým trvali stovky milisekúnd, sa skrátili na jednotky.
+
+### Slovenčina ako architektonický problém
+
+Použitie Elasticsearch však veľmi rýchlo otvorilo ďalšiu otázku: jazyk. Dokumentácia systému bola prekvapivo čitateľná a práca s analyzátormi, tokenizáciou či vážením polí pôsobila konzistentne a premyslene. Zároveň však bolo zrejmé, že podpora slovenčiny je minimálna. Zatiaľ čo angličtina má k dispozícii hotové analyzéry, pre slovenský jazyk bolo potrebné skladať riešenie z viacerých zdrojov.
+
+Základom sa stal modul LemmaGen Analysis for Elasticsearch [@hyza_elasticsearch_analysis_lemmagen], vyvíjaný Inštitútom Jožef Stefan v Ľubľane [@jozef_stefan_institute]
+, ktorý umožňuje lematizáciu.
+
+> *(aside: Lemmatizácia)*
+> Na rozdiel od stemmingu, ktorý slová skracuje na mechanický koreň, lematizácia pracuje s jazykovým kontextom a vracia základný tvar slova (lemma). Pre flektívne jazyky, ako je slovenčina, je to zásadný rozdiel: „hrad“, „hradu“, „hrade“ sú rôzne tvary, ale rovnaký pojem.
+
+K tomu pribudli stopwords zo starších open-source zoznamov a synonymá prevzaté z OpenOffice, ktoré sa postupne upravovali podľa reálneho správania používateľov. Výsledkom bol samostatný balík `elasticsearch-slovencina` [@slovaknationalgallery_elasticsearch_slovencina]
+, ktorý vznikol z čisto praktickej potreby, no postupne si našiel používateľov aj mimo Webu umenia. Z dnešného pohľadu ide o jeden z najpoužívanejších open-source výstupov SNG.
+
+Riešenie nebolo vyvíjané v izolácii. Priebežne sme ho overovali aj mimo inštitúcie – naprríklad prostredníctvom prezentácií na komunitných vývojárskych stretnutiach a meet-upoch, kde sme mali možnosť konfrontovať naše technické rozhodnutia s reálnou praxou iných tímov  [@elasticsearch_po_slovensky_2015]. Tieto spätné väzby pomáhali overovať, že riešenie nie je šité výlučne na mieru Webu umenia, ale obstojí aj v širšom technickom kontexte.
+
+### Vyhľadávanie ako kurátorské rozhranie
+
+Podpora lematizácie a synonym otvorila možnosti, ktoré by v relačnej databáze neboli realizovateľné. Vyhľadanie pojmu „hrad“ začalo zahŕňať aj „zrúcaninu“, „pevnosť“ či „pod hradom“ — nie ako exaktnú zhodu, ale ako významové pole. Zrazu bolo možné nielen nájsť jednotlivé diela, ale vytvárať tematické výseky, porovnávať techniky alebo identifikovať autorov, ktorí sa k určitému motívu opakovane vracali.
+
+Zároveň sa ukázalo, že každé rozhodnutie o váhe poľa, poradí výsledkov či „magickej“ kombinácii podmienok je implicitným kurátorským gestom. Do poradia vstupujú nielen textové zhody, ale aj prítomnosť obrazu, možnosť priblíženia, miera spracovania záznamu či dokonca počet zobrazení. Vyhľadávací algoritmus tak nikdy nie je neutrálny — vždy niečo zvýrazňuje a niečo potláča.
+
+Práve tu sa otvára téma, ktorú Kyle Chayka opisuje ako algoritmické splošťovanie kultúry [@chayka_filterworld_2024]. Aj dobre mienené algoritmy môžu postupne zvýhodňovať „bohaté“ a dobre spracované záznamy na úkor menej viditeľných diel. Podobný problém pomenúva aj Mitchell Whitelaw, keď upozorňuje na limity vyhľadávania ako dominantného rozhrania digitálnych zbierok a navrhuje alternatívne, tzv. generous interfaces, ktoré majú skôr odhaľovať štruktúru a bohatstvo kolekcie než filtrovať ju na základe jedného dotazu [@whitelaw_generous_interfaces_2015].
+
+V prostredí Webu umenia sa tieto otázky neobjavujú ako abstraktná teória, ale ako každodenná prax ladenia poradia, relevance a spravodlivosti výsledkov. Vyhľadávanie sa tu ukazuje nie ako neutrálna technická služba, ale ako rozhranie, ktoré spoluvytvára významy — a tým aj zodpovednosť. K týmto napätiam medzi vyhľadávaním, objavovaním a kurátorským rámcom sa podrobnejšie vrátim v kapitole 5.
+
+### Transparentnosť a napätia
+
+Zverejnenie vyhľadávania zároveň odhalilo kvalitu samotných dát. Chyby, nepresnosti a nekonzistentnosti, ktoré boli v internom systéme menej viditeľné, sa na webe okamžite stali verejnými. To spočiatku vytváralo napätia medzi technickým tímom a kurátormi, no v praxi spustilo ozdravný proces. Motivácia mať dáta v poriadku rástla na oboch stranách a spätná väzba od verejnosti sa ukázala ako prekvapivo užitočná.
+
+Vyhľadávanie sa tak stalo nielen nástrojom prístupu, ale aj mechanizmom starostlivosti o zbierku. Ukázalo, že infraštruktúra nepracuje len s hotovým poznaním, ale aktívne ho formuje — tým, čo umožňuje nájsť, a tým, čo zostáva skryté.
