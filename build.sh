@@ -13,6 +13,7 @@ chapters_dir="${root_dir}/chapters"
 build_dir="${root_dir}/_build"
 merged_md="${build_dir}/merged.md"
 output_pdf="${root_dir}/dissertation.pdf"
+aside_filter="${root_dir}/pandoc/filters/aside.lua"
 
 mkdir -p "${build_dir}"
 
@@ -27,7 +28,7 @@ if (( ${#chapters[@]} == 0 )); then
 fi
 
 # Merge chapters into a single temp file.
-printf "%s\n" "${chapters[@]}" | xargs cat > "${merged_md}"
+cat "${chapters[@]}" > "${merged_md}"
 
 # Optional bibliography.
 extra_opts=()
@@ -40,6 +41,7 @@ fi
 
 pandoc "${merged_md}" \
   --from markdown+tex_math_dollars+raw_tex \
+  --lua-filter="${aside_filter}" \
   --pdf-engine=xelatex \
   -V mainfont="Charter" \
   -V sansfont="Avenir Next" \
@@ -48,6 +50,10 @@ pandoc "${merged_md}" \
   -V geometry:margin=3cm \
   -V header-includes="\\usepackage{newunicodechar}" \
   -V header-includes="\\newunicodechar{→}{\\ensuremath{\\rightarrow}}" \
+  -V header-includes="\\usepackage{xcolor}" \
+  -V header-includes="\\usepackage[most]{tcolorbox}" \
+  -V header-includes="\\tcbset{before skip=6pt, after skip=6pt}" \
+  -V header-includes="\\newtcolorbox{aside}{enhanced,breakable,colback=white,colframe=gray!60,boxrule=0.5pt,arc=1mm,left=4mm,right=4mm,top=2mm,bottom=2mm,before skip=10pt,after skip=10pt,before upper=\\small}" \
   ${extra_opts[@]+"${extra_opts[@]}"} \
   -o "${output_pdf}"
 
