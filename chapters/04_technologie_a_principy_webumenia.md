@@ -197,3 +197,26 @@ V prostredí Webu umenia sa tieto otázky neobjavujú ako abstraktná teória, a
 Zverejnenie vyhľadávania zároveň odhalilo kvalitu samotných dát. Chyby, nepresnosti a nekonzistentnosti, ktoré boli v internom systéme menej viditeľné, sa na webe okamžite stali verejnými. To spočiatku vytváralo napätia medzi technickým tímom a kurátormi, no v praxi spustilo ozdravný proces. Motivácia mať dáta v poriadku rástla na oboch stranách a spätná väzba od verejnosti sa ukázala ako prekvapivo užitočná.
 
 Vyhľadávanie sa tak stalo nielen nástrojom prístupu, ale aj mechanizmom starostlivosti o zbierku. Ukázalo, že infraštruktúra nepracuje len s hotovým poznaním, ale aktívne ho formuje — tým, čo umožňuje nájsť, a tým, čo zostáva skryté.
+
+## **4.4 Otvorené dáta, štandardy a interoperabilita**
+
+> *“Each standard and each category valorizes some point of view and silences another.”*
+> — Geoffrey C. Bowker, Susan Leigh Star, *Sorting Things Out* (1999) [@bowker_sorting_things_out_1999; note]
+
+Otvorené štandardy sa v oblasti kultúrneho dedičstva často opisujú ako technický predpoklad spolupráce. V praxi však fungujú skôr ako dlhodobá dohoda medzi inštitúciami, profesiami a spôsobmi uvažovania. Nevnucujú jednotné riešenie, ale vytvárajú spoločný jazyk, ktorý umožňuje, aby si systémy navzájom rozumeli — aj keď vznikli v odlišných kontextoch, s odlišnými prioritami a obmedzeniami.
+
+V prípade Webu umenia sa táto logika neobjavila ako ideologické rozhodnutie, ale ako veľmi pragmatická potreba. Ak má systém agregovať dáta z rôznych galérií, nemôže sa spoliehať na uzavreté formáty ani na implicitné znalosti jedného pracoviska. Musí pracovať s tým, čo je zdieľateľné, čitateľné a dlhodobo udržateľné. Práve tu sa otvorené štandardy ukázali nie ako nadstavba, ale ako infraštruktúrny základ.
+
+Kľúčovým príkladom je **OAI-PMH**, ktorý umožňuje zber (harvestovanie) metadát z viacerých zdrojov bez toho, aby bolo potrebné pristupovať priamo k interným databázam. Každá zapojená galéria si sama určuje, ktoré záznamy sprístupní, v akej kvalite a s akou mierou kontroly. Web umenia v tomto modeli nefunguje ako centrálna autorita, ale ako sprostredkovateľ — systém, ktorý dáta číta, prepája a znovu interpretuje, no nevlastní ich.
+
+Podobnú úlohu zohrávajú aj ďalšie štandardy, ktoré sa v projekte prirodzene stretli: **LIDO** alebo **Dublin Core** pre opisné metadáta, **ULAN** pre autoritné záznamy a **IIIF** pre prácu s obrazovými dátami. Ich význam nespočíva v tom, že by boli „dokonalé“, ale v tom, že sú zdieľané. Umožňujú používať existujúce nástroje — napríklad IIIF prehliadače ako OpenSeadragon [@openseadragon] — bez potreby vyvíjať vlastné riešenia pre každú inštitúciu zvlášť. Vďaka tomu sa vývoj môže sústrediť na rozhranie a interpretáciu, nie na neustále riešenie kompatibility.
+
+Táto interoperabilita má aj širší rozmer. Prepojenie s projektmi ako **Europeana**, **Slovakiana** či **CEAD.space** nie je len technickou integráciou, ale formou účasti na spoločnom priestore kultúrnych dát. Štandardy tu fungujú ako tichá diplomacia: umožňujú spoluprácu bez centralizácie, výmenu bez straty autonómie a porovnateľnosť bez uniformity. Každá inštitúcia si zachováva vlastný hlas, no zároveň sa zapája do väčšieho ekosystému.
+
+Zároveň je dôležité povedať, že otvorenosť nie je binárne rozhodnutie. V prostredí CEDVU sa jasne ukazuje, že rôzne galérie majú k sprístupňovaniu dát odlišný prístup. Niektoré zverejňujú celý fond, iné len vybrané záznamy, ktoré prešli dodatočnou kontrolou alebo majú kompletnú obrazovú dokumentáciu. Tento rozdiel nie je chybou systému, ale jeho vlastnosťou: otvorené štandardy umožňujú diferencovanú zodpovednosť, nie jednotný režim.
+
+Otvorené API Webu umenia na túto logiku nadväzuje. Funguje skôr ako potrubie než ako kurátorský filter — umožňuje prístup k dátam, no nedefinuje, ako majú byť použité. Vznikli tak projekty tretích strán, experimenty na hackathonoch aj aplikácie vyvíjané mimo SNG. Každý z týchto prípadov využíva rovnaký dátový základ, no vytvára iný typ rozhrania a iný príbeh. Rozhodnutie, ktoré dáta sú dostupné a v akej podobe, je však vždy kurátorským gestom — aj vtedy, keď sa tvári čisto technicky.
+
+V tomto kontexte nadobúda otvorenosť aj etický rozmer. Ako upozorňuje Merete Sanderhoff, zdieľanie kultúrnych dát nie je len otázkou prístupu, ale aj starostlivosti — o kontext, o autorov, o publikum aj o budúce použitia [@sanderhoff_sharing_caring_openness_2014]. Na túto perspektívu nadväzuje aj koncept networks of care, ktorý zdôrazňuje, že starostlivosť v digitálnych infraštruktúrach je vždy distribuovaná medzi technické systémy, inštitúcie a ľudí [@dekker_networks_of_care_2022]. Otvorené štandardy vytvárajú infraštruktúrne podmienky, no otázka zodpovednosti zostáva vždy situovaná v konkrétnej inštitúcii a konkrétnom projekte.
+
+Pre Web umenia tak interoperabilita neznamená stratu kontroly, ale jej presun. Kontrola sa neodohráva na úrovni uzavretých systémov, ale v rozhodnutiach o tom, čo zdieľať, ako to pomenovať a aké vzťahy umožniť vzniknúť. Práve v tomto priestore medzi technickým štandardom a kurátorským rozhodnutím sa začína téma data governance a licencovania, ktorej sa budem venovať v nasledujúcej podkapitole.
