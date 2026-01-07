@@ -71,12 +71,7 @@ pandoc "${merged_md}" \
   -V monofont="Menlo" \
   -V fontsize=11pt \
   -V geometry:margin=3cm \
-  -V header-includes="\\usepackage{newunicodechar}" \
-  -V header-includes="\\newunicodechar{→}{\\ensuremath{\\rightarrow}}" \
-  -V header-includes="\\usepackage{xcolor}" \
-  -V header-includes="\\usepackage[most]{tcolorbox}" \
-  -V header-includes="\\tcbset{before skip=6pt, after skip=6pt}" \
-  -V header-includes="\\newtcolorbox{aside}{enhanced,breakable,colback=white,colframe=gray!60,boxrule=0.5pt,arc=1mm,left=4mm,right=4mm,top=2mm,bottom=2mm,before skip=10pt,after skip=10pt,before upper=\\small}" \
+  --include-in-header="${root_dir}/preamble.tex" \
   ${extra_opts[@]+"${extra_opts[@]}"} \
   -o "${output_pdf}"
 

@@ -120,6 +120,53 @@ Technickým predchodcom bol v tomto smere Apache Solr, použitý v staršej verz
 
 Elasticsearch sa tak postupne stal viac než len vyhľadávacím modulom. Väčšina zoznamových stránok — diela, autori, súvisiace objekty — je generovaná priamo z indexu. Databáza ostáva „single source of truth“, no index slúži ako rýchla, flexibilná interpretačná vrstva. Detail diela sa vždy načítava priamo z databázy, no všetko, čo súvisí s objavovaním, radením a porovnávaním, prechádza cez Elasticsearch. Rozdiel v odozve bol citeľný: dotazy, ktoré predtým trvali stovky milisekúnd, sa skrátili na jednotky.
 
+\begin{figure}[ht]
+  \centering
+  \begin{tikzpicture}[
+    font=\small,
+    node distance=3.2cm,
+    box/.style={
+      draw,
+      rounded corners,
+      align=center,
+      text width=3.2cm,
+      minimum height=1.2cm,
+      inner sep=5pt
+    },
+    arrow/.style={->, thick}
+  ]
+    \node[box] (db) {Databáza\\{\scriptsize (zdroj evidenčných údajov)}};
+    \node[box, right=of db] (es) {Elasticsearch\\{\scriptsize (index pre vyhľadávanie)}};
+    \node[box, right=of es] (ui) {Webové rozhranie\\{\scriptsize (UI / API)}};
+
+    \draw[arrow] (db) -- node[midway, above, align=center]{\scriptsize indexovanie\\\scriptsize (priebežná aktualizácia)} (es);
+    \draw[arrow] (es) -- node[midway, below, align=center]{\scriptsize vyhľadávanie, filtre, radenie} (ui);
+  \end{tikzpicture}
+
+  \caption{Zjednodušený tok dát: databáza je zdrojom údajov, Elasticsearch slúži ako vyhľadávací index a rozhranie z neho číta zoznamy a výsledky vyhľadávania.}
+  \label{fig:db-es-ui}
+\end{figure}
+
+
+::: aside
+**Čo je Elasticsearch (a prečo ho tu vôbec máme)**
+
+Elasticsearch je špecializovaný vyhľadávací systém, ktorý slúži na rýchle prehľadávanie veľkého množstva textových a štruktúrovaných dát. Na rozdiel od klasickej databázy nie je určený na „uchovávanie pravdy“, ale na **rýchle čítanie, triedenie a porovnávanie** údajov.
+
+V architektúre Webu umenia má Elasticsearch pomocnú rolu:
+- **databáza** (MySQL) je zdrojom pravdivých a oficiálnych údajov,
+- **Elasticsearch** je pracovná kópia dát, optimalizovaná na vyhľadávanie, filtrovanie a radenie výsledkov,
+- **webové rozhranie** komunikuje pri zoznamoch a vyhľadávaní primárne s Elasticsearchom.
+
+Prakticky to znamená, že:
+- detail diela sa vždy zobrazuje z databázy,
+- zoznamy diel, autorov, výsledky vyhľadávania či odporúčania sú čítané z Elasticsearchu, aby boli okamžité.
+
+Elasticsearch umožňuje veci, ktoré by boli v bežnej databáze pomalé alebo technicky komplikované:  
+prácu so synonymami, jazykovou analýzou, váhami polí, kombinovanými dotazmi či „nepresným“ vyhľadávaním podľa významu, nie len presnej zhody.
+:::
+
+
 ### Slovenčina ako architektonický problém
 
 Použitie Elasticsearch však veľmi rýchlo otvorilo ďalšiu otázku: jazyk. Dokumentácia systému bola prekvapivo čitateľná a práca s analyzátormi, tokenizáciou či vážením polí pôsobila konzistentne a premyslene. Zároveň však bolo zrejmé, že podpora slovenčiny je minimálna. Zatiaľ čo angličtina má k dispozícii hotové analyzéry, pre slovenský jazyk bolo potrebné skladať riešenie z viacerých zdrojov.

@@ -1,0 +1,23 @@
+% LaTeX preamble for dissertation PDF build (used by Pandoc)
+
+\usepackage{newunicodechar}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+\tcbset{before skip=6pt, after skip=6pt}
+\newtcolorbox{aside}{%
+  enhanced,breakable,
+  colback=white,
+  colframe=gray!60,
+  boxrule=0.5pt,
+  arc=1mm,
+  left=4mm,right=4mm,
+  top=2mm,bottom=2mm,
+  before skip=10pt,after skip=10pt,
+  before upper=\small
+}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
