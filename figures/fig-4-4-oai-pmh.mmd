@@ -1,0 +1,26 @@
+flowchart LR
+
+subgraph DP["OAI-PMH providers (data providers)"]
+  direction TB
+  P1["CEDVU / SNG\nOAI-PMH provider"]
+  P2["Regionálna galéria A\nOAI-PMH provider"]
+  P3["Regionálna galéria B\nOAI-PMH provider"]
+  P4["Ďalšia inštitúcia\nOAI-PMH provider"]
+end
+
+H["spice-harvester\n(OAI-PMH harvester)"]
+W["Web umenia\n(verejná služba)"]
+
+P1 -- "HTTP request: ListRecords" --> H
+H  -- "XML response" --> P1
+
+P2 -- "HTTP request: ListRecords" --> H
+H  -- "XML response" --> P2
+
+P3 -- "HTTP request: ListRecords" --> H
+H  -- "XML response" --> P3
+
+P4 -- "HTTP request: ListRecords" --> H
+H  -- "XML response" --> P4
+
+H --> W

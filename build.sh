@@ -17,6 +17,29 @@ aside_filter="${root_dir}/pandoc/filters/aside.lua"
 
 mkdir -p "${build_dir}"
 
+# Render Mermaid diagrams (optional).
+# If there are no .mmd files, skip cleanly (avoid literal "figures/*.mmd").
+shopt -s nullglob
+mmd_files=("${root_dir}/figures"/*.mmd)
+shopt -u nullglob
+if (( ${#mmd_files[@]} > 0 )); then
+  mermaid_config="${root_dir}/pandoc/mermaid-config.json"
+  if command -v mmdc >/dev/null 2>&1; then
+    for f in "${mmd_files[@]}"; do
+      # NOTE: if mmdc fails (missing deps, sandboxed env), don't fail the whole build.
+      if [[ -f "${mermaid_config}" ]]; then
+        mmdc -c "${mermaid_config}" -i "$f" -o "${f%.mmd}.svg" \
+          || echo "Warning: mermaid-cli failed for ${f}; leaving existing output as-is." >&2
+      else
+        mmdc -i "$f" -o "${f%.mmd}.svg" \
+          || echo "Warning: mermaid-cli failed for ${f}; leaving existing output as-is." >&2
+      fi
+    done
+  else
+    echo "Warning: 'mmdc' not found; skipping Mermaid diagram rendering." >&2
+  fi
+fi
+
 # Collect chapters in lexical order.
 shopt -s nullglob
 chapters=("${chapters_dir}"/*.md)
