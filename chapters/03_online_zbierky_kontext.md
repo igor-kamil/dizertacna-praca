@@ -1,4 +1,14 @@
-# **3.1 Korene a predpoklady digitalizácie**
+# 3. Od katalógu k platforme: vývoj, inštitúcie a súčasný ekosystém online zbierok
+
+## *Preface*
+
+> *Digitálne zbierky nie sú len technickým projektom; sú odrazom spoločenskej, historickej aj kultúrnej zmeny. Každý ich aspekt — od evidencie po rozhranie — je výsledkom konkrétnych rozhodnutí, možností aj kompromisov.*
+
+Táto kapitola načrtáva historické zázemie a inštitucionálne kontexty, ktoré formujú dnešné digitálne zbierky umenia. Ukazuje, že vývoj od analógovej evidencie k otvoreným online platformám nebol priamkou, ale sériou premenlivých reakcií na zmeny technológií, potrieb odbornej obce, legislatívy a – v neposlednom rade – očakávaní verejnosti.
+
+Popisované posuny nevznikali izolovane: boli súčasťou širších európskych i globálnych pohybov (štandardizácia metadát, open data, API), ale tiež výrazne lokálne podmienené históriou, politikou či inštitucionálnou kultúrou. Kapitola preto kombinuje svetové príklady s podrobným pohľadom na stredoeurópsky a slovenský vývoj a tvorí východisko pre ďalšiu – autorskú – analýzu možností a limitov súčasnej generácie digitálnych zbierok.
+
+## **3.1 Korene a predpoklady digitalizácie**
 
 > “Database and narrative are natural enemies.”  
 > — Lev Manovich, *The Language of New Media* [@manovich_language_new_media_2001]
@@ -9,7 +19,7 @@ Digitálna transformácia múzeí a galérií nevznikla ako radikálny zlom, ale
 
 ---
 
-## **3.1.1 Pred-digitálne evidenčné praxe: stabilita, štandardy a obmedzenia**
+### **3.1.1 Pred-digitálne evidenčné praxe: stabilita, štandardy a obmedzenia**
 
 Tradičné múzeá a galérie pracovali s evidenciou zbierok prostredníctvom stabilných a presne definovaných nástrojov: inventárnych kníh, kartotékových lístkov, depozitárnych protokolov a dokumentačných kariet. Ako uvádzajú **Bahurinská a Bohumelová**, základné kritériá pre vytváranie záznamov o zbierkových predmetoch sa zásadne nemenili celé desaťročia a boli overené dlhodobou praxou [@bahurinska_bohumelova_evidence_kapitola_nd]. Tieto štandardy boli zámerne faktické a uniformné — ich cieľom bolo zabezpečiť spoľahlivú identifikáciu diela, umožniť vyhľadávanie a podporiť odborný výskum.
 
@@ -22,7 +32,7 @@ Pred-digitálne praxe tak formovali nielen technickú stránku evidencie, ale aj
 
 ---
 
-## **3.1.2 Prechod k databázam: formovanie dátovej ontológie**
+### **3.1.2 Prechod k databázam: formovanie dátovej ontológie**
 
 S nástupom výpočtovej techniky v 80. a 90. rokoch sa analógová evidencia začala transformovať do elektronickej podoby. V slovenskom kontexte ide najmä o konverziu dokumentačných kariet do systému **micro CDS/ISIS**, ktorá si vyžadovala rozsiahle zjednotenie údajov a vytvorenie novej formalizovanej štruktúry [@unesco_micro_cds_isis_1990s].
 
@@ -41,7 +51,7 @@ Parametre, ktoré dnes určujú možnosti vyhľadávania, facetingu či vizualiz
 
 ---
 
-## **3.1.3 Teoretické rámce: múzeum ako informačný a dátový systém**
+### **3.1.3 Teoretické rámce: múzeum ako informačný a dátový systém**
 
 V rovnakom období, v ktorom sa digitalizuje evidencia, sa začína meniť aj teoretické chápanie múzea. V diskusiách o digitálnom kultúrnom dedičstve sa pozornosť postupne presúva od „samotného objektu“ k tomu, **v akom systéme informácií objekt existuje** – ako je opísaný, prepojený, sprístupnený a znovu použitý [@cameron_kenderdine_theorizing_digital_cultural_heritage_2007]. Podobný posun – ešte pred masovým internetom – pomenovali aj George F. MacDonald a Stephen Alsford, keď navrhli chápať múzeum ako informačnú službu pre spoločnosť, nielen ako sklad artefaktov:
 
@@ -59,7 +69,7 @@ ako možno z databázovej štruktúry znova vyrobiť naratívnu štruktúru?
 
 ---
 
-## **3.1.4 Premena odborných rolí: kurátor, dokumentátor, vývojár**
+### **3.1.4 Premena odborných rolí: kurátor, dokumentátor, vývojár**
 
 Digitalizácia múzejných zbierok nepriniesla len nové technológie, ale zásadne zmenila aj rozdelenie odborných rolí a zodpovedností.
 Kurátor ostáva dôležitým aktérom interpretácie, no v online prostredí už nie je jediným nositeľom významu. Podoba digitálnej zbierky vzniká v spolupráci viacerých profesií, z ktorých každá vstupuje do procesu iným spôsobom:
@@ -85,7 +95,7 @@ Toto rozšírenie odborných rolí má zásadný vplyv aj na vývoj digitálnych
 
 ---
 
-## **3.1.5 Záver: dedičstvo evidencie ako rámec súčasných výziev**
+### **3.1.5 Záver: dedičstvo evidencie ako rámec súčasných výziev**
 
 Kapitola ukazuje, že súčasné digitálne zbierky sú vystavané na vrstve evidenčných praxí a dátových štruktúr, ktoré vznikli v období, keď sa od evidencie neočakávalo sprostredkovanie zážitku ani interpretácie.
 Online platformy tak v mnohých prípadoch **zdedia formu, ktorá bola navrhnutá pre odbornú prácu, nie pre naratívne čítanie**.
@@ -102,13 +112,13 @@ Porozumenie tejto genealógii je preto kľúčové: ukazuje, že ak chceme prepr
 
 ---
 
-# **3.2 Prvé digitálne iniciatívy a infraštruktúry**
+## **3.2 Prvé digitálne iniciatívy a infraštruktúry**
 
 Digitalizácia zbierok v 90. rokoch a prvej dekáde 21. storočia vznikala v prostredí, kde boli technické aj politické podmienky radikálne odlišné od dnešných. Nasledujúce podkapitoly mapujú vznik kľúčových infraštruktúr, ktoré formovali podobu online zbierok – od európskej agregácie po prvé repozitáre a štandardy interoperability.
 
 ---
 
-## **3.2.1 Europeana a vznik európskeho rámca**
+### **3.2.1 Europeana a vznik európskeho rámca**
 
 Europeana nevznikla ako technický experiment, ale ako výsledok kultúrnej politiky Európskej únie.
 Jej vznik nadväzuje na projekty **MINERVA**, **MICHAEL** a koordináciu zdigitalizovaného dedičstva v rámci CENL (Conference of European National Librarians).
@@ -126,31 +136,31 @@ Od prvej verzie portálu (2008) sa Europeana vyvinula z prezentačného webu na 
 
 ---
 
-## **3.2.2 Štandardizácia: LIDO, Dublin Core, OAI-PMH**
+### **3.2.2 Štandardizácia: LIDO, Dublin Core, OAI-PMH**
 
 Prvá dekáda digitalizácie bola založená na štandardizácii metadát.
 Tri štandardy mali zásadný význam:
 
-### **LIDO (Lightweight Information Describing Objects)**
+#### **LIDO (Lightweight Information Describing Objects)**
 
 Vznikol pod CIDOC ICOM a publikoval ho G. Coburn a kol.
 LIDO je určený pre múzejné objekty a dodnes sa používa ako štandard pre export dát do Europeany a národných agregátorov.
 
 Výhoda LIDO spočíva v jeho komplexnosti; slabina v jeho abstrakcii. Ako uvádza Coburn, LIDO je kompromis medzi „interpretatívnymi“ a „transakčnými“ potrebami múzeí [@coburn_lido_2010].
 
-### **Dublin Core (DCMI, 1995–)**
+#### **Dublin Core (DCMI, 1995–)**
 
 Dublin Core bol pôvodne navrhnutý ako *„základný popisný systém pre heterogénne digitálne zdroje“* [@weibel_dc_1998].
 V múzejnom prostredí fungoval najmä ako „najnižší spoločný menovateľ“, ktorý umožnil jednoduché harvestovanie, ale redukoval bohaté múzejné metadáta na niekoľko všeobecných polí.
 
-### **OAI-PMH (Open Archives Initiative, 2001)**
+#### **OAI-PMH (Open Archives Initiative, 2001)**
 
 Ako uvádzajú Van de Sompel a Lagoze, OAI-PMH bol navrhnutý pre akademické repozitáre, no rýchlo sa stal základom pre Europeanu aj národné digitálne knižnice [@vandesompel_lagoze_oai_pmh_2002].
 Bez neho by agregácia v rozsahu miliónov objektov nebola možná.
 
 ---
 
-## **3.2.3 Repozitáre: Fedora Commons, DSpace a digitálne knižnice**
+### **3.2.3 Repozitáre: Fedora Commons, DSpace a digitálne knižnice**
 
 Repozitáre predstavovali kľúčový technologický krok medzi „internou databázou“ a „otvorenou digitálnou zbierkou“.
 
@@ -173,7 +183,7 @@ Ako upozorňuje Seamus Ross, kľúčovým problémom týchto systémov bolo to, 
 
 ---
 
-## **3.2.4 Autoritatívne zoznamy: ULAN, AAT, VIAF**
+### **3.2.4 Autoritatívne zoznamy: ULAN, AAT, VIAF**
 
 Authority files vznikli v kontexte snahy o normalizáciu názvov a identít v múzejnom a knižničnom prostredí.
 
@@ -194,7 +204,7 @@ V kontexte múzejných zbierok authority files určujú:
 
 ---
 
-## **3.2.5 Otvorené dáta a API: posun k platformovému mysleniu**
+### **3.2.5 Otvorené dáta a API: posun k platformovému mysleniu**
 
 Po roku 2010 sa v oblasti digitalizácie kultúrneho dedičstva začína presadzovať posun, ktorý presahuje samotné „zverejňovanie“ digitálnych reprodukcií. Do popredia sa dostáva otázka **podmienok použitia, znovupoužiteľnosti a technickej prístupnosti dát**. Digitalizácia sa tak postupne mení z publikačnej aktivity na infraštruktúrnu – nejde už len o to, *čo* je online, ale *ako* s tým možno ďalej pracovať.
 
@@ -213,13 +223,13 @@ API je v tomto zmysle moment, keď zbierka prestáva byť „len webom“ a zač
 
 ---
 
-# **3.3 Vývoj a prax vo svetovom kontexte**
+## **3.3 Vývoj a prax vo svetovom kontexte**
 
 Digitálne zbierky sa v posledných dvoch dekádach formovali v rôznych geografických, technologických aj inštitucionálnych podmienkach. Napriek tejto diverzite vzniklo niekoľko projektov, ktoré zásadným spôsobom ovplyvnili premýšľanie o tom, čo môže online zbierka byť: či len reprezentáciou fyzickej kolekcie, alebo samostatným kultúrnym priestorom. Nasledujúce príklady nepredstavujú opis svetovej produkcie v úplnosti, ale výber kľúčových iniciatív, ktoré posunuli diskusiu o digitálnych zbierkach dopredu a vytvorili rámce, s ktorými sa stretáva aj slovenská prax.
 
 ---
 
-## **3.3.1 Rijksmuseum: otvorenie zbierky ako verejnej služby**
+### **3.3.1 Rijksmuseum: otvorenie zbierky ako verejnej služby**
 
 Rijksmuseum patrilo medzi prvé európske inštitúcie, ktoré systematicky prepojili digitalizáciu zbierok s princípmi otvorených kultúrnych dát. V roku 2012 sprístupnilo tisíce diel vo verejnej doméne vrátane vysokokvalitných digitálnych reprodukcií, čo odborná literatúra označuje za prelomový moment v európskom kontexte otvoreného prístupu k múzejným zbierkam [@kapsalis_impact_open_access_2016]. Otvorenie dát tu nebolo chápané ako strata kontroly nad obsahom, ale ako rozšírenie verejnej služby – gesto, ktoré umožňuje, aby zbierkové objekty cirkulovali v nových kultúrnych, vzdelávacích a tvorivých kontextoch.
 
@@ -235,7 +245,7 @@ Skúsenosť Rijksmusea je v tomto zmysle zaujímavá aj ako referenčný príkla
 
 ---
 
-## **3.3.2 Cooper Hewitt Labs: rozhranie ako výskum**
+### **3.3.2 Cooper Hewitt Labs: rozhranie ako výskum**
 
 Cooper Hewitt Smithsonian Design Museum je v tomto kontexte zaujímavé najmä tým, že digitálnu prácu chápalo ako spoločný priestor kurátorského a technického uvažovania. V rokoch 2011–2015 tu pod vedením **Seb Chan** a **Aaron Cope** vzniklo interné laboratórium Cooper Hewitt Labs, ktoré cielene fungovalo ako výskumno-vývojová jednotka v rámci múzea. Chan tento model opakovane opisuje ako formu *R&D v múzejnom kontexte* – výskum založený na experimentovaní, iterácii a testovaní hypotéz priamo v prevádzke inštitúcie [@chan_api_2015].
 
@@ -251,7 +261,7 @@ Cooper Hewitt Labs tak v tomto kontexte nepredstavuje len súbor konkrétnych n�
 
 ---
 
-## **3.3.3 Science Museum Group: viditeľnosť ako kurátorská otázka**
+### **3.3.3 Science Museum Group: viditeľnosť ako kurátorská otázka**
 
 Science Museum Group upozornila na jeden z menej reflektovaných problémov digitálnych zbierok – **nerovnomernú viditeľnosť objektov**. Experiment *Never Been Seen* bol predstavený ako pokus narušiť hierarchiu pozornosti, ktorá vzniká nielen vo fyzických expozíciách, ale aj v samotných procesoch digitalizácie, v metadátach a v online katalógových systémoch. Autori projektu poukazujú na to, že digitalizácia často nevedome reprodukuje tradičné kurátorské výbery: ikonické alebo často vystavované objekty sú sprístupňované ako prvé, zatiaľ čo veľká časť zbierok zostáva nezdigitalizovaná, nedostatočne opísaná alebo prakticky neviditeľná [@science_museum_group_never_been_seen_2020].
 
@@ -267,7 +277,7 @@ V online prostredí sa však – v kontexte nadprodukcie digitálneho obsahu a p
 
 ---
 
-## **3.3.4 ACMI: kurátorstvo, technológia a návštevnícka skúsenosť**
+### **3.3.4 ACMI: kurátorstvo, technológia a návštevnícka skúsenosť**
 
 Australian Centre for the Moving Image (ACMI) v posledných rokoch rozvinulo prístup, ktorý systematicky prepája fyzický výstavný priestor s digitálnymi nástrojmi a infraštruktúrou. Ako opisuje **Seb Chan**, ACMI pracuje s princípom *visitor-centred design*, v ktorom kurátorská práca zahŕňa nielen výber a interpretáciu objektov, ale aj návrh technických systémov, rozhraní a interakcií, ktoré formujú celkovú návštevnícku skúsenosť [@chan_acmi_renewal_lens_2020].
 
@@ -286,7 +296,7 @@ ACMI je v tomto kontexte zaujímavé aj tým, že digitálne nástroje nevystupu
 
 ---
 
-## **3.3.5 Otvorené vývojové prístupy v Tate, MoMA a ďalších inštitúciách**
+### **3.3.5 Otvorené vývojové prístupy v Tate, MoMA a ďalších inštitúciách**
 
 Viaceré inštitúcie — Tate, MoMA, Walker Art Center, či The Getty — pracujú systematicky s otvoreným publikovaním kódu, dátových modelov a dokumentácie.
 MoMA sprístupňuje svoje dátové sady a schémy na GitHube [@moma_github_data_project_2015], Tate zverejňuje podrobné metodiky digitalizácie a workflowy výstavných projektov [@tate_digital_transformation_reports_2017] a Walker Art Center vyvíjal open-source publikačné platformy, ktoré ovplyvnili celý múzejno-publikačný ekosystém [@walker_open_source_publishing_2008_2015].
@@ -295,7 +305,7 @@ Tieto prístupy ukazujú, že digitálne kurátorstvo nie je iba otázkou výsle
 
 ---
 
-## **3.3.6 Artsy: rozhranie, vzťahy a otvorený vývoj mimo inštitúcií**
+### **3.3.6 Artsy: rozhranie, vzťahy a otvorený vývoj mimo inštitúcií**
 
 Popri verejných múzeách a galériách zohrávali v rovnakom období významnú úlohu aj digitálne platformy vznikajúce mimo inštitucionálneho rámca. Jedným z najviditeľnejších príkladov je **Artsy**, komerčná online platforma zameraná na sprostredkovanie súčasného umenia, galérií, aukčných domov a umeleckých veľtrhov. Artsy funguje ako agregátor dát z rôznych zdrojov – vrátane komerčných galérií aj verejných inštitúcií – ktoré prepája v jednotnom rozhraní určenom primárne na objavovanie a sledovanie umenia.
 
@@ -314,7 +324,7 @@ Pre túto prácu je Artsy relevantné predovšetkým ako **externý referenčný
 
 ---
 
-## **3.3.7 Syntéza: digitálne zbierky ako infraštruktúry významu**
+### **3.3.7 Syntéza: digitálne zbierky ako infraštruktúry významu**
 
 Uvedené príklady ukazujú, že vývoj digitálnych zbierok nie je jednotný ani lineárny, ale opiera sa o niekoľko opakujúcich sa princípov. Digitálna zbierka sa postupne prestáva chápať ako statický katalóg a čoraz častejšie funguje ako **platforma**, ktorá umožňuje rôzne spôsoby čítania, prepájania a interpretácie objektov. Nejde pritom o jednu „správnu“ formu prezentácie, ale o vytváranie podmienok pre vznik rozmanitých interpretačných ciest.
 
@@ -330,9 +340,9 @@ Táto kapitola zároveň vytvára východiskový rámec pre nasledujúcu časť 
 
 ---
 
-# **3.4 Československý kontext**
+## **3.4 Československý kontext**
 
-## **3.4.0 Úvod: Špecifiká vývoja, ktorý sa nedá importovať**
+### **3.4.0 Úvod: Špecifiká vývoja, ktorý sa nedá importovať**
 
 Digitálne sprístupňovanie zbierok umenia na Slovensku a v Česku sa formovalo v prostredí, ktoré sa výrazne odlišovalo od kontextu západoeurópskych múzeí. Kým Rijksmuseum či MoMA stavali svoje digitálne stratégie na kontinuite dlhodobo fungujúcich informačných systémov a silných kurátorských tímov, v Československu bol vývoj formovaný prerušeniami, politickými zásahmi, limitmi infraštruktúry a neskôr aj turbulenciami transformácie po roku 1989. To však neznamená, že vznikala „slabšia“ digitálna kultúra — skôr odlišná, nerovnomerná, no v mnohom prekvapivo inovatívna.
 
@@ -340,9 +350,9 @@ Jednou z hlavných téz tejto kapitoly je, že práve **historická vrstvenosť,
 
 ---
 
-## **3.4.1 Normalizačné korene CEDVU (1970s–1990s)**
+### **3.4.1 Normalizačné korene CEDVU (1970s–1990s)**
 
-### **3.4.1.1 Impulz štátu a potreba centrálneho prehľadu**
+#### **3.4.1.1 Impulz štátu a potreba centrálneho prehľadu**
 
 Vznik Centrálnej evidencie diel výtvarného umenia (CEDVU) v 70. rokoch bol priamym dôsledkom normalizačnej snahy o štandardizáciu a kontrolu zbierok. Projekt nevznikal ako digitálna iniciatíva — prirodzene, technológie to neumožňovali — ale ako **štátna stratégia vytvoriť úplný súpis umeleckých diel v galériách a múzeách na Slovensku**.
 
@@ -350,7 +360,7 @@ Hoci išlo o rámec, ktorý bol motivovaný dobovým administratívnym poriadkom
 
 *(Poznámka: niektoré tvrdenia v tejto časti treba overiť u pamätníčky Jany Bahurinskej.)*
 
-### **3.4.1.2 Analógová kartotéka ako priestor práce a poznania**
+#### **3.4.1.2 Analógová kartotéka ako priestor práce a poznania**
 
 Dnešný používateľ digitálnych zbierok má len ťažko predstaviteľnú mieru materiálnej náročnosti práce s analógovou dokumentáciou. V SNG sa od 70. rokov vytvárala rozsiahla kartotéka, v ktorej každý záznam pozostával z popisného lístka a priloženej čiernobielej fotografie. Niektoré tieto fotografie vznikali priamo v teréne — pracovníci SNG cestovali po Slovensku a zaznamenávali diela v regionálnych galériách či múzeách.
 
@@ -360,7 +370,7 @@ Ak sa na tento vývoj pozrieme ako na kontinuálnu dátovú líniu, dá sa zhrn�
 
 ---
 
-## **3.4.1.3 Predinternetová digitalizácia: Micro CDS/ISIS a prvé databázy**
+### **3.4.1.3 Predinternetová digitalizácia: Micro CDS/ISIS a prvé databázy**
 
 _(poznámka: doplnit pribeh v SNG. iniviativa jany bahurinskej. cesta do kanady. vlado hergot ktory sa ocitol v sng)_
 
@@ -380,37 +390,37 @@ Rovnako dôležité je, že práve táto kontinuita sa o ďalšiu dekádu neskô
 
 Týmto sa uzatvára dôležitá, hoci často prehliadaná časť príbehu digitalizácie: **prvá fáza digitalizácie prebehla ešte pred nástupom digitálnych technológií v dnešnom zmysle slova**, v podobe ručne prepisovaných textových polí a textových databáz bez vizuálnej vrstvy. Práve táto „neviditeľná“ infraštruktúrna práca vytvorila podmienky pre neskorší technologický skok – a zároveň ukazuje, že digitálne zbierky nevznikajú náhle, ale ako výsledok dlhodobého vrstvenia rozhodnutí, procesov a kompromisov.
 
-## **3.4.2 ISG-CEDVU: štandardizácia a profesionalizácia (2000s)**
+### **3.4.2 ISG-CEDVU: štandardizácia a profesionalizácia (2000s)**
 
 Po dlhom období analógovej evidencie a prvých elektronických pokusov v systéme Micro CDS/ISIS priniesla prvá dekáda 21. storočia zásadnú zmenu. Slovenská národná galéria začala budovať **ISG-CEDVU**, moderný informačný systém galérií, ktorý mal prvýkrát v histórii umožniť jednotnú, profesionálnu a dlhodobo udržateľnú evidenciu diel výtvarného umenia na národnej úrovni. Hoci legislatívne poverenie existovalo už od 70. rokov, až teraz sa vytvorili technické a organizačné podmienky na to, aby sa evidencia stala skutočnou infraštruktúrou.
 
-### **Od kartotéky k digitálnemu jadru**
+#### **Od kartotéky k digitálnemu jadru**
 
 Základom novej platformy bola rozsiahla databáza údajov, ktorá vznikla v 90. rokoch prepisom analógových kartotékových lístkov do systému Micro CDS/ISIS. Tento krok bol mimoriadne náročný: pracovníci SNG museli nielen mechanicky prepisovať údaje, ale zároveň postupne zjednocovať terminológiu, opravovať nepresnosti a vytvárať štruktúru, ktorá by bola kompatibilná s neskoršími normami. Bohumelová a Kusá zdôrazňujú, že pôvodné kartičky obsahovali veľké množstvo nesúrodých údajov – rozdielne poradie autorov, rôzne spôsoby zapisovania dátumu, nejednotnú formu rozmerov či techník.
 Práve vďaka tomuto ručnému prepisu však vznikol digitálny korpus, ktorý bolo možné priamo migrovať do ISG-CEDVU. Elektronická evidencia, ktorá vznikla vďaka Micro CDS/ISIS, sa postupne stala dátovým jadrom, ktoré dnes umožňuje fungovanie Centralizovaného katalógu diel.
 
-### **Normy, ktorým rozumie celá krajina**
+#### **Normy, ktorým rozumie celá krajina**
 
 Vstup do 2000s si vyžiadal nielen nový softvér, ale aj aktualizáciu metodických zásad. SNG preto pripravila publikáciu *Pravidlá katalogizácie umeleckých diel*, ktorá systematicky definovala povinné a voliteľné polia, spôsob zapisovania údajov, autoritné termíny aj metodiku práce s atribúciami, dielami bez autora či zložitými prípadmi ikonografie [@ondrejcekova_pravidla_katalogizacie_1979].
 Na rozdiel od skorších predpisov išlo o text vytvorený s vedomím, že údaje budú spracovávané digitálne, prenášané medzi inštitúciami a pravdepodobne aj zdieľané mimo odborného prostredia. Podkladom boli medzinárodné odporúčania CIDOC–ICOM aj skúsenosti pracoviska CEDVU z 90. rokov.
 
-### **Vznik centralizovaného systému**
+#### **Vznik centralizovaného systému**
 
 Nové rozhranie ISG-CEDVU umožnilo po prvý raz pracovať so spoločnou databázou na jednom serveri. Regionálne galérie sa do nej pripájali pomocou klientských aplikácií a zdieľali rovnaký systém polí, rovnaké pravidlá a rovnaké autority.
 Zmena architektúry mala aj praktické dôsledky: odstránila lokálne rozdiely, ktoré vznikali v izolovaných systémoch, a umožnila školenia, metodickú podporu a pravidelné revízie. Evidencia sa stala spoločnou úlohou, nie len súborom samostatných praktík.
 
-### **Predpoklad pre verejné sprístupnenie**
+#### **Predpoklad pre verejné sprístupnenie**
 
 Keď bol ISG-CEDVU plne v prevádzke, objavil sa nový, dovtedy nepredstaviteľný scenár. Ak sa galérie dokázali pripájať k centrálnej databáze na diaľku a pracovať s rovnakým súborom údajov, znamenalo to, že popisné dáta existujú v podobe, ktorú možno automaticky exportovať.
 V tejto chvíli sa otvorila otázka, ktorá neskôr povedie k vzniku Webu umenia: **môže mať verejnosť prístup aspoň k časti údajov, ktoré sa dovtedy považovali za interné?**
 Nebolo to výsledkom strategického plánovania, ale prirodzený dôsledok každodennej práce s novým systémom. Pracovníci, ktorí dovtedy evidenciu vnímali ako komunikačný nástroj medzi kurátormi, dokumentátormi a depozitom, zrazu videli, že dáta možno automaticky zdieľať, aktualizovať a publikovať.
 
-### **Dualita, ktorá pretrvala**
+#### **Dualita, ktorá pretrvala**
 
 Aj po zavedení ISG-CEDVU ostala analógová kartotéka zachovaná ako oficiálny výstup evidencie – nie z nostalgie, ale z legislatívnej povinnosti a potreby trvalého záznamu. Nové kartičky sa tlačia priamo z dát uložených v ISG-CEDVU.
 V praxi tak vznikol neobvyklý stav: **analógová a digitálna evidencia existujú paralelne**. Staršie kartičky sú svedectvom o vývoji popisu diel v 70. a 80. rokoch, novšie predstavujú presnú tlačovú verziu súčasnej databázy. Tento súbeh dvoch médií umožňuje pozorovať kontinuitu aj diskontinuity v uvažovaní o dielach – od ručne písaných lístkov až po digitálne autority.
 
-### **Poznámka k histórii CEDVU**
+#### **Poznámka k histórii CEDVU**
 
 _Presný priebeh vzniku CEDVU v 70. rokoch, najmä súvislosti s celoštátnym súpisom zbierok, kombináciou galerijných a muzeálnych fondov a prvými metodikami, bude potrebné doplniť vo fáze finálnej verzie na základe rozhovorov s pamätníčkami, najmä s Janou Bahurinskou._
 
@@ -420,7 +430,7 @@ Centralizovaný katalóg diel, aký dnes poskytuje SNG, je výsledkom niekoľký
 
 ---
 
-## **3.4.3 Slovakiana ako paralelná cesta (2013–2015)**
+### **3.4.3 Slovakiana ako paralelná cesta (2013–2015)**
 
 Slovakiana vznikla ako **národný projekt** v rámci operačných programov, s ambíciou vytvoriť centrálny agregátor digitálneho kultúrneho dedičstva. Jej logika bola prirodzene „top-down“ — vyplývajúca z mandátu štátu, s výrazne vyšším rozpočtom a povinnosťou zahrnúť široké spektrum pamäťových inštitúcií.
 
@@ -435,13 +445,13 @@ Zároveň však vznikala **paralelne s Webom umenia**, ktorý bol presne opačn�
 
 ---
 
-## **3.4.4 Český kontext: Artlist.cz a CEAD.space**
+### **3.4.4 Český kontext: Artlist.cz a CEAD.space**
 
 Tieto české projekty neboli priamymi technologickými predlohami Web umenia, ale významným spôsobom **formovali predstavu o tom, čo môže digitálna platforma pre umenie byť** – aký typ obsahu ponúka, akú mieru autority si nárokuje a akým spôsobom sprostredkúva vzťahy medzi dielami, autormi a historickým kontextom.
 
 V českom prostredí sa v priebehu 2000s a 2010s objavili platformy, ktoré možno chápať ako paralelné k vývoju v SNG – nie z hľadiska technickej architektúry, ale **typologicky a koncepčne**. Dva z nich sú pre túto prácu obzvlášť relevantné: **Artlist.cz** a **CEAD.space**.
 
-### **Artlist.cz**
+#### **Artlist.cz**
 
 Projekt Umeleckoprůmyslového musea v Prahe bol od začiatku koncipovaný ako **kurátorsko-encyklopedická databáza** zameraná na výtvarné umenie v Česku. Obsahuje autorské heslá, biografie, základné bibliografie a prepojenia na diela a inštitúcie. Na rozdiel od čisto evidenčných systémov pracuje s jasne formulovaným hlasom a odbornou autoritou – databáza tu nevystupuje ako neutrálne úložisko, ale ako nástroj odborného sprostredkovania.
 
@@ -449,7 +459,7 @@ Pre slovenský kontext – a neskôr aj pre návrh Web umenia – bol Artlist d�
 
 Artlist tým zároveň demonštroval, že aj relatívne jednoduchá databázová štruktúra môže fungovať ako silný nástroj orientácie v umeleckom poli, pokiaľ je podporená konzistentnou terminológiou, jasnou informačnou architektúrou a odbornou redakčnou kontrolou.
 
-### **CEAD.space**
+#### **CEAD.space**
 
 Projekt **CEAD.space** (Central European Art Database), realizovaný Centrom súčasného umenia DOX, predstavuje odlišný, no komplementárny prístup. CEAD bol koncipovaný ako **archívno-výskumná platforma** so zameraním na stredoeurópske umenie druhej polovice 20. storočia, s dôrazom na konceptuálne, intermediálne a akčné formy tvorby.
 
@@ -461,7 +471,7 @@ Z technologického hľadiska je zaujímavé, že CEAD využíva open-source syst
 
 ---
 
-## **3.4.5 Dvojkoľajnosť digitálnej transformácie: paralelné projekty, odlišné logiky**
+### **3.4.5 Dvojkoľajnosť digitálnej transformácie: paralelné projekty, odlišné logiky**
 
 Jednou z charakteristík slovenského vývoja je **paralelné vznikanie dvoch typov digitálnych projektov**:
 
@@ -478,16 +488,16 @@ Výsledkom bolo, že Web umenia mohol vzniknúť takmer organicky, „odspodu“
 
 ---
 
-## **3.4.6 Vznik lab.SNG (2010–2015): in-house ako stratégia**
+### **3.4.6 Vznik lab.SNG (2010–2015): in-house ako stratégia**
 
-### **3.4.6.1 Prečo in-house?**
+#### **3.4.6.1 Prečo in-house?**
 
 Jednou z dôležitých čŕt slovenského príbehu je rozhodnutie SNG vytvoriť **vlastný interný tím vývoja**.
 Toto riešenie nebolo typické — väčšina galérií v Európe využívala externé dodávateľské firmy.
 
 Dôvody boli najmä tri: potrebná blízkosť ku kurátorom (aby vývojári rozumeli praxi interpretácie a práce so zbierkami), uchovávanie know-how priamo v inštitúcii (digitálne projekty potrebujú dlhú kontinuitu) a napokon inšpirácie zo sveta (Cooper Hewitt Labs, Rijksmuseum, Brooklyn Museum), ktoré ukazovali, že aj v kultúrnej inštitúcii môže fungovať výskumno-vývojové prostredie.
 
-### **3.4.6.2 Prvé experimenty: SoundWalk a mikrostránky**
+#### **3.4.6.2 Prvé experimenty: SoundWalk a mikrostránky**
 
 Vznik lab.SNG nebol administratívnym rozhodnutím, ale **postupným formovaním praxe**.
 Prvým projektom bola mobilná aplikácia SoundWalk pre Kaštieľ Strážky, ktorej produkcia ukázala, ako potrebná je koordinácia kurátorov, pedagogiky, editorov a vývojárov.
@@ -502,7 +512,7 @@ Už vtedy sme riešili aj import dát cez OAI-PMH; interný importér sme volali
 
 Pri importovaní väčších setov diel prototyp rýchlo narážal na limity výkonu relačnej databázy, najmä pri kombinácii filtrovania a fulltextu. Práve tu sa začal rodiť plán nasadiť **Elasticsearch** ako vyhľadávaciu vrstvu; tejto téme sa vraciam v kapitole 4.
 
-### **3.4.6.3 Zrodenie novej verzie Web umenia**
+#### **3.4.6.3 Zrodenie novej verzie Web umenia**
 
 Nová verzia Web umenia (spustená v roku 2016) bola výsledkom uvedomenia, že nestačí „zobraziť dáta“. Potrebné bolo prepájať diela do kontextu, pracovať s vizuálnymi vzťahmi, rozprávať kurátorské príbehy a vytvárať používateľsky prívetivé rozhranie.
 
@@ -510,7 +520,7 @@ Web umenia bol — a naďalej je — **laboratórnym projektom**, v ktorom archi
 
 ---
 
-## **3.4.7 Zhrnutie: slovenský príbeh ako paradox a výhoda**
+### **3.4.7 Zhrnutie: slovenský príbeh ako paradox a výhoda**
 
 Slovenský vývoj digitálnych zbierok je pozoruhodný tým, že kombinuje tri vrstvy, ktoré sa inde v Európe bežne nevyskytujú pohromade:
 
@@ -529,11 +539,11 @@ Príbeh Web umenia tak nie je len príbehom technologického projektu, ale aj pr
 
 ---
 
-# **3.5 Príbeh Web umenia**
+## **3.5 Príbeh Web umenia**
 
 Vznik Web umenia často pôsobí ako prirodzené pokračovanie CEDVU: ak existuje centrálna databáza, zdá sa logické sprístupniť ju. Historická realita je však odlišná. Web umenia nevznikol ako súčasť strategických plánov SNG či ministerstva, ani ako „front-end“ k novému informačnému systému. Bol výsledkom dvoch síl, ktoré sa stretli v správnej chvíli: technologickej pripravenosti ISG-CEDVU a potreby hľadať spôsob, ako prezentovať zbierky v prostredí, ktoré sa rýchlo menilo.
 
-## **3.5.1 Od CEDVU k prvému webu (2010): spontánny začiatok**
+### **3.5.1 Od CEDVU k prvému webu (2010): spontánny začiatok**
 
 Keď **Slovenská národná galéria** okolo rokov 2008–2010 dokončovala prvé rozsiahle digitalizačné cykly (najmä maliarstvo 19. a 20. storočia), stávalo sa čoraz zreteľnejším, že digitálne reprodukcie a popisné údaje uložené v interných systémoch neplnia celý svoj potenciál. Digitalizácia bola primárne orientovaná na dokumentáciu, odbornú prácu a tlačové výstupy; verejnosť k týmto dátam nemala priamy prístup, hoci dopyt po informáciách o zbierkach postupne narastal.
 
@@ -545,7 +555,7 @@ V momente, keď sa ukázalo, že dáta možno exportovať a zobrazovať mimo int
 
 Spätným pohľadom možno povedať, že Web umenia vznikol skôr z **prevádzkovej potreby a presvedčenia o zmysluplnosti otvorenia dát** než z formálneho poverenia. Práve táto okolnosť mu umožnila fungovať ako experimentálny projekt, ktorý nevychádzal z hotovej stratégie, ale z každodennej práce s infraštruktúrou a z testovania možností, ktoré existujúce dáta postupne ponúkali.
 
-## **3.5.2 Technologické pozadie: Fedora Commons a prvé integračné pokusy**
+### **3.5.2 Technologické pozadie: Fedora Commons a prvé integračné pokusy**
 
 Ak prvotný impuls vznikol z evidenčnej praxe, technologické zázemie Webu umenia sa formovalo v už odlišnom prostredí. Projekt Digitálna galéria (2012–2015) priniesol nielen masívnu vlnu digitalizácie, ale aj zásadné rozhodnutie: vybudovať repozitár na báze **Fedora Commons**, technológie, ktorá bola v tom čase rozšírená najmä v akademických a knižničných inštitúciách.
 
@@ -553,7 +563,7 @@ Fedora umožňovala uchovávať digitálne objekty (snímky, metadáta, odvodeni
 
 To znamenalo, že Web umenia už nestál na ad hoc riešeniach, ale na infraštruktúre, ktorá vedela zabezpečiť kvalitu reprodukcií, ich životný cyklus a vzťahy medzi objektami. Zároveň sa otvorila možnosť API — prístupového rozhrania, ktoré umožnilo vytvárať aplikácie alebo vizualizácie nad dátami. Táto vrstva neskôr zohrá kľúčovú úlohu pri výskume naratívnych možností digitálnych zbierok.
 
-## **3.5.3 Zmena paradigmy: od evidencie k rozhraniu**
+### **3.5.3 Zmena paradigmy: od evidencie k rozhraniu**
 
 Prvé roky Webu umenia ukázali, že evidencia a prezentácia nie sú v online prostredí dve oddelené praxe. Hoci sa v inštitucionálnom rámci často chápu ako rozdielne oblasti – katalogizácia ako odborná, „technická“ činnosť a prezentácia ako komunikačná alebo edukačná vrstva – digitálna platforma tieto hranice prakticky ruší. Údaje, ktoré vznikajú pre interné potreby správy zbierok, sa v momente publikovania stávajú súčasťou verejného rozhrania a tým aj verejnej interpretácie.
 
@@ -569,7 +579,7 @@ Tieto teoretické východiská spätne osvetľujú praktickú skúsenosť s výv
 
 Táto zmena paradigmy – od evidencie k rozhraniu – sa stala jedným z kľúčových východísk ďalšieho vývoja Webu umenia. Ukázala, že práca s digitálnymi zbierkami nie je len otázkou správnosti údajov, ale aj otázkou zodpovednosti za spôsoby, akými sú tieto údaje sprístupňované, prepájané a interpretované v online priestore.
 
-## **3.5.4 Web umenia ako laboratórium: iterácia, dialóg a vývoj v reálnom čase**
+### **3.5.4 Web umenia ako laboratórium: iterácia, dialóg a vývoj v reálnom čase**
 
 Okolo roku 2013–2014 sa vývoj Webu umenia prelial do širšieho experimentálneho rámca. Z iniciatívy Michala Čudrnáka vznikol **lab.SNG** — najprv ako neformálna skupina ľudí pracujúcich „bokom popri oficiálnych úlohách“, neskôr ako stabilizovanejšia vnútorná platforma.
 Inšpirácia prichádzala aj zo zahraničia: Cooper Hewitt Labs, tým okolo Seba Chana v ACMI či Rijksstudio ukazovali, že technologický vývoj môže byť súčasťou galerijnej kultúry, nie službou, ktorú si inštitúcia objednáva.
@@ -582,7 +592,7 @@ Za dôležitý „dôkazový“ moment vnímam prototyp **Dve krajiny**: bol to 
 Výsledkom bola postupná transformácia Webu umenia z katalógu na platformu:
 nielen pre prezeranie, ale pre skúmanie, hra­nie, prepájanie a v niektorých prípadoch aj pre rozprávanie (Príbehy umenia).
 
-## **3.5.5 Prelomové momenty: API, open access a nový dizajn**
+### **3.5.5 Prelomové momenty: API, open access a nový dizajn**
 
 Z technického hľadiska možno označiť tri momenty za rozhodujúce.
 
@@ -592,7 +602,7 @@ Z technického hľadiska možno označiť tri momenty za rozhodujúce.
 
 **Nová verzia Web umenia** (cca 2015–2016) prepojila tieto vrstvy do jedného rozhrania. Už to nebola „stránka s databázou“, ale ekosystém, ktorý vedel zobrazovať tisíce diel na rôznych úrovniach granularity — od detailu obrazu po mapu kultúrnych súvislostí.
 
-## **3.5.6 Čo Web umenia zmenil: metadáta ako naratív a platforma ako aktér**
+### **3.5.6 Čo Web umenia zmenil: metadáta ako naratív a platforma ako aktér**
 
 Tým, že Web umenia začal uvažovať o rozhraní ako o priestore interpretácie, posunul diskusiu o digitálnych zbierkach na nové pole. Zbierka prestala byť statickým súborom diel; stala sa **dynamickou konštrukciou**, v ktorej:
 
@@ -604,7 +614,7 @@ Tým, že Web umenia začal uvažovať o rozhraní ako o priestore interpretáci
 Pre moju vlastnú prácu bol tento moment rozhodujúci. Práve tu sa ukázalo, že digitálne platformy nezviditeľňujú len samotné diela, ale aj logiku ich výberu, spôsob katalogizácie, kvalitu opisov, a dokonca aj rozhodnutia, ktoré pôsobia banálne (napr. ktoré polia sa zobrazia ako prvé).
 Digitálne rozhranie je interpretáciou — nie preto, že mu to kurátor prikáže, ale preto, že je technickým aktérom so svojimi obmedzeniami a možnosťami.
 
-## **3.5.7 Záver: Web umenia ako produkt aj symptóm**
+### **3.5.7 Záver: Web umenia ako produkt aj symptóm**
 
 Keď sa dnes pozeráme na Web umenia, môže pôsobiť ako prirodzená súčasť sveta online zbierok. V skutočnosti je však výsledkom veľmi špecifickej konštelácie: normalizačná kartotéka → ručný prepis do Micro CDS/ISIS → centralizácia ISG-CEDVU → digitalizačný boom 2010s → experimentálny tím lab.SNG → medzinárodné open-access impulzy.
 
@@ -615,21 +625,21 @@ Je výsledkom série rozhodnutí, ktoré sa pôvodne netýkali naratívov, ale i
 
 ---
 
-# **3.6 Súčasné tendencie a smerovanie: od sprístupňovania k interpretácii**
+## **3.6 Súčasné tendencie a smerovanie: od sprístupňovania k interpretácii**
 
 Ak prvé dve dekády digitalizácie patrili infraštruktúre — skenerom, databázam a workflowom — posledné roky ukazujú zásadný posun. Online zbierky už nie sú chápané len ako „digitálne katalógy“, ale ako **rozhrania, ktoré sprostredkúvajú spôsoby poznania**. To, čo bolo kedysi technickým problémom, sa dnes stáva problémom epistemologickým: ako v digitálnom prostredí vzniká význam, naratív a kontext.
 
 Tento posun je viditeľný v celom globálnom poli. Po otvorení zbierok Rijksmusea, po experimentoch Cooper Hewitt Labs a po úspešných participatívnych projektoch v Tate či MoMA sa online platformy zmenili z „výkladov“ na priestory skúmania.
 Rozhranie už nie je len spôsobom, *ako* sa dielo ukazuje; čoraz viac sa stáva spôsobom, *ako* sa dielo chápe.
 
-## **3.6.1 Nová zodpovednosť rozhraní**
+### **3.6.1 Nová zodpovednosť rozhraní**
 
 Digitálne platformy dnes vykonávajú úlohy, ktoré boli kedysi prirodzene pripisované kurátorom a editorom. Automatizované odporúčania, radenie výsledkov vyhľadávania, vizuálne podobnosti či tematické kolekcie — to všetko sú mechanizmy, ktoré generujú implicitné interpretácie.
 V tomto prostredí nie je možné oddeľovať technické riešenie od odborného významu. Ako upozorňuje Fiona Cameron, digitálne prostredia do zbierok vnášajú **ontologickú dynamiku**: objekty menia svoju povahu podľa toho, v akom informačnom systéme sa nachádzajú, aké prepojenia sú im priradené a aké vzťahy im rozhranie umožní nadviazať.
 
 V praxi to znamená, že každý „mechanizmus“ rozhrania — automatické tagy, podobnostné algoritmy, časové osi či mapy — je súčasťou kultúrneho príbehu. Nevytvára iba navigáciu, ale aj interpretáciu.
 
-## **3.6.2 Kurátor ako vývojár, vývojár ako kurátor**
+### **3.6.2 Kurátor ako vývojár, vývojár ako kurátor**
 
 Táto situácia prirodzene mení odborné roly.
 Kurátorská práca už nie je len výberom diel a textovou interpretáciou. Zahŕňa prácu s dátovými modelmi, s digitálnymi reprezentáciami a s mechanizmami, ktoré umožňujú (alebo znemožňujú) určité čítanie zbierky – teda rozhodovanie o tom, aké vzťahy môžu v systéme vzniknúť a aké zostávajú neartikulateľné [@cameron_museum_collections_documentation_2010; @drucker_humanities_approaches_2011].
@@ -642,7 +652,7 @@ V ideálnom prípade sa medzi týmito profesiami formuje **hybridná expertíza*
 Tento model sa objavuje v inštitúciách ako ACMI, Tate, Cooper Hewitt či SFMOMA Labs.
 V slovenskom prostredí bol lab.SNG jedným z prvých miest, kde sa tento typ hybridnej praxe stal reálnou súčasťou každodennosti.
 
-## **3.6.3 Nové výzvy: etika algoritmov, personalizácia, serendipity**
+### **3.6.3 Nové výzvy: etika algoritmov, personalizácia, serendipity**
 
 S narastajúcim množstvom dát a pokročilejšími nástrojmi (počítačové videnie, NLP, strojové učenie) vzniká napätie medzi dvoma princípmi:
 
@@ -660,7 +670,7 @@ A kto rozhoduje, ktorá podobnosť je dôležitá?
 Táto diskusia sa dotýka samotnej podstaty naratívnej vrstvy:
 digitálne rozhranie nevytvára príbeh ako text, ale ako súbor cestičiek, filtrov, vzťahov a návratností.
 
-## **3.6.4 Kontextualizácia ako kľúčový problém**
+### **3.6.4 Kontextualizácia ako kľúčový problém**
 
 Ak je dnes niečo všeobecne uznávanou slabinou online zbierok, je to **nekontinuálna naratívnosť**.
 Digitálne rozhrania excelujú v šírke, ale bojujú s hĺbkou.
@@ -672,7 +682,7 @@ Príklady sú rôzne: Rijksstudio Stories, SFMOMA’s Send Me SFMOMA, projekty A
 Všetky pracujú s rovnakou ambíciou:
 vrátiť rozhraniu schopnosť vytvárať *vzťahy*, nielen *záznamy*.
 
-## **3.6.5 Prepojenie na výskumnú otázku: digitálne rozhranie ako naratívna technológia**
+### **3.6.5 Prepojenie na výskumnú otázku: digitálne rozhranie ako naratívna technológia**
 
 V kontexte tejto kapitoly sa vraciame k ústrednej myšlienke celej dizertačnej práce:
 **digitálne zbierky často trpia stratou naratívnej vrstvy, pretože sú dedičmi databázového myslenia.**
@@ -691,7 +701,7 @@ V tomto bode sa výskumná otázka práce konkretizuje. Nejde o to, ako do digit
 
 ---
 
-### **Použitá literatúra**
+#### **Použitá literatúra**
 
 ::: {#refs}
 :::

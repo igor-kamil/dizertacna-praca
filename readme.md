@@ -1,6 +1,6 @@
 # Dizertačná práca: Online art collections as containers of visual storytelling
 
-![Progress](https://img.shields.io/badge/Writing%20Progress-31%20pages%20%7C%20goal:%2038%20(BEHIND)-red?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Writing%20Progress-34%20pages%20%7C%20goal:%2039%20(BEHIND)-red?style=for-the-badge)
 
 - **Autor:** Igor Rjabinin
 - **Školiteľ:** András Cséfalvay
