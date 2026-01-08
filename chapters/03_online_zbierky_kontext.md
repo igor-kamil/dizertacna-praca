@@ -2,11 +2,15 @@
 
 ## *Preface*
 
-> *Digitálne zbierky nie sú len technickým projektom; sú odrazom spoločenskej, historickej aj kultúrnej zmeny. Každý ich aspekt — od evidencie po rozhranie — je výsledkom konkrétnych rozhodnutí, možností aj kompromisov.*
+Táto kapitola slúži ako state of the art prehľad problematiky online zbierok umenia. Poskytuje rámec, v ktorom možno čítať súčasný stav digitálnych zbierok – od ich historických a technologických východísk až po konkrétne inštitucionálne riešenia v praxi. Jej cieľom je pomenovať hlavné tendencie, rozhodnutia a limity, ktoré formovali podobu online zbierok tak, ako ich poznáme dnes.
 
-Táto kapitola načrtáva historické zázemie a inštitucionálne kontexty, ktoré formujú dnešné digitálne zbierky umenia. Ukazuje, že vývoj od analógovej evidencie k otvoreným online platformám nebol priamkou, ale sériou premenlivých reakcií na zmeny technológií, potrieb odbornej obce, legislatívy a – v neposlednom rade – očakávaní verejnosti.
+Kapitola sleduje vývoj v niekoľkých mierkach. Najprv sa vracia k pred-digitálnym evidenčným praktikám a k vzniku databáz, ktoré dodnes zásadne ovplyvňujú štruktúru múzejných dát. Následne mapuje vznik kľúčových infraštruktúr a štandardov, ktoré umožnili masové sprístupňovanie zbierok v online prostredí. V ďalšej časti predstavuje vybrané príklady zo svetového kontextu, na ktorých je možné sledovať rôzne prístupy k otvorenosti, rozhraniu a práci s publikom. Kapitola sa potom presúva do československého prostredia a napokon k detailnejšiemu pohľadu na Web umenia.
 
-Popisované posuny nevznikali izolovane: boli súčasťou širších európskych i globálnych pohybov (štandardizácia metadát, open data, API), ale tiež výrazne lokálne podmienené históriou, politikou či inštitucionálnou kultúrou. Kapitola preto kombinuje svetové príklady s podrobným pohľadom na stredoeurópsky a slovenský vývoj a tvorí východisko pre ďalšiu – autorskú – analýzu možností a limitov súčasnej generácie digitálnych zbierok.
+Dôležitým východiskom kapitoly je presvedčenie, že online zbierky nevznikajú vo vákuu. Sú výsledkom dlhodobého vývoja technológií, inštitucionálnych priorít a kurátorských modelov, ktoré sa navzájom ovplyvňujú. Práve preto je tu Web umenia čítaný nie ako izolovaný projekt, ale ako konkrétny use-case, ktorý vznikal v dialógu so svetovými trendmi aj lokálnymi obmedzeniami.
+
+Zároveň je táto kapitola rámcom pre autorskú pozíciu práce. Príbeh Webu umenia je v nej sledovaný aj z perspektívy jeho vývoja v rámci lab.SNG, kde som sa na projekte dlhodobo podieľal. Táto skúsenosť umožňuje prepájať analytický pohľad „zvonku“ s praktickým porozumením „zvnútra“ – teda sledovať, ako sa abstraktné princípy digitalizácie, otvorených dát či rozhraní premietajú do reálnych rozhodnutí, kompromisov a iterácií.
+
+Cieľom kapitoly nie je podať vyčerpávajúcu históriu digitalizácie, ale vytvoriť orientačnú mapu terénu, v ktorom sa pohybuje zvyšok dizertačnej práce. Ukazuje, prečo sa online zbierky v praxi správajú skôr ako databázy než ako priestory, ktoré by prirodzene podporovali rozprávanie a súvislé čítanie diel. Práve z tohto napätia vychádza aj táto práca: otázka naratívu tu nevystupuje ako abstraktný problém digitálnych zbierok, ale ako konkrétna skúsenosť a dlhodobá téma výskumu, ktorá sa formovala pri návrhu a vývoji Webu umenia. Kapitola tak vytvára východisko pre podrobnejšiu analýzu rozhraní, dát a experimentálnych prístupov, ku ktorým sa text postupne vracia v ďalších častiach práce.
 
 ## **3.1 Korene a predpoklady digitalizácie**
 
@@ -701,8 +705,4 @@ V tomto bode sa výskumná otázka práce konkretizuje. Nejde o to, ako do digit
 
 ---
 
-#### **Použitá literatúra**
-
-::: {#refs}
-:::
-
+ 

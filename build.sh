@@ -6,11 +6,12 @@ set -euo pipefail
 #   chmod +x build.sh   # once
 #   ./build.sh          # produces dissertation.pdf
 # Options:
-#   ENABLE_BIB=1 ./build.sh   # include references.bib with citeproc (optional)
+#   ENABLE_BIB=0 ./build.sh   # disable bibliography generation (default: enabled)
 
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 chapters_dir="${root_dir}/chapters"
 build_dir="${root_dir}/_build"
+merged_raw_md="${build_dir}/merged.raw.md"
 merged_md="${build_dir}/merged.md"
 output_pdf="${root_dir}/dissertation.pdf"
 aside_filter="${root_dir}/pandoc/filters/aside.lua"
@@ -51,14 +52,71 @@ if (( ${#chapters[@]} == 0 )); then
 fi
 
 # Merge chapters into a single temp file.
-cat "${chapters[@]}" > "${merged_md}"
+cat "${chapters[@]}" > "${merged_raw_md}"
 
-# Optional bibliography.
+# Pandoc citeproc places the bibliography at the first `::: {#refs}` block it finds.
+# Since chapters may contain their own refs placeholder, strip any `{#refs}` divs
+# during merge and add a single bibliography section at the very end.
+awk '
+  function is_blank(s) { return s ~ /^[[:space:]]*$/ }
+  function is_ref_heading(s) {
+    # Match headings like: "#### **Použitá literatúra**" (optional bold markers).
+    return s ~ /^[[:space:]]*#{1,6}[[:space:]]*(\*\*)?(Použitá literatúra|Zoznam použitej literatúry|Zoznam literatúry|Bibliography|References|Literatúra|Zdroje)(\*\*)?[[:space:]]*$/
+  }
+  function flush_one(    i) {
+    print buf[1]
+    for (i = 1; i < buflen; i++) buf[i] = buf[i + 1]
+    buflen--
+  }
+  function flush_all(    i) {
+    for (i = 1; i <= buflen; i++) print buf[i]
+    buflen = 0
+  }
+  BEGIN { inrefs = 0; buflen = 0; maxbuf = 20 }
+  {
+    line = $0
+
+    if (inrefs) {
+      if (line ~ /^[[:space:]]*:::[[:space:]]*$/) inrefs = 0
+      next
+    }
+
+    if (line ~ /^[[:space:]]*:::[[:space:]]*\{#refs\}[[:space:]]*$/) {
+      # Drop the refs placeholder and also remove a preceding "References/Bibliography"
+      # heading (plus surrounding blank lines) to avoid leaving an empty section
+      # inside a chapter.
+      while (buflen > 0 && is_blank(buf[buflen])) buflen--
+      if (buflen > 0 && is_ref_heading(buf[buflen])) buflen--
+      while (buflen > 0 && is_blank(buf[buflen])) buflen--
+      flush_all()
+      inrefs = 1
+      next
+    }
+
+    buflen++
+    buf[buflen] = line
+    if (buflen > maxbuf) flush_one()
+  }
+  END { flush_all() }
+' "${merged_raw_md}" > "${merged_md}"
+
+# Bibliography (enabled by default).
 extra_opts=()
-if [[ "${ENABLE_BIB:-0}" == "1" && -f "${root_dir}/references.bib" ]]; then
-  extra_opts+=(--citeproc --bibliography="${root_dir}/references.bib")
-  if [[ -f "${root_dir}/style.csl" ]]; then
-    extra_opts+=(--csl="${root_dir}/style.csl")
+if [[ "${ENABLE_BIB:-1}" != "0" ]]; then
+  bib="${root_dir}/references.bib"
+  if [[ -f "${bib}" ]]; then
+    extra_opts+=(--citeproc --bibliography="${bib}")
+    [[ -f "${root_dir}/style.csl" ]] && extra_opts+=(--csl="${root_dir}/style.csl")
+
+    cat >> "${merged_md}" <<'EOF'
+
+# Zoznam použitej literatúry
+
+::: {#refs}
+:::
+EOF
+  else
+    echo "Warning: references.bib not found; skipping bibliography." >&2
   fi
 fi
 

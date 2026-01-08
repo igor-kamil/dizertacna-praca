@@ -41,7 +41,13 @@ chmod +x build.sh      # prvýkrát
 ./build.sh             # vytvorí dissertation.pdf
 ```
 
-Bibliografia: `ENABLE_BIB=1 ./build.sh` (vyžaduje `references.bib`)
+Bibliografia: generuje sa **automaticky na konci dokumentu** (vyžaduje `references.bib`).
+
+Vypnúť bibliografiu (ak to dočasne potrebuješ):
+
+```bash
+ENABLE_BIB=0 ./build.sh
+```
 
 ## Stav projektu
 

@@ -201,7 +201,7 @@ Vyhľadávanie sa tak stalo nielen nástrojom prístupu, ale aj mechanizmom star
 ## **4.4 Otvorené dáta, štandardy a interoperabilita**
 
 > *“Each standard and each category valorizes some point of view and silences another.”*
-> — Geoffrey C. Bowker, Susan Leigh Star, *Sorting Things Out* (1999) [@bowker_sorting_things_out_1999; note]
+> — Geoffrey C. Bowker, Susan Leigh Star, *Sorting Things Out* (1999) [-@bowker_sorting_things_out_1999; note]
 
 Otvorené štandardy sa v oblasti kultúrneho dedičstva často opisujú ako technický predpoklad spolupráce. V praxi však fungujú skôr ako dlhodobá dohoda medzi inštitúciami, profesiami a spôsobmi uvažovania. Nevnucujú jednotné riešenie, ale vytvárajú spoločný jazyk, ktorý umožňuje, aby si systémy navzájom rozumeli — aj keď vznikli v odlišných kontextoch, s odlišnými prioritami a obmedzeniami.
 
