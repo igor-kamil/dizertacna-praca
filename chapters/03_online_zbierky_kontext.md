@@ -21,8 +21,6 @@ Manovich týmto jednoduchým výrokom pomenúva základné napätie: databázy v
 
 Digitálna transformácia múzeí a galérií nevznikla ako radikálny zlom, ale ako postupný proces, ktorý nadviazal na dlhodobé tradície evidencie, správy a organizácie zbierok [@parry_recoding_museum_2007]. To, ako dnes vyzerajú online zbierky a ich rozhrania, je významne determinované tým, aké predstavy o diele, údajoch a poriadku sa formovali v analógovej a ranodigitálnej ére [@hooper_greenhill_shaping_knowledge_1992; @cameron_kenderdine_theorizing_digital_cultural_heritage_2007]. Kapitola preto načrtáva historické a metodologické pozadie, bez ktorého nie je možné porozumieť súčasným limitom ani možnostiam digitálnych zbierok.
 
----
-
 ### **3.1.1 Pred-digitálne evidenčné praxe: stabilita, štandardy a obmedzenia**
 
 Tradičné múzeá a galérie pracovali s evidenciou zbierok prostredníctvom stabilných a presne definovaných nástrojov: inventárnych kníh, kartotékových lístkov, depozitárnych protokolov a dokumentačných kariet. Ako uvádzajú **Bahurinská a Bohumelová**, základné kritériá pre vytváranie záznamov o zbierkových predmetoch sa zásadne nemenili celé desaťročia a boli overené dlhodobou praxou [@bahurinska_bohumelova_evidence_kapitola_nd]. Tieto štandardy boli zámerne faktické a uniformné — ich cieľom bolo zabezpečiť spoľahlivú identifikáciu diela, umožniť vyhľadávanie a podporiť odborný výskum.
@@ -33,8 +31,6 @@ Každá zmena v údajoch vyžadovala manuálny zásah a aktualizácie boli časo
 V kontexte Slovenskej národnej galérie má táto história špecifickú podobu. Dokumentácia zbierok sa začína až v 70. rokoch 20. storočia — čo je v porovnaní s inými európskymi inštitúciami relatívne neskoro, no o to presnejšie zdokumentované. Pracovníci SNG v tom čase manuálne zhromažďovali kartičky a čiernobiele fotografie z galérií a múzeí po celom Slovensku, aby ich uložili do **centrálneho kartotékového katalógu**, ktorý bol dlhé roky základnou infraštruktúrou pre odborné rešerše. *(Doplniť zdroj – interné dokumenty SNG / rozhovor.)*
 
 Pred-digitálne praxe tak formovali nielen technickú stránku evidencie, ale aj **kultúrny model práce s dielom**. Dielo sa v nej spravidla chápalo ako stabilný objekt a informácie o ňom ako súbor faktov uložených v pevne definovaných formátoch. Aktualizácia údajov a interpretácia (t. j. „čo to znamená“) boli v praxi oddelené – evidencia mala primárne udržiavať poriadok a umožniť identifikáciu, nie vytvárať významy. Tento spôsob uvažovania zodpovedá širšiemu poznatku, že múzeá nevytvárajú len zbierky, ale aj systémy kategórií a poznania, cez ktoré sa objekty stávajú čitateľnými [@hooper_greenhill_shaping_knowledge_1992].
-
----
 
 ### **3.1.2 Prechod k databázam: formovanie dátovej ontológie**
 
@@ -53,8 +49,6 @@ Ich úlohou bolo zefektívniť správu zbierok, nie sprostredkovať vizuálny al
 Dôležité je uvedomiť si, že mnohé súčasné digitálne platformy – vrátane tých, ktoré dnes fungujú online – **zdedili túto evidenčnú logiku**.
 Parametre, ktoré dnes určujú možnosti vyhľadávania, facetingu či vizualizácie, sú často priamo odvodené od rozhodnutí, ktoré vznikli počas retrospektívneho prepisu dokumentačných kariet.
 
----
-
 ### **3.1.3 Teoretické rámce: múzeum ako informačný a dátový systém**
 
 V rovnakom období, v ktorom sa digitalizuje evidencia, sa začína meniť aj teoretické chápanie múzea. V diskusiách o digitálnom kultúrnom dedičstve sa pozornosť postupne presúva od „samotného objektu“ k tomu, **v akom systéme informácií objekt existuje** – ako je opísaný, prepojený, sprístupnený a znovu použitý [@cameron_kenderdine_theorizing_digital_cultural_heritage_2007]. Podobný posun – ešte pred masovým internetom – pomenovali aj George F. MacDonald a Stephen Alsford, keď navrhli chápať múzeum ako informačnú službu pre spoločnosť, nielen ako sklad artefaktov:
@@ -70,8 +64,6 @@ Tieto dva princípy nie sú automaticky v konflikte, ale ich súžitie je napät
 Databázová logika podporuje rozklad objektu na časti, zatiaľ čo kurátorská logika sa snaží vytvárať súvislosti.
 Kapitola 3.1 tým otvára otázku, ktorá sa neskôr ukáže ako centrálna:
 ako možno z databázovej štruktúry znova vyrobiť naratívnu štruktúru?
-
----
 
 ### **3.1.4 Premena odborných rolí: kurátor, dokumentátor, vývojár**
 
@@ -97,8 +89,6 @@ Digitálne metadáta podľa Cameron nevznikajú ako transparentný prepis objekt
 
 Toto rozšírenie odborných rolí má zásadný vplyv aj na vývoj digitálnych platforiem, ktoré v múzeách a galériách vznikajú (vrátane Web umenia). Digitálne zbierky nie sú výsledkom práce jednej profesie, ale kolektívnym produktom spolupráce rôznych expertíz. Porozumenie týmto vzťahom je kľúčové najmä preto, že technické rozhodnutia sa v online prostredí okamžite premietajú do verejného rozhrania – a tým sa stávajú súčasťou príbehu, ktorý zbierka rozpráva.
 
----
-
 ### **3.1.5 Záver: dedičstvo evidencie ako rámec súčasných výziev**
 
 Kapitola ukazuje, že súčasné digitálne zbierky sú vystavané na vrstve evidenčných praxí a dátových štruktúr, ktoré vznikli v období, keď sa od evidencie neočakávalo sprostredkovanie zážitku ani interpretácie.
@@ -114,13 +104,9 @@ Tento rozdiel medzi pôvodným účelom a dnešným používaním je jedným z h
 
 Porozumenie tejto genealógii je preto kľúčové: ukazuje, že ak chceme prepracovať online zbierky smerom k rozprávačským rozhraniam, musíme pracovať nielen s dátami a technológiami, ale aj s historickým dedičstvom, ktoré tieto technológie podmieňuje.
 
----
-
 ## **3.2 Prvé digitálne iniciatívy a infraštruktúry**
 
 Digitalizácia zbierok v 90. rokoch a prvej dekáde 21. storočia vznikala v prostredí, kde boli technické aj politické podmienky radikálne odlišné od dnešných. Nasledujúce podkapitoly mapujú vznik kľúčových infraštruktúr, ktoré formovali podobu online zbierok – od európskej agregácie po prvé repozitáre a štandardy interoperability.
-
----
 
 ### **3.2.1 Europeana a vznik európskeho rámca**
 
@@ -137,8 +123,6 @@ Europeana tak vytvorila:
 * politický argument pre sprístupňovanie kultúrnych zdrojov.
 
 Od prvej verzie portálu (2008) sa Europeana vyvinula z prezentačného webu na **dátovú infraštruktúru**, ktorá definuje technickú interoperabilitu naprieč Európou [@terras_europeana_2015].
-
----
 
 ### **3.2.2 Štandardizácia: LIDO, Dublin Core, OAI-PMH**
 
@@ -162,8 +146,6 @@ V múzejnom prostredí fungoval najmä ako „najnižší spoločný menovateľ�
 Ako uvádzajú Van de Sompel a Lagoze, OAI-PMH bol navrhnutý pre akademické repozitáre, no rýchlo sa stal základom pre Europeanu aj národné digitálne knižnice [@vandesompel_lagoze_oai_pmh_2002].
 Bez neho by agregácia v rozsahu miliónov objektov nebola možná.
 
----
-
 ### **3.2.3 Repozitáre: Fedora Commons, DSpace a digitálne knižnice**
 
 Repozitáre predstavovali kľúčový technologický krok medzi „internou databázou“ a „otvorenou digitálnou zbierkou“.
@@ -185,8 +167,6 @@ Mnohé múzeá prebrali tieto technológie práve preto, že existovali ako stab
 
 Ako upozorňuje Seamus Ross, kľúčovým problémom týchto systémov bolo to, že **neboli navrhnuté pre umelecké diela**, takže múzeá museli prispôsobiť svoju evidenciu technologickým možnostiam — nie naopak [@ross_digital_preservation_2012].
 
----
-
 ### **3.2.4 Autoritatívne zoznamy: ULAN, AAT, VIAF**
 
 Authority files vznikli v kontexte snahy o normalizáciu názvov a identít v múzejnom a knižničnom prostredí.
@@ -206,8 +186,6 @@ V kontexte múzejných zbierok authority files určujú:
 * ako sú diela prepojiteľné v agregátoroch (napr. Europeana),
 * a aké naratívne línie sú v dátach čitateľné.
 
----
-
 ### **3.2.5 Otvorené dáta a API: posun k platformovému mysleniu**
 
 Po roku 2010 sa v oblasti digitalizácie kultúrneho dedičstva začína presadzovať posun, ktorý presahuje samotné „zverejňovanie“ digitálnych reprodukcií. Do popredia sa dostáva otázka **podmienok použitia, znovupoužiteľnosti a technickej prístupnosti dát**. Digitalizácia sa tak postupne mení z publikačnej aktivity na infraštruktúrnu – nejde už len o to, *čo* je online, ale *ako* s tým možno ďalej pracovať.
@@ -225,13 +203,9 @@ Ako uvádza Chan, API v Cooper Hewitt Museum zmenilo spôsob, akým môže verej
 
 API je v tomto zmysle moment, keď zbierka prestáva byť „len webom“ a začína fungovať ako digitálna infraštruktúra: údaje a médiá sa dajú čítať, kombinovať a znovu použiť aj mimo pôvodnej stránky. Zároveň sa mení aj logika toho, ako sa zbierka správa navonok — vedľa kurátorských rozhodnutí do nej vstupujú aj algoritmické a technické pravidlá (napr. vyhľadávanie, radenie, filtrovanie). Práve vďaka tomu vzniká priestor pre nové formy práce s naratívom: od experimentálnych vizualizácií a aplikácií až po rozhrania, ktoré podporujú objavovanie a nečakané súvislosti [@chan_api_2015].
 
----
-
 ## **3.3 Vývoj a prax vo svetovom kontexte**
 
 Digitálne zbierky sa v posledných dvoch dekádach formovali v rôznych geografických, technologických aj inštitucionálnych podmienkach. Napriek tejto diverzite vzniklo niekoľko projektov, ktoré zásadným spôsobom ovplyvnili premýšľanie o tom, čo môže online zbierka byť: či len reprezentáciou fyzickej kolekcie, alebo samostatným kultúrnym priestorom. Nasledujúce príklady nepredstavujú opis svetovej produkcie v úplnosti, ale výber kľúčových iniciatív, ktoré posunuli diskusiu o digitálnych zbierkach dopredu a vytvorili rámce, s ktorými sa stretáva aj slovenská prax.
-
----
 
 ### **3.3.1 Rijksmuseum: otvorenie zbierky ako verejnej služby**
 
@@ -247,8 +221,6 @@ Tento prístup sa postupne stal súčasťou identity inštitúcie. Ako zaznelo n
 
 Skúsenosť Rijksmusea je v tomto zmysle zaujímavá aj ako referenčný príklad pre inštitúcie, ktoré čelili dlhodobému obmedzeniu fyzickej prevádzky. Situácia dlhodobo sa naťahujúcej rekonštrukcie a uzavretia väčšiny výstavných priestorov vytvorila prostredie, v ktorom sa digitálne iniciatívy nestali doplnkom, ale prirodzenou súčasťou inštitucionálneho fungovania. Práve táto kombinácia obmedzených podmienok a silného dôrazu na verejnú službu predstavovala významný zdroj inšpirácie aj pre ďalšie múzejné digitálne laboratóriá.
 
----
-
 ### **3.3.2 Cooper Hewitt Labs: rozhranie ako výskum**
 
 Cooper Hewitt Smithsonian Design Museum je v tomto kontexte zaujímavé najmä tým, že digitálnu prácu chápalo ako spoločný priestor kurátorského a technického uvažovania. V rokoch 2011–2015 tu pod vedením **Seb Chan** a **Aaron Cope** vzniklo interné laboratórium Cooper Hewitt Labs, ktoré cielene fungovalo ako výskumno-vývojová jednotka v rámci múzea. Chan tento model opakovane opisuje ako formu *R&D v múzejnom kontexte* – výskum založený na experimentovaní, iterácii a testovaní hypotéz priamo v prevádzke inštitúcie [@chan_api_2015].
@@ -263,8 +235,6 @@ Práve tento aspekt sa stal silnou inšpiráciou aj pre vznik a fungovanie lab.S
 
 Cooper Hewitt Labs tak v tomto kontexte nepredstavuje len súbor konkrétnych nástrojov alebo rozhraní, ale referenčný príklad toho, ako môže múzeum chápať digitálnu prácu ako kontinuálny výskumný proces – vrátane jeho zdieľania, dokumentovania a otvorenej diskusie o tom, čo funguje a čo nie.
 
----
-
 ### **3.3.3 Science Museum Group: viditeľnosť ako kurátorská otázka**
 
 Science Museum Group upozornila na jeden z menej reflektovaných problémov digitálnych zbierok – **nerovnomernú viditeľnosť objektov**. Experiment *Never Been Seen* bol predstavený ako pokus narušiť hierarchiu pozornosti, ktorá vzniká nielen vo fyzických expozíciách, ale aj v samotných procesoch digitalizácie, v metadátach a v online katalógových systémoch. Autori projektu poukazujú na to, že digitalizácia často nevedome reprodukuje tradičné kurátorské výbery: ikonické alebo často vystavované objekty sú sprístupňované ako prvé, zatiaľ čo veľká časť zbierok zostáva nezdigitalizovaná, nedostatočne opísaná alebo prakticky neviditeľná [@science_museum_group_never_been_seen_2020].
@@ -278,8 +248,6 @@ V kontexte tejto práce je tento moment obzvlášť dôležitý. Digitálny nara
 Pre moju vlastnú prax je na tomto príklade znepokojujúce najmä to, že mnohé objekty prejdú náročným a nákladným procesom digitalizácie, ocitnú sa v online zbierke, no napriek tomu zostávajú prakticky **neviditeľné**. Sú skryté za rozhraním, utopené v množstve ďalších dát a artefaktov, bez výraznejších vzťahov, kontextu či naratívnych prepojení. Z pohľadu inštitúcie pritom ide o diela, ktoré boli zaradené do zbierky práve preto, že niesli význam pre uchovanie určitej kultúrnej stopy alebo pamäti.
 
 V online prostredí sa však – v kontexte nadprodukcie digitálneho obsahu a pri absencii interpretačných rámcov – môžu tieto objekty stať prakticky neviditeľnými a z hľadiska používateľskej skúsenosti „zbytočnými“. Nie preto, že by postrádali hodnotu, ale preto, že im chýba kontext, ktorý by ich význam sprístupnil. Experiment *Never Been Seen* tak neupozorňuje len na problém digitalizačných priorít, ale aj na širšiu otázku: **čo znamená sprístupniť dielo, ak sa s ním nikto nikdy nestretne?**
-
----
 
 ### **3.3.4 ACMI: kurátorstvo, technológia a návštevnícka skúsenosť**
 
@@ -298,16 +266,12 @@ Práve tento princíp sa stal dôležitým referenčným bodom aj pre neskoršie
 
 ACMI je v tomto kontexte zaujímavé aj tým, že digitálne nástroje nevystupujú ako dodatočná „vrstva“ nad fyzickou expozíciou, ale ako jej integrálna súčasť. Digitálne a fyzické prostredie sa tu vzájomne podmieňujú a spoločne formujú kurátorský rámec aj návštevnícku skúsenosť – čo predstavuje dôležitý posun v chápaní digitálnych zbierok ako aktívnej súčasti múzejnej praxe.
 
----
-
 ### **3.3.5 Otvorené vývojové prístupy v Tate, MoMA a ďalších inštitúciách**
 
 Viaceré inštitúcie — Tate, MoMA, Walker Art Center, či The Getty — pracujú systematicky s otvoreným publikovaním kódu, dátových modelov a dokumentácie.
 MoMA sprístupňuje svoje dátové sady a schémy na GitHube [@moma_github_data_project_2015], Tate zverejňuje podrobné metodiky digitalizácie a workflowy výstavných projektov [@tate_digital_transformation_reports_2017] a Walker Art Center vyvíjal open-source publikačné platformy, ktoré ovplyvnili celý múzejno-publikačný ekosystém [@walker_open_source_publishing_2008_2015].
 
 Tieto prístupy ukazujú, že digitálne kurátorstvo nie je iba otázkou výsledného webu, ale aj transparentnosti procesov, ktoré k nemu vedú. Jadrom týchto iniciatív je vedomie, že technická infraštruktúra je súčasťou kultúrneho dedičstva, nie len jeho servisnou vrstvou.
-
----
 
 ### **3.3.6 Artsy: rozhranie, vzťahy a otvorený vývoj mimo inštitúcií**
 
@@ -326,8 +290,6 @@ Otvorený prístup tu nie je chápaný len ako praktické riešenie, ale ako hod
 
 Pre túto prácu je Artsy relevantné predovšetkým ako **externý referenčný bod**, ktorý v rovnakom čase ukázal, že rozhranie, práca so vzťahmi a otvorený vývoj môžu zásadne ovplyvniť spôsob, akým ľudia umenie objavujú a interpretujú online. Skúsenosť Artsy zároveň naznačuje, že niektoré inovácie v oblasti používateľskej skúsenosti a práce s dátami vznikali mimo múzeí – a až následne začali rezonovať aj v inštitucionálnom kontexte.
 
----
-
 ### **3.3.7 Syntéza: digitálne zbierky ako infraštruktúry významu**
 
 Uvedené príklady ukazujú, že vývoj digitálnych zbierok nie je jednotný ani lineárny, ale opiera sa o niekoľko opakujúcich sa princípov. Digitálna zbierka sa postupne prestáva chápať ako statický katalóg a čoraz častejšie funguje ako **platforma**, ktorá umožňuje rôzne spôsoby čítania, prepájania a interpretácie objektov. Nejde pritom o jednu „správnu“ formu prezentácie, ale o vytváranie podmienok pre vznik rozmanitých interpretačných ciest.
@@ -342,8 +304,6 @@ V tejto diverzite sa postupne formuje predstava digitálnych zbierok ako **infra
 
 Táto kapitola zároveň vytvára východiskový rámec pre nasledujúcu časť práce zameranú na československý kontext. Práve tam sa ukáže, ako sa uvedené globálne prístupy stretli s odlišnými historickými podmienkami, inými inštitucionálnymi infraštruktúrami a iným tempom technologického vývoja – a ako sa v tejto kombinácii postupne formoval aj projekt Web umenia.
 
----
-
 ## **3.4 Československý kontext**
 
 ### **3.4.0 Úvod: Špecifiká vývoja, ktorý sa nedá importovať**
@@ -351,8 +311,6 @@ Táto kapitola zároveň vytvára východiskový rámec pre nasledujúcu časť 
 Digitálne sprístupňovanie zbierok umenia na Slovensku a v Česku sa formovalo v prostredí, ktoré sa výrazne odlišovalo od kontextu západoeurópskych múzeí. Kým Rijksmuseum či MoMA stavali svoje digitálne stratégie na kontinuite dlhodobo fungujúcich informačných systémov a silných kurátorských tímov, v Československu bol vývoj formovaný prerušeniami, politickými zásahmi, limitmi infraštruktúry a neskôr aj turbulenciami transformácie po roku 1989. To však neznamená, že vznikala „slabšia“ digitálna kultúra — skôr odlišná, nerovnomerná, no v mnohom prekvapivo inovatívna.
 
 Jednou z hlavných téz tejto kapitoly je, že práve **historická vrstvenosť, diskontinuity a špecifické impulzy**, ktoré by v inom prostredí pôsobili ako prekážky, vytvorili základ pre vznik robustnej infraštruktúry, na ktorej dnes stojí Web umenia. Práve preto má zmysel načrtnúť československý príbeh osobitne — s jeho paradoxmi, odbočkami aj prekvapivými kontinuitami.
-
----
 
 ### **3.4.1 Normalizačné korene CEDVU (1970s–1990s)**
 
@@ -371,8 +329,6 @@ Dnešný používateľ digitálnych zbierok má len ťažko predstaviteľnú mie
 Kartotéka bola **priestorom práce**, nie len úložiskom informácií. Študovňa centrálneho katalógu bola miestom výskumu kunsthistorikov, kurátorov a reštaurátorov. Kartotéka pretrvávala aj po nástupe digitálnej evidencie ako paralelná pracovná vrstva: aj v roku 2025 sa lístky tlačia z katalogačného systému, aby dopĺňali fyzický kartotečný celok.
 
 Ak sa na tento vývoj pozrieme ako na kontinuálnu dátovú líniu, dá sa zhrnúť ako sled prepojených vrstiev: **kartotéka → Micro CDS/ISIS → ISG-CEDVU → Web umenia**. Táto kontinuita je dôležitá najmä preto, že vysvetľuje, prečo bolo možné neskôr publikovať (a postupne rozvíjať) verejné rozhranie bez úplného „reštartu“ evidencie.
-
----
 
 ### **3.4.1.3 Predinternetová digitalizácia: Micro CDS/ISIS a prvé databázy**
 
@@ -428,11 +384,7 @@ V praxi tak vznikol neobvyklý stav: **analógová a digitálna evidencia existu
 
 _Presný priebeh vzniku CEDVU v 70. rokoch, najmä súvislosti s celoštátnym súpisom zbierok, kombináciou galerijných a muzeálnych fondov a prvými metodikami, bude potrebné doplniť vo fáze finálnej verzie na základe rozhovorov s pamätníčkami, najmä s Janou Bahurinskou._
 
----
-
 Centralizovaný katalóg diel, aký dnes poskytuje SNG, je výsledkom niekoľkých vrstiev evidencie – od kartotéky cez Micro CDS/ISIS a CEDVU až po dnešné publikované rozhranie, ktoré sprístupňuje údaje verejnosti v prehľadnej a vyhľadávateľnej forme.
-
----
 
 ### **3.4.3 Slovakiana ako paralelná cesta (2013–2015)**
 
@@ -446,8 +398,6 @@ Z pohľadu galérií mala Slovakiana tri prínosy:
 
 Zároveň však vznikala **paralelne s Webom umenia**, ktorý bol presne opačný typ iniciatívy: bottom-up, vychádzajúci z konkrétnych potrieb SNG a s dôrazom na experimentovanie.
 
-
----
 
 ### **3.4.4 Český kontext: Artlist.cz a CEAD.space**
 
@@ -473,8 +423,6 @@ Pre SNG bol CEAD dôležitý aj z hľadiska priamej odbornej výmeny. V roku 201
 
 Z technologického hľadiska je zaujímavé, že CEAD využíva open-source systém **CollectiveAccess**, čo umožnilo flexibilnú prácu s rôznorodými typmi objektov, dokumentov a vzťahov. Tento aspekt bol dôležitý nie ako konkrétna technologická predloha, ale ako dôkaz, že otvorené nástroje dokážu podporiť komplexné výskumné a archívne projekty aj mimo veľkých národných inštitúcií.
 
----
-
 ### **3.4.5 Dvojkoľajnosť digitálnej transformácie: paralelné projekty, odlišné logiky**
 
 Jednou z charakteristík slovenského vývoja je **paralelné vznikanie dvoch typov digitálnych projektov**:
@@ -489,8 +437,6 @@ Tento paralelizmus nevytváral duplicitu, skôr **viacvrstvové prostredie**, v 
 * plošná reprezentácia vs. kurátorská hĺbka.
 
 Výsledkom bolo, že Web umenia mohol vzniknúť takmer organicky, „odspodu“ — bez prehnaného projektového tlaku, s malým tímom a s možnosťou učiť sa počas procesu. Z vlastnej skúsenosti z prostredia SNG vnímam, že práve táto nízka programová zaviazanosť (a tým aj priestor na iteráciu) umožnila vyzrieť rozhraniu aj dátovým rozhodnutiam do podoby, ktorá sa v inštitúciách často rodí ťažšie.
-
----
 
 ### **3.4.6 Vznik lab.SNG (2010–2015): in-house ako stratégia**
 
@@ -522,8 +468,6 @@ Nová verzia Web umenia (spustená v roku 2016) bola výsledkom uvedomenia, že 
 
 Web umenia bol — a naďalej je — **laboratórnym projektom**, v ktorom architektúra, dizajn a kurátorstvo spolu vytvárajú nový druh naratívneho priestoru. Podrobnejšie sa k tomu vraciam v časti 3.5, kde ťažisko lab.SNG rámujem priamo cez vývoj Webu umenia.
 
----
-
 ### **3.4.7 Zhrnutie: slovenský príbeh ako paradox a výhoda**
 
 Slovenský vývoj digitálnych zbierok je pozoruhodný tým, že kombinuje tri vrstvy, ktoré sa inde v Európe bežne nevyskytujú pohromade:
@@ -540,8 +484,6 @@ Je to paradox dejín:
 *to, čo vzniklo v období normlizácie, dnes umožňuje otvorenosť, experimentovanie a kreatívny výskum*.
 
 Príbeh Web umenia tak nie je len príbehom technologického projektu, ale aj príbehom kultúrnej pamäte, ktorá sa — niekedy nečakane — ukazuje ako moderná infraštruktúra pre digitálny vek.
-
----
 
 ## **3.5 Príbeh Web umenia**
 
@@ -627,8 +569,6 @@ Až kombinácia týchto vrstiev umožnila vznik platformy, ktorá dokáže byť 
 V tomto zmysle je Web umenia nielen produktom slovenského vývoja, ale aj jeho zrkadlom.
 Je výsledkom série rozhodnutí, ktoré sa pôvodne netýkali naratívov, ale infraštruktúry, organizácie práce a každodennej evidencie. A zároveň je symptómom širšieho posunu: od múzea ako strážcu k múzeu ako aktívnemu účastníkovi digitálnych kultúrnych procesov.
 
----
-
 ## **3.6 Súčasné tendencie a smerovanie: od sprístupňovania k interpretácii**
 
 Ak prvé dve dekády digitalizácie patrili infraštruktúre — skenerom, databázam a workflowom — posledné roky ukazujú zásadný posun. Online zbierky už nie sú chápané len ako „digitálne katalógy“, ale ako **rozhrania, ktoré sprostredkúvajú spôsoby poznania**. To, čo bolo kedysi technickým problémom, sa dnes stáva problémom epistemologickým: ako v digitálnom prostredí vzniká význam, naratív a kontext.
@@ -702,7 +642,5 @@ Súčasné tendencie — tlak na kontextualizáciu, hybridné kurátorsko-techni
 Ukazujú, že naratív nie je dodatok; je to spôsob, ako digitálna zbierka nadobúda význam.
 
 V tomto bode sa výskumná otázka práce konkretizuje. Nejde o to, ako do digitálnych zbierok „pridať“ naratív vo forme ďalších textových vrstiev, ale o to, ako môže naratív vzniknúť prostredníctvom samotného rozhrania. Otázkou sa stáva, akým spôsobom možno navrhovať digitálne systémy tak, aby podporovali vzťahové čítanie zbierky, umožňovali orientáciu bez lineárneho výkladu a zároveň neredukovali význam na náhodný súbor dátových spojení. Digitálne rozhranie tu vystupuje ako technológia rozprávania, ktorá nepracuje s príbehom v tradičnom zmysle, ale s konfiguráciou možností, cez ktoré sa význam postupne skladá.
-
----
 
  

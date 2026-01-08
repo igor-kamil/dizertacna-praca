@@ -80,7 +80,7 @@ Toto rozhodnutie malo niekoľko praktických dôsledkov. Každá zapojená galé
 ![Spice harvester – interný modul Webu umenia pre zber a aktualizáciu dát z CEDVU.  
 Názov je vedomým odkazom na román *Dune* Franka Herberta.](figures/fig-4-2-spice-harvester.jpg){#fig:spiceharvester}
 
-::: aside
+::: {.aside}
 **Poznámka k terminológii: „harvest“ a *spice-harvester***
 
 V kontexte Webu umenia sa pojem *harvest* nepoužíva v zmysle jednorazového importu dát.  
@@ -148,17 +148,19 @@ Elasticsearch sa tak postupne stal viac než len vyhľadávacím modulom. Väč�
 \end{figure}
 
 
-::: aside
+::: {.aside}
 **Čo je Elasticsearch (a prečo ho tu vôbec máme)**
 
 Elasticsearch je špecializovaný vyhľadávací systém, ktorý slúži na rýchle prehľadávanie veľkého množstva textových a štruktúrovaných dát. Na rozdiel od klasickej databázy nie je určený na „uchovávanie pravdy“, ale na **rýchle čítanie, triedenie a porovnávanie** údajov.
 
 V architektúre Webu umenia má Elasticsearch pomocnú rolu:
+
 - **databáza** (MySQL) je zdrojom pravdivých a oficiálnych údajov,
 - **Elasticsearch** je pracovná kópia dát, optimalizovaná na vyhľadávanie, filtrovanie a radenie výsledkov,
 - **webové rozhranie** komunikuje pri zoznamoch a vyhľadávaní primárne s Elasticsearchom.
 
 Prakticky to znamená, že:
+
 - detail diela sa vždy zobrazuje z databázy,
 - zoznamy diel, autorov, výsledky vyhľadávania či odporúčania sú čítané z Elasticsearchu, aby boli okamžité.
 
@@ -174,8 +176,13 @@ Použitie Elasticsearch však veľmi rýchlo otvorilo ďalšiu otázku: jazyk. D
 Základom sa stal modul LemmaGen Analysis for Elasticsearch [@hyza_elasticsearch_analysis_lemmagen], vyvíjaný Inštitútom Jožef Stefan v Ľubľane [@jozef_stefan_institute]
 , ktorý umožňuje lematizáciu.
 
-> *(aside: Lemmatizácia)*
-> Na rozdiel od stemmingu, ktorý slová skracuje na mechanický koreň, lematizácia pracuje s jazykovým kontextom a vracia základný tvar slova (lemma). Pre flektívne jazyky, ako je slovenčina, je to zásadný rozdiel: „hrad“, „hradu“, „hrade“ sú rôzne tvary, ale rovnaký pojem.
+::: {.aside}
+
+**Lemmatizácia**
+
+Lemmatizácia je proces, pri ktorom sa jednotlivé tvary slova (napríklad rôzne pády, čísla či rody) vracajú na ich základnú, slovníkovú podobu, tzv. lemma. Na rozdiel od jednoduchšieho stemmingu, ktorý len skracuje slová na ich koreň (často s chybami), lematizácia zohľadňuje gramatický a významový kontext slova. Pri slovenčine je tento rozdiel zásadný – slová ako „hrad“, „hradu“, „hrade“ sa považujú za rovnaký pojem, čo zvyšuje kvalitu vyhľadávania v jazyku s bohatou flexiou.
+
+:::
 
 K tomu pribudli stopwords zo starších open-source zoznamov a synonymá prevzaté z OpenOffice, ktoré sa postupne upravovali podľa reálneho správania používateľov. Výsledkom bol samostatný balík `elasticsearch-slovencina` [@slovaknationalgallery_elasticsearch_slovencina]
 , ktorý vznikol z čisto praktickej potreby, no postupne si našiel používateľov aj mimo Webu umenia. Z dnešného pohľadu ide o jeden z najpoužívanejších open-source výstupov SNG.
