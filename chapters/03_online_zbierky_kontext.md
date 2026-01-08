@@ -23,22 +23,27 @@ Digitálna transformácia múzeí a galérií nevznikla ako radikálny zlom, ale
 
 ### **3.1.1 Pred-digitálne evidenčné praxe: stabilita, štandardy a obmedzenia**
 
-Tradičné múzeá a galérie pracovali s evidenciou zbierok prostredníctvom stabilných a presne definovaných nástrojov: inventárnych kníh, kartotékových lístkov, depozitárnych protokolov a dokumentačných kariet. Ako uvádzajú **Bahurinská a Bohumelová**, základné kritériá pre vytváranie záznamov o zbierkových predmetoch sa zásadne nemenili celé desaťročia a boli overené dlhodobou praxou [@bahurinska_bohumelova_evidence_kapitola_nd]. Tieto štandardy boli zámerne faktické a uniformné — ich cieľom bolo zabezpečiť spoľahlivú identifikáciu diela, umožniť vyhľadávanie a podporiť odborný výskum.
+V Slovenskej národnej galérii sa od 70. rokov postupne budovala rozsiahla kartotéka – centrálny katalóg výtvarného umenia, v ktorom každý záznam pozostával z dokumentačnej karty s odborným popisom diela a z priloženej čiernobielej fotografie. Tento systém umožňoval jednotnú evidenciu, porovnateľnosť údajov a odborné rešerše naprieč inštitúciami ešte dlho pred nástupom digitálnych databáz. 
+
+Ako uvádzajú **Bahurinská a Bohumelová**, základné kritériá pre vytváranie záznamov o zbierkových predmetoch sa zásadne nemenili celé desaťročia a boli overené dlhodobou praxou [@bahurinska_bohumelova_evidence_kapitola_nd]. Tieto štandardy boli zámerne faktické a uniformné — ich cieľom bolo zabezpečiť spoľahlivú identifikáciu diela, umožniť vyhľadávanie a podporiť odborný výskum.
 
 V tejto ére bola evidencia predovšetkým **interným nástrojom**. Slúžila kurátorom, dokumentátorom, archivárom či reštaurátorom, a len okrajovo externým odborníkom. Sprístupnenie širokej verejnosti prakticky nebolo možné.
 Každá zmena v údajoch vyžadovala manuálny zásah a aktualizácie boli časovo náročné. Rovnako prístup k informáciám bol fyzicky limitovaný: kto chcel overiť podrobnosti o predmete, musel fyzicky navštíviť archív alebo kartotéku inštitúcie.
 
-V kontexte Slovenskej národnej galérie má táto história špecifickú podobu. Dokumentácia zbierok sa začína až v 70. rokoch 20. storočia — čo je v porovnaní s inými európskymi inštitúciami relatívne neskoro, no o to presnejšie zdokumentované. Pracovníci SNG v tom čase manuálne zhromažďovali kartičky a čiernobiele fotografie z galérií a múzeí po celom Slovensku, aby ich uložili do **centrálneho kartotékového katalógu**, ktorý bol dlhé roky základnou infraštruktúrou pre odborné rešerše. *(Doplniť zdroj – interné dokumenty SNG / rozhovor.)*
+V kontexte Slovenskej národnej galérie má vývoj evidencie zbierok špecifickú podobu. Jednotlivé galérie a múzeá na území Slovenska samozrejme viedli vlastnú evidenciu zbierkových predmetov už v predchádzajúcich desaťročiach, v súlade s vtedajšou múzejnou praxou. Zlomovým momentom však bol rok 1979, keď vznikol **centrálny katalóg výtvarného umenia**, ktorého cieľom bolo zjednotiť evidenčné údaje o všetkých zbierkových dielach v galériách (a v tom období aj o výtvarnom umení spravovanom múzeami).
+
+Tento krok predstavoval unikátne systémové riešenie – centralizovaná evidencia na národnej úrovni nemala v tom čase priamu paralelu ani v okolitých krajinách a v podobnej podobe neexistuje dodnes ani v Českej republike.
+
 
 Pred-digitálne praxe tak formovali nielen technickú stránku evidencie, ale aj **kultúrny model práce s dielom**. Dielo sa v nej spravidla chápalo ako stabilný objekt a informácie o ňom ako súbor faktov uložených v pevne definovaných formátoch. Aktualizácia údajov a interpretácia (t. j. „čo to znamená“) boli v praxi oddelené – evidencia mala primárne udržiavať poriadok a umožniť identifikáciu, nie vytvárať významy. Tento spôsob uvažovania zodpovedá širšiemu poznatku, že múzeá nevytvárajú len zbierky, ale aj systémy kategórií a poznania, cez ktoré sa objekty stávajú čitateľnými [@hooper_greenhill_shaping_knowledge_1992].
 
 ### **3.1.2 Prechod k databázam: formovanie dátovej ontológie**
 
-S nástupom výpočtovej techniky v 80. a 90. rokoch sa analógová evidencia začala transformovať do elektronickej podoby. V slovenskom kontexte ide najmä o konverziu dokumentačných kariet do systému **micro CDS/ISIS**, ktorá si vyžadovala rozsiahle zjednotenie údajov a vytvorenie novej formalizovanej štruktúry [@unesco_micro_cds_isis_1990s].
+S nástupom výpočtovej techniky v 90. rokoch sa analógová evidencia začala transformovať do elektronickej podoby. V slovenskom kontexte ide najmä o konverziu dokumentačných kariet do systému **micro CDS/ISIS**, ktorá si vyžadovala rozsiahle zjednotenie údajov a vytvorenie novej formalizovanej štruktúry [@unesco_micro_cds_isis_1990s].
 
 Tento prepis bol viac než mechanická digitalizácia. Znamenal prechod k **dátovej ontológii** — súboru kategórií, polí a pravidiel, ktoré definujú, čo je možné o diele zaznamenať.
-V priebehu týchto rokov vznikla príručka **Pravidlá katalogizácie umeleckých diel**, ktorá bola navrhnutá pre potreby CEDVU a reflektovala odporúčania CIDOC–ICOM [@sng_pravidla_katalogizacie_umeleckych_diel_nd].
-Neskôr bola táto štruktúra doplnená o legislatívny rámec vo forme **Vyhlášky č. 523/2009 Z. z.**, ktorá presne definuje povinné atribúty pri evidencii diel.
+V priebehu týchto rokov vznikol **Štandard pre popis diel výtvarného umenia**, ktorý bol navrhnutý pre potreby CEDVU a reflektoval odporúčania CIDOC–ICOM [@bahurinska_stadandard_pre_popis_2002].
+Neskôr bola táto štruktúra doplnená o legislatívny rámec vo forme **Vyhlášky č. 523/2009 Z. z.**, ktorá v nadväznosti na Zákon o múzeách a galériách (2009) presne definuje povinné atribúty pri evidencii zbierkových predmetov.
 
 Dátová ontológia má vplyv, ktorý presahuje čisto technickú rovinu:
 určuje, čo sa považuje za relevantný údaj, aké informácie sa priebežne zhromažďujú a aké kontexty sa do záznamov nedostanú. To, čo systém neumožňuje zaznamenať, sa v dlhodobom horizonte vytráca z profesionálnej práce aj z dostupných rozhraní.
@@ -127,7 +132,10 @@ Od prvej verzie portálu (2008) sa Europeana vyvinula z prezentačného webu na 
 ### **3.2.2 Štandardizácia: LIDO, Dublin Core, OAI-PMH**
 
 Prvá dekáda digitalizácie bola založená na štandardizácii metadát.
-Tri štandardy mali zásadný význam:
+
+Medzinárodným referenčným rámcom pre tieto snahy sú štandardy ICOM – CIDOC, ktoré od 90. rokov formujú teoretické aj praktické prístupy k modelovaniu múzejných dát, ich interoperabilite a dlhodobej udržateľnosti. Práve CIDOC konceptuálne ovplyvnil viaceré národné aj nadnárodné dátové modely využívané pri digitalizácii kultúrneho dedičstva.
+
+V našom kontexte mali šecialne význam nasledovné štandardy: 
 
 #### **LIDO (Lightweight Information Describing Objects)**
 
@@ -207,7 +215,17 @@ API je v tomto zmysle moment, keď zbierka prestáva byť „len webom“ a zač
 
 Digitálne zbierky sa v posledných dvoch dekádach formovali v rôznych geografických, technologických aj inštitucionálnych podmienkach. Napriek tejto diverzite vzniklo niekoľko projektov, ktoré zásadným spôsobom ovplyvnili premýšľanie o tom, čo môže online zbierka byť: či len reprezentáciou fyzickej kolekcie, alebo samostatným kultúrnym priestorom. Nasledujúce príklady nepredstavujú opis svetovej produkcie v úplnosti, ale výber kľúčových iniciatív, ktoré posunuli diskusiu o digitálnych zbierkach dopredu a vytvorili rámce, s ktorými sa stretáva aj slovenská prax.
 
-### **3.3.1 Rijksmuseum: otvorenie zbierky ako verejnej služby**
+### 3.3.1 Canadian Heritage Information Network (CHIN): národná infraštruktúra ako dlhodobý rámec
+
+Jedným z najstarších a systematicky budovaných príkladov národnej infraštruktúry pre evidenciu a digitalizáciu kultúrneho dedičstva je Canadian Heritage Information Network (CHIN) v Kanade. Sieť vznikla už v roku 1972 ako iniciatíva federálnej vlády s cieľom podporiť múzeá a galérie pri štandardizácii dokumentácie, zdieľaní údajov a zavádzaní výpočtovej techniky do správy zbierok.
+
+CHIN predstavuje výnimočný príklad toho, ako možno digitalizáciu chápať nie ako izolovaný technologický projekt, ale ako dlhodobú verejnú infraštruktúru. Už v 70. a 80. rokoch zohrával CHIN úlohu metodického centra: poskytoval odporúčania k dátovým štruktúram, podporoval školenia múzejných pracovníkov a vytváral spoločné rámce pre evidenciu zbierkových predmetov naprieč inštitúciami. V tomto zmysle sa CHIN stal jedným z prvých pokusov systematicky prepojiť múzejnú dokumentáciu, štandardy a výpočtovú techniku na národnej úrovni.
+
+Dôležitým aspektom CHIN je aj jeho kontinuita. Na rozdiel od mnohých projektov, ktoré vznikli ako časovo ohraničené grantové iniciatívy, CHIN funguje desaťročia ako stabilná inštitucionálna opora pre múzejný sektor. Tento model umožnil postupný prechod od analógovej evidencie k databázovým systémom bez radikálnych zlomov, pričom sa zachovala odborná kontrola nad významom a kvalitou údajov.
+
+Z pohľadu tejto dizertačnej práce je CHIN zaujímavý najmä ako kontrast k európskemu vývoju, kde sa národné riešenia často formovali neskôr alebo fragmentovane. Kanadský príklad ukazuje, že centralizovaná infraštruktúra nemusí viesť k uniformite obsahu, ale môže vytvoriť spoločný základ, na ktorom jednotlivé inštitúcie rozvíjajú vlastné interpretačné a prezentačné stratégie. Zároveň však potvrdzuje širší trend, ktorý sa objavuje aj v iných kontextoch: silný dôraz na evidenciu, štandardy a interoperabilitu vytvára robustné databázy, no naratívna vrstva zostáva často mimo primárneho záujmu týchto systémov.
+
+### **3.3.2 Rijksmuseum: otvorenie zbierky ako verejnej služby**
 
 Rijksmuseum patrilo medzi prvé európske inštitúcie, ktoré systematicky prepojili digitalizáciu zbierok s princípmi otvorených kultúrnych dát. V roku 2012 sprístupnilo tisíce diel vo verejnej doméne vrátane vysokokvalitných digitálnych reprodukcií, čo odborná literatúra označuje za prelomový moment v európskom kontexte otvoreného prístupu k múzejným zbierkam [@kapsalis_impact_open_access_2016]. Otvorenie dát tu nebolo chápané ako strata kontroly nad obsahom, ale ako rozšírenie verejnej služby – gesto, ktoré umožňuje, aby zbierkové objekty cirkulovali v nových kultúrnych, vzdelávacích a tvorivých kontextoch.
 
@@ -221,7 +239,7 @@ Tento prístup sa postupne stal súčasťou identity inštitúcie. Ako zaznelo n
 
 Skúsenosť Rijksmusea je v tomto zmysle zaujímavá aj ako referenčný príklad pre inštitúcie, ktoré čelili dlhodobému obmedzeniu fyzickej prevádzky. Situácia dlhodobo sa naťahujúcej rekonštrukcie a uzavretia väčšiny výstavných priestorov vytvorila prostredie, v ktorom sa digitálne iniciatívy nestali doplnkom, ale prirodzenou súčasťou inštitucionálneho fungovania. Práve táto kombinácia obmedzených podmienok a silného dôrazu na verejnú službu predstavovala významný zdroj inšpirácie aj pre ďalšie múzejné digitálne laboratóriá.
 
-### **3.3.2 Cooper Hewitt Labs: rozhranie ako výskum**
+### **3.3.3 Cooper Hewitt Labs: rozhranie ako výskum**
 
 Cooper Hewitt Smithsonian Design Museum je v tomto kontexte zaujímavé najmä tým, že digitálnu prácu chápalo ako spoločný priestor kurátorského a technického uvažovania. V rokoch 2011–2015 tu pod vedením **Seb Chan** a **Aaron Cope** vzniklo interné laboratórium Cooper Hewitt Labs, ktoré cielene fungovalo ako výskumno-vývojová jednotka v rámci múzea. Chan tento model opakovane opisuje ako formu *R&D v múzejnom kontexte* – výskum založený na experimentovaní, iterácii a testovaní hypotéz priamo v prevádzke inštitúcie [@chan_api_2015].
 
@@ -235,7 +253,7 @@ Práve tento aspekt sa stal silnou inšpiráciou aj pre vznik a fungovanie lab.S
 
 Cooper Hewitt Labs tak v tomto kontexte nepredstavuje len súbor konkrétnych nástrojov alebo rozhraní, ale referenčný príklad toho, ako môže múzeum chápať digitálnu prácu ako kontinuálny výskumný proces – vrátane jeho zdieľania, dokumentovania a otvorenej diskusie o tom, čo funguje a čo nie.
 
-### **3.3.3 Science Museum Group: viditeľnosť ako kurátorská otázka**
+### **3.3.4 Science Museum Group: viditeľnosť ako kurátorská otázka**
 
 Science Museum Group upozornila na jeden z menej reflektovaných problémov digitálnych zbierok – **nerovnomernú viditeľnosť objektov**. Experiment *Never Been Seen* bol predstavený ako pokus narušiť hierarchiu pozornosti, ktorá vzniká nielen vo fyzických expozíciách, ale aj v samotných procesoch digitalizácie, v metadátach a v online katalógových systémoch. Autori projektu poukazujú na to, že digitalizácia často nevedome reprodukuje tradičné kurátorské výbery: ikonické alebo často vystavované objekty sú sprístupňované ako prvé, zatiaľ čo veľká časť zbierok zostáva nezdigitalizovaná, nedostatočne opísaná alebo prakticky neviditeľná [@science_museum_group_never_been_seen_2020].
 
@@ -249,7 +267,7 @@ Pre moju vlastnú prax je na tomto príklade znepokojujúce najmä to, že mnoh�
 
 V online prostredí sa však – v kontexte nadprodukcie digitálneho obsahu a pri absencii interpretačných rámcov – môžu tieto objekty stať prakticky neviditeľnými a z hľadiska používateľskej skúsenosti „zbytočnými“. Nie preto, že by postrádali hodnotu, ale preto, že im chýba kontext, ktorý by ich význam sprístupnil. Experiment *Never Been Seen* tak neupozorňuje len na problém digitalizačných priorít, ale aj na širšiu otázku: **čo znamená sprístupniť dielo, ak sa s ním nikto nikdy nestretne?**
 
-### **3.3.4 ACMI: kurátorstvo, technológia a návštevnícka skúsenosť**
+### **3.3.5 ACMI: kurátorstvo, technológia a návštevnícka skúsenosť**
 
 Australian Centre for the Moving Image (ACMI) v posledných rokoch rozvinulo prístup, ktorý systematicky prepája fyzický výstavný priestor s digitálnymi nástrojmi a infraštruktúrou. Ako opisuje **Seb Chan**, ACMI pracuje s princípom *visitor-centred design*, v ktorom kurátorská práca zahŕňa nielen výber a interpretáciu objektov, ale aj návrh technických systémov, rozhraní a interakcií, ktoré formujú celkovú návštevnícku skúsenosť [@chan_acmi_renewal_lens_2020].
 
@@ -266,14 +284,14 @@ Práve tento princíp sa stal dôležitým referenčným bodom aj pre neskoršie
 
 ACMI je v tomto kontexte zaujímavé aj tým, že digitálne nástroje nevystupujú ako dodatočná „vrstva“ nad fyzickou expozíciou, ale ako jej integrálna súčasť. Digitálne a fyzické prostredie sa tu vzájomne podmieňujú a spoločne formujú kurátorský rámec aj návštevnícku skúsenosť – čo predstavuje dôležitý posun v chápaní digitálnych zbierok ako aktívnej súčasti múzejnej praxe.
 
-### **3.3.5 Otvorené vývojové prístupy v Tate, MoMA a ďalších inštitúciách**
+### **3.3.6 Otvorené vývojové prístupy v Tate, MoMA a ďalších inštitúciách**
 
 Viaceré inštitúcie — Tate, MoMA, Walker Art Center, či The Getty — pracujú systematicky s otvoreným publikovaním kódu, dátových modelov a dokumentácie.
 MoMA sprístupňuje svoje dátové sady a schémy na GitHube [@moma_github_data_project_2015], Tate zverejňuje podrobné metodiky digitalizácie a workflowy výstavných projektov [@tate_digital_transformation_reports_2017] a Walker Art Center vyvíjal open-source publikačné platformy, ktoré ovplyvnili celý múzejno-publikačný ekosystém [@walker_open_source_publishing_2008_2015].
 
 Tieto prístupy ukazujú, že digitálne kurátorstvo nie je iba otázkou výsledného webu, ale aj transparentnosti procesov, ktoré k nemu vedú. Jadrom týchto iniciatív je vedomie, že technická infraštruktúra je súčasťou kultúrneho dedičstva, nie len jeho servisnou vrstvou.
 
-### **3.3.6 Artsy: rozhranie, vzťahy a otvorený vývoj mimo inštitúcií**
+### **3.3.7 Artsy: rozhranie, vzťahy a otvorený vývoj mimo inštitúcií**
 
 Popri verejných múzeách a galériách zohrávali v rovnakom období významnú úlohu aj digitálne platformy vznikajúce mimo inštitucionálneho rámca. Jedným z najviditeľnejších príkladov je **Artsy**, komerčná online platforma zameraná na sprostredkovanie súčasného umenia, galérií, aukčných domov a umeleckých veľtrhov. Artsy funguje ako agregátor dát z rôznych zdrojov – vrátane komerčných galérií aj verejných inštitúcií – ktoré prepája v jednotnom rozhraní určenom primárne na objavovanie a sledovanie umenia.
 
@@ -290,7 +308,7 @@ Otvorený prístup tu nie je chápaný len ako praktické riešenie, ale ako hod
 
 Pre túto prácu je Artsy relevantné predovšetkým ako **externý referenčný bod**, ktorý v rovnakom čase ukázal, že rozhranie, práca so vzťahmi a otvorený vývoj môžu zásadne ovplyvniť spôsob, akým ľudia umenie objavujú a interpretujú online. Skúsenosť Artsy zároveň naznačuje, že niektoré inovácie v oblasti používateľskej skúsenosti a práce s dátami vznikali mimo múzeí – a až následne začali rezonovať aj v inštitucionálnom kontexte.
 
-### **3.3.7 Syntéza: digitálne zbierky ako infraštruktúry významu**
+### **3.3.8 Syntéza: digitálne zbierky ako infraštruktúry významu**
 
 Uvedené príklady ukazujú, že vývoj digitálnych zbierok nie je jednotný ani lineárny, ale opiera sa o niekoľko opakujúcich sa princípov. Digitálna zbierka sa postupne prestáva chápať ako statický katalóg a čoraz častejšie funguje ako **platforma**, ktorá umožňuje rôzne spôsoby čítania, prepájania a interpretácie objektov. Nejde pritom o jednu „správnu“ formu prezentácie, ale o vytváranie podmienok pre vznik rozmanitých interpretačných ciest.
 
@@ -318,13 +336,13 @@ Jednou z hlavných téz tejto kapitoly je, že práve **historická vrstvenosť,
 
 Vznik Centrálnej evidencie diel výtvarného umenia (CEDVU) v 70. rokoch bol priamym dôsledkom normalizačnej snahy o štandardizáciu a kontrolu zbierok. Projekt nevznikal ako digitálna iniciatíva — prirodzene, technológie to neumožňovali — ale ako **štátna stratégia vytvoriť úplný súpis umeleckých diel v galériách a múzeách na Slovensku**.
 
-Hoci išlo o rámec, ktorý bol motivovaný dobovým administratívnym poriadkom, jeho dopady boli ďalekosiahle: vznikol **systematizovaný súbor lístkov, opisov a terénnych fotografií**, ktorý sa stal trvácou pamäťou slovenského galerijného prostredia.
+Hoci išlo o rámec, ktorý bol motivovaný dobovým administratívnym poriadkom, jeho dopady boli ďalekosiahle: vznikol **systém dokumentačných kariet**, ktoré obsahovali štandardizovaný odborný popis diela a boli dopĺňané obrazovou dokumentáciou..
 
 *(Poznámka: niektoré tvrdenia v tejto časti treba overiť u pamätníčky Jany Bahurinskej.)*
 
 #### **3.4.1.2 Analógová kartotéka ako priestor práce a poznania**
 
-Dnešný používateľ digitálnych zbierok má len ťažko predstaviteľnú mieru materiálnej náročnosti práce s analógovou dokumentáciou. V SNG sa od 70. rokov vytvárala rozsiahla kartotéka, v ktorej každý záznam pozostával z popisného lístka a priloženej čiernobielej fotografie. Niektoré tieto fotografie vznikali priamo v teréne — pracovníci SNG cestovali po Slovensku a zaznamenávali diela v regionálnych galériách či múzeách.
+Dnešný používateľ digitálnych zbierok má len ťažko predstaviteľnú mieru materiálnej náročnosti práce s analógovou dokumentáciou. V SNG sa od 70. rokov vytvárala rozsiahla kartotéka – centrálny katalóg , v ktorom každý záznam pozostával z dokumentačnej karty (popis diela)  a priloženej čiernobielej fotografie. Niektoré tieto fotografie vznikali priamo v teréne — pracovníci SNG cestovali po Slovensku a zaznamenávali diela v regionálnych galériách či múzeách.
 
 Kartotéka bola **priestorom práce**, nie len úložiskom informácií. Študovňa centrálneho katalógu bola miestom výskumu kunsthistorikov, kurátorov a reštaurátorov. Kartotéka pretrvávala aj po nástupe digitálnej evidencie ako paralelná pracovná vrstva: aj v roku 2025 sa lístky tlačia z katalogačného systému, aby dopĺňali fyzický kartotečný celok.
 
@@ -332,23 +350,19 @@ Ak sa na tento vývoj pozrieme ako na kontinuálnu dátovú líniu, dá sa zhrn�
 
 ### **3.4.1.3 Predinternetová digitalizácia: Micro CDS/ISIS a prvé databázy**
 
-_(poznámka: doplnit pribeh v SNG. iniviativa jany bahurinskej. cesta do kanady. vlado hergot ktory sa ocitol v sng)_
+V 90. rokoch sa v Slovenskej národnej galérii pristúpilo k prvému systematickému prepísaniu údajov z papierových dokumentačných kariet do elektronickej podoby. Kľúčovú rolu v tomto procese zohral systém Micro CDS/ISIS, distribuovaný organizáciou UNESCO. Tento softvér bol pre galérie a múzeá dostupný bezplatne, čo bolo v podmienkach postsocialistických inštitúcií zásadné – umožnil začať s elektronickou evidenciou bez potreby investícií do licenčne náročných riešení.
 
-Koncom 80. a najmä v 90. rokoch sa pristúpilo k prvému systematickému prepísaniu údajov z kartotékových lístkov do elektronickej podoby. Kľúčovú rolu pritom zohral systém **Micro CDS/ISIS**, distribuovaný UNESCO — jednoduchý, no zároveň flexibilný nástroj, ktorý umožňoval vytvárať textové databázy bez potreby internetu a bez nárokov na špeciálnu infraštruktúru.
+Micro CDS/ISIS bol pôvodne navrhnutý pre potreby knižníc, no práve vďaka tomu bol na svoju dobu mimoriadne dobre vybavený nástrojmi na vyhľadávanie – umožňoval nielen jednoduché dotazy, ale aj kombinácie viacerých polí a zložitejšie rešeršné scenáre. Systém fungoval plne offline, najprv ako lokálna PC verzia, neskôr aj v sieťovej podobe, čo umožnilo jeho použitie v inštitucionálnom prostredí ešte pred nástupom internetu ako bežnej infraštruktúry.
 
-Ako uvádzajú Bohumelová a Kusá v súvislosti s digitalizačným projektom SNG, prepis údajov z analógovej kartotéky nebol mechanickým „prepísaním políčok“. Bol to proces, ktorý si vyžadoval **zjednotenie terminológie, revíziu štruktúry údajov a preformulovanie niektorých opisov**, najmä tam, kde staršie lístky pracovali s nejednotným jazykovým alebo metodologickým prístupom.
+Samotná konverzia bola zároveň výrazne kolektívnym a pedagogickým projektom. Na prepise dokumentačných kariet sa podieľali študenti katedry dejín umenia, knihovedy a Vysokej školy výtvarných umení, ktorí do databázy postupne prepísali viac než 160 000 záznamov. Táto práca predstavovala masívny zásah do infraštruktúry poznania: prvýkrát bolo možné pracovať s celým fondom zbierkových údajov v jednej elektronickej databáze, vyhľadávať v ňom, porovnávať záznamy a operovať s údajmi bez nutnosti fyzického listovania v kartotéke.
 
-Elektronická evidencia v prostredí Micro CDS/ISIS ešte nepredstavovala „digitálne zbierky“ v dnešnom zmysle slova. Išlo o internú databázu bez obrazovej zložky, bez verejného rozhrania a bez ambície sprístupňovať údaje mimo inštitúcie. Jej význam nespočíval v spôsobe prezentácie, ale v **systematickom preklade existujúcej kartotékovej evidencie do jednotnej elektronickej štruktúry**.
+Elektronická evidencia v prostredí Micro CDS/ISIS ešte nepredstavovala „digitálne zbierky“ v dnešnom zmysle slova. Išlo o čisto interný nástroj, bez obrazovej zložky, bez verejného rozhrania a bez ambície sprístupňovať údaje mimo inštitúcie. Jej význam nespočíval v prezentácii, ale v zásadnej zmene operability dát – v tom, že údaje sa stali strojovo spracovateľnými, presúvateľnými a dlhodobo udržateľnými v jednotnej štruktúre.
 
-Práve v tomto kroku vznikla situácia, v ktorej bolo možné pracovať s celým fondom zbierkových údajov v jednej databáze – vyhľadávať, porovnávať a presúvať záznamy bez nutnosti fyzického listovania v kartotéke. Elektronická podoba neznamenala zmenu interpretačného rámca, ale zásadnú zmenu v **operabilite dát** a v možnostiach ich ďalšieho spracovania.
+Práve táto infraštruktúrna kontinuita umožnila, aby sa pri neskoršom prechode na systém ISG-CEDVU existujúce údaje prevzali priamo z prostredia CDS/ISIS, bez potreby opakovať celý katalogizačný proces. Identifikátory, terminológia a opisné polia tak neboli výsledkom jednorazovej reformy, ale dôsledkom postupne budovanej elektronickej evidencie už v predinternetovom období.
 
-Vďaka tomuto prepisu sa v nasledujúcom období podarilo pri prechode na systém **ISG-CEDVU** prevziať existujúce údaje priamo z prostredia CDS/ISIS, bez potreby opakovať celý katalogizačný proces. Kontinuita terminológie, identifikátorov a opisných polí tak nebola výsledkom jednorazovej reformy, ale dôsledkom postupného budovania elektronickej evidencie už v predinternetovom období.
+Z tohto pohľadu Micro CDS/ISIS nepredstavuje slepú technologickú vetvu, ale kľúčový medzistupeň, ktorý umožnil neskorší rozvoj komplexnejších systémov správy zbierok. Bez tejto vrstvy by CEDVU nemalo k dispozícii konzistentne spracovaný dátový základ a neskoršie online projekty – vrátane Webu umenia – by museli pracovať s fragmentárnymi alebo nanovo vytváranými údajmi.
 
-Z tohto pohľadu Micro CDS/ISIS nepredstavuje slepú technologickú vetvu, ale **medzistupeň**, ktorý umožnil neskorší rozvoj komplexnejších systémov správy zbierok. Bez tejto vrstvy by CEDVU pri svojom spustení nemalo k dispozícii konzistentne spracovaný dátový základ a následné digitálne projekty by museli pracovať s fragmentárnymi alebo nanovo vytváranými údajmi.
-
-Rovnako dôležité je, že práve táto kontinuita sa o ďalšiu dekádu neskôr stala predpokladom pre vznik online projektov, ako je Web umenia. Možnosť nadviazať na stabilnú terminológiu, dlhodobo zhromažďované opisné údaje a jednoznačné identifikátory objektov umožnila presun zbierkových dát do verejného prostredia bez straty základných väzieb a významových rámcov.
-
-Týmto sa uzatvára dôležitá, hoci často prehliadaná časť príbehu digitalizácie: **prvá fáza digitalizácie prebehla ešte pred nástupom digitálnych technológií v dnešnom zmysle slova**, v podobe ručne prepisovaných textových polí a textových databáz bez vizuálnej vrstvy. Práve táto „neviditeľná“ infraštruktúrna práca vytvorila podmienky pre neskorší technologický skok – a zároveň ukazuje, že digitálne zbierky nevznikajú náhle, ale ako výsledok dlhodobého vrstvenia rozhodnutí, procesov a kompromisov.
+Táto fáza zároveň uzatvára dôležitú, hoci často prehliadanú kapitolu digitalizácie: prvá vlna digitalizácie prebehla ešte bez internetu, bez obrazov a bez verejného rozhrania, v podobe ručne prepisovaných textových polí a textových databáz. Práve táto „neviditeľná“ práca vytvorila podmienky pre neskorší technologický skok – a ukazuje, že digitálne zbierky nevznikajú náhle, ale ako výsledok dlhodobého vrstvenia rozhodnutí, ľudskej práce a infraštruktúrnych kompromisov.
 
 ### **3.4.2 ISG-CEDVU: štandardizácia a profesionalizácia (2000s)**
 
@@ -356,13 +370,20 @@ Po dlhom období analógovej evidencie a prvých elektronických pokusov v syst�
 
 #### **Od kartotéky k digitálnemu jadru**
 
-Základom novej platformy bola rozsiahla databáza údajov, ktorá vznikla v 90. rokoch prepisom analógových kartotékových lístkov do systému Micro CDS/ISIS. Tento krok bol mimoriadne náročný: pracovníci SNG museli nielen mechanicky prepisovať údaje, ale zároveň postupne zjednocovať terminológiu, opravovať nepresnosti a vytvárať štruktúru, ktorá by bola kompatibilná s neskoršími normami. Bohumelová a Kusá zdôrazňujú, že pôvodné kartičky obsahovali veľké množstvo nesúrodých údajov – rozdielne poradie autorov, rôzne spôsoby zapisovania dátumu, nejednotnú formu rozmerov či techník.
-Práve vďaka tomuto ručnému prepisu však vznikol digitálny korpus, ktorý bolo možné priamo migrovať do ISG-CEDVU. Elektronická evidencia, ktorá vznikla vďaka Micro CDS/ISIS, sa postupne stala dátovým jadrom, ktoré dnes umožňuje fungovanie Centralizovaného katalógu diel.
+Základom novej platformy bola rozsiahla databáza údajov, ktorá vznikla v 90. rokoch prepisom analógových dokumentačných kariet do systému Micro CDS/ISIS. Samotný prepis neprebiehal ako interná administratívna činnosť galérie, ale ako rozsiahly externý projekt, na ktorom sa za honoráre podieľali najmä študenti dejín umenia, knihovedy a Vysokej školy výtvarných umení. Ich úlohou bolo manuálne prepísať obsah kartotékových lístkov do elektronickej podoby.
+
+Na túto fázu však bezprostredne nadväzovala odborná práca pracovníkov oddelenia CEDVU, ktorí zabezpečovali kontrolu, verifikáciu a zjednocovanie údajov. Ako zdôrazňujú Bohumelová a Kusá, pôvodné kartičky obsahovali veľké množstvo nesúrodých informácií – rozdielne poradie autorov, rôzne spôsoby zápisu dátumov, nejednotné uvádzanie rozmerov, techník či názvov diel. Elektronická databáza tak nevznikala ako pasívny prepis existujúceho stavu, ale ako postupne kultivovaný dátový korpus, v ktorom sa analogické nepresnosti museli aktívne riešiť.
+
+Ešte pred samotným prechodom na systém ISG-CEDVU prebehla intenzívna harmonizácia dát, zameraná najmä na zjednocovanie terminológie, autorít a tezaurických hesiel. Cieľom bolo pripraviť databázu tak, aby bola kompatibilná s novým informačným systémom a aby sa minimalizovali straty a nekonzistencie pri migrácii. Napriek tejto príprave bol samotný prenos dát z prostredia Micro CDS/ISIS do CEDVU technicky aj metodicky komplikovaný, čo potvrdzuje, že išlo o transformáciu medzi dvoma rozdielnymi generáciami evidenčných systémov, nie o jednoduchý import.
+
+Práve vďaka tomuto viacstupňovému procesu – manuálnemu prepisu, odbornej kontrole, systematickej harmonizácii a náročnej migrácii – však vzniklo digitálne jadro evidencie, na ktorom dnes stojí Centralizovaný katalóg diel. Elektronická evidencia vytvorená v prostredí Micro CDS/ISIS sa tak nestala len prechodným riešením, ale zásadnou infraštruktúrnou vrstvou, ktorá umožnila kontinuitu dát pri prechode na CEDVU a neskôr aj ich využitie v online projektoch.
 
 #### **Normy, ktorým rozumie celá krajina**
 
-Vstup do 2000s si vyžiadal nielen nový softvér, ale aj aktualizáciu metodických zásad. SNG preto pripravila publikáciu *Pravidlá katalogizácie umeleckých diel*, ktorá systematicky definovala povinné a voliteľné polia, spôsob zapisovania údajov, autoritné termíny aj metodiku práce s atribúciami, dielami bez autora či zložitými prípadmi ikonografie [@ondrejcekova_pravidla_katalogizacie_1979].
-Na rozdiel od skorších predpisov išlo o text vytvorený s vedomím, že údaje budú spracovávané digitálne, prenášané medzi inštitúciami a pravdepodobne aj zdieľané mimo odborného prostredia. Podkladom boli medzinárodné odporúčania CIDOC–ICOM aj skúsenosti pracoviska CEDVU z 90. rokov.
+Vstup do 2000s si vyžiadal nielen nový softvér, ale aj aktualizáciu metodických zásad. SNG preto pripravila publikáciu *Pravidlá katalogizácie umeleckých diel*, ktorá systematicky definovala povinné a voliteľné polia, spôsob zapisovania údajov, autoritné termíny aj metodiku práce s atribúciami, dielami bez autora či zložitými prípadmi ikonografie [@ondrejcekova_pravidla_katalogizacie_1979]. Na ne nadväzoval *Štandard pre popis diel výtvarného umenia* [@bahurinska_stadandard_pre_popis_2002] spracovaný pre potreby databázového spracovania údajov z papierových dokumentačných kariet.
+Na rozdiel od skorších predpisov išlo o text vytvorený s vedomím, že údaje budú spracovávané digitálne, prenášané medzi inštitúciami a pravdepodobne aj zdieľané mimo odborného prostredia. 
+
+Podkladom boli nielen medzinárodné odporúčania CIDOC–ICOM, ktoré od 80. rokov systematicky formovali prístupy k dokumentácii a modelovaniu múzejných dát, ale aj praktické skúsenosti pracoviska CEDVU z 90. rokov, získané pri prevode analógovej evidencie do elektronickej podoby. Dôležitým referenčným rámcom boli zároveň zahraničné príklady národných infraštruktúr, najmä Canadian Heritage Information Network (CHIN) v Kanade, ktorý dlhodobo prepájal štandardizáciu dokumentácie s prevádzkou centrálnych databáz kultúrneho dedičstva.
 
 #### **Vznik centralizovaného systému**
 
