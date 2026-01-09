@@ -227,3 +227,51 @@ Otvorené API Webu umenia na túto logiku nadväzuje. Funguje skôr ako potrubie
 V tomto kontexte nadobúda otvorenosť aj etický rozmer. Ako upozorňuje Merete Sanderhoff, zdieľanie kultúrnych dát nie je len otázkou prístupu, ale aj starostlivosti — o kontext, o autorov, o publikum aj o budúce použitia [@sanderhoff_sharing_caring_openness_2014]. Na túto perspektívu nadväzuje aj koncept networks of care, ktorý zdôrazňuje, že starostlivosť v digitálnych infraštruktúrach je vždy distribuovaná medzi technické systémy, inštitúcie a ľudí [@dekker_networks_of_care_2022]. Otvorené štandardy vytvárajú infraštruktúrne podmienky, no otázka zodpovednosti zostáva vždy situovaná v konkrétnej inštitúcii a konkrétnom projekte.
 
 Pre Web umenia tak interoperabilita neznamená stratu kontroly, ale jej presun. Kontrola sa neodohráva na úrovni uzavretých systémov, ale v rozhodnutiach o tom, čo zdieľať, ako to pomenovať a aké vzťahy umožniť vzniknúť. Práve v tomto priestore medzi technickým štandardom a kurátorským rozhodnutím sa začína téma data governance a licencovania, ktorej sa budem venovať v nasledujúcej podkapitole.
+
+### **4.5 Open-source prístup a komunitný vývoj**
+
+> *“Participation in free software is not simply about access to code, but about the ability to shape the conditions under which that code exists.”*
+> — Christopher M. Kelty, *Two Bits* (2008)
+
+Rozhodovanie o technologickom riešení v kultúrnej inštitúcii nie je nikdy čisto technické. Každá voľba softvéru v sebe nesie predpoklady o budúcnosti: o tom, kto bude mať nad systémom kontrolu, ako dlho bude udržateľný a či bude možné naň nadväzovať aj po rokoch. V prostredí verejnej inštitúcie k tomu navyše pribúda otázka zodpovednosti — nielen voči zadaniu, ale aj voči verejnosti, ktorá vývoj financuje.
+
+Pri vývoji Webu umenia sme sa od začiatku prikláňali k otvoreným riešeniam. Nie primárne z dôvodu ceny, ale pre ich **udržateľnosť, transparentnosť a čitateľnosť**. Použitie open-source nástrojov ako Laravel, Elasticsearch či OpenSeadragon bolo pragmatické rozhodnutie: išlo o technológie so silnou komunitou, dobrou dokumentáciou a predpokladom dlhodobého vývoja. V prostredí GLAM inštitúcií (galleries, libraries, archives, museums) je táto preferencia rozšírená — otvorené riešenia tu fungujú ako zdieľaný jazyk, ktorý umožňuje nielen výmenu dát, ale aj výmenu skúseností.
+
+Otázka, či ísť ďalej a **otvoriť aj samotný zdrojový kód Webu umenia**, však nebola samozrejmá. V čase, keď sme ju riešili, ešte doznievala verejná diskusia okolo „predraženého“ webu SNG a bolo jasné, že otvorenie repozitára znamená vystaviť každý riadok kódu verejnému pohľadu. V súkromnom repozitári sa pracuje pohodlnejšie — chyby sú menej viditeľné, kompromisy sa dajú ľahšie skryť. Zároveň však bolo čoraz ťažšie obhajovať, prečo by vývoj financovaný z verejných zdrojov mal zostať nepriehľadný.
+
+Postupne sa ukázalo, že otvorenie kódu nie je ani tak technické rozhodnutie, ako skôr **inštitucionálny postoj**. Ako píše Daniel Doubrovkine, „open source by default“ nie je len licencia, ale spôsob myslenia, ktorý mení vzťah medzi autorom, používateľom a komunitou [@doubrovkine_open_source_2015]. V našom prípade to znamenalo presun z Bitbucketu na GitHub, otvorenie issue trackerov a prijatie faktu, že vývoj sa stáva verejnou komunikáciou.
+
+Neprišli masy prispievateľov ani veľké refaktoringy zvonka. Objavili sa však **konkrétne drobné zásahy**: nahlásené chyby, menšie pull requesty, upozornenia na bezpečnostné riziká. Práve tie mali pre nás väčšiu hodnotu než hypotetická „popularita“ projektu. Otvorený repozitár sa ukázal ako mechanizmus včasnej spätnej väzby a zároveň ako signál, že systém nie je uzavretým artefaktom, ale súčasťou širšieho ekosystému.
+
+Zaujímavým vedľajším efektom bola zmena vnútornej kultúry tímu. Vedomie, že kód je verejný, vytvára jemný tlak na **čitateľnosť, pomenovania a dokumentáciu**. README súbory, inštalačné návody či komentáre v kóde prestali byť „internou pomôckou“ a stali sa formou verejného vysvetľovania. Tento typ dokumentácie sa neskôr ukázal ako neoceniteľný aj pri onboardingu nových členov tímu lab.SNG — otvorený kód fungoval ako archív rozhodnutí, nie len ako výsledok.
+
+Z perspektívy starostlivosti je open source možné čítať aj ako súčasť širších **sietí zodpovednosti**. Annet Dekker opisuje open infraštruktúry ako *networks of care* — prepojenia medzi ľuďmi, inštitúciami a technickými systémami, kde sa starostlivosť necentralizuje, ale distribuuje [@dekker_networks_of_care_2022]. Otvorený kód v tomto zmysle nie je garanciou kvality, ale pozvaním k spoluzodpovednosti.
+
+Skúsenosť s Webom umenia nás viedla k jednoduchému pravidlu: **projekty v SNG vznikajú ako open-source by default**, pokiaľ neexistuje vážny dôvod postupovať inak. Výnimky sa týkali najmä partnerských projektov, kde si spolupracujúca inštitúcia želala odklad alebo obmedzenie otvorenia kódu. Aj v týchto prípadoch však ostával cieľom návrat k otvorenému režimu.
+
+Otvorenie zdrojového kódu tak nebolo jednorazovým gestom, ale postupným posunom v uvažovaní o tom, čo znamená robiť digitálne veci vo verejnej inštitúcii. Nešlo len o to, aby web fungoval, ale aby bolo možné rozumieť aj tomu, ako vzniká a ako sa mení.
+
+Tento posun však zároveň kladie ďalšie otázky: čo všetko je ešte možné otvoriť a kde už treba byť opatrný. Kód sa dá zdieľať pomerne priamo, no pri dátach – dielach, obrazoch, metadátach – vstupujú do hry právne, etické aj inštitucionálne záväzky. Tým sa otvorenosť prirodzene presúva od vývoja k starostlivosti o dáta a ich používanie, čo je témou nasledujúcej časti.
+
+::: aside
+### Open-source v praxi (lab.SNG)
+
+Od roku 2014 do roku 2025 publikovala Slovenská národná galéria  
+**66 otvorených repozitárov** na platforme GitHub.
+
+Repozitáre zahŕňajú:
+
+- jadrové aplikácie (Web umenia, Atlas SNG),
+- samostatné knižnice a nástroje (napr. jazyková podpora pre Elasticsearch),
+- experimentálne prototypy,
+- výstavné a edukačné projekty.
+
+Nešlo o systematickú stratégiu „produkcie open-source“, ale o postupné prijatie princípu,
+že digitálna infraštruktúra verejnej inštitúcie má byť čitateľná, znovupoužiteľná
+a dlhodobo udržiavateľná aj mimo pôvodného tímu.
+
+:::
+
+![Prehľad verejných repozitárov Slovenskej národnej galérie na platforme GitHub.  
+Otvorený vývoj tu funguje ako forma dokumentácie, komunikácie a dlhodobej starostlivosti o digitálnu infraštruktúru.](figures/fig-4-5-github-sng-public-repositories.png){#fig:github-sng-opensource}
+

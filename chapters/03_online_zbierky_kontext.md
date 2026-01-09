@@ -380,10 +380,8 @@ Práve vďaka tomuto viacstupňovému procesu – manuálnemu prepisu, odbornej 
 
 #### **Normy, ktorým rozumie celá krajina**
 
-Vstup do 2000s si vyžiadal nielen nový softvér, ale aj aktualizáciu metodických zásad. SNG preto pripravila publikáciu *Pravidlá katalogizácie umeleckých diel*, ktorá systematicky definovala povinné a voliteľné polia, spôsob zapisovania údajov, autoritné termíny aj metodiku práce s atribúciami, dielami bez autora či zložitými prípadmi ikonografie [@ondrejcekova_pravidla_katalogizacie_1979]. Na ne nadväzoval *Štandard pre popis diel výtvarného umenia* [@bahurinska_stadandard_pre_popis_2002] spracovaný pre potreby databázového spracovania údajov z papierových dokumentačných kariet.
-Na rozdiel od skorších predpisov išlo o text vytvorený s vedomím, že údaje budú spracovávané digitálne, prenášané medzi inštitúciami a pravdepodobne aj zdieľané mimo odborného prostredia. 
-
-Podkladom boli nielen medzinárodné odporúčania CIDOC–ICOM, ktoré od 80. rokov systematicky formovali prístupy k dokumentácii a modelovaniu múzejných dát, ale aj praktické skúsenosti pracoviska CEDVU z 90. rokov, získané pri prevode analógovej evidencie do elektronickej podoby. Dôležitým referenčným rámcom boli zároveň zahraničné príklady národných infraštruktúr, najmä Canadian Heritage Information Network (CHIN) v Kanade, ktorý dlhodobo prepájal štandardizáciu dokumentácie s prevádzkou centrálnych databáz kultúrneho dedičstva.
+Vstup do 2000s si vyžiadal nielen nový softvér, ale aj aktualizáciu metodických zásad. SNG preto pripravila publikáciu *Pravidlá katalogizácie umeleckých diel*, ktorá systematicky definovala povinné a voliteľné polia, spôsob zapisovania údajov, autoritné termíny aj metodiku práce s atribúciami, dielami bez autora či zložitými prípadmi ikonografie [@ondrejcekova_pravidla_katalogizacie_1979].
+Na rozdiel od skorších predpisov išlo o text vytvorený s vedomím, že údaje budú spracovávané digitálne, prenášané medzi inštitúciami a pravdepodobne aj zdieľané mimo odborného prostredia. Podkladom boli medzinárodné odporúčania CIDOC–ICOM aj skúsenosti pracoviska CEDVU z 90. rokov.
 
 #### **Vznik centralizovaného systému**
 
