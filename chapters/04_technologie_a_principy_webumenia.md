@@ -325,3 +325,24 @@ V tomto kontexte nadobúda otvorenosť aj etický rozmer. Ako upozorňuje Merete
 Otvorené dáta a otvorené licencie tak vytvorili infraštruktúrny základ fungovania Webu umenia. Otázka riadenia dát — data governance — tu nevystupuje ako formálna disciplína, ale ako praktická rovnováha medzi otvorenosťou, právnou zodpovednosťou a kultúrnou citlivosťou. Nejde o to mať dokonalé pravidlá, ale vedieť sa k nim vrátiť, revidovať ich a niesť za ne inštitucionálnu zodpovednosť.
 
 Práve táto rovnováha medzi sprístupňovaním, starostlivosťou a hodnotovým postojom vytvára prirodzený prechod k ďalšej téme: ak otvorenosť dát a diel mení spôsob, akým zbierky cirkulujú, otvorenie samotných nástrojov a procesov mení spôsob, akým inštitúcia komunikuje svoju prácu navonok. Tomu sa venuje nasledujúca podkapitola o open-source prístupe a komunitnom vývoji.
+
+## 4.7 Reflexia: infraštruktúra ako médium
+
+> *“What we see is not simply what is there, but what has been made visible by a set of formal, technical, and interpretive decisions.”*
+> [@drucker_graphesis_2014, p. 8]
+
+V predchádzajúcich podkapitolách som opisoval architektúru Webu umenia ako súbor konkrétnych technických rozhodnutí: databázy, indexy, štandardy, API, licencie. V tomto bode je však dôležité pomenovať niečo, čo sa v technickom popise ľahko stráca. Infraštruktúra tu nie je len neutrálnym pozadím, ale médiom — aktívnym prostredím, ktoré formuje to, **čo** je viditeľné, **v akom poradí** a **akým spôsobom**.
+
+Toto nie je abstraktné tvrdenie, ale skúsenosť z vývoja samotného Webu umenia. Každé rozhodnutie — čo sa indexuje, čo sa zobrazí ako prvé, ktoré polia majú väčšiu váhu, ktoré vzťahy sa zobrazia a ktoré zostanú skryté — má interpretačný dosah. Aj keď sa tieto rozhodnutia často robia z pragmatických dôvodov (výkon, prehľadnosť, zrozumiteľnosť), ich dôsledkom je vždy určitý obraz zbierky. Infraštruktúra tak nepreberá kurátorskú rolu priamo, ale vytvára pole možností, v ktorom sa kurátorský význam môže — alebo nemusí — objaviť.
+
+Pri plánovaní vývoja Webu umenia sme si na začiatku pomáhali jednoduchou schémou: najprv databáza, potom informačný a vzdelávací zdroj, a napokon interaktívny nástroj (Táto schéma bola skôr formálnym myslením „na tabuli“ než opisom reality. V praxi mal Web umenia už od spustenia články aj kolekcie.) To, čo však dlhodobo chýbalo, bola možnosť hlbšej interakcie používateľa so zbierkou — možnosť vstupovať do nej vlastným spôsobom, vytvárať si vlastné väzby, interpretácie či cesty.
+
+Tu sa naplno ukázali limity databázovej logiky. Ako píše Lev Manovich, databáza je silná forma pre ukladanie a triedenie informácií, no sama o sebe nenahrádza naratív ani interpretáciu; skôr ich odsúva alebo deleguje na používateľa [@manovich_language_new_media_2001]. Web umenia dokáže pomerne dobre odpovedať na otázku, *aké* diela sa v zbierkach nachádzajú. Oveľa ťažšie však odpovedá na otázku, *prečo* tam sú, *ako* spolu súvisia a *čo* z nich dnes vyplýva.
+
+Aj pokusy o vnášanie náhody — napríklad náhodné radenie v katalógu, „zamiešavač“ filtrov na úvodnej stránke či odporúčanie diel pri chybe 404 — sú vždy sprostredkované systémom. Náhoda tu nie je prechádzkou galériou, ale výsledkom algoritmu. A hoci tieto drobné gestá môžu narušiť predvídateľnosť rozhrania, stále fungujú v rámci databázového poriadku.
+
+Zároveň som si postupne začal uvedomovať ešte jeden paradox: čím viac dát má používateľ k dispozícii, tým ťažšie je niekedy **zastaviť sa**. Infraštruktúra podporuje rýchle čítanie — vyhľadávanie, porovnávanie, filtrovanie — no len ťažko vytvára priestor pre pomalé, sústredené alebo asociatívne vnímanie. Vzťahy medzi dielami, ich napätia, historické vrstvy či symbolické presahy sa do rozhrania prekladajú len čiastočne. Nie preto, že by chýbali dáta, ale preto, že samotná forma databázy má svoje epistemologické hranice.
+
+V tomto zmysle vnímam infraštruktúru Webu umenia ako nevyhnutný, ale nie postačujúci základ. Umožňuje presnosť, rozsah a prepojenosť, no zároveň zvýrazňuje hranicu, za ktorou technické riešenia prestávajú stačiť. Ak má digitálna zbierka sprostredkovať nielen informácie, ale aj skúsenosť, interpretáciu a prekvapenie, musí sa otvoriť iným typom rozhraní — takým, ktoré pracujú s asociáciami, vizualizáciou vzťahov a naratívnou vrstvou nad databázou.
+
+Táto kapitola preto nekončí riešením, ale pomenovaním napätia, ktoré považujem za produktívne. Ak architektúra určuje rámec, rozhranie určuje tón príbehu. A práve otázka tónu — jeho plochosti, predvídateľnosti či schopnosti vytvárať „wow moment“ — sa stáva východiskom nasledujúcej kapitoly, ktorá sa zameriava na limity digitálnych zbierok a na to, ako ich možno prostredníctvom dizajnu, kurátorských stratégií a alternatívnych rozhraní vedome prekračovať.
