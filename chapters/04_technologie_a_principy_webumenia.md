@@ -283,11 +283,38 @@ Už pri spustení Webu umenia v roku 2015 sa Slovenská národná galéria — s
 
 Popri týchto obavách však existovala aj jednoduchá a veľmi praktická skúsenosť: obrázky diel zo zbierok SNG — aj zbierok iných galérií — už dávno kolovali internetom. Často v nízkej kvalite, s nesprávnymi farbami, deformáciami, niekedy dokonca zrkadlovo otočené alebo odfotené mobilným telefónom priamo v expozícii. V online prostredí sa nikto na nič nepýta; obrazy sa šíria samovoľne, bez kontextu a bez kontroly.
 
+![Porovnanie digitálnych reprodukcií toho istého diela v rôznej kvalite:  
+(a) nízke rozlíšenie a otočený obraz – https://www.artwallgallery.cz/cs/projekt/koneksn,  
+(b) posunuté farby – https://www.pohrebnictvo.sk/smrt-slovenskych-dobrovolnikov/,  
+(c) vysoké rozlíšenie – inštitucionálna digitálna reprodukcia (SNG / Web umenia ).](figures/fig-4-6-SVK_SNG.O_5301-reproduction-quality-comparison.png){ width=100% }
+
 V tomto svetle sa otázka sprístupnenia hi-res reprodukcií začala javiť inak. Ak je inštitúcia vlastníkom diela a jeho digitalizácia bola financovaná z verejných zdrojov, má zmysel skrývať kvalitné dáta na interných diskoch, zatiaľ čo verejný priestor zapĺňajú nekvalitné kópie? Práve tu sa technická otázka kvality prelína s otázkou autority a reprezentácie: kto má určovať, ktorá digitálna verzia diela je referenčná?
 
 Silným argumentom sa stal aj často citovaný príklad Rijksmusea, známy ako prípad „the yellow milkmaid“. Inštitúcia zistila, že na internete kolujú stovky nekvalitných, zožltnutých reprodukcií Vermeerovho obrazu "Mliekarka" [@vermeer_milkmaid_1658], ktoré deformovali vnímanie originálu. Riešením nebolo sprísnenie kontroly, ale presný opak: sprístupnenie kvalitných, otvorene licencovaných digitálnych reprodukcií ako „obrana“ proti nekvalitným kópiám [@verwayen_open_cultural_data_2011]. Podobné situácie možno nájsť aj v slovenskom kontexte — napríklad pri obraze *J. Francisci ako kapitán slovenských dobrovoľníkov* od Petra Michala Bohúňa [@-bohun_francisci_kapitan_1849], kde sa dlhodobo šírili problematické reprodukcie, vrátane chybnej verzie na Wikipédii.
 
 Postupne sa ukázalo, že sprístupňovanie kvalitných digitálnych reprodukcií nie je stratou kontroly, ale jej presunom. Inštitúcia síce nemôže zabrániť ďalšiemu šíreniu, úpravám či remixom, no môže jasne definovať zdroj, kontext a referenčnú podobu diela. Web umenia preto od začiatku dopĺňal diela o kanonické URL, generovanie citácie a jemné dizajnové mechanizmy, ktoré podporovali korektné používanie bez represívnych obmedzení.
+
+::: {.aside}
+
+**Internetová kultúra, remix a strata kontroly**
+
+Pri sprístupňovaní digitálnych reprodukcií je dôležité uvedomiť si zmenu povahy internetu ako média. To, čo by v ére tlače bolo nepredstaviteľné – že by si médium či vydavateľ bez súhlasu inštitúcie zobral reprodukciu diela a voľne ju šíril – je dnes bežnou praxou. V online prostredí sa obrazy šíria rýchlo, často bez uvedenia zdroja, v rôznych kvalitách, úpravách a kontextoch.
+
+Táto zmena sa neprijíma ľahko – ani zo strany kurátorov, ani zo strany autorov či dedičov. No galérie na ňu musia reagovať. Cieľom už nie je udržať úplnú kontrolu, ale skôr zabezpečiť, aby v digitálnom obehu cirkulovali **reprodukcie, ktoré vytvorila samotná inštitúcia** – kvalitné, správne datované a jednoznačne citovateľné. Ide o snahu udržať autoritu v zdrojovaní dát, aj keď ich ďalší život už nie je možné riadiť.
+
+Digitálne obrazy sa totiž môžu stať čímkoľvek – vrátane mémov, koláží či ironických reinterpretácií. Taká je povaha internetovej kultúry. A úprimne: práve táto schopnosť obrazov vstupovať do každodennej komunikácie, humoru či politického komentára je niečo, čo robí vizuálnu kultúru živou. Lepšou stratégiou než odpor je zapojenie sa – byť súčasťou tohto obehu a aspoň čiastočne ovplyvňovať, **aké reprodukcie vychádzajú von, ako sa citujú a ako sa ďalej transformujú**.
+
+Z vlastnej skúsenosti môžem povedať, že nás v SNG teší, keď sa diela z Webu umenia objavujú v médiách – napríklad ako vizuálne metafory v správach o počasí, politike či spoločenských udalostiach. Často dokážu sprostredkovať význam presnejšie než neutrálna ilustračná fotografia. Práve opakované videnie diel – ich cirkulácia – ovplyvňuje ich popularitu, hodnotu aj interpretáciu. Mémová kultúra o tom vie svoje.
+
+Tento postoj sa napokon pretavil aj do aktívnej podpory remixu. Podobne ako Rijksmuseum so svojím Rijksstudio, aj SNG prostredníctvom Lab.SNG a festivalu Sensorium vyzývala umelcov a dizajnérov, aby voľne remixovali diela z Webu umenia – od klasikov slovenskej moderny až po starú grafiku. Remix tu neznamená znehodnotenie, ale pokračovanie života diela v súčasnej vizuálnej kultúre.
+
+:::
+
+![Použitie diela *Na rodnej hrude* od Jozefa Hanulu v politickom komentári  
+na webe Cynickej obludy [@cynickaobluda_zmatok_v_argumentacii_2015].  
+Pôvodné dielo: *Na rodnej hrude* (1908), Jozef Hanula  
+[@hanula_na_rodnej_hrude_1908], Slovenská národná galéria.](./figures/fig-4-6-cynicka-obluda-utecenci.png){#fig:cynicka-obluda-hanula width=33%}
+
 
 Otázka otvorenosti sa zároveň netýkala len diel samotných, ale aj rozdielnych postojov zapojených galérií. Web umenia funguje ako spoločné rozhranie, nie ako nadriadená autorita. Každá zapojená galéria má možnosť rozhodnúť, ktoré diela sprístupní, v akom rozsahu a pod akou licenciou. Niektoré inštitúcie zverejňujú celé zbierky, iné len starostlivo vybrané a kompletne spracované záznamy. Tento model zachováva materskú autoritu galérií, no zároveň umožňuje ich dáta prepájať a interpretovať v širšom kontexte.
 
