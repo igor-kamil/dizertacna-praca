@@ -38,8 +38,23 @@ Súčasná verzia rozvíja tieto otázky v špecifickom prostredí **online gal�
 
 ```bash
 chmod +x build.sh      # prvýkrát
-./build.sh             # vytvorí dissertation.pdf
+./build.sh             # vytvorí dissertation.pdf (default: /ebook compression)
 ```
+
+### Možnosti kompresie PDF
+
+PDF sa automaticky komprimuje pomocou Ghostscript. Dostupné možnosti (od najkomprimovanejších po najkvalitnejšie):
+
+```bash
+./build.sh                      # default: /ebook (stredná kompresia)
+PDFSETTINGS=/screen ./build.sh  # najväčšia kompresia (najnižšia kvalita)
+PDFSETTINGS=/ebook ./build.sh   # stredná kompresia (default)
+PDFSETTINGS=/printer ./build.sh # vyššia kvalita
+PDFSETTINGS=/prepress ./build.sh # najvyššia kvalita (najmenšia kompresia)
+FULL=1 ./build.sh               # bez kompresie (plná kvalita, bez Ghostscript)
+```
+
+### Ďalšie možnosti
 
 Bibliografia: generuje sa **automaticky na konci dokumentu** (vyžaduje `references.bib`).
 

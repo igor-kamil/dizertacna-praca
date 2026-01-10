@@ -16,6 +16,9 @@ merged_md="${build_dir}/merged.md"
 output_pdf="${root_dir}/dissertation.pdf"
 aside_filter="${root_dir}/pandoc/filters/aside.lua"
 
+output_pdf="${root_dir}/dissertation.pdf"
+output_pdf_uncompressed="${build_dir}/dissertation.uncompressed.pdf"
+
 mkdir -p "${build_dir}"
 
 # Render Mermaid diagrams (optional).
@@ -131,6 +134,36 @@ pandoc "${merged_md}" \
   -V geometry:margin=3cm \
   --include-in-header="${root_dir}/preamble.tex" \
   ${extra_opts[@]+"${extra_opts[@]}"} \
-  -o "${output_pdf}"
+  -o "${output_pdf_uncompressed}"
 
-echo "Built ${output_pdf}"
+# --- Optional PDF compression (default ON) -------------------------------
+# Usage:
+#   ./build.sh                      # compressed (default: /printer)
+#   FULL=1 ./build.sh               # keep full quality (no GS step)
+#   PDFSETTINGS=/screen ./build.sh  # most compressed (lowest quality)
+#   PDFSETTINGS=/ebook ./build.sh   # medium compression
+#   PDFSETTINGS=/printer ./build.sh # higher quality
+#   PDFSETTINGS=/prepress ./build.sh # highest quality (least compression)
+if [[ "${FULL:-0}" == "1" ]]; then
+  cp -f "${output_pdf_uncompressed}" "${output_pdf}"
+  echo "Built (FULL) ${output_pdf}"
+else
+  if command -v gs >/dev/null 2>&1; then
+    pdfsettings="${PDFSETTINGS:-/ebook}"
+
+    gs \
+      -sDEVICE=pdfwrite \
+      -dCompatibilityLevel=1.6 \
+      -dPDFSETTINGS="${pdfsettings}" \
+      -dNOPAUSE -dBATCH -dQUIET \
+      -sOutputFile="${output_pdf}" \
+      "${output_pdf_uncompressed}"
+
+    echo "Built (compressed: ${pdfsettings}) ${output_pdf}"
+  else
+    # Fallback: no gs installed, keep uncompressed
+    cp -f "${output_pdf_uncompressed}" "${output_pdf}"
+    echo "Warning: 'gs' not found; produced uncompressed ${output_pdf}" >&2
+  fi
+fi
+# ------------------------------------------------------------------------
