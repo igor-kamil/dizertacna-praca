@@ -132,7 +132,7 @@ pandoc "${merged_md}" \
   -V monofont="Menlo" \
   -V fontsize=11pt \
   -V geometry:margin=3cm \
-  --include-in-header="${root_dir}/preamble.tex" \
+  --include-in-header="${root_dir}/pandoc/preamble.tex" \
   ${extra_opts[@]+"${extra_opts[@]}"} \
   -o "${output_pdf_uncompressed}"
 
