@@ -176,12 +176,7 @@ Ich úlohou je riešiť problém variantných zápisov a poskytnúť stabilné i
 
 Ako upozorňuje Baca, authority files nie sú len technické riešenia: definujú, čo je v kultúrnom systéme evidovateľné, pomenovateľné a prepojiteľné [@baca_introduction_to_metadata_2016].
 
-V kontexte múzejných zbierok authority files určujú:
-
-* ktoré kategórie existujú,
-* aké pojmy môžu byť priradené k dielam,
-* ako sú diela prepojiteľné v agregátoroch (napr. Europeana),
-* a aké naratívne línie sú v dátach čitateľné.
+V kontexte múzejných zbierok sa tento rámec prejavuje veľmi konkrétne. Autoritatívne zoznamy spoluurčujú, ktoré kategórie a pojmy v systéme vôbec existujú a môžu byť použité pri opise diel. Zároveň definujú, akým spôsobom je možné diela navzájom prepájať, či už v rámci lokálnych databáz, alebo na úrovni nadnárodných agregátorov, ako je Europeana. Tým, že stabilizujú pomenovania a vzťahy medzi entitami, umožňujú čitateľnosť zbierky ako siete súvislostí, no zároveň predurčujú, aké typy naratívnych línií môžu byť z dostupných dát rekonštruované a ktoré zostávajú mimo dosahu systému.
 
 ### 3.2.5 Otvorené dáta a API: posun k platformovému mysleniu
 
@@ -433,18 +428,11 @@ Z technologického hľadiska je zaujímavé, že CEAD využíva open-source syst
 
 ### 3.4.5 Dvojkoľajnosť digitálnej transformácie: paralelné projekty, odlišné logiky
 
-Jednou z charakteristík slovenského vývoja je *paralelné vznikanie dvoch typov digitálnych projektov*:
+Jednou z charakteristík slovenského vývoja digitálnych zbierok je paralelné vznikanie dvoch typov projektov, ktoré sledovali odlišné ciele a fungovali v rozdielnych organizačných logikách. Na jednej strane stáli národné agregátorové iniciatívy, orientované na štandardizáciu, centralizáciu a reprezentáciu kultúrneho dedičstva na úrovni štátu. Na druhej strane vznikali inštitucionálne projekty, viazané na konkrétne zbierky a potreby jednotlivých organizácií, s dôrazom na experimentovanie a postupný vývoj.
 
-* národných, agregátorových (Slovakiana),
-* inštitucionálnych, experimentálnych (Web umenia).
+Tento paralelizmus neviedol k jednoduchej duplicite riešení, ale skôr k vzniku viacvrstvového prostredia, v ktorom bolo možné sledovať rozdielne prístupy k práci so zbierkami. Zatiaľ čo agregátorové projekty kládli dôraz na plošnú reprezentáciu a interoperabilitu dát, inštitucionálne iniciatívy sa mohli sústrediť na interpretačnú hĺbku, flexibilitu rozhrania a hľadanie vlastného jazyka sprístupňovania. Rozdiely medzi agregáciou a interpretáciou, medzi štandardizáciou a flexibilitou, sa tak neprejavovali ako protikladné stratégie, ale ako paralelné odpovede na rozdielne typy potrieb.
 
-Tento paralelizmus nevytváral duplicitu, skôr *viacvrstvové prostredie*, v ktorom bolo možné sledovať rozdielne prístupy:
-
-* agregácia vs. interpretácia,
-* štandardizácia vs. flexibilita,
-* plošná reprezentácia vs. kurátorská hĺbka.
-
-Výsledkom bolo, že Web umenia mohol vzniknúť takmer organicky, „odspodu“ — bez prehnaného projektového tlaku, s malým tímom a s možnosťou učiť sa počas procesu. Z vlastnej skúsenosti z prostredia SNG vnímam, že práve táto nízka programová zaviazanosť (a tým aj priestor na iteráciu) umožnila vyzrieť rozhraniu aj dátovým rozhodnutiam do podoby, ktorá sa v inštitúciách často rodí ťažšie.
+V tomto kontexte mohol Web umenia vznikať relatívne organicky, ako projekt vyrastajúci „odspodu“ z konkrétnej inštitucionálnej praxe. Absencia silného projektového rámca a nižšia miera programovej zaviazanosti vytvárali priestor pre iteráciu, experimentovanie a postupné vyzrievanie rozhrania aj dátových rozhodnutí. Skúsenosť z prostredia SNG naznačuje, že práve tento typ pracovných podmienok umožňuje, aby sa digitálne riešenia formovali ako dlhodobejší proces, a nie ako jednorazový výstup viazaný na projektové obdobie.
 
 ### 3.4.6 Vznik lab.SNG (2010–2015): in-house ako stratégia
 
