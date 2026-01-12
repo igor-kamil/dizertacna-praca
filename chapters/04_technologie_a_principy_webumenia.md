@@ -313,7 +313,7 @@ Tento postoj sa napokon pretavil aj do aktívnej podpory remixu. Podobne ako Rij
 ![Použitie diela *Na rodnej hrude* od Jozefa Hanulu v politickom komentári  
 na webe Cynickej obludy [@cynickaobluda_zmatok_v_argumentacii_2015].  
 Pôvodné dielo: *Na rodnej hrude* (1908), Jozef Hanula  
-[@hanula_na_rodnej_hrude_1908], Slovenská národná galéria.](./figures/fig-4-6-cynicka-obluda-utecenci.png){#fig:cynicka-obluda-hanula width=33%}
+[@hanula_na_rodnej_hrude_1908], Slovenská národná galéria.](./figures/fig-4-6-cynicka-obluda-utecenci.png){#fig:cynicka-obluda-hanula width=50%}
 
 
 Otázka otvorenosti sa zároveň netýkala len diel samotných, ale aj rozdielnych postojov zapojených galérií. Web umenia funguje ako spoločné rozhranie, nie ako nadriadená autorita. Každá zapojená galéria má možnosť rozhodnúť, ktoré diela sprístupní, v akom rozsahu a pod akou licenciou. Niektoré inštitúcie zverejňujú celé zbierky, iné len starostlivo vybrané a kompletne spracované záznamy. Tento model zachováva materskú autoritu galérií, no zároveň umožňuje ich dáta prepájať a interpretovať v širšom kontexte.

@@ -645,4 +645,3 @@ Súčasné tendencie — tlak na kontextualizáciu, hybridné kurátorsko-techni
 Ukazujú, že naratív nie je dodatok; je to spôsob, ako digitálna zbierka nadobúda význam.
 
 V tomto rámci sa ukazuje, že problém naratívu v digitálnych zbierkach nemožno uchopiť ako otázku dodatočného obsahu, ale ako otázku samotného fungovania rozhrania. Nejde teda o to, ako do digitálnych zbierok „pridať“ naratív vo forme ďalších textových vrstiev, ale o to, akým spôsobom môže naratív vznikať prostredníctvom samotného rozhrania. Otázkou sa stáva, ako navrhovať digitálne systémy tak, aby podporovali vzťahové čítanie zbierky, umožňovali orientáciu bez lineárneho výkladu a zároveň neredukovali význam na náhodný súbor dátových spojení. Digitálne rozhranie tu vystupuje ako technológia rozprávania, ktorá nepracuje s príbehom v tradičnom zmysle, ale s konfiguráciou možností, cez ktoré sa význam postupne skladá.
- 
