@@ -77,9 +77,9 @@ Kľúčovým mediálnym rámcom pre pochopenie neskoršej digitalizácie je v to
 Digitalizácia múzejných zbierok nepriniesla len nové technológie, ale zásadne zmenila aj rozdelenie odborných rolí a zodpovedností.
 Kurátor ostáva dôležitým aktérom interpretácie, no v online prostredí už nie je jediným nositeľom významu. Podoba digitálnej zbierky vzniká v spolupráci viacerých profesií, z ktorých každá vstupuje do procesu iným spôsobom:
 
-* **dokumentátori** rozhodujú o presnosti, štruktúre a konzistentnosti údajov,
-* **vývojári a informační architekti** navrhujú dátové modely, polia, väzby a procesy,
-* **dizajnéri rozhraní** určujú, ako sa tieto údaje zobrazujú, triedia a sprístupňujú používateľom.
+* dokumentačné profesie rozhodujú o presnosti, štruktúre a konzistentnosti údajov,
+* vývojové a informačno-architektonické roly navrhujú dátové modely, polia, väzby a procesy,
+* dizajnérske roly určujú, ako sa tieto údaje zobrazujú, triedia a sprístupňujú používateľom.
 
 V online zbierkach je toto prepojenie viditeľné oveľa výraznejšie než v tradičných katalógoch.
 Ak je databáza verejne prístupná, každý technický detail – názvy polí, spôsob facetovania, radenie výsledkov vyhľadávania či použité autority – má priamy vplyv na to, ako je zbierka čítaná a interpretovaná. Technická infraštruktúra sa tak stáva súčasťou kurátorského rámca.
