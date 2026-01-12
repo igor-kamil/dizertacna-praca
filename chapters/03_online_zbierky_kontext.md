@@ -32,6 +32,13 @@ Ako uvádzajú *Bahurinská a Bohumelová*, základné kritériá pre vytvárani
 V tejto ére bola evidencia predovšetkým interným nástrojom. Slúžila kurátorom, dokumentátorom, archivárom či reštaurátorom, a len okrajovo externým odborníkom. Sprístupnenie širokej verejnosti prakticky nebolo možné.
 Každá zmena v údajoch vyžadovala manuálny zásah a aktualizácie boli časovo náročné. Rovnako prístup k informáciám bol fyzicky limitovaný: kto chcel overiť podrobnosti o predmete, musel fyzicky navštíviť archív alebo kartotéku inštitúcie.
 
+Nasledujúca fotografia zachytáva fyzickú podobu centrálneho katalógu výtvarného umenia v Slovenskej národnej galérii, ktorý dodnes existuje a v obmedzenej miere sa stále používa ako referenčný archív.
+
+![Centrálny katalóg výtvarného umenia v Slovenskej národnej galérii.
+Kartotéka s dokumentačnými lístkami, budovaná od roku 1979, zachytáva evidenciu diel galérií a aj múzeí. 
+Katalóg fyzicky existuje a je dodnes používaný ako referenčný archív.
+Foto: autor, 13. august 2015.](figures/fig-3-1-centralny-katalog-kartoteka-sng-2015.png){#fig:centralny-katalog}
+
 V kontexte Slovenskej národnej galérie má vývoj evidencie zbierok špecifickú podobu. Jednotlivé galérie a múzeá na území Slovenska samozrejme viedli vlastnú evidenciu zbierkových predmetov už v predchádzajúcich desaťročiach, v súlade s vtedajšou múzejnou praxou. Zlomovým momentom však bol rok 1979, keď vznikol *centrálny katalóg výtvarného umenia*, ktorého cieľom bolo zjednotiť evidenčné údaje o všetkých zbierkových dielach v galériách (a v tom období aj o výtvarnom umení spravovanom múzeami).
 
 Tento krok predstavoval unikátne systémové riešenie – centralizovaná evidencia na národnej úrovni nemala v tom čase priamu paralelu ani v okolitých krajinách a v podobnej podobe neexistuje dodnes ani v Českej republike.
