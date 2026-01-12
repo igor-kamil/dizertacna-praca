@@ -66,7 +66,7 @@ V druhej polovici 20. storočia sa k týmto funkciám postupne pridáva reflexia
 
 Múzeum sa tak v teoretickej reflexii prestáva chápať výlučne ako súbor artefaktov a začína byť čítané ako informačný systém, ktorého fungovanie je založené na tokoch dát, kategorizáciách a sprostredkovateľských mechanizmoch. Tento rámec však nadobúda odlišné významy v rôznych geografických a historických kontextoch. V prípade Slovenska a inštitúcií, ako je Slovenská národná galéria, je vznik zbierok úzko spätý s povojnovým obdobím, znárodňovaním majetku aristokracie a cirkvi, ako aj s cieľavedomým budovaním reprezentatívnej kolekcie moderného a súčasného umenia. Zbierka tak od svojho začiatku nesie stopy politických, majetkových a ideologických rozhodnutí, ktoré predchádzajú akejkoľvek digitálnej transformácii.
 
-![Martin Benka – Dúha (Po búrke), 1918. Prvé evidované dielo v zbierke Slovenskej národnej galérie (SNG, O 1).](images/fig-3-1-benka-duha-po-burke-1918-sng-o1.jpg){#fig:benka-o1}
+![Martin Benka – Dúha (Po búrke), 1918. Prvé evidované dielo v zbierke Slovenskej národnej galérie (SNG, O 1).](figures/fig-3-1-benka-duha-po-burke-1918-sng-o1.jpg){#fig:benka-o1}
 
 Symbolickým príkladom je už samotné prvé evidované dielo zbierky Slovenskej národnej galérie – obraz Martina Benku *Dúha (Po búrke)* z roku 1918 –, ktoré možno čítať ako vizuálny nositeľ národotvorného a ideového rámca, v ktorom sa inštitúcia formovala. Tento príklad neslúži ako kunsthistorická analýza diela, ale ako ilustrácia toho, že zbierka nikdy nevzniká ako neutrálna množina objektov; vždy je výsledkom konkrétnych historických a spoločenských priorít.
 
@@ -98,38 +98,25 @@ Toto rozšírenie odborných rolí má zásadný vplyv aj na vývoj digitálnych
 
 ### **3.1.5 Záver: dedičstvo evidencie ako rámec súčasných výziev**
 
-Kapitola ukazuje, že súčasné digitálne zbierky sú vystavané na vrstve evidenčných praxí a dátových štruktúr, ktoré vznikli v období, keď sa od evidencie neočakávalo sprostredkovanie zážitku ani interpretácie.
-Online platformy tak v mnohých prípadoch **zdedia formu, ktorá bola navrhnutá pre odbornú prácu, nie pre naratívne čítanie**.
+Táto kapitola ukazuje, že súčasné digitálne zbierky nie sú neutrálnym produktom nových technológií, ale vyrastajú z dlhodobo formovaných evidenčných praxí a dátových štruktúr. Tie vznikali v období, keď sa od evidencie očakávala predovšetkým presnosť, kontrola a interná použiteľnosť pre odbornú prácu, nie sprostredkovanie zážitku, interpretácie alebo plynulého čítania zbierky smerom k verejnosti. Online platformy preto v mnohých prípadoch preberajú formu a logiku, ktoré boli navrhnuté pre katalogizačné a administratívne účely, a až sekundárne sú adaptované na potreby širšieho publika.
 
-Tento rozdiel medzi pôvodným účelom a dnešným používaním je jedným z hlavných zdrojov problémov, ktorým sa venuje táto dizertačná práca:
+Napätie medzi pôvodným účelom týchto štruktúr a ich dnešným používaním v online prostredí sa následne prejavuje v sérii problémov, ktoré sú pre digitálne zbierky typické. Patria medzi ne fragmentárnosť údajov, dominancia vyhľadávania nad objavovaním, slabá prepojenosť jednotlivých objektov, ako aj absencia zreteľnej kurátorskej vrstvy, ktorá by sprostredkovala širší kontext. Výsledkom je strata naratívnej kontinuity, v ktorej sú diela prezentované ako izolované položky namiesto súčastí významových celkov.
 
-* fragmentárnosť údajov,
-* dominancia vyhľadávania nad objavovaním,
-* slabá prepojenosť objektov,
-* absencia kurátorskej vrstvy,
-* a z toho prameniaca **strata naratívnej kontinuity**.
-
-Porozumenie tejto genealógii je preto kľúčové: ukazuje, že ak chceme prepracovať online zbierky smerom k rozprávačským rozhraniam, musíme pracovať nielen s dátami a technológiami, ale aj s historickým dedičstvom, ktoré tieto technológie podmieňuje.
+Porozumenie tejto genealogii je preto kľúčové pre ďalšie uvažovanie o možnostiach rozvoja online zbierok. Ukazuje, že snaha o prechod k rozprávačským alebo interpretačne bohatším rozhraniam nemôže spočívať len v technických úpravách alebo v práci s aktuálnymi dátami. Nevyhnutne zahŕňa aj reflexiu historického dedičstva evidenčných systémov, ktoré tieto technológie formovali a naďalej podmieňujú spôsob, akým digitálne zbierky fungujú a komunikujú význam.
 
 ## **3.2 Prvé digitálne iniciatívy a infraštruktúry**
 
-Digitalizácia zbierok v 90. rokoch a prvej dekáde 21. storočia vznikala v prostredí, kde boli technické aj politické podmienky radikálne odlišné od dnešných. Nasledujúce podkapitoly mapujú vznik kľúčových infraštruktúr, ktoré formovali podobu online zbierok – od európskej agregácie po prvé repozitáre a štandardy interoperability.
+Digitalizácia zbierok v 90. rokoch a prvej dekáde 21. storočia vznikala v prostredí, kde boli technické aj politické podmienky radikálne odlišné od dnešných. Nasledujúce podkapitoly mapujú vznik kľúčových infraštruktúr, ktoré formovali podobu online zbierok – od európskej agregácie po prvé repozitáre a štandardy interoperability. Zameriavam sa pritom na tie iniciatívy, ktoré ovplyvnili nielen technickú správu zbierok, ale aj spôsob, akým sa zbierkové dáta začali prezentovať, prepájať a sprístupňovať mimo úzkeho odborného prostredia.
 
 ### **3.2.1 Europeana a vznik európskeho rámca**
 
-Europeana nevznikla ako technický experiment, ale ako výsledok kultúrnej politiky Európskej únie.
-Jej vznik nadväzuje na projekty **MINERVA**, **MICHAEL** a koordináciu zdigitalizovaného dedičstva v rámci CENL (Conference of European National Librarians).
-Ako uvádza Jill Cousins, prvá výkonná riaditeľka Europeany, cieľom nebolo vytvoriť nový portál, ale *„spôsob, akým môžu zdroje voľne cestovať medzi inštitúciami a krajinami“* [@cousins_europeana_2009].
+Europeana nevznikla ako technický experiment, ale ako výsledok kultúrnej politiky Európskej únie. Jej vznik nadväzuje na projekty MINERVA, MICHAEL a snahy o koordináciu zdigitalizovaného kultúrneho dedičstva na úrovni európskych národných knižníc a pamäťových inštitúcií v rámci CENL (Conference of European National Librarians). Ako uvádza Jill Cousins, prvá výkonná riaditeľka Europeany, cieľom nebolo vytvoriť ďalší centrálny portál, ale vytvoriť spôsob, akým môžu kultúrne zdroje voľne cirkulovať medzi inštitúciami a krajinami [@cousins_europeana_2009].
 
-Kľúčovým krokom bol vznik **Europeana Data Model (EDM)**, ktorý zaviedol koncept *agregácie* a *prepojených dát* [@gradmann_edm_2011]. EDM umožňuje, aby múzejné, galerijné a archívne objekty existovali v jednom modeli bez straty vlastnej identity — čo bol zásadný rozdiel oproti skorším rámcom, ktoré nútili dáta do jednej štruktúry.
+Zásadným krokom v tomto procese bol vznik Europeana Data Model (EDM), ktorý zaviedol koncept agregácie a prepojených dát [@gradmann_edm_2011]. EDM umožnil, aby múzejné, galerijné a archívne objekty existovali v rámci jedného modelu bez straty vlastnej identity a pôvodu, čo predstavovalo významný posun oproti skorším rámcom, ktoré sa snažili rôznorodé dáta zjednotiť do jednej pevnej štruktúry.
 
-Europeana tak vytvorila:
+Prostredníctvom EDM Europeana vytvorila spoločný dátový rámec pre kultúrne dedičstvo v Európskej únii, ktorý umožnil interoperabilitu medzi inštitúciami s odlišnými internými systémami. Súčasťou tohto rámca sa stali aj mechanizmy automatizovaného zberu dát, najmä prostredníctvom protokolu OAI-PMH, ktoré umožnili pravidelné a škálovateľné preberanie metadát od národných a tematických agregátorov. Zároveň Europeana fungovala ako politický a inštitucionálny argument pre sprístupňovanie kultúrnych zdrojov, keďže otvorené dáta a ich zdieľanie začali byť chápané ako súčasť verejnej služby financovanej z verejných zdrojov.
 
-* spoločný dátový model pre kultúrne dedičstvo v EÚ (EDM),
-* rámec pre automatizované harvestovanie cez OAI-PMH,
-* politický argument pre sprístupňovanie kultúrnych zdrojov.
-
-Od prvej verzie portálu (2008) sa Europeana vyvinula z prezentačného webu na **dátovú infraštruktúru**, ktorá definuje technickú interoperabilitu naprieč Európou [@terras_europeana_2015].
+Od prvej verzie portálu v roku 2008 sa Europeana postupne vyvinula z prezentačného webu na dátovú infraštruktúru, ktorá dnes definuje technické a metodologické podmienky interoperability kultúrnych zbierok naprieč Európou [@terras_europeana_2015].
 
 ### **3.2.2 Štandardizácia: LIDO, Dublin Core, OAI-PMH**
 
@@ -137,7 +124,7 @@ Prvá dekáda digitalizácie bola založená na štandardizácii metadát.
 
 Medzinárodným referenčným rámcom pre tieto snahy sú štandardy ICOM – CIDOC, ktoré od 90. rokov formujú teoretické aj praktické prístupy k modelovaniu múzejných dát, ich interoperabilite a dlhodobej udržateľnosti. Práve CIDOC konceptuálne ovplyvnil viaceré národné aj nadnárodné dátové modely využívané pri digitalizácii kultúrneho dedičstva.
 
-V našom kontexte mali šecialne význam nasledovné štandardy: 
+V našom kontexte mali špeciálne význam nasledovné štandardy: 
 
 #### **LIDO (Lightweight Information Describing Objects)**
 
@@ -187,7 +174,7 @@ Authority files vznikli v kontexte snahy o normalizáciu názvov a identít v m�
 
 Ich úlohou je riešiť problém variantných zápisov a poskytnúť stabilné identifikátory pre osoby, miesta, témy a koncepty.
 
-Ako upozorňuje Baca, authority files nie sú len technické riešenia: definujú, *čo je uznané, pomenovateľné a prepojiteľné* v kultúrnom systéme [@baca_introduction_to_metadata_2016].
+Ako upozorňuje Baca, authority files nie sú len technické riešenia: definujú, čo je v kultúrnom systéme evidovateľné, pomenovateľné a prepojiteľné [@baca_introduction_to_metadata_2016].
 
 V kontexte múzejných zbierok authority files určujú:
 
@@ -198,18 +185,18 @@ V kontexte múzejných zbierok authority files určujú:
 
 ### **3.2.5 Otvorené dáta a API: posun k platformovému mysleniu**
 
-Po roku 2010 sa v oblasti digitalizácie kultúrneho dedičstva začína presadzovať posun, ktorý presahuje samotné „zverejňovanie“ digitálnych reprodukcií. Do popredia sa dostáva otázka **podmienok použitia, znovupoužiteľnosti a technickej prístupnosti dát**. Digitalizácia sa tak postupne mení z publikačnej aktivity na infraštruktúrnu – nejde už len o to, *čo* je online, ale *ako* s tým možno ďalej pracovať.
+Po roku 2010 sa v oblasti digitalizácie kultúrneho dedičstva začína presadzovať posun, ktorý presahuje samotné „zverejňovanie“ digitálnych reprodukcií. Do popredia sa dostáva otázka podmienok použitia, znovupoužiteľnosti a technickej prístupnosti dát. Digitalizácia sa tak postupne mení z publikačnej aktivity na infraštruktúrnu – nejde už len o to, *čo* je online, ale *ako* s tým možno ďalej pracovať.
 
-Tento posun je úzko spätý so vznikom a šírením iniciatívy **OpenGLAM** [@openglam_principles_2018], ktorá prepája technologické nástroje s normatívnym rámcom otvoreného prístupu ku kultúrnemu dedičstvu. Ako ukazujú Valeonti, Terras a Hudson-Smith, OpenGLAM sa neformoval ako jednotný model, ale ako **postupne sa rozširujúce hnutie**, v ktorom jednotlivé múzeá, galérie, knižnice a archívy pristupovali k otvorenosti rôznou mierou a rôznym tempom [valeonti_how_open_openglam_2019]. Autori zároveň upozorňujú, že otvorenosť nie je binárna vlastnosť, ale spektrum rozhodnutí – od opatrného sprístupnenia náhľadov až po plnohodnotné otvorenie vysokokvalitných dát a reprodukcií.
+Tento posun je úzko spätý so vznikom a šírením iniciatívy *OpenGLAM* [@openglam_principles_2018], ktorá prepája technologické nástroje s normatívnym rámcom otvoreného prístupu ku kultúrnemu dedičstvu. Ako ukazujú Valeonti, Terras a Hudson-Smith, OpenGLAM sa neformoval ako jednotný model, ale ako postupne sa rozširujúce hnutie, v ktorom jednotlivé múzeá, galérie, knižnice a archívy pristupovali k otvorenosti rôznou mierou a rôznym tempom [@valeonti_how_open_openglam_2019]. Autori zároveň upozorňujú, že otvorenosť nie je binárna vlastnosť, ale spektrum rozhodnutí – od opatrného sprístupnenia náhľadov až po plnohodnotné otvorenie vysokokvalitných dát a reprodukcií.
 
-V tomto kontexte zohrali kľúčovú úlohu aj štandardizované právne označenia. Nástroje ako **Creative Commons** a **RightsStatements.org** umožnili inštitúciám jednoznačne komunikovať právny status digitálnych objektov a odstrániť časť neistoty, ktorá bránila ich ďalšiemu používaniu. Ako ukazuje výskum OpenGLAM, práve nejasné alebo nejednoznačné označovanie práv patrilo medzi hlavné bariéry znovupoužitia digitalizovaných diel – a to nielen v komerčnom, ale aj v nekomerčnom a výskumnom prostredí [valeonti_how_open_openglam_2019].
+V tomto kontexte zohrali kľúčovú úlohu aj štandardizované právne označenia. Nástroje ako *Creative Commons* a *RightsStatements.org* umožnili inštitúciám jednoznačne komunikovať právny status digitálnych objektov a odstrániť časť neistoty, ktorá bránila ich ďalšiemu používaniu. Ako ukazuje výskum OpenGLAM, práve nejasné alebo nejednoznačné označovanie práv patrilo medzi hlavné bariéry znovupoužitia digitalizovaných diel – a to nielen v komerčnom, ale aj v nekomerčnom a výskumnom prostredí [valeonti_how_open_openglam_2019].
 
-Otvorené dáta sa tak postupne prestali chápať ako gesto „uvoľnenia obsahu“ a začali byť vnímané ako **súčasť verejnej služby a inštitucionálnej zodpovednosti**. Zároveň sa ukázalo, že otvorenosť nie je len technickou otázkou formátu alebo licencie, ale zahŕňa aj právne, komunikačné a organizačné rozhodnutia, ktoré majú priamy vplyv na to, či sú dáta skutočne použiteľné.
+Otvorené dáta sa tak postupne prestali chápať ako gesto „uvoľnenia obsahu“ a začali byť vnímané ako súčasť verejnej služby a inštitucionálnej zodpovednosti. Zároveň sa ukázalo, že otvorenosť nie je len technickou otázkou formátu alebo licencie, ale zahŕňa aj právne, komunikačné a organizačné rozhodnutia, ktoré majú priamy vplyv na to, či sú dáta skutočne použiteľné.
 
-Z praxe lab.SNG však viem, že „otvorenosť“ nie je len technické rozhodnutie, ale aj právno-komunikačná disciplína. Keď sme na Webe umenia začali s nadšením sprístupňovať autorskoprávne voľné diela (autor je viac ako 70 rokov po smrti), pôvodne sme ich označili licenciou Creative Commons. Aby sme mali istotu, že to robíme správne, kontaktovali sme priamo **Creative Commons Slovensko**. Veľmi rýchlo nám vysvetlili dôležitý rozdiel: licenciu Creative Commons si vie udeliť (alebo sprostredkovať) držiteľ práv k dielu, no pri dielach vo verejnej doméne nejde o „licencovanie“, ale o označenie statusu. Odvtedy preto pri voľných dielach používame **Public Domain Mark 1.0** [@cc_public_domain_mark_1_0; @cc_slovakia], a na Webe umenia ho uvádzame pri dielach, kde s tým materská galéria súhlasila [@webumenia_informacie].
+Z praxe lab.SNG však viem, že „otvorenosť“ nie je len technické rozhodnutie, ale aj právno-komunikačná disciplína. Keď sme na Webe umenia začali s nadšením sprístupňovať autorskoprávne voľné diela (autor je viac ako 70 rokov po smrti), pôvodne sme ich označili licenciou Creative Commons. Aby sme mali istotu, že to robíme správne, kontaktovali sme priamo *Creative Commons Slovensko*. Veľmi rýchlo nám vysvetlili dôležitý rozdiel: licenciu Creative Commons si vie udeliť (alebo sprostredkovať) držiteľ práv k dielu, no pri dielach vo verejnej doméne nejde o „licencovanie“, ale o označenie statusu. Odvtedy preto pri voľných dielach používame *Public Domain Mark 1.0* [@cc_public_domain_mark_1_0; @cc_slovakia], a na Webe umenia ho uvádzame pri dielach, kde s tým materská galéria súhlasila [@webumenia_informacie].
 
-Významný posun v praxi však prinieslo zavádzanie **API** — aplikačných rozhraní, ktoré umožnili, aby zbierka fungovala ako platforma.
-Ako uvádza Chan, API v Cooper Hewitt Museum zmenilo spôsob, akým môže verejnosť a vývojári pracovať s dátami: od jednoduchého prezerania k experimentu, vizualizácii a tvorbe nových aplikácií [@chan_api_2015].
+Významný posun v praxi však prinieslo zavádzanie *API* — aplikačných rozhraní, ktoré umožnili, aby zbierka fungovala ako platforma.
+Ako uvádza Chan, API v *Cooper Hewitt Museum* zmenilo spôsob, akým môže verejnosť a vývojári pracovať s dátami: od jednoduchého prezerania k experimentu, vizualizácii a tvorbe nových aplikácií [@chan_api_2015].
 
 API je v tomto zmysle moment, keď zbierka prestáva byť „len webom“ a začína fungovať ako digitálna infraštruktúra: údaje a médiá sa dajú čítať, kombinovať a znovu použiť aj mimo pôvodnej stránky. Zároveň sa mení aj logika toho, ako sa zbierka správa navonok — vedľa kurátorských rozhodnutí do nej vstupujú aj algoritmické a technické pravidlá (napr. vyhľadávanie, radenie, filtrovanie). Práve vďaka tomu vzniká priestor pre nové formy práce s naratívom: od experimentálnych vizualizácií a aplikácií až po rozhrania, ktoré podporujú objavovanie a nečakané súvislosti [@chan_api_2015].
 
@@ -249,7 +236,9 @@ Jedným zo zásadných výstupov tohto prístupu bolo **Object API**, ktoré spr
 
 Súčasťou práce Cooper Hewitt Labs bola aj séria experimentálnych rozhraní, ktoré skúmali alternatívne spôsoby prístupu k zbierke. Medzi najznámejšie patrí **Color Browser**, ktorý umožňoval prehliadať objekty na základe dominantných a akcentových farieb. Chan a jeho kolegovia tento experiment opisujú ako snahu umožniť používateľom „stretnúť objekty cez vizuálne kvality, nie cez taxonomické kategórie“ [@chan_api_2015]. Dôležitým zistením pritom nebolo len to, že farba môže fungovať ako vstupná brána k zbierke, ale aj to, že zaujímavé interpretačné momenty často vznikajú práve pri menej zastúpených, nečakaných farebných akcentoch – nie pri najčastejších alebo „dominantných“ vlastnostiach kolekcie.
 
-Popri samotných experimentoch zohrávala kľúčovú úlohu aj **transparentnosť procesu**. Cooper Hewitt Labs systematicky publikovalo nielen výsledky, ale aj priebežné poznámky, zdrojové kódy, dátové modely a metodologické úvahy. Tento prístup – často zhrnutý do neformálneho hesla *“sharing is caring”*, ktoré v prostredí múzejných digitálnych laboratórií zdôrazňoval aj **Philo van Kemenade** – posúval experimentovanie z roviny interného know-how do otvorenej odbornej diskusie. Dôležitá tu nebola len samotná realizácia experimentu, ale aj jeho zdokumentovanie, pomenovanie slepých uličiek a zdieľanie zistení.
+Popri samotných experimentoch zohrávala kľúčovú úlohu aj transparentnosť procesu. Cooper Hewitt Labs systematicky publikovalo nielen výsledky, ale aj priebežné poznámky, zdrojové kódy, dátové modely a metodologické úvahy. Tento prístup – často zhrnutý do
+neformálneho hesla *„sharing is caring“*, ktoré sa v prostredí múzejných digitálnych laboratórií objavuje ako označenie étosu otvorenosti a zdieľania – posúval experimentovanie z roviny interného know-how do otvorenej odbornej diskusie [@van_kemenade_making_working_open_2016; @sanderhoff_sharing_caring_openness_2014]. Dôležitá tu nebola len samotná realizácia experimentu, ale aj jeho dôsledné zdokumentovanie, pomenovanie slepých uličiek a zdieľanie zistení ako
+súčasť kolektívneho učenia.
 
 Práve tento aspekt sa stal silnou inšpiráciou aj pre vznik a fungovanie lab.SNG. Okrem vývoja samotných nástrojov sa postupne ukázalo ako dôležité vytvoriť priestor na reflexiu a zdieľanie procesu – aj v prípadoch, keď experiment neviedol k „hotovému produktu“. Motiváciou bolo zachytiť, čo sa deje *behind the scenes*: aké otázky si kladieme, aké hypotézy testujeme a aké rozhodnutia robíme v priebehu vývoja. Výsledkom bolo aj založenie blogu **lab.SNG Medium**, ktorý slúžil ako miesto na priebežné zverejňovanie poznatkov z praxe a experimentovania s digitálnymi zbierkami.
 
@@ -370,11 +359,13 @@ Táto fáza zároveň uzatvára dôležitú, hoci často prehliadanú kapitolu d
 
 Po dlhom období analógovej evidencie a prvých elektronických pokusov v systéme Micro CDS/ISIS priniesla prvá dekáda 21. storočia zásadnú zmenu. Slovenská národná galéria začala budovať **ISG-CEDVU**, moderný informačný systém galérií, ktorý mal prvýkrát v histórii umožniť jednotnú, profesionálnu a dlhodobo udržateľnú evidenciu diel výtvarného umenia na národnej úrovni. Hoci legislatívne poverenie existovalo už od 70. rokov, až teraz sa vytvorili technické a organizačné podmienky na to, aby sa evidencia stala skutočnou infraštruktúrou.
 
-#### **Od kartotéky k digitálnemu jadru**
+#### Od kartotéky k digitálnemu jadru
 
 Základom novej platformy bola rozsiahla databáza údajov, ktorá vznikla v 90. rokoch prepisom analógových dokumentačných kariet do systému Micro CDS/ISIS. Samotný prepis neprebiehal ako interná administratívna činnosť galérie, ale ako rozsiahly externý projekt, na ktorom sa za honoráre podieľali najmä študenti dejín umenia, knihovedy a Vysokej školy výtvarných umení. Ich úlohou bolo manuálne prepísať obsah kartotékových lístkov do elektronickej podoby.
 
-Na túto fázu však bezprostredne nadväzovala odborná práca pracovníkov oddelenia CEDVU, ktorí zabezpečovali kontrolu, verifikáciu a zjednocovanie údajov. Ako zdôrazňujú Bohumelová a Kusá, pôvodné kartičky obsahovali veľké množstvo nesúrodých informácií – rozdielne poradie autorov, rôzne spôsoby zápisu dátumov, nejednotné uvádzanie rozmerov, techník či názvov diel. Elektronická databáza tak nevznikala ako pasívny prepis existujúceho stavu, ale ako postupne kultivovaný dátový korpus, v ktorom sa analogické nepresnosti museli aktívne riešiť.
+Na túto fázu však bezprostredne nadväzovala odborná práca pracovníkov oddelenia CEDVU, ktorí zabezpečovali kontrolu, verifikáciu a zjednocovanie údajov. Ako opisujú Bohumelová a Kusá, pôvodné dokumentačné kartičky obsahovali veľké množstvo nesúrodých a neštandardizovaných informácií – rozdielne poradie mien autorov, rôzne spôsoby zápisu dátumov, nejednotné uvádzanie rozmerov, techník či názvov diel. Prepis kartotéky do elektronickej podoby preto neznamenal jednoduchý transfer existujúcich záznamov, ale vyžadoval systematické rozhodovanie o tom, ktoré údaje sú relevantné, ako majú byť zapísané a v akej podobe budú ďalej použiteľné v databázovom systéme [@bohumelova_ritual_muzea_digitalnom_2015, s. 39–41].
+
+Elektronická databáza tak nevznikala ako pasívny odraz analógovej evidencie, ale ako postupne kultivovaný dátový korpus, v ktorom bolo potrebné analogické nepresnosti aktívne identifikovať, riešiť a nahrádzať jednotnými pravidlami popisu. Tento proces zároveň predznamenal neskoršie chápanie evidencie nie ako statického záznamu, ale ako infraštruktúry, ktorá umožňuje ďalšie spracovanie, prepojovanie a sprístupňovanie zbierkových údajov v digitálnom prostredí.
 
 Ešte pred samotným prechodom na systém ISG-CEDVU prebehla intenzívna harmonizácia dát, zameraná najmä na zjednocovanie terminológie, autorít a tezaurických hesiel. Cieľom bolo pripraviť databázu tak, aby bola kompatibilná s novým informačným systémom a aby sa minimalizovali straty a nekonzistencie pri migrácii. Napriek tejto príprave bol samotný prenos dát z prostredia Micro CDS/ISIS do CEDVU technicky aj metodicky komplikovaný, čo potvrdzuje, že išlo o transformáciu medzi dvoma rozdielnymi generáciami evidenčných systémov, nie o jednoduchý import.
 
@@ -393,13 +384,13 @@ Zmena architektúry mala aj praktické dôsledky: odstránila lokálne rozdiely,
 #### **Predpoklad pre verejné sprístupnenie**
 
 Keď bol ISG-CEDVU plne v prevádzke, objavil sa nový, dovtedy nepredstaviteľný scenár. Ak sa galérie dokázali pripájať k centrálnej databáze na diaľku a pracovať s rovnakým súborom údajov, znamenalo to, že popisné dáta existujú v podobe, ktorú možno automaticky exportovať.
-V tejto chvíli sa otvorila otázka, ktorá neskôr povedie k vzniku Webu umenia: **môže mať verejnosť prístup aspoň k časti údajov, ktoré sa dovtedy považovali za interné?**
+V tejto chvíli sa otvorila otázka, ktorá neskôr povedie k vzniku Webu umenia: *môže mať verejnosť prístup aspoň k časti údajov, ktoré sa dovtedy považovali za interné?*
 Nebolo to výsledkom strategického plánovania, ale prirodzený dôsledok každodennej práce s novým systémom. Pracovníci, ktorí dovtedy evidenciu vnímali ako komunikačný nástroj medzi kurátormi, dokumentátormi a depozitom, zrazu videli, že dáta možno automaticky zdieľať, aktualizovať a publikovať.
 
 #### **Dualita, ktorá pretrvala**
 
 Aj po zavedení ISG-CEDVU ostala analógová kartotéka zachovaná ako oficiálny výstup evidencie – nie z nostalgie, ale z legislatívnej povinnosti a potreby trvalého záznamu. Nové kartičky sa tlačia priamo z dát uložených v ISG-CEDVU.
-V praxi tak vznikol neobvyklý stav: **analógová a digitálna evidencia existujú paralelne**. Staršie kartičky sú svedectvom o vývoji popisu diel v 70. a 80. rokoch, novšie predstavujú presnú tlačovú verziu súčasnej databázy. Tento súbeh dvoch médií umožňuje pozorovať kontinuitu aj diskontinuity v uvažovaní o dielach – od ručne písaných lístkov až po digitálne autority.
+V praxi tak vznikol neobvyklý stav: *analógová a digitálna evidencia existujú paralelne*. Staršie kartičky sú svedectvom o vývoji popisu diel v 70. a 80. rokoch, novšie predstavujú presnú tlačovú verziu súčasnej databázy. Tento súbeh dvoch médií umožňuje pozorovať kontinuitu aj diskontinuity v uvažovaní o dielach – od ručne písaných lístkov až po digitálne autority.
 
 #### **Poznámka k histórii CEDVU**
 
@@ -409,15 +400,11 @@ Centralizovaný katalóg diel, aký dnes poskytuje SNG, je výsledkom niekoľký
 
 ### **3.4.3 Slovakiana ako paralelná cesta (2013–2015)**
 
-Slovakiana vznikla ako **národný projekt** v rámci operačných programov, s ambíciou vytvoriť centrálny agregátor digitálneho kultúrneho dedičstva. Jej logika bola prirodzene „top-down“ — vyplývajúca z mandátu štátu, s výrazne vyšším rozpočtom a povinnosťou zahrnúť široké spektrum pamäťových inštitúcií.
+Slovakiana vznikla ako národný projekt realizovaný v rámci operačných programov, s ambíciou vytvoriť centrálny agregátor digitálneho kultúrneho dedičstva na Slovensku. Jej koncepcia vychádzala z mandátu štátu a mala výrazne „top-down“ charakter – bola navrhnutá ako jednotná infraštruktúra s vyšším rozpočtom a s povinnosťou zahrnúť široké spektrum pamäťových inštitúcií, od knižníc a archívov až po múzeá a galérie. Tento rámec určoval nielen technické parametre projektu, ale aj spôsob jeho riadenia a tempa implementácie.
 
-Z pohľadu galérií mala Slovakiana tri prínosy:
+Z pohľadu galérií priniesla Slovakiana viacero konkrétnych prínosov. Predovšetkým vytvorila jednotný technický rámec pre prípravu a odovzdávanie dát do Europeany, čím zjednodušila proces zapojenia slovenských inštitúcií do európskeho prostredia. Zároveň ponúkala stabilnú infraštruktúru pre centrálnu prezentáciu kultúrneho dedičstva, ktorá bola dlhodobo udržiavaná a inštitucionálne garantovaná. V neposlednom rade prispela k zvýšeniu viditeľnosti slovenského kultúrneho obsahu v medzinárodnom kontexte, najmä prostredníctvom jeho sprostredkovania na európskej úrovni.
 
-1. **Zjednotenie technického formátu dát** pre odovzdávanie do Europeany,
-2. **Stabilnú infraštruktúru pre centrálnu prezentáciu**,
-3. **Zvýšenie viditeľnosti slovenského kultúrneho dedičstva** v európskom prostredí.
-
-Zároveň však vznikala **paralelne s Webom umenia**, ktorý bol presne opačný typ iniciatívy: bottom-up, vychádzajúci z konkrétnych potrieb SNG a s dôrazom na experimentovanie.
+Slovakiana však vznikala paralelne s Webom umenia, ktorý predstavoval zásadne odlišný typ iniciatívy. Kým Slovakiana bola budovaná zhora ako centralizovaný národný projekt, Web umenia vznikal zdola, vychádzajúc z konkrétnych potrieb Slovenskej národnej galérie a jej práce so zbierkami. Tento „bottom-up“ prístup umožňoval rýchlejšie experimentovanie, flexibilnejšie reagovanie na interné potreby inštitúcie a intenzívnejšie prepojenie technického vývoja s kurátorským a výskumným kontextom. Paralelná existencia oboch projektov tak ilustruje dve rozdielne cesty digitalizácie kultúrneho dedičstva, ktoré sa v danom období na Slovensku rozvíjali vedľa seba, bez priameho zlúčenia, no s čiastočne prekryvnými cieľmi.
 
 
 ### **3.4.4 Český kontext: Artlist.cz a CEAD.space**
