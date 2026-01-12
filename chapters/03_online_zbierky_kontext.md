@@ -497,6 +497,16 @@ Príbeh Web umenia tak nie je len príbehom technologického projektu, ale aj pr
 
 Vznik Web umenia často pôsobí ako prirodzené pokračovanie CEDVU: ak existuje centrálna databáza, zdá sa logické sprístupniť ju. Historická realita je však odlišná. Web umenia nevznikol ako súčasť strategických plánov SNG či ministerstva, ani ako „front-end“ k novému informačnému systému. Bol výsledkom dvoch síl, ktoré sa stretli v správnej chvíli: technologickej pripravenosti ISG-CEDVU a potreby hľadať spôsob, ako prezentovať zbierky v prostredí, ktoré sa rýchlo menilo.
 
+![Transformácia reprezentácie jedného zbierkového diela v digitálnom prostredí Slovenskej národnej galérie. 
+Sekvencia zobrazuje postupný prechod od analógovej evidencie k rozhraním orientovaným na obraz a interakciu: 
+(A) kartotékový lístok v centrálnom katalógu (cca 1979), 
+(B) záznam v systéme Micro CDS/ISIS (1992), 
+(C) záznam v systéme CEDVU (2013), 
+(D) detail diela na pôvodnej verzii webumenia.sk (2014), 
+(E) detail diela na súčasnej verzii webumenia.sk (2018), 
+(F) detail diela v režime priblíženia prostredníctvom IIIF (IIPImage + OpenSeadragon).](figures/fig-3-5-webumenia-transformacia-diela.png){#fig-3-5-webumenia-transformacia-diela}
+
+
 ### **3.5.1 Od CEDVU k prvému webu (2010): spontánny začiatok**
 
 Keď **Slovenská národná galéria** okolo rokov 2008–2010 dokončovala prvé rozsiahle digitalizačné cykly (najmä maliarstvo 19. a 20. storočia), stávalo sa čoraz zreteľnejším, že digitálne reprodukcie a popisné údaje uložené v interných systémoch neplnia celý svoj potenciál. Digitalizácia bola primárne orientovaná na dokumentáciu, odbornú prácu a tlačové výstupy; verejnosť k týmto dátam nemala priamy prístup, hoci dopyt po informáciách o zbierkach postupne narastal.
@@ -523,25 +533,25 @@ Prvé roky Webu umenia ukázali, že evidencia a prezentácia nie sú v online p
 
 V digitálnej platforme prestáva byť dielo len evidenčným objektom. Stáva sa **vstupným bodom do systému vzťahov**, rozhraním, cez ktoré používateľ číta zbierku ako celok. Už samotná voľba, ktoré polia z ISG-CEDVU sa zobrazia na verejnej stránke a v akom poradí, vytvára hierarchiu významov. Iný dôraz kladie systém, ktorý zvýrazní autorstvo a datovanie, iný ten, ktorý pracuje s témami, geografickým pôvodom či vizuálnou podobnosťou diel.
 
-Tento posun sa ešte výraznejšie prejavil v momente, keď do Webu umenia začali pribúdať nové rozhraniové vrstvy: detailné zoomy, tematické kolekcie, fulltextové vyhľadávanie, časové osi alebo mapové zobrazenia. Každý z týchto nástrojov nepredstavoval len „funkciu navyše“, ale **nový spôsob čítania zbierky**. Rozhranie začalo aktívne určovať, aké súvislosti sú viditeľné, aké zostávajú skryté a aké sa vôbec nedajú v danom systéme artikulovať.
+Tento posun sa ešte výraznejšie prejavil v momente, keď do Webu umenia začali pribúdať nové vrstvy rozhrania: detailné zoomy, tematické kolekcie, fulltextové vyhľadávanie, časové osi alebo mapové zobrazenia. Každý z týchto nástrojov nepredstavoval len „funkciu navyše“, ale **nový spôsob čítania zbierky**. Rozhranie začalo aktívne určovať, aké súvislosti sú viditeľné, aké zostávajú skryté a aké sa vôbec nedajú v danom systéme artikulovať.
 
-V tejto fáze sa pre mňa stalo čoraz zreteľnejším, že digitálna platforma nefunguje ako neutrálne „okno“ do databázy. Naopak, ide o **autonómny priestor**, ktorý produkuje vlastné významy. Tento pohľad korešponduje s argumentáciou **Fiona Cameron**, ktorá opisuje digitálne metadáta a evidenčné systémy ako formu *mediated knowledge* – sprostredkovaného poznania, vznikajúceho sériou inštitucionálnych, technických a dizajnových rozhodnutí. Digitálny popis podľa nej nikdy nie je transparentným odrazom objektu, ale stabilizovanou interpretáciou, ktorá niektoré významy posilňuje a iné vylučuje. [@cameron_beyond_cult_replicant_2007, p. 173-189]
+V tejto fáze sa pre mňa stalo čoraz zreteľnejším, že digitálna platforma nefunguje ako neutrálne „okno“ do databázy. Naopak, ide o *autonómny priestor*, ktorý produkuje vlastné významy. Tento pohľad korešponduje s argumentáciou *Fiony Cameron*, ktorá opisuje digitálne metadáta a evidenčné systémy ako formu *mediated knowledge* – sprostredkovaného poznania, vznikajúceho sériou inštitucionálnych, technických a dizajnových rozhodnutí. Digitálny popis podľa nej nikdy nie je transparentným odrazom objektu, ale stabilizovanou interpretáciou, ktorá niektoré významy posilňuje a iné vylučuje. [@cameron_beyond_cult_replicant_2007, p. 173-189]
 
-Podobne **Lev Manovich** upozorňuje, že rozhrania digitálnych systémov nie sú len vizuálnym obalom dát, ale aktívnou kultúrnou formou, ktorá určuje, ako možno s obsahom pracovať, čo možno porovnávať a čo zostáva mimo zorného poľa. V tomto zmysle rozhranie neprekladá databázu do zrozumiteľnej podoby, ale vytvára z databázy **konkrétny naratívny potenciál** [@manovich_language_new_media_2001].
+Podobne **Lev Manovich** upozorňuje, že rozhrania digitálnych systémov nie sú len vizuálnym obalom dát, ale aktívnou kultúrnou formou, ktorá určuje, ako možno s obsahom pracovať, čo možno porovnávať a čo zostáva mimo zorného poľa. V tomto zmysle rozhranie neprekladá databázu do zrozumiteľnej podoby, ale vytvára z databázy konkrétny naratívny potenciál [@manovich_language_new_media_2001].
 
-Tieto teoretické východiská spätne osvetľujú praktickú skúsenosť s vývojom Webu umenia. Dizajn rozhrania – často vnímaný ako technická alebo estetická úloha – sa ukázal byť formou kurátorstva, ktorá má porovnateľný vplyv na význam ako tradičný kurátorský výklad. Rozhranie síce vystupuje ako neutrálne, no v skutočnosti rozhoduje o tom, **čo je v zbierke čitateľné, čo je dohľadateľné a čo zostáva na okraji pozornosti**.
+Tieto teoretické východiská spätne osvetľujú praktickú skúsenosť s vývojom Webu umenia. Dizajn rozhrania – často vnímaný ako technická alebo estetická úloha – sa ukázal byť formou kurátorstva, ktorá má porovnateľný vplyv na význam ako tradičný kurátorský výklad. Rozhranie síce vystupuje ako neutrálne, no v skutočnosti rozhoduje o tom, čo je v zbierke čitateľné, čo je dohľadateľné a čo zostáva na okraji pozornosti.
 
 Táto zmena paradigmy – od evidencie k rozhraniu – sa stala jedným z kľúčových východísk ďalšieho vývoja Webu umenia. Ukázala, že práca s digitálnymi zbierkami nie je len otázkou správnosti údajov, ale aj otázkou zodpovednosti za spôsoby, akými sú tieto údaje sprístupňované, prepájané a interpretované v online priestore.
 
 ### **3.5.4 Web umenia ako laboratórium: iterácia, dialóg a vývoj v reálnom čase**
 
-Okolo roku 2013–2014 sa vývoj Webu umenia prelial do širšieho experimentálneho rámca. Z iniciatívy Michala Čudrnáka vznikol **lab.SNG** — najprv ako neformálna skupina ľudí pracujúcich „bokom popri oficiálnych úlohách“, neskôr ako stabilizovanejšia vnútorná platforma.
+Okolo roku 2013–2014 sa vývoj Webu umenia prelial do širšieho experimentálneho rámca. Z iniciatívy Michala Čudrnáka vznikol *lab.SNG* — najprv ako neformálna skupina ľudí pracujúcich „bokom popri oficiálnych úlohách“, neskôr ako stabilizovanejšia vnútorná platforma.
 Inšpirácia prichádzala aj zo zahraničia: Cooper Hewitt Labs, tým okolo Seba Chana v ACMI či Rijksstudio ukazovali, že technologický vývoj môže byť súčasťou galerijnej kultúry, nie službou, ktorú si inštitúcia objednáva.
 
 To, čo bolo pre lab.SNG špecifické, bola jeho blízkosť ku kurátorským a edičným tímom. Náš stôl bol fyzicky pár metrov od depozitárov a kancelárií odborných pracovníkov, čo znamenalo, že pri každom rozhodnutí — od zobrazovania techník po tvorbu filtrov — prebiehal dialóg.
 Táto bezprostrednosť sa premietla aj do samotného rozhrania: funkcie Webu umenia nevznikali v izolácii, ale v kontexte výstav, zbierkových revízií, akvizičných debát či spätnej väzby od pedagógov a návštevníkov.
 
-Za dôležitý „dôkazový“ moment vnímam prototyp **Dve krajiny**: bol to konkrétny prípad, kde sa dalo v praxi ukázať, že nová verzia Webu umenia nie je len otázkou grafiky, ale najmä dátovej a interakčnej architektúry (filtrovanie, kolekcie, import, spôsob prehliadania katalógu). Zároveň sa na ňom rýchlo ukázalo, že aj infraštruktúra má svoje limity — a že pri určitej mierke treba uvažovať o vyhľadávacej vrstve ako o samostatnom systéme.
+Za dôležitý „dôkazový“ moment vnímam prototyp *Dve krajiny* [@dvekrajiny_sng_2014]: bol to konkrétny prípad, kde sa dalo v praxi ukázať, že nová verzia Webu umenia nie je len otázkou grafiky, ale najmä dátovej a interakčnej architektúry (filtrovanie, kolekcie, import, spôsob prehliadania katalógu). Zároveň sa na ňom rýchlo ukázalo, že aj infraštruktúra má svoje limity — a že pri určitej mierke treba uvažovať o vyhľadávacej vrstve ako o samostatnom systéme.
 
 Výsledkom bola postupná transformácia Webu umenia z katalógu na platformu:
 nielen pre prezeranie, ale pre skúmanie, hra­nie, prepájanie a v niektorých prípadoch aj pre rozprávanie (Príbehy umenia).
@@ -558,15 +568,9 @@ Z technického hľadiska možno označiť tri momenty za rozhodujúce.
 
 ### **3.5.6 Čo Web umenia zmenil: metadáta ako naratív a platforma ako aktér**
 
-Tým, že Web umenia začal uvažovať o rozhraní ako o priestore interpretácie, posunul diskusiu o digitálnych zbierkach na nové pole. Zbierka prestala byť statickým súborom diel; stala sa **dynamickou konštrukciou**, v ktorej:
+Tým, že Web umenia začal uvažovať o rozhraní ako o priestore interpretácie, posunul diskusiu o digitálnych zbierkach na inú rovinu. Zbierka tu prestáva fungovať ako statický súbor jednotlivých diel a nadobúda podobu dynamickej konštrukcie, v ktorej sa význam formuje priamo v procese sprístupňovania. Metadáta v tomto kontexte neplnia len opisnú alebo evidenčnú funkciu, ale podieľajú sa na vytváraní príbehov o dielach a ich vzájomných vzťahoch. Spôsoby vyhľadávania a prehliadania zároveň aktívne konštruujú prepojenia, prostredníctvom ktorých je zbierka čitateľná, zatiaľ čo dizajn rozhrania sprostredkováva odborné rozhodnutia, ktoré by v tradičnom múzejnom prostredí zostávali skryté. Technický vývoj sa tak prirodzene stáva súčasťou interpretačného procesu.
 
-* metadáta vytvárajú príbeh,
-* vyhľadávanie konštruuje vzťahy,
-* dizajn sprostredkováva odborné rozhodnutia,
-* a vývojári sa nevyhnutne stávajú spolutvorcami významu.
-
-Pre moju vlastnú prácu bol tento moment rozhodujúci. Práve tu sa ukázalo, že digitálne platformy nezviditeľňujú len samotné diela, ale aj logiku ich výberu, spôsob katalogizácie, kvalitu opisov, a dokonca aj rozhodnutia, ktoré pôsobia banálne (napr. ktoré polia sa zobrazia ako prvé).
-Digitálne rozhranie je interpretáciou — nie preto, že mu to kurátor prikáže, ale preto, že je technickým aktérom so svojimi obmedzeniami a možnosťami.
+V tomto nastavení sa ukazuje, že digitálne platformy nezviditeľňujú len samotné diela, ale aj vnútornú logiku ich výberu, spôsob katalogizácie, mieru konzistentnosti opisov či rozhodnutia, ktoré na prvý pohľad pôsobia marginálne – napríklad poradie zobrazovaných polí alebo výber vzťahov, ktoré sú používateľovi ponúknuté ako primárne. Digitálne rozhranie tu funguje ako interpretácia nie preto, že by bolo explicitne koncipované ako kurátorský výklad, ale preto, že pôsobí ako technický aktér so svojimi vlastnými obmedzeniami, možnosťami a predpokladmi, ktoré spoluurčujú výslednú podobu naratívu.
 
 ### **3.5.7 Záver: Web umenia ako produkt aj symptóm**
 
@@ -586,41 +590,44 @@ Rozhranie už nie je len spôsobom, *ako* sa dielo ukazuje; čoraz viac sa stáv
 
 ### **3.6.1 Nová zodpovednosť rozhraní**
 
-Digitálne platformy dnes vykonávajú úlohy, ktoré boli kedysi prirodzene pripisované kurátorom a editorom. Automatizované odporúčania, radenie výsledkov vyhľadávania, vizuálne podobnosti či tematické kolekcie — to všetko sú mechanizmy, ktoré generujú implicitné interpretácie.
-V tomto prostredí nie je možné oddeľovať technické riešenie od odborného významu. Ako upozorňuje Fiona Cameron, digitálne prostredia do zbierok vnášajú **ontologickú dynamiku**: objekty menia svoju povahu podľa toho, v akom informačnom systéme sa nachádzajú, aké prepojenia sú im priradené a aké vzťahy im rozhranie umožní nadviazať.
+Digitálne platformy dnes preberajú časť úloh, ktoré boli v tradičnom múzejnom prostredí prirodzene spájané s kurátorskou a editorskou prácou. Radenie výsledkov vyhľadávania, automatizované odporúčania, vizuálne podobnosti či tematické výbery nefungujú len ako technické pomôcky orientácie, ale ako mechanizmy, ktoré nenápadne formujú významové súvislosti medzi dielami. Vznikajú tak implicitné interpretácie, ktoré nie sú výsledkom jedného autorského gesta, ale kombináciou dátových štruktúr, algoritmov a dizajnových rozhodnutí.
 
-V praxi to znamená, že každý „mechanizmus“ rozhrania — automatické tagy, podobnostné algoritmy, časové osi či mapy — je súčasťou kultúrneho príbehu. Nevytvára iba navigáciu, ale aj interpretáciu.
+V tomto prostredí už nie je možné jednoznačne oddeľovať technické riešenia od odborného významu. Ako upozorňuje Fiona Cameron, digitálne prostredia nevystupujú len ako neutrálne nosiče obsahu, ale aktívne spoluvytvárajú povahu zbierkových objektov. V jednom zo svojich textov píše, že v digitálnych systémoch sa objekty stávajú „nestabilnými entitami“, ktorých význam, hranice a identita sa menia v závislosti od kontextu, v ktorom sú sprístupnené:
+
+> “Digital objects are not fixed or stable entities; their meanings and relationships are continually reconfigured through the systems, interfaces and networks in which they are embedded.” [@cameron_kenderdine_theorizing_digital_cultural_heritage_2007]
+
+Cameron tým poukazuje na ontologickú dynamiku digitálnych zbierok: to, čím objekt „je“, sa neodvíja len od jeho materiálnej podoby alebo odborného popisu, ale aj od informačného systému, v ktorom sa nachádza, od väzieb, ktoré mu sú priradené, a od spôsobov, akými s ním môže používateľ vstupovať do vzťahu. Rozhranie sa tak stáva miestom, kde sa tieto významy neustále preusporadúvajú a aktualizujú.
+
+V praxi to znamená, že každý mechanizmus rozhrania – či už ide o automatické tagovanie, podobnostné algoritmy, časové osi alebo mapové vizualizácie – vstupuje do kultúrneho príbehu zbierky. Neplní iba navigačnú funkciu, ale zároveň rámcuje interpretáciu tým, že zvýrazňuje určité vzťahy a iné ponecháva v pozadí. Zodpovednosť za podobu digitálnej zbierky sa tak presúva od jednotlivých aktérov k samotnej platforme, ktorá sa stáva jedným z kľúčových činiteľov formovania významu.
 
 ### **3.6.2 Kurátor ako vývojár, vývojár ako kurátor**
 
-Táto situácia prirodzene mení odborné roly.
-Kurátorská práca už nie je len výberom diel a textovou interpretáciou. Zahŕňa prácu s dátovými modelmi, s digitálnymi reprezentáciami a s mechanizmami, ktoré umožňujú (alebo znemožňujú) určité čítanie zbierky – teda rozhodovanie o tom, aké vzťahy môžu v systéme vzniknúť a aké zostávajú neartikulateľné [@cameron_museum_collections_documentation_2010; @drucker_humanities_approaches_2011].
+Digitálne prostredia postupne narúšajú tradičné rozdelenie odborných rolí, ktoré bolo v múzejných inštitúciách dlhodobo stabilné. Kurátorská práca v tomto kontexte už neznamená iba výber diel a formulovanie interpretačných textov, ale zahŕňa aj rozhodovanie o dátových modeloch, digitálnych reprezentáciách a mechanizmoch, prostredníctvom ktorých je zbierka sprístupnená. Ide o rozhodnutia, ktoré ovplyvňujú, aké typy vzťahov môžu v systéme vzniknúť, ktoré zostávajú neviditeľné a ktoré nie je možné vôbec artikulovať [@cameron_museum_collections_documentation_2010].
 
-Na druhej strane, vývojár a dizajnér prestávajú byť „technickou podporou“.
-Ich rozhodnutia majú dosah na epistemológiu zbierky: určujú, ktoré informácie sú v rozhraní centrálne, ktoré sú skryté, ktoré vzťahy sú vizualizované a ktoré vôbec nevzniknú.
+Uvažovanie o týchto posunoch je možné presnejšie ukotviť prostredníctvom kritiky digitálnych reprezentácií, ktorú rozvíja Johanna Drucker. V texte *Humanities Approaches to Graphical Display* upozorňuje, že digitálne modely a vizualizácie sú založené na epistemologických predpokladoch, ktoré nie sú neutrálne ani univerzálne. Ako píše:
 
-V ideálnom prípade sa medzi týmito profesiami formuje **hybridná expertíza** — nie osoba, ktorá vie robiť všetko, ale tímová kompetencia, ktorá dokáže myslieť digitálne rozhranie ako kultúrny priestor, nie ako službu.
+> “The fundamental epistemological assumptions are at odds with humanistic method.
+> The humanities are committed to the concept of knowledge as interpretation, and the
+> apprehension of the phenomena of the physical, social, cultural world is through
+> constructed and constitutive acts, not mechanistic or naturalistic realist representations
+> of pre-existing or self-evident information.”
+> [@drucker_humanities_approaches_2011, p. 6]
 
-Tento model sa objavuje v inštitúciách ako ACMI, Tate, Cooper Hewitt či SFMOMA Labs.
-V slovenskom prostredí bol lab.SNG jedným z prvých miest, kde sa tento typ hybridnej praxe stal reálnou súčasťou každodennosti.
+Z tohto pohľadu nemožno digitálne rozhrania chápať ako technickú vrstvu oddelenú od odborného uvažovania. Spôsob, akým sú dáta štruktúrované, vizualizované a sprístupnené, priamo ovplyvňuje, aké formy poznania a interpretácie sú v systéme možné, a aké zostávajú mimo jeho rámca. Technické rozhodnutia sa tak nevyhnutne stávajú súčasťou interpretačného procesu, aj keď nie sú formulované ako kurátorské gestá.
+
+Na druhej strane tým vývojári a dizajnéri prestávajú vystupovať len ako technická podpora odborného procesu. Ich rozhodnutia – od návrhu dátových polí a väzieb, cez algoritmy radenia, až po vizuálnu hierarchiu rozhrania – majú dôsledky pre to, ako je zbierka čitateľná. Určujú, ktoré informácie sú v rozhraní centrálne, ktoré sú upozadené a aké súvislosti sa používateľovi ponúkajú ako samozrejmé, zatiaľ čo iné zostávajú implicitné alebo úplne skryté.
+
+V ideálnom prípade sa medzi týmito profesiami nevytvára hybridná rola v zmysle univerzálneho jednotlivca, ale skôr hybridná expertíza na úrovni tímu. Ide o schopnosť uvažovať digitálne rozhranie ako kultúrny a interpretačný priestor, nie iba ako funkčnú službu pre sprístupnenie dát. Tento spôsob práce sa postupne etabloval v inštitúciách ako ACMI, Tate, Cooper Hewitt či SFMOMA Labs. V slovenskom prostredí predstavoval lab.SNG jedno z prvých miest, kde sa podobný typ interdisciplinárnej praxe stal súčasťou každodennej činnosti, a nie len ojedinelým experimentom.
 
 ### **3.6.3 Nové výzvy: etika algoritmov, personalizácia, serendipity**
 
-S narastajúcim množstvom dát a pokročilejšími nástrojmi (počítačové videnie, NLP, strojové učenie) vzniká napätie medzi dvoma princípmi:
+S narastajúcim množstvom dostupných dát a s rozvojom pokročilých nástrojov, ako sú metódy počítačového videnia, spracovanie prirodzeného jazyka či strojové učenie, sa v prostredí online zbierok čoraz výraznejšie objavuje napätie medzi personalizáciou a serendipitou (náhodilosťou). Personalizované rozhrania prispôsobujú obsah jednotlivým používateľom na základe ich správania, preferencií alebo predchádzajúcich interakcií, zatiaľ čo serendipita umožňuje objavovanie nečakaných vzťahov a súvislostí, ktoré by cielene zvolená navigácia nemusela nikdy sprostredkovať.
 
-* **personalizáciou**, ktorá prispôsobuje obsah jednotlivcovi,
-* **serendipitou**, ktorá umožňuje objaviť nečakané vzťahy a súvislosti.
+Práve serendipita sa v kontexte zbierok ukazuje ako dôležitá, pretože zbierky samy o sebe nesú špecifickú historickú a inštitucionálnu logiku. Sú výsledkom dejín akvizícií, hodnotových preferencií, odborných rozhodnutí a predstáv o tom, čo má byť uchované a sprístupnené. Personalizované mechanizmy môžu túto logiku nenápadne prepisovať tým, že niektoré diela systematicky posúvajú na okraj, iné zvýrazňujú, alebo potvrdzujú existujúce vzorce a predsudky namiesto ich narúšania.
 
-V oblasti online zbierok sa práve serendipita ukazuje ako mimoriadne dôležitá.
-Zbierky majú svoju vlastnú logiku: sú výsledkom dejín akvizícií, preferencií, uvažovania o tom, čo je dôležité uchovať. Personalizované rozhrania túto logiku môžu prepisovať — posúvať diela na okraj, zvýrazňovať iné, alebo potvrdzovať existujúce predsudky.
+S tým úzko súvisí otázka transparentnosti algoritmov, ktoré tieto mechanizmy poháňajú. Ak platforma odporúča „podobné“ diela, zostáva často nejasné, na základe akých kritérií je podobnosť definovaná. Môže ísť o vizuálne znaky, tematické príbuznosti, formálne vlastnosti, historický kontext alebo o kombináciu viacerých faktorov. Spôsob, akým sú tieto kritériá zvolené a vážené, však zásadne ovplyvňuje výslednú podobu odporúčaní a tým aj to, aké príbehy o zbierke sú používateľovi sprostredkované.
 
-Zároveň sa objavuje otázka **transparentnosti algoritmov**.
-Ak platforma odporúči dielo „podobné“ inému, na základe čoho tak robí?
-Je podobnosť vizuálna, tematická, formálna, historická?
-A kto rozhoduje, ktorá podobnosť je dôležitá?
-
-Táto diskusia sa dotýka samotnej podstaty naratívnej vrstvy:
-digitálne rozhranie nevytvára príbeh ako text, ale ako súbor cestičiek, filtrov, vzťahov a návratností.
+Táto diskusia sa tak dotýka samotnej podstaty naratívnej vrstvy v digitálnych zbierkach. Digitálne rozhranie nevytvára príbeh v tradičnom zmysle lineárneho textu, ale prostredníctvom siete ciest, filtrov, vzťahov a návratností, ktoré používateľovi umožňuje sledovať. Práve v napätí medzi personalizáciou a serendipitou sa preto rozhoduje o tom, či digitálna zbierka podporuje otvorené objavovanie a nové interpretácie, alebo či sa postupne uzatvára do predvídateľných a opakujúcich sa vzorcov čítania.
 
 ### **3.6.4 Kontextualizácia ako kľúčový problém**
 
@@ -649,6 +656,5 @@ Nie textového, ale topologického: rozpráva vzťahmi, filtrami, výbermi, dyna
 Súčasné tendencie — tlak na kontextualizáciu, hybridné kurátorsko-technické prístupy, transparentné algoritmy, podporu serendipity — sú reakciou na tento problém.
 Ukazujú, že naratív nie je dodatok; je to spôsob, ako digitálna zbierka nadobúda význam.
 
-V tomto bode sa výskumná otázka práce konkretizuje. Nejde o to, ako do digitálnych zbierok „pridať“ naratív vo forme ďalších textových vrstiev, ale o to, ako môže naratív vzniknúť prostredníctvom samotného rozhrania. Otázkou sa stáva, akým spôsobom možno navrhovať digitálne systémy tak, aby podporovali vzťahové čítanie zbierky, umožňovali orientáciu bez lineárneho výkladu a zároveň neredukovali význam na náhodný súbor dátových spojení. Digitálne rozhranie tu vystupuje ako technológia rozprávania, ktorá nepracuje s príbehom v tradičnom zmysle, ale s konfiguráciou možností, cez ktoré sa význam postupne skladá.
-
+V tomto rámci sa ukazuje, že problém naratívu v digitálnych zbierkach nemožno uchopiť ako otázku dodatočného obsahu, ale ako otázku samotného fungovania rozhrania. Nejde teda o to, ako do digitálnych zbierok „pridať“ naratív vo forme ďalších textových vrstiev, ale o to, akým spôsobom môže naratív vznikať prostredníctvom samotného rozhrania. Otázkou sa stáva, ako navrhovať digitálne systémy tak, aby podporovali vzťahové čítanie zbierky, umožňovali orientáciu bez lineárneho výkladu a zároveň neredukovali význam na náhodný súbor dátových spojení. Digitálne rozhranie tu vystupuje ako technológia rozprávania, ktorá nepracuje s príbehom v tradičnom zmysle, ale s konfiguráciou možností, cez ktoré sa význam postupne skladá.
  
