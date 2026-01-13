@@ -43,8 +43,6 @@ Slepé cesty sa objavili skoro. Napríklad snaha riešiť facety priamo cez MySQ
 
 ### Rozhranie ako kurátor
 
-### Rozhranie ako kurátor *(upravená verzia)*
-
 Najjasnejšie sa prepojenie architektúry a interpretácie ukázalo pri prototype výstavy *Dve krajiny* (dvekrajiny.sng.sk). Práve tam sa začali objavovať drobné rozhodnutia, ktoré na prvý pohľad pôsobia ako čisto dizajnérske, no v skutočnosti zásadne ovplyvňujú „tempo“ čítania zbierky. Veľkosť náhľadov v katalógu v porovnaní s kolekciami nie je len otázkou estetiky, ale rozhodnutím o tom, či sa používateľ pohybuje rýchlo naprieč veľkým množstvom diel, alebo zostáva dlhšie pri jednotlivých detailoch. Podobne funguje aj poradie a členenie sekcií: zatiaľ čo vo fyzickej výstave sú sekcie často oddelené miestnosti, ktoré prirodzene vytvárajú trasu pohybu, v digitálnom prostredí je preskok medzi „miestnosťami“ okamžitý. Aj tu však poradie a štruktúra rozhrania nenápadne navrhujú určitý spôsob prechádzania obsahom.
 
 Osobitnú rolu zohrávajú momenty, keď sa dáta v rozhraní začnú správať inak, než sa pôvodne očakávalo. Pri mapových zobrazeniach sa ukázalo, že niektoré tematické okruhy sa priestorovo usporiadajú s prekvapivou presvedčivosťou: hrady, zámky a ruiny začali vytvárať zreteľnú geografickú líniu, zatiaľ čo procesy modernizácie sa prirodzene viazali na rieky a dopravné trasy. Takéto vizuálne usporiadanie spätne pomáhalo „čítať“ jednotlivé diela a ich súvislosti.
