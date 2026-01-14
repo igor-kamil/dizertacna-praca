@@ -55,7 +55,14 @@ if (( ${#chapters[@]} == 0 )); then
 fi
 
 # Merge chapters into a single temp file.
-cat "${chapters[@]}" > "${merged_raw_md}"
+# Important: ensure at least one blank line between files, even if a chapter
+# doesn't end with a trailing newline (otherwise the next chapter's `# ...`
+# can get glued to the previous paragraph and stop being parsed as a heading).
+: > "${merged_raw_md}"
+for f in "${chapters[@]}"; do
+  cat "${f}" >> "${merged_raw_md}"
+  printf "\n\n" >> "${merged_raw_md}"
+done
 
 # Pandoc citeproc places the bibliography at the first `::: {#refs}` block it finds.
 # Since chapters may contain their own refs placeholder, strip any `{#refs}` divs
@@ -127,6 +134,8 @@ pandoc "${merged_md}" \
   --from markdown+tex_math_dollars+raw_tex \
   --lua-filter="${aside_filter}" \
   --pdf-engine=xelatex \
+  --top-level-division=chapter \
+  -V documentclass=report \
   -V mainfont="Charter" \
   -V sansfont="Avenir Next" \
   -V monofont="Menlo" \
