@@ -11,19 +11,17 @@ Verejne financované inštitúcie mohli zrazu napĺňať svoju misiu „sprístu
 S odstupom času sa však ukazuje, že otvorenosť nie je koncový stav.
 Je to začiatok novej situácie, v ktorej dostupnosť prestáva byť výhodou a stáva sa samozrejmým pozadím. V tomto pozadí sa mení otázka: už nejde o to, či sa k dielu viem dostať, ale či mu dokážem porozumieť, zaradiť ho a prepojiť s inými. Prístup nie je to isté ako porozumenie.
 
-Whitelaw to formuluje cez napätie medzi digitálnou hojnosťou a rozhraním, ktoré k nej najčastejšie používame. Po desaťročiach digitalizácie je kultúrny materiál online bohatý a rozsiahly, no vyhľadávanie ako dominantný spôsob prístupu túto hojnosť nedokáže reprezentovať. Vyhľadávanie je neveľkorysé (od anglického *not-generous*): informáciu zadržiava a vyžaduje otázku. 
-Táto poznámka je užitočná aj mimo múzeí. Únava z nadbytku sa dnes prejavuje naprieč internetom: v spravodajstve, v mailoch, v ponukách, v notifikáciách, v “nekonečných” feedoch. Digitálne prostredie zvyšuje dostupnosť, ale súčasne zvyšuje nároky na orientáciu a výber.
+Whitelaw to formuluje cez napätie medzi digitálnou hojnosťou a rozhraním, ktoré k nej najčastejšie používame. Po desaťročiach digitalizácie je kultúrny materiál online bohatý a rozsiahly, no vyhľadávanie ako dominantný spôsob prístupu túto hojnosť nedokáže reprezentovať. Vyhľadávanie je neveľkorysé (v zmysle Whitelawovho *ungenerous*): informáciu zadržiava a vyžaduje otázku. 
+Táto poznámka je užitočná aj mimo múzeí. Únava z nadbytku sa dnes prejavuje naprieč internetom: v spravodajstve, v mailoch, v ponukách, v notifikáciách, v „nekonečných“ feedoch. Digitálne prostredie zvyšuje dostupnosť, ale súčasne zvyšuje nároky na orientáciu a výber.
 
 Pre online zbierky umenia má tento jav špecifickú podobu.
-Nie je to len informačný prebytok, ale prebytok významov, ktoré potrebujú rámec. Používateľ sa ocitá v ovocnom sade, kde je ovocia priveľa, visí nízko a je ľahko dostupné, no časť je nezrelá, časť poškodená, a medzi tým je ťažké nájsť niečo, čo stojí za pomalú pozornosť. „Low hanging fruit“ tu neznamená len ľahký prístup, ale aj riziko povrchného výberu: berieme to, čo je po ruke, nie to, čo potrebuje čas.
+Nie je to len informačný prebytok, ale prebytok významov, ktoré potrebujú rámec. Používateľ sa ocitá v ovocnom sade, kde je ovocia priveľa, visí nízko a je ľahko dostupné, no časť je nezrelá, časť poškodená, a medzi tým je ťažké nájsť niečo, čo stojí za sústredenú pozornosť. „Low hanging fruit“ tu neznamená len ľahký prístup, ale aj riziko povrchného výberu: berieme to, čo je po ruke, nie to, čo potrebuje čas.
 
-V tvojich štatistikách návštevnosti sa tento posun dá čítať ako paradox: veľká kopa pýta viac.
-Čím je kolekcia väčšia, tým silnejšie sa prejavuje potreba navigácie, rámcov a vedenia pozornosti. Bez nich sa pozornosť koncentruje, opakuje a skracuje. Zbierka síce rastie, no skúsenosť používateľa môže byť stále podobná: pár vstupov, pár „zachytených“ diel, zvyšok ostáva ticho.
+Štatistiky návštevnosti v praxi často ukazujú jednoduchý paradox: rast rozsahu zbierky automaticky neprináša rast rozmanitosti používateľskej skúsenosti. Čím je kolekcia väčšia, tým viac sa prejavuje potreba navigácie, rámcov a vedenia pozornosti. Bez nich sa pozornosť ľahko koncentruje do úzkeho výseku diel, opakuje sa a skracuje. Zbierka síce rastie, no používateľ sa môže stále pohybovať v podobnej slučke: niekoľko vstupov, niekoľko zachytených položiek, zvyšok zostáva mimo jeho trajektórie.
 
-Do toho vstupuje ešte jeden kľúčový problém, ktorý je pre túto dizertáciu nosný: z pohľadu používateľa vyzerá „online dostupnosť“ plocho.
-Prečo by si mal pozrieť výber diel na Web umenia a nie rovno Google Arts & Culture? V bežnej používateľskej skúsenosti môžu pôsobiť rovnako dostupne: obrazovka, reprodukcia, vyhľadávanie, rolovanie, podobné diela, zdieľanie. Rozdiely, ktoré sú pre inštitúciu zásadné (kurátorský výber, lokálny kontext, kvalita metadát, zodpovednosť za interpretáciu), sú často slabšie viditeľné než rozdiely v pohodlí rozhrania.
+Do toho vstupuje ešte jedna nepríjemná skúsenosť, ktorá sa v online prostredí ľahko prehliadne: z pohľadu používateľa môže „online dostupnosť“ pôsobiť plocho a zameniteľne.  
+Prečo by si mal pozrieť výber diel na Web umenia a nie rovno Google Arts & Culture? Na úrovni základných gest je skúsenosť podobná: obrazovka, reprodukcia, vyhľadávanie, scrolovanie, preklik na detail, niekoľko návrhov „ďalšieho“. Rozdiely, ktoré sú pre inštitúciu zásadné – kurátorský výber, lokálny kontext, kvalita metadát a zodpovednosť za interpretáciu – sa v takomto režime nepresadia automaticky. Ak majú byť čitateľné, musia byť navrhnuté ako súčasť prechádzania zbierkou, nie len ako informácie pri položke.
 
-Toto je moment, kde sa dá pomenovať hlavná téza kapitoly.
 Keď sa diela menia na dáta, mení sa aj spôsob, akým môže vzniknúť naratív. Nejde len o to, či je k dielu pripojený text. Ide o to, aké vzťahy sú v dátach a rozhraní vôbec umožnené, aké trajektórie sa dajú prejsť, a aký typ pozornosti tieto trajektórie podporujú. Manovichova opozícia databázy a naratívu je tu užitočná ako rámec: databáza uprednostňuje výber a prechod medzi jednotkami, kým naratív vyžaduje vedenie, skladanie a zmysluplné napätie medzi prvkami. 
 
 Cieľ tejto kapitoly je diagnostický.
@@ -44,7 +42,7 @@ V prostredí zbierok sa však rýchlo ukáže, že dostupnosť je len jedna prem
 
 Na úrovni používateľskej skúsenosti je pritom limit zrozumiteľný: pozornosť je vzácna. Herbert A. Simon to formuloval už v sedemdesiatych rokoch ako „chudobu pozornosti“ v informačne bohatom svete [@simon1971attention]. Pre zbierky umenia je to tiež dôležité. Nejde len o to, koľko diel je online, ale koľkým z nich sa dá venovať čas tak, aby vznikol význam, súvislosť, interpretácia.
 
-K nerovnosti pozornosti prispieva aj kumulatívna výhoda. Mertonov Matthew effect pôvodne opisuje, ako viditeľní aktéri získavajú neúmerne viac uznania [@merton_matthew_effect_science_1968]. V online zbierkach sa podobný mechanizmus prejavuje cez poradie výsledkov, rebríčky, odporúčania a externé odkazy. Diela, ktoré sú už známe alebo dobre „pripojené“ v sieti odkazov, sa ľahšie stávajú vstupnou bránou. Diela bez takýchto väzieb ostávajú v chvoste aj vtedy, keď sú technicky sprístupnené rovnako.
+K nerovnosti pozornosti prispieva aj kumulatívna výhoda. Mertonov Matthew effect pôvodne opisuje, ako viditeľní aktéri získavajú neúmerne viac uznania [@merton_matthew_effect_science_1968]. V online zbierkach sa podobný mechanizmus prejavuje cez poradie výsledkov, rebríčky, odporúčania a externé odkazy. Diela, ktoré sú už známe alebo dobre *„zalinkované“* v sieti odkazov, sa ľahšie stávajú vstupnou bránou. Diela bez takýchto väzieb ostávajú v chvoste aj vtedy, keď sú technicky sprístupnené rovnako.
 
 Sľub *long tail* má zároveň aj kritikov. Anita Elberse na dátach z mediálnych trhov argumentovala, že digitálna ponuka nemusí viesť k presunu hodnoty do chvosta; naopak, hity môžu získať ešte väčší podiel než predtým [@elberse2008longtail]. Pre online zbierky je táto polemika užitočná, pretože pripomína, že sprístupnenie samo osebe nerieši viditeľnosť. Ak sa návšteva organizuje cez najjednoduchšie signály (popularita, poradie, podobnosť), koncentrácia sa ľahko posilňuje.
 
@@ -56,9 +54,9 @@ V GLAM diskusii sa *long tail* objavuje priamo, často ako praktická úloha: ak
 Na osi x sú diela zoradené podľa poradia návštevnosti (od najnavštevovanejšieho po najmenej navštevované). Na osi y je počet zobrazení (napr. *view_count*). Typicky vznikne strmý pokles na začiatku a dlhý chvost nízko navštevovaných položiek. Pri veľkých rozdieloch sa často používa logaritmická mierka osi y.
 :::
 
-V dátach z Web umenia sa tento problém dá ukázať vecne: malá skupina diel koncentruje veľkú časť pozornosti, zatiaľ čo veľká časť zbierky zostáva na okraji. Ako ilustratívny príklad sa ponúka najnavštevovanejšie dielo Ladislava Bielika, *August 1968* (SNG, identifikátor UP-DK_1531-k) [@ladislavbielik_august_1968]. V januári 2026 malo 49 264 zobrazení, kým priemer na dielo bol 1 289 a medián 1 143. Tento rozdiel je dôležitý nie ako hodnotenie „kvality“ diel, ale ako opis mechaniky viditeľnosti: niekoľko uzlov prirodzene absorbuje veľkú časť návštevnosti.
+V dátach z Web umenia sa tento problém dá ukázať vecne: malá skupina diel koncentruje veľkú časť pozornosti, zatiaľ čo veľká časť zbierky zostáva na okraji. Ako ilustratívny príklad sa ponúka najnavštevovanejšie dielo na Webe umenia Ladislav Bielik: *August 1968* [-@ladislavbielik_august_1968]. V januári 2026 malo 49 264 zobrazení, kým priemer na dielo bol 1 289 a medián 1 143 (stav k januáru 2026). Tento rozdiel je dôležitý nie ako hodnotenie „kvality“ diel, ale ako opis mechaniky viditeľnosti: niekoľko uzlov prirodzene absorbuje veľkú časť návštevnosti.
 
-![Ladislav Bielik: *August 1968* (SNG, identifikátor UP-DK_1531-k). Najnavštevovanejšie dielo v online zbierke: 49 264 zobrazení; priemer 1 289, medián 1 143 (stav k januáru 2026).](figures/fig-5-2-SVK_SNG.UP-DK_1531-k.jpg){#fig:5-2-bielik-august1968 width=90%}
+![Ladislav Bielik: *August 1968* (SNG, identifikátor UP-DK 1531-k). Najnavštevovanejšie dielo v online zbierke.](figures/fig-5-2-SVK_SNG.UP-DK_1531-k.jpg){#fig:5-2-bielik-august1968 width=90%}
 
 Distribúciu zobrazení v celej zbierke potom sumarizuje *long tail* graf, ktorý ukáže, aký veľký je rozdiel medzi prvými pozíciami a chvostom nízko navštevovaných diel.
 
@@ -97,7 +95,7 @@ V ďalšej kapitole sa k tomu vrátim už ako k návrhovému problému: aké typ
 
 ## 5.4 Databázová estetika: objekt bez vzťahov
 
-> “With new media, the content of the work and the interface are separated.” [@manovich_language_new_media_2001]
+> „With new media, the content of the work and the interface are separated.“ [@manovich_language_new_media_2001]
 
 Lev Manovich v *The Language of New Media* opisuje databázu nie ako technický detail, ale ako kultúrnu formu, ktorá sa v počítačovej ére stáva dominantná. Moderné médiá podľa neho vedú dlhodobý „súboj“ databázy a naratívu: fotografia prirodzene podporuje katalógy, taxonómie a zoznamy, film zas lineárne príbehy, no digitálne úložiská a web znova zvýhodňujú databázu. [@manovich_language_new_media_2001]
 
@@ -109,13 +107,13 @@ Práve tu sa začína databázová estetika online zbierok. Objekt sa zobrazuje 
 
 Toto nie je výčitka metadátam. Je to opis toho, čo metadátový režim robí s naratívom. Ak je hlavnou jednotkou stránky záznam a jeho polia, naratív sa zmenší na to, čo sa dá zapísať do stabilných kategórií. Vzťahy, ktoré by v galérii vznikli cez priestor, kurátorský výber a poradie, sa online často scvrknú na *tému* alebo *štýl* ako štítok, prípadne na vizuálnu podobnosť ako automatický návrh. Divák potom prirodzene prechádza medzi podobnými položkami, no nemusí získať dôvod, prečo sú podobné, čo ich odlišuje a v akej situácii vznikli.
 
-Manovichov rámec pomáha pomenovať kľúčový posun: problém online zbierky nie je v prvom rade „málo textu“. Problém je „málo vzťahov“. Text je len jeden z nosičov vzťahu. Vzťah môže byť aj explicitné prepojenie: kto s kým spolupracoval, čo bolo vystavené spolu, čo vzniklo ako reakcia na udalosť, čo patrí do série, čo súvisí s miestom, objednávkou, inštitúciou alebo publikáciou. Bez takýchto väzieb má používateľ k dispozícii hlavne výber medzi položkami, nie cestu medzi významami.
+Manovichov rámec pomáha pomenovať dôležitý posun: problém online zbierky nie je v prvom rade „málo textu“. Problém je „málo vzťahov“. Text je len jeden z nosičov vzťahu. Vzťah môže byť aj explicitné prepojenie: kto s kým spolupracoval, čo bolo vystavené spolu, čo vzniklo ako reakcia na udalosť, čo patrí do série, čo súvisí s miestom, objednávkou, inštitúciou alebo publikáciou. Bez takýchto väzieb má používateľ k dispozícii hlavne výber medzi položkami, nie cestu medzi významami.
 
 Tento deficit je dnes viditeľný aj mimo múzeí. Sociálne siete, streamy a feedy sú rovnako rozhrania k databázam, ktoré používateľ prechádza ako sériu záznamov v čase. Naratív, ak vznikne, nevzniká z výkladu, ale z poradia, opakovania a asociácie. Online zbierky sa do podobnej formy dostávajú ľahko, lebo používajú rovnaké základné prvky webu: mriežky, nekonečné rolovanie, vyhľadávanie, filtre. Rozdiel je v tom, že pri zbierkach umenia nejde len o efektívne prezeranie, ale o interpretáciu a kultúrny kontext.
 
 V tomto bode sa dá diagnóza zhrnúť jednoducho. Databázová logika podporuje to, aby sa dielo javilo ako izolovaná jednotka so súpisom vlastností. Naratív sa potom redukuje na popis a kategorizáciu. Ak chceme hovoriť o strate naratívnej vrstvy v online zbierkach, často nejde o to, že by chýbali sprievodné texty. Ide o to, že chýbajú explicitné a zmysluplné prepojenia, ktoré by z databázy robili čitateľnú štruktúru.
 
-> “Instead, they are collections of individual items, with every item possessing the same significance as any other.” [@manovich_language_new_media_2001]
+> „Instead, they are collections of individual items, with every item possessing the same significance as any other.“ [@manovich_language_new_media_2001]
 
 Databáza má ešte jednu vlastnosť, ktorá na prvý pohľad pôsobí takmer utopicky: jej prvky sú si formálne rovné. Záznam je záznam. Položka je položka. V zozname sa vedľa seba ocitne stredoveká iluminácia vytrhnutá z kontextu rukopisu a monumentálne dielo, na ktorom sa podieľali desiatky profesií. Databáza tým implicitne tvrdí, že všetko je rovnakého typu a rovnakej váhy. Práve táto rovnosť však nie je neutrálna. Je to estetiká voľba, ktorá má dôsledky pre porozumenie.
 
@@ -174,7 +172,7 @@ Ak nie je jasne oddelené „séria“, „variant“, „reprodukcia“, „det
 
 Dušan Barok používa pre takéto vrstvy pojem znalostná infraštruktúra a pripomína, že nejde o „fakty v hlavách“, ale o zdieľaný socio-technický systém ľudí, inštitúcií a artefaktov. [@Barok2024Publishing] V jeho opise je dôležitá aj paralela s editovaním: výber, tvarovanie a prepájanie nie sú neutrálne operácie, ale spôsob, ako sa z heterogénnej dokumentácie stáva čitateľný celok.  To, čo robí redaktor v publikácii, robí infraštruktúra v katalógu – len bez toho, aby to tak nazývala.
 
-> knowledge infrastructures are “robust networks of people, artifacts, and institutions…” [@Barok2024Publishing; @edwards_vast_machine_computer_2010]
+> knowledge infrastructures are „robust networks of people, artifacts, and institutions…“ [@Barok2024Publishing; @edwards_vast_machine_computer_2010]
 
 V tomto zmysle je infraštruktúra kurátor.
 Nie kurátor v tradičnom zmysle autora výstavy, ale kurátor ako ten, kto určuje podmienky viditeľnosti: čo sa dá nájsť, v akom poradí, cez aké prechody, s akými skratkami a s akými slepými uličkami.
@@ -220,6 +218,6 @@ Zároveň sa ukázalo, že tento stav nie je iba dôsledok „algoritmov“. Je 
 
 Táto kapitola preto nechce vyznieť ako zoznam problémov, ale ako mapa, podľa ktorej sa dá navrhovať. Aj preto je dôležitý ešte jeden posun: od predstavy kontroly k predstave starostlivosti. Online zbierka sa nedá „uzavrieť“ do jedného ideálneho rozhrania, ktoré všetko vyrieši. Význam sa tvorí v čase a v sieťach, v ktorých sa diela šíria mimo vlastný katalóg: do Wikipédie, do školských projektov, do odborných textov, do lokálnych iniciatív, do sekundárnych databáz. Takéto šírenie nie je zlyhanie kurátorstva. Môže byť znakom toho, že zbierka má život a publikum aj mimo vlastnej domény.
 
-Otvorené otázky, ktoré z toho vyplývajú, sa dajú povedať jednoducho. Ako znovu objaviť príbeh v prostredí nadbytku dát bez toho, aby sme ho redukovali na marketingové “curated picks”? Ako navrhovať rozhrania, ktoré namiesto filtrácie na základe podobnosti rozvíjajú významy a súvislosti? A ako prinavrátiť moment prekvapenia a estetickej skúsenosti tak, aby nebol náhodou, ale výsledkom zrozumiteľného návrhu?
+Otvorené otázky, ktoré z toho vyplývajú, sa dajú povedať jednoducho. Ako znovu objaviť príbeh v prostredí nadbytku dát bez toho, aby sme ho redukovali na marketingové „curated picks“? Ako navrhovať rozhrania, ktoré namiesto filtrácie na základe podobnosti rozvíjajú významy a súvislosti? A ako prinavrátiť moment prekvapenia a estetickej skúsenosti tak, aby nebol náhodou, ale výsledkom zrozumiteľného návrhu?
 
 V nasledujúcej kapitole sa k týmto otázkam vrátim už z perspektívy konkrétnej praxe. Limity pomenované v tejto kapitole neboli pre lab.SNG abstraktné; boli to opakujúce sa situácie, s ktorými sme sa konfrontovali pri vývoji a prevádzke Web umenia aj pri ďalších projektoch. Práve preto je ďalší krok logický: ukázať, aké odpovede sme skúšali, aké formáty a technológie sme volili, a čo sa ukázalo ako funkčné, nefunkčné alebo ambivalentné.
