@@ -71,3 +71,27 @@ V tomto bode je užitočné pridať krátky prípad *Never Been Seen* zo Science
 Dopad na naratívnu vrstvu zbierky je priamy. Ak sa pozornosť stabilne lepí na malú skupinu ikonických diel, online zbierka začne rozprávať opakujúci sa príbeh: príbeh toho, čo sa dá ľahko nájsť, ľahko kliknúť a ľahko zdieľať. Chvost pritom ostáva mimo publika, a tým aj mimo príležitosti stať sa súčasťou interpretácie.
 
 Táto podkapitola preto prirodzene vedie k otázke rozhraní. Ak *long tail* nie je automatický efekt digitalizácie, ale výsledok toho, ako sa k zbierke pristupuje, rozhodujúce nie je len množstvo dát, ale spôsob ich sprístupnenia. Odtiaľ je už krátky krok k ďalšej téme: k neveľkorysému vyhľadávaniu a k tomu, prečo používateľ musí najprv vedieť, čo hľadá, aby vôbec niečo našiel [@whitelaw_generous_interfaces_2015].
+
+### 5.3 Generous interfaces: keď musíš vedieť, čo hľadáš
+
+Predstavme si, že prídete do cudzieho mesta v cudzej krajine, kde ste ešte nikdy neboli. Vojdete do miestnej galérie s očakávaním, že sa tu stretnete s históriou aj súčasnosťou kultúry tejto krajiny. Namiesto priestoru, ktorý vás začne viesť, vás však pri vstupe zastaví recepcia a podá vám lístok papiera. Napíšte, čo vlastne hľadáte.
+
+Lístok odnesú niekam dozadu. O chvíľu sa vrátia s pár drobnými náhľadmi: je to ono? A inokedy sa vrátia po dlhšej chvíli len s ospravedlnením: nič také tu nemáme. Znie to absurdne, ale tento obraz sa blíži tomu, ako funguje veľká časť online katalógov: kultúrne dedičstvo je skryté za políčkom, ktoré vyžaduje *query*. Whitelaw túto situáciu opisuje priamo a používa ju ako argument, prečo je vyhľadávanie ako dominantný režim prístupu v zbierkach neveľkorysé. [@whitelaw_generous_interfaces_2015]
+
+![National Library of Australia: domovská stránka s dominantným vyhľadávacím poľom ako primárnym režimom prístupu.](figures/fig-5-3-australian-national-library.png){#fig:5-3-australian-national-library width=90%}
+
+
+Vyhľadávacie pole je efektívne, keď viem, čo hľadám. Problém je, že v múzeu, galérii alebo knižnici často neviem. Viem len, že sa chcem zorientovať, niečo objaviť, pochopiť lokálny kontext, urobiť si obraz o autoroch, témach, obdobiach. Táto počiatočná neistota je prirodzená súčasť návštevy kultúrnej inštitúcie. V kamennom priestore ju podporuje samotné prostredie: rytmus miestností, svetlo, mierka objektov, ticho, spôsob pohybu ľudí, drobné pravidlá správania. Aj bez jasnej otázky sa dá „vojsť“ do kontextu.
+
+Rozhranie online zbierky túto atmosféru nenahrádza a ani nemá ambíciu ju simulovať. Aj tak však nesie zodpovednosť za prvý kontakt. Keď je prvým kontaktom *search box*, zbierka sa od začiatku správa, akoby návštevník prišiel s hotovým zámerom. Tento predpoklad je zásadný. Vyhľadávanie je prístup typu *lookup*: odpovedá na otázku, ktorú už viem položiť. No veľká časť návštevníkov prichádza v režime, ktorý je bližšie k prechádzke než k dotazu.
+
+Tu vzniká to, čo sa dá v praxi opísať ako nevyžiadaný *expert mode*. Aby som sa dostal ďalej než k náhode, musím poznať jazyk systému: meno autora, názov diela, obdobie, štýl, techniku, prípadne inventárnu logiku. Čím menej tento jazyk ovládam, tým viac sa pohybujem naslepo, a tým viac sa moja skúsenosť redukuje na pár náhodných výsledkov alebo na opakovanie tých istých ikonických diel, ktoré systém ponúka najčastejšie.
+
+Vyhľadávacie pole preto funguje ako úzka štrbina. Neotvára priestor, ale zužuje zorné pole na to, čo si viem priamo vypýtať. Pri kultúrnych zbierkach je to zásadná zmena: používateľ sa nestretáva so zbierkou ako s celkom, ale ako so sériou odpovedí na vlastné, často nedostatočne formulované otázky. Namiesto objavovania vzniká iba vyhľadávanie.
+
+Dopad na naratívnu vrstvu je priamy. Naratív v zbierke nevzniká len textom, ale aj tým, ako sa dá prechádzať medzi dielami, ako sa dajú vytvárať súvislosti, porovnania a zmysluplné odbočky. Ak je dominantným režimom *search*, naratív sa atomizuje. Vzťahy medzi dielami prestávajú byť niečím, čo rozhranie ponúka, a stávajú sa niečím, čo si musí používateľ sám vymyslieť a napísať do políčka.
+
+Z pohľadu prevádzky online zbierky to nie je abstraktný problém. Je to rozhodnutie o tom, komu je zbierka prístupná a za akých podmienok. Rozhranie, ktoré sa spolieha najmä na vyhľadávanie, implicitne uprednostňuje používateľov s presným cieľom. Rozhranie, ktoré ponúka aj prehľad, orientáciu a prekvapenie, vytvára priestor aj pre návštevníkov bez presnej otázky. Práve tu sa otvára miesto pre Whitelawov koncept *generous interfaces*: rozhranie, ktoré nežiada otázku ako vstupné, ale najprv poskytne obraz o zbierke a umožní do nej vstúpiť cez viacero ciest. [@whitelaw_generous_interfaces_2015]
+
+V ďalšej kapitole sa k tomu vrátim už ako k návrhovému problému: aké typy prehľadov, mapovaní a prechodov dokážu v digitálnom prostredí nahradiť prvotné „vtiahnutie“ priestoru, a ako sa dá z online zbierky urobiť miesto, kde sa dá nielen nájsť, ale aj objaviť. [@whitelaw_generous_interfaces_2015; @chan2007tagging]
+
