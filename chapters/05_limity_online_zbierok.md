@@ -156,7 +156,7 @@ Prepojenie s predchádzajúcimi podkapitolami je praktické. *Popularity bias* a
 
 Zároveň to presúva otázku z techniky do kurátorstva. Ak odporúčanie vytvára predvídateľnú plynulosť, ako do online zbierky vrátiť moment prekvapenia bez toho, aby sa stratila orientácia? A ako zabezpečiť, aby sa používateľ dostal aj k dielam, ktoré nie sú „najpodobnejšie“, no sú pre pochopenie dejín, kontextu alebo lokálnej kultúry kľúčové? Táto otázka sa v ďalšej podkapitole ukáže aj v extrémnej podobe: čo znamená sprístupniť zbierku, keď veľká časť objektov zostáva nikdy neuviditeľná.
 
-### 5.6 Infraštruktúra ako kurátor: starostlivosť namiesto kontroly
+## 5.6 Infraštruktúra ako kurátor: starostlivosť namiesto kontroly
 
 V tejto kapitole sa opakovane ukazuje jeden motív: limity online zbierok nevznikajú iba na úrovni rozhrania.
 Vznikajú už skôr, v infraštruktúre, ktorá rozhoduje o tom, čo sa vôbec dá zobraziť, prepojiť a odporučiť.
@@ -203,3 +203,23 @@ Nie preto, že by inštitúcia mala rezignovať na rámec, ale preto, že obeh v
 Tento pohľad zároveň presúva dôraz z „dokonalého rozhrania“ na dlhodobejšiu prácu:
 udržiavať zmysel, dopĺňať väzby, opravovať údaje, kultivovať autority, dokumentovať rozhodnutia, a vytvárať formáty, ktoré vedia niesť interpretáciu.
 Barok v tejto súvislosti rámcuje publikovanie ako formu starostlivosti: výber, tvarovanie a prepojenie materiálov dokáže z fragmentov urobiť čitateľnú trajektóriu.  
+
+## 5.7 Záver: otvorené otázky
+
+Keď sa dnes hovorí o online zbierkach, často sa to skracuje na prístupnosť: koľko diel je digitalizovaných, aké veľké pokrytie má katalóg, či existuje API, či je možné diela zdieľať. Táto kapitola sa snažila posunúť optiku o krok ďalej. Nie k tomu, čo online zbierka obsahuje, ale k tomu, ako sa v nej dá pohybovať, čo sa v nej dá pochopiť a akým spôsobom sa v nej dá vytvoriť príbeh.
+
+Ukázalo sa, že digitálna hojnosť sama o sebe nezaručuje rozšírenie skúsenosti. Skôr naopak: čím je zbierka väčšia, tým viac sa v nej pozornosť koncentruje a tým ľahšie vzniká dlhý chvost neviditeľných objektov. Nie preto, že by boli menej hodnotné, ale preto, že ich nikto nenájde v správnej chvíli, správnym spôsobom, správnym jazykom. Zdanlivo jednoduchá otázka „čo ukázať ďalej“ má v takomto prostredí obrovskú váhu.
+
+Dominantným nástrojom prístupu je vyhľadávanie. Je to účinný mechanizmus, no má vysokú vstupnú bariéru: vyžaduje otázku, ktorú návštevník často ešte nevie sformulovať. V kamennej galérii sa orientácia začína prostredím; online sa často začína políčkom. Zbierka tým nevedomky prechádza do režimu, ktorý zvýhodňuje používateľov s presným cieľom a znalosťou terminológie. Pre mnohých ostatných sa návšteva zmení na sériu pokusov, náhodných vstupov a návratov do toho istého úzkeho výseku.
+
+K tomu sa pridáva databázová estetika, ktorá je v online zbierkach prirodzená. Dielo sa javí ako položka: rovnocenná jednotka so súpisom vlastností. Táto rovnosť je na prvý pohľad spravodlivá, no zároveň odoberá čitateľnú hierarchiu a sieť vzťahov, ktoré sú v dejinách umenia nosičom porozumenia. Problém sa tak neukazuje primárne ako nedostatok sprievodných textov, ale ako nedostatok väzieb: prepojení, ktoré by dielo znovu vložili do kontextu súvislostí, polemík, kontinuit a zlomov.
+
+Keď tieto väzby chýbajú, rozhranie si pomáha náhradnými orientačnými bodmi. Podobné diela, odporúčania, populárne položky a hladká navigácia vytvárajú pocit istoty, no zároveň môžu sploštiť skúsenosť. To, čo sa tvári ako pomoc pri objavovaní, sa ľahko zmení na režim podobnosti: človek sa pohybuje v kruhu známych tvarov a bezpečných volieb. Prekvapenie, kontrast a odbočka – teda veci, ktoré v kultúrnej skúsenosti často otvárajú význam – sa do takéhoto režimu vkladajú ťažko.
+
+Zároveň sa ukázalo, že tento stav nie je iba dôsledok „algoritmov“. Je to dôsledok infraštruktúry ako celku. Metadátové modely, autority, taxonómie, indexy, deduplikácie, pravidlá poradia a spôsob publikovania rozhodujú o tom, čo je vôbec možné: aké vzťahy sa dajú vytvoriť, aké prechody sa dajú ponúknuť, čo sa dá spoľahlivo nájsť a čo sa bude používateľovi stále vracať. V tomto zmysle je infraštruktúra tichý kurátor. Nehovorí vlastným hlasom, no určuje podmienky viditeľnosti.
+
+Táto kapitola preto nechce vyznieť ako zoznam problémov, ale ako mapa, podľa ktorej sa dá navrhovať. Aj preto je dôležitý ešte jeden posun: od predstavy kontroly k predstave starostlivosti. Online zbierka sa nedá „uzavrieť“ do jedného ideálneho rozhrania, ktoré všetko vyrieši. Význam sa tvorí v čase a v sieťach, v ktorých sa diela šíria mimo vlastný katalóg: do Wikipédie, do školských projektov, do odborných textov, do lokálnych iniciatív, do sekundárnych databáz. Takéto šírenie nie je zlyhanie kurátorstva. Môže byť znakom toho, že zbierka má život a publikum aj mimo vlastnej domény.
+
+Otvorené otázky, ktoré z toho vyplývajú, sa dajú povedať jednoducho. Ako znovu objaviť príbeh v prostredí nadbytku dát bez toho, aby sme ho redukovali na marketingové “curated picks”? Ako navrhovať rozhrania, ktoré namiesto filtrácie na základe podobnosti rozvíjajú významy a súvislosti? A ako prinavrátiť moment prekvapenia a estetickej skúsenosti tak, aby nebol náhodou, ale výsledkom zrozumiteľného návrhu?
+
+V nasledujúcej kapitole sa k týmto otázkam vrátim už z perspektívy konkrétnej praxe. Limity pomenované v tejto kapitole neboli pre lab.SNG abstraktné; boli to opakujúce sa situácie, s ktorými sme sa konfrontovali pri vývoji a prevádzke Web umenia aj pri ďalších projektoch. Práve preto je ďalší krok logický: ukázať, aké odpovede sme skúšali, aké formáty a technológie sme volili, a čo sa ukázalo ako funkčné, nefunkčné alebo ambivalentné.
