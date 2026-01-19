@@ -155,3 +155,51 @@ Dopad na naratívnu vrstvu je potom nenápadný, ale zásadný. Namiesto kuráto
 Prepojenie s predchádzajúcimi podkapitolami je praktické. *Popularity bias* a odporúčania posilňujú hierarchie pozornosti a stabilizujú tvar *long tail* distribúcie: viac pozornosti dostanú položky, ktoré už pozornosť majú, a chvost ostáva v tieni [@abdollahpouri_unfairness_popularity_bias_2019]. V kontexte zbierok umenia to znamená, že algoritmy nie sú len pomocný nástroj objavovania, ale aj spolutvorca viditeľnosti a neviditeľnosti.
 
 Zároveň to presúva otázku z techniky do kurátorstva. Ak odporúčanie vytvára predvídateľnú plynulosť, ako do online zbierky vrátiť moment prekvapenia bez toho, aby sa stratila orientácia? A ako zabezpečiť, aby sa používateľ dostal aj k dielam, ktoré nie sú „najpodobnejšie“, no sú pre pochopenie dejín, kontextu alebo lokálnej kultúry kľúčové? Táto otázka sa v ďalšej podkapitole ukáže aj v extrémnej podobe: čo znamená sprístupniť zbierku, keď veľká časť objektov zostáva nikdy neuviditeľná.
+
+### 5.6 Infraštruktúra ako kurátor: starostlivosť namiesto kontroly
+
+V tejto kapitole sa opakovane ukazuje jeden motív: limity online zbierok nevznikajú iba na úrovni rozhrania.
+Vznikajú už skôr, v infraštruktúre, ktorá rozhoduje o tom, čo sa vôbec dá zobraziť, prepojiť a odporučiť.
+
+Rozhranie je len vrchná vrstva.
+Pod ňou je metadátový model, autority, taxonómie, indexy, deduplikácie, licencie, cacheovanie, API a pravidlá poradia.
+Každé z týchto rozhodnutí je tichý editor: bez viditeľného podpisu upravuje, čo sa v zbierke javí ako dôležité, čo je nájditeľné a čo sa dá prirodzene nasledovať.
+
+Tu sa dá presne pomenovať, prečo „málo vzťahov“ nie je iba estetická výčitka.
+Vzťah v online zbierke je technicky možnosť: mať spoločné identifikátory, konzistentné hodnoty, linkovateľné uzly.
+Ak je autor zapísaný raz ako reťazec a inokedy ako autorita, rozpadá sa navigácia „podľa autora“ na dve časti.
+Ak dielo nemá stabilné datovanie, ťažko sa z neho skladá časová trajektória.
+Ak sú témy len ako voľné tagy bez kontextu, rozhranie sa bude spoliehať na podobnosť a popularitu.
+Ak nie je jasne oddelené „séria“, „variant“, „reprodukcia“, „detail“, potom deduplikácia a agregácia môžu zjednodušiť práve to, čo je pre interpretáciu podstatné.
+
+Dušan Barok používa pre takéto vrstvy pojem znalostná infraštruktúra a pripomína, že nejde o „fakty v hlavách“, ale o zdieľaný socio-technický systém ľudí, inštitúcií a artefaktov. [@Barok2024Publishing] V jeho opise je dôležitá aj paralela s editovaním: výber, tvarovanie a prepájanie nie sú neutrálne operácie, ale spôsob, ako sa z heterogénnej dokumentácie stáva čitateľný celok.  To, čo robí redaktor v publikácii, robí infraštruktúra v katalógu – len bez toho, aby to tak nazývala.
+
+> knowledge infrastructures are “robust networks of people, artifacts, and institutions…” [@Barok2024Publishing; @edwards_vast_machine_computer_2010]
+
+V tomto zmysle je infraštruktúra kurátor.
+Nie kurátor v tradičnom zmysle autora výstavy, ale kurátor ako ten, kto určuje podmienky viditeľnosti: čo sa dá nájsť, v akom poradí, cez aké prechody, s akými skratkami a s akými slepými uličkami.
+A práve preto sa predchádzajúce problémy (dlhý chvost pozornosti, neveľkorysé vyhľadávanie, databázová izolácia a predvídateľné odporúčanie) nedajú vyriešiť iba „lepším UX“.
+Sú to symptómy hlbšej otázky: aký typ vzťahov dokáže inštitúcia do dát a infraštruktúry vôbec zapísať.
+
+Zároveň platí aj opačná vec: ani vysnívaný systém s dokonalými väzbami sám osebe nezaručí porozumenie.
+Zbierka nie je len dátová štruktúra, ale inštitucionálna prax.
+V múzejnom kontexte to pripomína aj text z prostredia SNG, ktorý opisuje galériu ako komplexnú inštitúciu: nie iba vystavujúcu, ale aj starajúcu sa, skúmajúcu a komunikujúcu.
+
+> Odvtedy nielen umenie vystavuje, ale ho aj ošetruje, skúma a propaguje. [@bohumelova_ritual_muzea_digitalnom_2015]
+
+Ak nie je pre koho, celé úsilie sa míňa účinkom.
+Sprístupnenie bez publika je len interný proces.
+A publikum dnes nevzniká len „na našom webe“.
+
+Tu sa prirodzene otvára pojem starostlivosti, *care*, ako protinávrh voči fantázii kontroly.
+Kontrola chce mať celý obeh významu uzavretý: platforma určuje, čo používateľ uvidí a akú cestu prejde.
+Starostlivosť počíta s tým, že význam sa tvorí v čase a v sieťach.
+Annet Dekker to pomenúva priamo už v názve svojho textu: múzeá nebudú jedinými opatrovníkmi umenia. [@dekker_networks_of_care_2022] To nie je hrozba, ale popis reality digitálneho obehu.
+
+V praxi to znamená, že dobrá infraštruktúra nemá iba „udržať používateľa“, ale umožniť dielu žiť aj mimo rozhrania.
+Pre zbierky umenia je často zdravé, keď sa dielo šíri ďalej: do Wikipédie, do školských projektov, do odborných článkov, do lokálnych blogov, do výskumných databáz, niekedy aj do neformálnych a pololegálnych obehov.
+Nie preto, že by inštitúcia mala rezignovať na rámec, ale preto, že obeh vytvára publikum a publikum spätne vytvára dôvody starať sa o kontext.
+
+Tento pohľad zároveň presúva dôraz z „dokonalého rozhrania“ na dlhodobejšiu prácu:
+udržiavať zmysel, dopĺňať väzby, opravovať údaje, kultivovať autority, dokumentovať rozhodnutia, a vytvárať formáty, ktoré vedia niesť interpretáciu.
+Barok v tejto súvislosti rámcuje publikovanie ako formu starostlivosti: výber, tvarovanie a prepojenie materiálov dokáže z fragmentov urobiť čitateľnú trajektóriu.  
