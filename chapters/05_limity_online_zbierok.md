@@ -72,7 +72,7 @@ Dopad na naratívnu vrstvu zbierky je priamy. Ak sa pozornosť stabilne lepí na
 
 Táto podkapitola preto prirodzene vedie k otázke rozhraní. Ak *long tail* nie je automatický efekt digitalizácie, ale výsledok toho, ako sa k zbierke pristupuje, rozhodujúce nie je len množstvo dát, ale spôsob ich sprístupnenia. Odtiaľ je už krátky krok k ďalšej téme: k neveľkorysému vyhľadávaniu a k tomu, prečo používateľ musí najprv vedieť, čo hľadá, aby vôbec niečo našiel [@whitelaw_generous_interfaces_2015].
 
-### 5.3 Generous interfaces: keď musíš vedieť, čo hľadáš
+## 5.3 Generous interfaces: keď musíš vedieť, čo hľadáš
 
 Predstavme si, že prídete do cudzieho mesta v cudzej krajine, kde ste ešte nikdy neboli. Vojdete do miestnej galérie s očakávaním, že sa tu stretnete s históriou aj súčasnosťou kultúry tejto krajiny. Namiesto priestoru, ktorý vás začne viesť, vás však pri vstupe zastaví recepcia a podá vám lístok papiera. Napíšte, čo vlastne hľadáte.
 
@@ -95,3 +95,20 @@ Z pohľadu prevádzky online zbierky to nie je abstraktný problém. Je to rozho
 
 V ďalšej kapitole sa k tomu vrátim už ako k návrhovému problému: aké typy prehľadov, mapovaní a prechodov dokážu v digitálnom prostredí nahradiť prvotné „vtiahnutie“ priestoru, a ako sa dá z online zbierky urobiť miesto, kde sa dá nielen nájsť, ale aj objaviť. [@whitelaw_generous_interfaces_2015; @chan2007tagging]
 
+## 5.4 Databázová estetika: objekt bez vzťahov
+
+Lev Manovich v *The Language of New Media* opisuje databázu nie ako technický detail, ale ako kultúrnu formu, ktorá sa v počítačovej ére stáva dominantná. Moderné médiá podľa neho vedú dlhodobý „súboj“ databázy a naratívu: fotografia prirodzene podporuje katalógy, taxonómie a zoznamy, film zas lineárne príbehy, no digitálne úložiská a web znova zvýhodňujú databázu. [@manovich_language_new_media_2001]
+
+Túto perspektívu je možné preniesť aj na online zbierky umenia bez toho, aby sme z nich robili „nové médiá“ v úzkom zmysle. Online zbierka je typicky databáza, ku ktorej existuje rozhranie. Manovich to formuluje takto: v nových médiách sa obsah a rozhranie oddeľujú a jeden materiál môže mať viac rozhraní; nový mediálny objekt sa dá chápať ako jedna alebo viac vrstiev rozhrania k databáze multimediálnych prvkov. [@manovich_language_new_media_2001] V praxi to znamená, že to, čo používateľ zažíva ako „zbierku“, nie je zbierka sama, ale konkrétna interpretácia databázy cez rozhranie.
+
+Práve tu sa začína databázová estetika online zbierok. Objekt sa zobrazuje ako rovnocenná jednotka vedľa tisícov ďalších jednotiek. Jeho „príbeh“ je najčastejšie zhrnutý do popisných polí: autor, názov, datovanie, materiál, technika, rozmery, inventárne číslo, prípadne krátka poznámka. Takýto zápis je dôležitý, no prirodzene tlačí k tomu, aby sa dielo čítalo ako položka v zozname.
+
+Toto nie je výčitka metadátam. Je to opis toho, čo metadátový režim robí s naratívom. Ak je hlavnou jednotkou stránky záznam a jeho polia, naratív sa zmenší na to, čo sa dá zapísať do stabilných kategórií. Vzťahy, ktoré by v galérii vznikli cez priestor, kurátorský výber a poradie, sa online často scvrknú na *tému* alebo *štýl* ako štítok, prípadne na vizuálnu podobnosť ako automatický návrh. Divák potom prirodzene prechádza medzi podobnými položkami, no nemusí získať dôvod, prečo sú podobné, čo ich odlišuje a v akej situácii vznikli.
+
+Manovichov rámec pomáha pomenovať kľúčový posun: problém online zbierky nie je v prvom rade „málo textu“. Problém je „málo vzťahov“. Text je len jeden z nosičov vzťahu. Vzťah môže byť aj explicitné prepojenie: kto s kým spolupracoval, čo bolo vystavené spolu, čo vzniklo ako reakcia na udalosť, čo patrí do série, čo súvisí s miestom, objednávkou, inštitúciou alebo publikáciou. Bez takýchto väzieb má používateľ k dispozícii hlavne výber medzi položkami, nie cestu medzi významami.
+
+Tento deficit je dnes viditeľný aj mimo múzeí. Sociálne siete, streamy a feedy sú rovnako rozhrania k databázam, ktoré používateľ prechádza ako sériu záznamov v čase. Naratív, ak vznikne, nevzniká z výkladu, ale z poradia, opakovania a asociácie. Online zbierky sa do podobnej formy dostávajú ľahko, lebo používajú rovnaké základné prvky webu: mriežky, nekonečné rolovanie, vyhľadávanie, filtre. Rozdiel je v tom, že pri zbierkach umenia nejde len o efektívne prezeranie, ale o interpretáciu a kultúrny kontext.
+
+V tomto bode sa dá diagnóza zhrnúť jednoducho. Databázová logika podporuje to, aby sa dielo javilo ako izolovaná jednotka so súpisom vlastností. Naratív sa potom redukuje na popis a kategorizáciu. Ak chceme hovoriť o strate naratívnej vrstvy v online zbierkach, často nejde o to, že by chýbali sprievodné texty. Ide o to, že chýbajú explicitné a zmysluplné prepojenia, ktoré by z databázy robili čitateľnú štruktúru.
+
+Odtiaľ je už len krok k ďalšiemu problému: keď sa väzby medzi dielami nahrádzajú podobnosťou a odporúčaním, vzniká hladká, predvídateľná navigácia. Namiesto napätia a objavu nastupuje „plynulé prechádzanie“ medzi položkami. Tento posun pripravuje pôdu pre nasledujúcu podkapitolu o algoritmickej plochosti a strate prekvapenia. 
