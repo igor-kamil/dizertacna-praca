@@ -12,7 +12,7 @@ S odstupom času sa však ukazuje, že otvorenosť nie je koncový stav.
 Je to začiatok novej situácie, v ktorej dostupnosť prestáva byť výhodou a stáva sa samozrejmým pozadím. V tomto pozadí sa mení otázka: už nejde o to, či sa k dielu viem dostať, ale či mu dokážem porozumieť, zaradiť ho a prepojiť s inými. Prístup nie je to isté ako porozumenie.
 
 Whitelaw to formuluje cez napätie medzi digitálnou hojnosťou a rozhraním, ktoré k nej najčastejšie používame. Po desaťročiach digitalizácie je kultúrny materiál online bohatý a rozsiahly, no vyhľadávanie ako dominantný spôsob prístupu túto hojnosť nedokáže reprezentovať. Vyhľadávanie je neveľkorysé (v zmysle Whitelawovho *ungenerous*): informáciu zadržiava a vyžaduje otázku. 
-Táto poznámka je užitočná aj mimo múzeí. Únava z nadbytku sa dnes prejavuje naprieč internetom: v spravodajstve, v mailoch, v ponukách, v notifikáciách, v „nekonečných“ feedoch. Digitálne prostredie zvyšuje dostupnosť, ale súčasne zvyšuje nároky na orientáciu a výber.
+Podobná únava z nadbytku sa dnes prejavuje naprieč internetom: v spravodajstve, mailoch, ponukách, notifikáciách a nekonečných feedoch. Digitálne prostredie zvyšuje dostupnosť, ale zároveň zvyšuje nároky na orientáciu a výber.
 
 Pre online zbierky umenia má tento jav špecifickú podobu.
 Nie je to len informačný prebytok, ale prebytok významov, ktoré potrebujú rámec. Používateľ sa ocitá v ovocnom sade, kde je ovocia priveľa, visí nízko a je ľahko dostupné, no časť je nezrelá, časť poškodená, a medzi tým je ťažké nájsť niečo, čo stojí za sústredenú pozornosť. „Low hanging fruit“ tu neznamená len ľahký prístup, ale aj riziko povrchného výberu: berieme to, čo je po ruke, nie to, čo potrebuje čas.
@@ -24,7 +24,7 @@ Prečo by si mal pozrieť výber diel na Web umenia a nie rovno Google Arts & Cu
 
 Keď sa diela menia na dáta, mení sa aj spôsob, akým môže vzniknúť naratív. Nejde len o to, či je k dielu pripojený text. Ide o to, aké vzťahy sú v dátach a rozhraní vôbec umožnené, aké trajektórie sa dajú prejsť, a aký typ pozornosti tieto trajektórie podporujú. Manovichova opozícia databázy a naratívu je tu užitočná ako rámec: databáza uprednostňuje výber a prechod medzi jednotkami, kým naratív vyžaduje vedenie, skladanie a zmysluplné napätie medzi prvkami. 
 
-Cieľ tejto kapitoly je diagnostický.
+Táto kapitola má diagnostický charakter.
 Nejde o odmietnutie digitalizácie ani o nostalgický návrat k fyzickému múzeu. Ide o pomenovanie limitov, ktoré sa opakovane objavujú v praxi a v odbornej diskusii, a ktoré formujú spôsob, akým sa umenie v digitálnom prostredí „rozpráva“.
 
 Otázka, ktorú si kapitola nesie, je jednoduchá: aký typ naratívu vzniká, keď sa diela menia na dáta?
@@ -87,11 +87,11 @@ Tu vzniká to, čo sa dá v praxi opísať ako nevyžiadaný *expert mode*. Aby 
 
 Vyhľadávacie pole preto funguje ako úzka štrbina. Neotvára priestor, ale zužuje zorné pole na to, čo si viem priamo vypýtať. Pri kultúrnych zbierkach je to zásadná zmena: používateľ sa nestretáva so zbierkou ako s celkom, ale ako so sériou odpovedí na vlastné, často nedostatočne formulované otázky. Namiesto objavovania vzniká iba vyhľadávanie.
 
-Dopad na naratívnu vrstvu je priamy. Naratív v zbierke nevzniká len textom, ale aj tým, ako sa dá prechádzať medzi dielami, ako sa dajú vytvárať súvislosti, porovnania a zmysluplné odbočky. Ak je dominantným režimom *search*, naratív sa atomizuje. Vzťahy medzi dielami prestávajú byť niečím, čo rozhranie ponúka, a stávajú sa niečím, čo si musí používateľ sám vymyslieť a napísať do políčka.
+Keď je dominantným režimom *search*, naratív sa atomizuje. Vzťahy medzi dielami prestávajú byť niečím, čo rozhranie ponúka, a stávajú sa niečím, čo si musí používateľ sám vymyslieť a napísať do políčka.
 
 Z pohľadu prevádzky online zbierky to nie je abstraktný problém. Je to rozhodnutie o tom, komu je zbierka prístupná a za akých podmienok. Rozhranie, ktoré sa spolieha najmä na vyhľadávanie, implicitne uprednostňuje používateľov s presným cieľom. Rozhranie, ktoré ponúka aj prehľad, orientáciu a prekvapenie, vytvára priestor aj pre návštevníkov bez presnej otázky. Práve tu sa otvára miesto pre Whitelawov koncept *generous interfaces*: rozhranie, ktoré nežiada otázku ako vstupné, ale najprv poskytne obraz o zbierke a umožní do nej vstúpiť cez viacero ciest. [@whitelaw_generous_interfaces_2015]
 
-V ďalšej kapitole sa k tomu vrátim už ako k návrhovému problému: aké typy prehľadov, mapovaní a prechodov dokážu v digitálnom prostredí nahradiť prvotné „vtiahnutie“ priestoru, a ako sa dá z online zbierky urobiť miesto, kde sa dá nielen nájsť, ale aj objaviť. [@whitelaw_generous_interfaces_2015; @chan2007tagging]
+V nasledujúcej kapitole sa k týmto otázkam vrátim už ako k návrhovému problému: aké typy prehľadov, mapovaní a prechodov dokážu v digitálnom prostredí nahradiť prvotné „vtiahnutie“ priestoru, a ako sa dá z online zbierky urobiť miesto, kde sa dá nielen nájsť, ale aj objaviť. [@whitelaw_generous_interfaces_2015; @chan2007tagging]
 
 ## 5.4 Databázová estetika: objekt bez vzťahov
 
@@ -135,8 +135,7 @@ V praxi sa tento deficit často rieši tým, že rozhranie začne ponúkať náh
 
 Kyle Chayka opisuje v knihe *Filterworld* zvláštny pocit, ktorý sa dá zažiť v mnohých mestách: moderné interiéry, produkty aj zážitky začínajú vyzerať zameniteľne. Človek má dojem, že aj keď cestuje, stále sa pohybuje v tom istom vizuálnom a hodnotiacom režime. Je to kultúra, ktorá sa prispôsobuje tomu, čo algoritmy vedia odporúčať, zosilňovať a optimalizovať [@chayka_filterworld_2024]. Táto skúsenosť sa dá preložiť aj do drobnej osobnej rutiny.
 
-V posledných rokoch som si vytvoril návyk: keď sa ocitneme na novom mieste, skúšame miestnu kaviareň so *specialty coffee* (známe aj pod pojmom *third-wave coffee
-*). Príjemná je káva, príjemný je interiér, príjemný je personál, ktorý k nej má často podobný vzťah ako návštevník. Po čase si však človek začne všímať aj niečo znepokojujúce: interiéry týchto kaviarní začínajú byť až podozrivo predvídateľné. Ak by som položil vedľa seba fotku z Londýna, Atén alebo z Krupiny, nie je isté, či by sa dali spoľahlivo rozlíšiť. Každá by mohla byť kdekoľvek. Lokálne špecifiká z nich postupne vyprchávajú.
+V posledných rokoch som si vytvoril návyk: keď sa ocitneme na novom mieste, skúšame miestnu kaviareň so *specialty coffee* (známe aj pod pojmom *third-wave coffee*). Príjemná je káva, príjemný je interiér, príjemný je personál, ktorý k nej má často podobný vzťah ako návštevník. Po čase si však človek začne všímať aj niečo znepokojujúce: interiéry týchto kaviarní začínajú byť až podozrivo predvídateľné. Ak by som položil vedľa seba fotku z Londýna, Atén alebo z Krupiny, nie je isté, či by sa dali spoľahlivo rozlíšiť. Každá by mohla byť kdekoľvek. Lokálne špecifiká z nich postupne vyprchávajú.
 
 Tento pocit nie je obmedzený na kávu ani na dizajn. Je to širší efekt overených riešení, ktoré sa vďaka platformám šíria rýchlo a s minimálnym odporom (*friction*). Algoritmy v tom zohrávajú úlohu kultúrnej infraštruktúry: z prebytku možností filtrujú tie, ktoré majú najvyššiu mieru „istoty“ – dobré hodnotenia, vysokú mieru dokončenia, vysokú podobnosť s tým, čo sa už osvedčilo. Chayka tento proces opisuje ako splošťovanie kultúry: rozdiely sa zjemňujú, extrémy sa vyhladzujú, a prostredie sa nastavuje tak, aby bolo komfortné pre čo najširší vkus [@chayka_filterworld_2024].
 
@@ -148,7 +147,7 @@ Pre online zbierky umenia má *filterworld* špecifickú podobu. Zbierka je data
 
 Tu sa ukazuje rozdiel medzi pohodlným a objavným. V literatúre sa na tento rozdiel často používa pojem *serendipity*: odporúčanie, ktoré je relevantné, ale zároveň nové a nečakané. Kotkov a kol. v prehľade o serendipite ukazujú, že práve nečakanosť je ťažko optimalizovateľná, pretože sa zle meria a ľahko sa stratí pod tlakom presnosti a spokojnosti na prvý klik [@kotkov_survey_serendipity_recommender_2016]. Ak sa systém orientuje najmä podľa toho, čo minimalizuje riziko sklamania, *wow moment* sa vytráca. Používateľ dostáva stále podobné, stále bezpečné, stále kompatibilné.
 
-Dopad na naratívnu vrstvu je potom nenápadný, ale zásadný. Namiesto kurátorskej línie vzniká plynulý feed. Poradie je výsledkom metriky, nie argumentu. Prechod medzi dielami sa deje cez podobnosť, nie cez konflikt, kontrast alebo dejinnú otázku. Zbierka sa tak mení na tok položiek, ktoré sa dajú konzumovať rýchlo, ale ťažšie sa z nich skladá príbeh.
+Namiesto kurátorskej línie vzniká plynulý feed. Poradie je výsledkom metriky, nie argumentu. Prechod medzi dielami sa deje cez podobnosť, nie cez konflikt, kontrast alebo dejinnú otázku. Zbierka sa tak mení na tok položiek, ktoré sa dajú konzumovať rýchlo, ale ťažšie sa z nich skladá príbeh.
 
 Prepojenie s predchádzajúcimi podkapitolami je praktické. *Popularity bias* a odporúčania posilňujú hierarchie pozornosti a stabilizujú tvar *long tail* distribúcie: viac pozornosti dostanú položky, ktoré už pozornosť majú, a chvost ostáva v tieni [@abdollahpouri_unfairness_popularity_bias_2019]. V kontexte zbierok umenia to znamená, že algoritmy nie sú len pomocný nástroj objavovania, ale aj spolutvorca viditeľnosti a neviditeľnosti.
 
