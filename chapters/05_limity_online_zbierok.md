@@ -97,7 +97,11 @@ V ďalšej kapitole sa k tomu vrátim už ako k návrhovému problému: aké typ
 
 ## 5.4 Databázová estetika: objekt bez vzťahov
 
+> “With new media, the content of the work and the interface are separated.” [@manovich_language_new_media_2001]
+
 Lev Manovich v *The Language of New Media* opisuje databázu nie ako technický detail, ale ako kultúrnu formu, ktorá sa v počítačovej ére stáva dominantná. Moderné médiá podľa neho vedú dlhodobý „súboj“ databázy a naratívu: fotografia prirodzene podporuje katalógy, taxonómie a zoznamy, film zas lineárne príbehy, no digitálne úložiská a web znova zvýhodňujú databázu. [@manovich_language_new_media_2001]
+
+![Milan Adamčiak: *reticolo l per dieci strumenti a piacere* (1971). Nitrianska galéria, NGN, identifikátor K 777.](figures/fig-5-4-SVK_NGN.K_777.jpg){#fig:5-0-adamciak-reticolo width=90%}
 
 Túto perspektívu je možné preniesť aj na online zbierky umenia bez toho, aby sme z nich robili „nové médiá“ v úzkom zmysle. Online zbierka je typicky databáza, ku ktorej existuje rozhranie. Manovich to formuluje takto: v nových médiách sa obsah a rozhranie oddeľujú a jeden materiál môže mať viac rozhraní; nový mediálny objekt sa dá chápať ako jedna alebo viac vrstiev rozhrania k databáze multimediálnych prvkov. [@manovich_language_new_media_2001] V praxi to znamená, že to, čo používateľ zažíva ako „zbierku“, nie je zbierka sama, ale konkrétna interpretácia databázy cez rozhranie.
 
@@ -111,15 +115,20 @@ Tento deficit je dnes viditeľný aj mimo múzeí. Sociálne siete, streamy a fe
 
 V tomto bode sa dá diagnóza zhrnúť jednoducho. Databázová logika podporuje to, aby sa dielo javilo ako izolovaná jednotka so súpisom vlastností. Naratív sa potom redukuje na popis a kategorizáciu. Ak chceme hovoriť o strate naratívnej vrstvy v online zbierkach, často nejde o to, že by chýbali sprievodné texty. Ide o to, že chýbajú explicitné a zmysluplné prepojenia, ktoré by z databázy robili čitateľnú štruktúru.
 
+> “Instead, they are collections of individual items, with every item possessing the same significance as any other.” [@manovich_language_new_media_2001]
+
 Databáza má ešte jednu vlastnosť, ktorá na prvý pohľad pôsobí takmer utopicky: jej prvky sú si formálne rovné. Záznam je záznam. Položka je položka. V zozname sa vedľa seba ocitne stredoveká iluminácia vytrhnutá z kontextu rukopisu a monumentálne dielo, na ktorom sa podieľali desiatky profesií. Databáza tým implicitne tvrdí, že všetko je rovnakého typu a rovnakej váhy. Práve táto rovnosť však nie je neutrálna. Je to estetiká voľba, ktorá má dôsledky pre porozumenie.
+
+![Schematické porovnanie: databázová rovnosť (vľavo) a smerované vzťahy medzi dielami/autormi (vpravo). Databáza zobrazuje položky ako rovnocenné záznamy; interpretácia sa opiera o väzby, ktoré majú smer a často aj hierarchiu.](figures/fig-5-4-database-vs-graph.svg){#fig:5-4-database-vs-graph width=90%}
 
 V dejinách umenia totiž diela nežijú vo vákuu. Sú súčasťou reťazcov odkazov, reakcií, polemík a pokračovaní. Niektoré gestá sú zrozumiteľné len ako odpoveď na iné gesto. Narážky a citácie tvoria vnútorný jazyk, v ktorom sa dá čítať nielen to, čo dielo zobrazuje, ale aj prečo vzniklo práve takto. Podobne ani autori nežili v izolácii. Zdieľali školy, ateliéry, hnutia, mecenášov, konflikty a programy. Tieto vzťahy zároveň vytvárali hierarchie v čase: kto na koho nadviazal, kto koho odmietol, kto koho učil, koho rámec sa stal tradíciou.
 
-Keď tento svet vzťahov preložíme do databázy, dostaneme často len súpis vlastností. Dielo sa stane jednotkou s popisom, nie uzlom v sieti. V tomto zmysle sa strata naratívnej vrstvy neprejavuje ako chýbajúci sprievodný text, ale ako chýbajúca štruktúra, ktorá by umožnila čítať súvislosti. Databázová rovnosť nie je len technický stav, ale spôsob, ako sa zneviditeľňuje dejinné „pred a po“.
+Keď tento svet vzťahov preložíme do databázy, dostaneme často len súpis vlastností. Dielo sa stane jednotkou s popisom, nie uzlom v sieti. V tomto zmysle sa strata naratívnej vrstvy neprejavuje ako chýbajúci sprievodný text, ale ako chýbajúca štruktúra, ktorá by umožnila čítať súvislosti. Databázová rovnosť nie je len technický stav, ale spôsob, ako sa zneviditeľňuje dejinné „pred a po“. [@manovich_database_symbolic_form_1999]
 
-Kontrast je dobre viditeľný, ak si spomenieme na klasické naratívy dejín umenia, napríklad na Gombrichov *Príbeh umenia*. Aj keď ide o kanonickú a v mnohom problematickú „povinnú jazdu“, jej sila je práve v tom, že skladá dejiny cez vzťahy: cez nadväzovanie, zlom, vplyv, školu, kontinuitu a reakciu. Vďaka tomu čitateľ rozumie nielen ikonografii, ale aj motivácii: prečo sa objavuje nový spôsob zobrazenia, prečo sa mení štýl, prečo sa mení téma.
+Kontrast je dobre viditeľný, ak si spomenieme na klasické naratívy dejín umenia, napríklad na Gombrichov *Príbeh umenia* [@gombrich_pribeh_umeni_2001]. Aj keď ide o kanonickú a v mnohom problematickú „povinnú jazdu“, jej sila je práve v tom, že skladá dejiny cez vzťahy: cez nadväzovanie, zlom, vplyv, školu, kontinuitu a reakciu. Vďaka tomu čitateľ rozumie nielen ikonografii, ale aj motivácii: prečo sa objavuje nový spôsob zobrazenia, prečo sa mení štýl, prečo sa mení téma.
 
 Databázová estetika tento režim čítania nepodporuje automaticky. Keď sú diela prezentované ako rovnocenné položky v mriežke a ich hlavnou navigáciou sú filtre, kategórie a podobnosť, vzniká skôr horizontálny prechod medzi objektmi než vertikálny pohyb medzi dôvodmi. Manovichov rámec je tu užitočný práve preto, že ukazuje, ako oddelenie obsahu a rozhrania presúva naratív z „príbehu“ do „spôsobu prechádzania“ [@manovich_language_new_media_2001]. Ak rozhranie tieto vzťahy a hierarchie nevie sprítomniť, zostáva z databázy súpis, ktorý sa dá prechádzať, ale ťažko sa z neho dá urobiť dejinná skúsenosť.
 
 Pre online zbierky z toho vyplýva jednoduchá diagnóza: nestačí dopĺňať texty k jednotlivým dielam. Potrebné je dopĺňať a zviditeľňovať väzby, ktoré v kultúre existujú už pred databázou. Inak sa „rovnosť položiek“ zmení na stratu kontextu a na skúsenosť, ktorá sa podobá prezeraniu, nie porozumeniu.
 
+V praxi sa tento deficit často rieši tým, že rozhranie začne ponúkať náhradné orientačné body: podobné diela, obľúbené diela, odporúčania, populárne kategórie. Sú to užitočné pomôcky, no zároveň posúvajú dôraz od historických a kurátorských väzieb k tomu, čo je ľahko zobraziteľné a ľahko počítateľné. Vzťahy medzi dielami sa potom začnú skladať skôr podľa podobnosti a frekvencie než podľa argumentu, konfliktu alebo prekvapujúcej odbočky. Tento posun bude dôležitý v ďalšej podkapitole, kde sa odporúčanie ukáže ako pohodlné, ale nie vždy objavné prostredie.
