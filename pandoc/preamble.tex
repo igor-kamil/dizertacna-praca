@@ -3,6 +3,15 @@
 \usepackage{newunicodechar}
 \newunicodechar{→}{\ensuremath{\rightarrow}}
 
+\usepackage{polyglossia}
+\setmainlanguage{slovak}
+
+% Better paragraph shaping (limited support in XeLaTeX).
+\usepackage{microtype}
+
+% Prevent single-letter prepositions/conjunctions at line ends.
+\usepackage{xevlna}
+
 \usepackage{xcolor}
 \usepackage[most]{tcolorbox}
 \tcbset{before skip=8pt, after skip=8pt}
