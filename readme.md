@@ -1,6 +1,6 @@
 # Dizertačná práca: Online art collections as containers of visual storytelling
 
-![Progress](https://img.shields.io/badge/Writing%20Progress-58%20pages%20%7C%20goal:%2046%20(ON%20TRACK)-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Writing%20Progress-72%20pages%20%7C%20goal:%2050%20(ON%20TRACK)-brightgreen?style=for-the-badge)
 
 - **Autor:** Igor Rjabinin
 - **Školiteľ:** András Cséfalvay
@@ -30,11 +30,20 @@ Súčasná verzia rozvíja tieto otázky v špecifickom prostredí **online gal�
 - `notes/` – pracovné poznámky, porovnania, nápady  
 - `literature/` – bibliografia a poznámky k literatúre  
 - `figures/` – vizuálne materiály a diagramy  
+- `data/` – dátové podklady a exporty  
+- `scripts/` – pomocné skripty (Python)  
 - `roadmap` – [časový plán písania a výskumu](roadmap.md)  
 
 ## Generovanie PDF
 
 **Požiadavky:** Pandoc + XeLaTeX (macOS: `brew install pandoc` + [TinyTeX](https://yihui.org/tinytex/) )
+
+**TeX balíky (TinyTeX):**
+
+```bash
+tlmgr install hyphen-slovak
+tlmgr install collection-langczechslovak
+```
 
 ```bash
 chmod +x build.sh      # prvýkrát
@@ -62,6 +71,17 @@ Vypnúť bibliografiu (ak to dočasne potrebuješ):
 
 ```bash
 ENABLE_BIB=0 ./build.sh
+```
+
+## Spúšťanie skriptov
+
+Príklad (Python, venv + requirements):
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 scripts/make_longtail_items.py
 ```
 
 ## Stav projektu
