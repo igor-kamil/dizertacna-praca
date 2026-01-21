@@ -94,10 +94,10 @@ Z pohľadu tejto práce sú naratívne moduly jednou z najpriamočiarejších od
 
 čo tu nazývam naratívnym modulom: 
 
-- *navigačný jazyk:* téma, kapitola, kurátorský hlas  
-- *jednotka skladania:* odsek a sekcia (nie výsledok vyhľadávania)  
-- *sľub:* „prejdem ťa témou“ a zároveň ti dám primárny materiál (detail, zoom, zdroje)  
-- *riziko:* izolácia od hlavného webu, technologická krehkosť, miznutie po rokoch
+* *navigačný jazyk:* téma, kapitola, kurátorský hlas  
+* *jednotka skladania:* odsek a sekcia (nie výsledok vyhľadávania)  
+* *sľub:* „prejdem ťa témou“ a zároveň ti dám primárny materiál (detail, zoom, zdroje)  
+* *riziko:* izolácia od hlavného webu, technologická krehkosť, miznutie po rokoch
 
 :::
 
@@ -114,10 +114,10 @@ Druhá referencia je *Bosch. A story in pictures* z Museo del Prado. Prado to ex
 ::: {.aside}
 **Closer to Johannes Vermeer** [@rijksmuseum_vermeer_hub]
 
-*inštitúcia:* Rijksmuseum
-*účel:* digitálny sprievodca k výstave Vermeer (2023) a dlhšie žijúca vrstva „get closer“
-*forma:* longform kapitoly + multimédiá; téma drží pokope aj mimo výstavy
-*záznam o vzniku:* Fabrique (making-of / launch text)
+* *inštitúcia:* Rijksmuseum
+* *účel:* digitálny sprievodca k výstave Vermeer (2023) a dlhšie žijúca vrstva „get closer“
+* *forma:* longform kapitoly + multimédiá; téma drží pokope aj mimo výstavy
+* *záznam o vzniku:* Fabrique (making-of / launch text)
 
 :::
 
@@ -125,9 +125,9 @@ Druhá referencia je *Bosch. A story in pictures* z Museo del Prado. Prado to ex
 
 **Bosch. A story in pictures** [@prado_bosch_story_in_pictures_2016]
 
-*inštitúcia:* Museo del Prado
-*forma:* interaktívny *scrollytelling* zdroj
-*silná stránka:* lineárne čítanie + priebežné vizuálne „dôkazy“ a kontext
+* *inštitúcia:* Museo del Prado
+* *forma:* interaktívny *scrollytelling* zdroj
+* *silná stránka:* lineárne čítanie + priebežné vizuálne „dôkazy“ a kontext
 
 :::
 
@@ -163,29 +163,33 @@ Dôležitý most bol aj jazyk. Kurátorské podklady často prirodzene smerujú 
 ::: {.aside}
 **project card: SNG storytellingové mikrostránky (skupina)**
 
-*projekty:* `https://mzo.sng.sk`, `https://senxskutocnost.sng.sk`, `https://1989.sng.sk`
-*forma:* longform + kapitoly + diela z API + embed zoom
-*stack:* Grav (flat-file CMS) + Web umenia API + zoom komponent
-*workflow:* kurátorské podklady → edičný prepis → publikovanie ako web
-*open source:* repozitáre doplnené pri jednotlivých projektoch
+* *projekty:* `https://mzo.sng.sk`, `https://senxskutocnost.sng.sk`, `https://1989.sng.sk`
+* *forma:* longform + kapitoly + diela z API + embed zoom
+* *stack:* Grav (flat-file CMS) + Web umenia API + zoom komponent
+* *workflow:* kurátorské podklady → edičný prepis → publikovanie ako web
+* *open source:* repozitáre doplnené pri jednotlivých projektoch
 :::
+
+![Porovnanie storytellingových mikrostránok SNG: *mzo.sng.sk*, *senxskutocnost.sng.sk* a *1989.sng.sk* (úvodné obrazovky; spoločný „publishing“ jazyk, rozdielne vizuálne identity).](figures/fig-6-3-sng_storytelling_triptych.png){#fig:sng-storytelling-triptych width=100%}
 
 ### Prípadová štúdia: čisto online výstava k výročiu Novembra 1989
 
 Postupne sme získali aj reputáciu na to, aby si galéria trúfla na čisto online výstavu k výročiu Novembra 1989. Tak vznikol projekt *Čas-opis 1989* (`https://1989.sng.sk`), ktorý dostal plnohodnotné promo ako iné výstavy — vrátane vizuálneho zásahu na fasáde SNG.
 
-![Promo k projektu *Čas-opis 1989* na fasáde SNG (2019).](figures/fig-6-3-sng_fasada_1989.jpg){#fig:sng-fasada-1989 width=90%}
+![*Čas-opis 1989* medzi dvoma médiami: promo na fasáde SNG (fyzický priestor) a podstránka "Cenzúra" na *1989.sng.sk* (digitálny priestor). Plagátová estetika funguje na oboch stranách ako spoločný vizuálny jazyk — v meste ako signál výstavy, na webe ako rozhranie pre „nástenky“ a skladanie materiálov v duchu roku 1989.](figures/fig-6-3-sng_1989_diptych_fasada_web.png){#fig:sng-1989-diptych width=100%}
+
 
 Súčasťou webu je zdigitalizovaný denník výtvarníka Júliusa Kollera, ktorý detailne zapisoval udalosti dní okolo Novembra. Tu sme vedome využili „internetové“ vlastnosti publikačnej vrstvy. Jednou z nich bol crowdsourcing: prepisy skenovaných textov vytvárali dobrovoľníci, ktorí sa prihlásili cez výzvu na sociálnych sieťach. Druhou nuansou bola temporalita: od septembra do decembra stránka na úvodnej obrazovke zobrazuje „rovnaký deň“, ale v roku 1989 (vrátane počasia a udalostí), čím vzniká zvláštny efekt opakovania tém naprieč časom. A tretím prvkom boli interaktívne „nástenky“ k témam, ktoré sa dali skladať z podkladov cez vlastný vizuálny editor (s vedomým odkazom na plagátovú estetiku revolúcie).
 
 ::: {.aside}
-** project card: 1989.sng.sk**
 
-*web:* `https://1989.sng.sk`
-*repozitár:* `https://github.com/SlovakNationalGallery/1989.sng.sk`
-*projektový tím:* Michal Čudrnák, Petra Hanáková, Lukáš Štepanovský, Zuzana Koblišková, Philo van Kemenade
-*vývoj webu:* Igor Rjabinin, Ernest Walzel, Martin Havala (lab.SNG)
-*vizuál/web dizajn:* Peter Gála
+**project card: 1989.sng.sk**
+
+* *web:* `https://1989.sng.sk`
+* *repozitár:* `https://github.com/SlovakNationalGallery/1989.sng.sk`
+* *projektový tím:* Michal Čudrnák, Petra Hanáková, Lukáš Štepanovský, Zuzana Koblišková, Philo van Kemenade
+* *vývoj webu:* Igor Rjabinin, Ernest Walzel, Martin Havala (lab.SNG)
+* *vizuál/web dizajn:* Peter Gála
 
 :::
 
