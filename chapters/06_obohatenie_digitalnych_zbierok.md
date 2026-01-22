@@ -1,9 +1,28 @@
 # 6. Prístupy k obohateniu a reinterpretácii digitálnych zbierok umenia
 
-> “Generous interfaces offer rich, browsable views; provide evocative samples of primary content; and support an understanding of context and relationships.”
-> — [@whitelaw_generous_interfaces_archival_2012]
+### 6.1 Úvod: Od vyhľadávania k objavovaniu
+
+> “Visitors’ criticisms demand a shift from passive, encyclopaedic exhibitions with curatorial authority, to ones that engage visitors and place them at the centre of focus.” 
+> — [@popoli_derda_developing_experiences_2021]
+
+Predchádzajúca kapitola pomenovala opakujúce sa limity online zbierok: hierarchie pozornosti, režim vyhľadávania a potrebu „vedieť, čo hľadám“, databázovú izoláciu objektov bez vzťahov, algoritmickú plochosť odporúčaní a systémovú neviditeľnosť veľkých častí zbierok.  Tieto limity spolu vytvárajú prostredie, v ktorom sa naratívna vrstva stráca – nie preto, že by sa stratili dáta, ale preto, že sa oslabí *spôsob čítania* zbierky: súvislosti, poradie, intenzita pozornosti, rytmus objavu.
+
+Kapitola 6 preto posúva ťažisko od diagnózy k aplikovaným zásahom. Jej cieľom nie je „vylepšiť databázu“, ale ukázať, ako môže dizajn rozhraní, naratívne vrstvenie a premyslené použitie technológií obnoviť moment prekvapenia, kontextu a *serendipity* – teda prechod od *hľadania* k *objavovaniu*.
+
+Zvolená forma kapitoly je zámerne praktická. Každá podkapitola má:
+
+* stručne pomenovaný problém alebo *challenge* (zvyčajne priamo nadväzujúci na limity z kapitoly 5),
+* svetovú referenciu (nie ako „vzory na kopírovanie“, ale ako overený jazyk riešenia),
+* lokálnu implementáciu z praxe lab.SNG (s dôrazom na to, čo sa reálne dalo zaviesť, udržať a škálovať),
+* krátku technickú poznámku (nie návod, skôr čitateľná mapa rozhodnutí),
+* a *project card* ako kompaktný záznam: účel, kontext, role, stack, dáta, repozitár.
+
+Dôležitý rámec: väčšina uvedených projektov stavia na Webe umenia ako na infraštruktúre a zdroji dát. Praktický efekt je jednoduchý – nové rozhrania nemusia „znovu nahrávať“ diela, stačí pracovať s jednoznačnými identifikátormi a cez API ťahať aktuálne metadáta aj kvalitnú vizuálnu reprezentáciu.  V tomto zmysle je kapitola zároveň argumentom, že *in-house* vývoj a malé „odbočky“ nemusia oslabovať jadro; naopak, môžu ho dlhodobo kultivovať.
 
 ## 6.2 Veľkorysé rozhrania
+
+> “Generous interfaces offer rich, browsable views; provide evocative samples of primary content; and support an understanding of context and relationships.”
+> — [@whitelaw_generous_interfaces_archival_2012]
 
 ### Objavovanie namiesto vyhľadávania
 
@@ -272,3 +291,98 @@ Táto voľba sa veľmi dobre overila aj produkčne. Pre označovanie diel stači
 Zaujímavé je, že sa nám nepotvrdilo všetko, čo na papieri znelo dobre. Prechádzky sme časom z aplikácie odstránili a nevrátili. V praxi sa ukázali ako trochu nemotorné — a hlavne, v expozícii je často lepšie, keď sa návštevník pozerá na dielo a nie na displej. Naopak, kódy a návrat k uloženým dielam sa ukázali ako stabilné jadro: podporujú krátke vstupy do kontextu aj neskorší „after-visit“ návrat.
 
 Ak to mám zhrnúť v pojmoch tejto kapitoly: priestorový kontext funguje vtedy, keď digitálna vrstva rešpektuje primát fyzickej skúsenosti. A časový kontext sa zlepšuje vtedy, keď aplikácia vytvára drobné momenty *temporal serendipity* — náhodných návratov, dopísaní, znovu-objavení — bez toho, aby návštevu násilne linearizovala.
+
+## 6.5 Vizuálne akcentovanie a podobnosť: od *faciet* k *machine vision* (AI ako nový „spôsob čítania“ zbierok)
+
+Textové vyhľadávanie a kurátorské kategórie nás v online zbierkach držia v režime *viem, čo hľadám*: autor, názov, obdobie, technika, ikonografický motív. V praxi je to účinné, ale zároveň to zužuje pole možných objavov – najmä tam, kde je naratívna vrstva oslabená alebo úplne chýba. Ak je dielo v rozhraní redukované na reprodukciu + inventárne minimum, používateľ sa ťažko „zachytí“ o niečo, čo by ho viedlo ďalej. Jedna z ciest, ako znovu otvoriť priestor pre serendipitu, je doplniť textové indexy o vizuálne indexy: farbu, tvar, ornament, rytmus, kompozíciu – teda vlastnosti, ktoré sa v dejinách umenia bežne používajú pri formálnej analýze, ale v online rozhraniach sú často neprítomné.
+
+V posledných rokoch sa tento prístup posúva od jednoduchých filtrov (*facets*) k strojovému videniu a vektorovým reprezentáciám obrazov: namiesto „nájdi červené“ sa pýtame „nájdi príbuzné“ – diela, ktoré sa podobajú spôsobom, ktorý nevieme dopredu pomenovať jedným slovom. V tejto podkapitole preto *faceting* a vizuálnu podobnosť zámerne rámujem ako vstupnú bránu k AI v múzeách: nie ako marketingové „AI features“, ale ako konkrétny mechanizmus, ktorý môže doplniť chýbajúci *wow moment* a obnoviť objavovanie v situáciách, kde samotné metadáta nestačia.
+
+### Svetová referencia: Cooper Hewitt Labs (farba a tvar ako navigácia)
+
+Dobrou „pred-AI“ referenciou sú experimenty Cooper Hewitt Labs, ktoré dlhodobo skúšajú, čo sa stane, keď sa zmení primárny index prehliadania zbierok. Namiesto tém a autorov ponúkli napríklad prehliadanie podľa farby (*browse by color*) [@cooperhewitt2013giv] a neskôr projekt *Dive into Color*, ktorý prepája farbu, farebné harmónie a čas [@vane2018dive]. Paralelne vznikali aj pokusy o čítanie zbierky cez tvarové vlastnosti a „shape browsing“ [@ridge2012shape].
+
+Podstatné je, že nejde o „dekoratívne filtre“. Je to zámerná zmena epistemického režimu rozhrania: farba a tvar sa stávajú legitímnou cestou, ako sa v zbierke orientovať aj bez predchádzajúceho kontextu. V prostredí galérie je to mimoriadne relevantné: návštevník často nevie pomenovať, čo ho pri diele zaujalo, ale vie to rozpoznať, keď to uvidí znova v inom objekte.
+
+### AI ako urýchľovač serendipity – a zároveň zdroj nových rizík
+
+Akonáhle sa podobnosť počíta algoritmicky, vstupuje do hry problém „čiernej skrinky“: model nerozhoduje neutrálne, ale podľa skúsenosti, ktorú získal z tréningových dát a z kategórií, ktoré do sveta vkladáme my. Crawford a Paglen to v *Excavating AI* formulujú priamo: tréningové datasety nie sú len „surovina“ pre algoritmy, ale aj politika – rozhodovanie o tom, čo obrázky znamenajú a akú sociálnu prácu tieto reprezentácie vykonávajú [@crawford2019excavating].
+
+Pre múzeá je toto dvojnásob citlivé, pretože mnohé bežné modely strojového videnia stoja na datasetoch typu ImageNet a na architektúrach, ktoré z neho vyrástli (napr. *ResNet*) [@russakovsky2015ilsvrc; @he2016resnet]. Tieto datasety reprezentujú predovšetkým „súčasný svet“ a jeho kategórie – preto pri historických dielach vznikajú komické aj systematické omyly (svätožiary ako klobúky, anjeli ako vtáky), ale dôležitejšie: vznikajú aj sociálne a demografické skreslenia, ktoré sa ukazujú napríklad pri komerčných klasifikátoroch pohlavia a farby pleti [@buolamwini2018gendershades]. V múzejnom kontexte sa tak „podobnosť“ nikdy nesmie tváriť ako objektívna pravda – je to návrh na objavovanie, ktorý musí byť čitateľne rámovaný, auditovateľný a v ideálnom prípade doplnený o vysvetlenie (prečo sa tieto dve veci stretli vedľa seba).
+
+V literatúre o AI v múzeách sa opakovane objavuje aj druhý praktický problém: AI býva izolovaná do pilotov, ktoré nie sú prepojené s jadrom digitálnej infraštruktúry múzea a po skončení projektu zostane iba demo. Ako sektorová mapa a reflexia AI ukazujú, udržateľnosť často naráža na kapacity, dátovú pripravenosť a na to, či má inštitúcia zadefinované, čo vlastne chce AI dosiahnuť (výskum? prístupnosť? objavovanie? interné procesy?) [@thiel2023aiinmuseums]. Súvisiaci prúd kritiky „black-box“ kultúry v digitálnych nástrojoch (aj v kultúrnej pamäti) zdôrazňuje potrebu dokumentovať rozhodnutia, zviditeľňovať skryté predpoklady a navrhovať rozhrania tak, aby používateľ vedel, kedy ide o fakt a kedy o strojový odhad [@cernaSkrinka2022blackbox].
+
+### Kurátorský protipól: *Digital Curator* (Lukáš Pilka) – keď AI vytvára zmysluplné „konštelácie“
+
+::: {.aside}
+**project card: Digital Curator (Lukáš Pilka)**
+
+* *názov:* Digital Curator
+* *URL:* <https://digitalcurator.art>
+* *autor:* Lukáš Pilka
+* *koncept:* kurátorsky rámované „konštelácie“ a kolekcie generované z klasifikácie a vizuálnych/tematických vzťahov medzi dielami
+* *zmysel pre túto kapitolu:* ukážka, že AI môže byť použiteľná tam, kde je jasný kurátorský rámec (čo sa meria, čo je „podobnosť“, ako sa to zobrazuje) – a nie iba ako izolovaný pilot
+* *vzťah k SNG:* otvorenosť dát umožnila zahrnutie diel SNG do experimentu; projekt sa stal aj praktickým kontaktným bodom pre spoluprácu
+:::
+
+Na opačnom póle „samoúčelnej AI“ stojí projekt *Digital Curator* Lukáša Pilku, ktorý ukazuje, že pri dobre zvolenom rámci môže automatická analýza vytvárať prekvapivo presvedčivé vizuálne a symbolické konštelácie naprieč zbierkami – nie ako autoritatívna interpretácia, ale ako nástroj na kurátorské kladenie otázok a generovanie nových ciest čítania [@pilkaDigitalCuratorSite; @thiel2023aiinmuseums]. Pre mňa je na tomto projekte podstatné najmä to, že „kurátorovanie“ sa tu nedeje magicky v modeli, ale v dizajne celého systému: v tom, čo sa meria, ako sa to vizualizuje a aké typy spojení sa používateľovi ponúknu.
+
+Zároveň je pre SNG dôležité aj praktické prepojenie: otvorenosť dát umožnila, že vybrané diela zo zbierok SNG sa mohli stať súčasťou experimentu, a teda aj súčasťou širšieho stredoeurópskeho vizuálneho priestoru, v ktorom sa historické vplyvy a motivické migrácie často ukážu zreteľnejšie než v izolovaných národných databázach.
+
+::: {#fig:digitalcurator-diptych .figure}
+![](figures/fig-6-5-digitalcurator-1.jpg){width=49%}
+![](figures/fig-6-5-digitalcurator-2.jpg){width=49%}
+
+Digital Curator: (vľavo) naratívne rámovanie „cestovania“ diel medzi zbierkami; (vpravo) využitie počítačového videnia a (vlastných) modelov na detekciu ikonografických motívov ako podklad pre generovanie kurátorských konštelácií [@pilkaDigitalCuratorSite].
+:::
+
+### Lokálna línia: *Ornament Explorer* (MK&G Hamburg) – podobnosť ako „gesto prechádzky“ v expozícii
+
+::: {.aside}
+**project card: Ornament Explorer**
+
+* *názov:* Ornament Explorer
+* *URL:* <http://ornament-explorer.mkg-hamburg.de>
+* *repozitár (open source):* <https://github.com/igor-kamil/mkg-ornament>
+* *inštitúcia / kontext:* MK&G Hamburg, NEO Lab; nadväzuje na prototyp *Objektforscher* (Data Exploration Sprint)
+* *vznik / nasadenie:* prototyp → nasadenie v expozícii *Ornament: Exemplary Beauty* (dotykový displej v priestore)
+* *cieľ:* hravé a intuitívne objavovanie ~12 000 objektov súvisiacich s ornamentom cez vizuálnu podobnosť a tematické skupiny
+* *tím (research & development):* Michal Čudrnák, Igor Rjabinin, Philo van Kemenade, František Sebestyén
+* *technológie:* Laravel; Python; Weaviate (vektorová databáza / similarity search)
+* *interakčný model:* horizontálne „podľa podobnosti“ (vektorový priestor), vertikálne „podľa času“ (metadáta)
+* *výstup pre používateľa:* prekvapivé príbuznosti ornamentu naprieč storočiami, materiálmi a typmi objektov
+:::
+
+Priamo k téme vizuálnej podobnosti sa viaže aj môj projekt *Ornament Explorer* (vznikol z prototypu *Objektforscher* v rámci *Data Exploration Sprint* v MK&G Hamburg) [@mkgNeoLab; @cudrnak2023medium]. V expozícii *Ornament: Exemplary Beauty* bolo sprístupnených viac než 12 000 objektov súvisiacich s ornamentom; rozhranie pritom stojí na jednoduchej, telesne čitateľnej navigácii: horizontálne sa pohybujeme „podľa podobnosti“ (AI), vertikálne „podľa času“ (metadáta) [@mkgOrnamentExhibition; @mkgExploreAI]. Výsledkom sú situácie, ktoré by klasické vyhľadávanie často nevyrobilo: rovnaké alebo príbuzné ornamentálne riešenie sa objaví naprieč storočiami, materiálmi a typmi objektov – a práve tento preskok (z „tohto“ do „príbuzného“) vytvára objavný moment.
+
+![Ornament Explorer v expozícii MK\&G Hamburg: vizuálna podobnosť sa používa ako horizontálna navigácia (AI), čas a metadáta ako vertikálna os.](figures/fig-6-5-ornament-explorer-in-situ.jpg){#fig:ornament-explorer-in-situ width=100%}
+
+![Ukážka rozhrania Ornament Explorer: prehliadanie „príbuzných“ objektov bez potreby poznať správne termíny alebo ikonografiu.](figures/fig-6-5-ornament-explorer-ui.png){#fig:ornament-explorer-ui width=100%}
+
+### Implementation note: od *img2vec* k *CLIP* a vektorovej databáze
+
+Technicky sa podobné systémy dnes typicky skladajú z troch krokov:
+
+1. *Vizuálne embeddingy*: obraz sa transformuje na vektor (napr. cez CNN typu *ResNet* [@he2016resnet] alebo cez multimodálny model *CLIP*, ktorý umožňuje pracovať aj s textovo-obrazovými väzbami [@radford2021clip]).
+2. *Indexovanie a vyhľadávanie vektorov*: nad embeddingami sa používa vektorové vyhľadávanie (v našom prípade Weaviate), ktoré vie vrátiť najbližších susedov v priestore podobnosti.
+3. *Prepojenie s metadátami*: vizuálny návrh (podobnosť) sa kombinuje s „tvrdými“ údajmi (čas, materiál, autor, taxonómie) – aby používateľ mohol objavovať, ale aj interpretovať.
+
+Kľúčové je, že tento mechanizmus sa dá chápať ako rozšírenie kurátorského aparátu, nie ako jeho náhrada. Model ponúka spojenia; zmysel im dáva až používateľ v kontexte, ktorý mu rozhranie sprostredkuje.
+
+### Reflexia: od „hľadania rovnakého“ k „hľadaniu príbuzného“
+
+Pre tému straty naratívnej vrstvy je vizuálna podobnosť užitočná práve tým, že nevyžaduje, aby bol príbeh dopísaný vopred. Je to generátor možností: namiesto jedného správneho čítania ponúka pole príbuzností, ktoré sa dajú následne kurátorsky pomenovať, komentovať alebo nechať otvorené. Zároveň však prináša novú povinnosť: pomenovať hranice algoritmu, priznať jeho skreslenia a nenechať ho tváriť sa ako „neutrálny zrak“ [@crawford2019excavating; @buolamwini2018gendershades].
+
+Tu sa podľa mňa priamo stretáva táto podkapitola s tézami z kapitoly 5: ak online zbierky strácajú *wow moment* tým, že z diel robia izolované záznamy bez situovania, potom vizuálna podobnosť je jeden z mála mechanizmov, ktorý vie vytvoriť „nové situovanie“ – nie cez lineárny príbeh, ale cez sieť príbuzností. Otázka, ktorú si tu kladiem (a ktorú by som v ďalšej kapitole už testoval experimentom), znie: *kedy sa podobnosť stáva zmysluplnou skúsenosťou a kedy len nekonečným scrollom?* A čo musí urobiť rozhranie, aby človeka viedlo späť k dielu – nie preč od neho.
+
+## 6.6 Záver: Odbočky, ktoré zlepšujú jadro
+
+Výber príkladov v tejto kapitole bol nevyhnutne selektívny. V praxi lab.SNG existujú desiatky realizácií a je pravdepodobné, že iní kolegovia by ako ilustratívne zvolili odlišné projekty – už len podľa toho, či by kládli dôraz na výstavný formát, edukáciu, archiváciu alebo experiment. Aj pri skladaní materiálu bolo cítiť napätie medzi tým, čo všetko by „znieslo viac priestoru“, a tým, čo by už čitateľa unavilo. Každá z tém by sa dala rozvinúť do samostatnej kapitoly; tu však mali zostať v režime praktického *handbooku* – ako mapa možností, nie encyklopédia.
+
+Kapitola môže miestami pôsobiť ako kritika „online databázy“. V skutočnosti je to skôr kritika redukcie zbierky na databázový režim používania. Viaceré opísané zásahy vznikli práve preto, že databázový základ bol stabilný a dôveryhodný: dáta mali jednotné identifikátory, metadáta boli spravované v jednom systéme a reprodukcie mali konzistentnú kvalitu. To, čo sa menilo, bol spôsob sprostredkovania – od statického prehliadania k situačnému čítaniu, od izolovaných objektov k vzťahom, od predvídateľných vstupov k prekvapeniu.
+
+Práve tu sa ukazuje praktická výhoda *in-house* vývoja. Know-how zostáva v inštitúcii a aj jednorazové či úzko tematické aplikácie môžu slúžiť ako testovacie polia pre jazyk rozhraní, komponenty a pracovné postupy. V SNG sa tento prístup postupne ustálil aj ako spôsob skladania z opakovane použiteľných stavebných blokov: odbočky a prototypy sa neberú ako „odpad“ popri hlavnom produkte, ale ako spätná väzba, ktorá pomáha vyladiť nosné platformy a zároveň učí tím recyklovať technológie, moduly a rozhodnutia.
+
+Zároveň má kapitola ešte jednu, praktickú rovinu: väčšina uvedených riešení nie je len opísaná, ale aj zdieľaná. Pri každom projekte uvádzam odkaz na repozitár; projekty sú publikované ako open source pod MIT licenciou, takže čitateľ sa môže pozrieť „pod kapotu“, overiť konkrétne implementačné rozhodnutia, alebo si riešenie lokálne vyskúšať a adaptovať. V tomto zmysle kapitola nie je iba retrospektívou, ale aj pozvánkou k recyklácii postupov a k zdieľaniu infraštruktúr v komunite GLAM – v duchu princípu *sharing is caring* [@sanderhoff_sharing_caring_openness_2014].
+
+Napokon je dôležité priznať aj osobnejšiu motiváciu, ktorá v tejto kapitole postupne vystupuje na povrch: skúsenosť s *Ornament Explorerom* a práca s vizuálnou podobnosťou cez AI ostali pre mňa podnetné aj po tom, čo spolupráca s MK&G formálne skončila. Fascinácia „prekvapivými príbuznosťami“ vo vektorovom priestore – a otázka, ako z nich spraviť zmysluplnú skúsenosť – sa stala priamym východiskom pre experiment *Atlas Re/mix* v nasledujúcej kapitole. Tá už ide o krok ďalej: namiesto utilitárnej aplikácie pod hlavičkou inštitúcie otvára tému remixu a opätovného použitia zdigitalizovaných diel vo vlastnej tvorivej praxi. Inými slovami, ak kapitola 6 mapovala spôsoby, ako obnoviť naratív a serendipitu v rámci sprostredkovania zbierok, kapitola 7 skúša, čo sa stane, keď sa digitálne dielo prestane správať iba ako „záznam v databáze“ a začne fungovať ako materiál.
