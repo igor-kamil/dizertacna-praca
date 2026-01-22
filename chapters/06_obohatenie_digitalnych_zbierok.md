@@ -199,3 +199,75 @@ Všetky tieto mikrostránky dnes fungujú aj ako referenčný zdroj. To je pre m
 
 Ak má výstavná mikrostránka prežiť, musí sa správať naraz ako publikácia aj ako produkt. Ako publikácia potrebuje editáciu, tón, štruktúru a archív. Ako produkt potrebuje infraštruktúru, údržbu, stabilné adresy a jasné vlastníctvo. Tate týmto smerom ukazuje veľmi praktickú cestu: mikrostránky netreba len tvoriť, ale aj archivovať ako záznamy, inak sa naratívna vrstva stratí tichšie než samotná výstava. [@tate_archiving_intermedia_microsite_2021]
 
+## 6.4 Priestorový a časový kontext (spojenie fyzického a digitálneho)
+
+> “‘Post-digital’ thus refers to a state in which the disruption brought upon by digital information technology has already occurred.” 
+> [@Cramer2015]
+
+Cramer tým nepriamo pripomína jednu praktickú vec: prepojenie „digitálneho“ a „fyzického“ dnes často nie je špeciálny efekt, ale základná podmienka čitateľnosti. Návštevník má v ruke mobil, v priestore stojí pred dielom, a prirodzene očakáva, že medzi týmito dvoma režimami bude existovať most. Pre galériu to znamená posun v naratívnej práci: ak online zbierka trpí stratou kontextu, jednou z ciest je *situovaný storytelling* — naratív zakotvený v mieste a v prítomnosti, ktorý vzniká priamo „pri diele“, nie až pri domácom čítaní katalogizačného záznamu.
+
+### Problém: ako urobiť z fyzickej návštevy vstup do digitálneho príbehu (bez toho, aby mobil „vyhral“ nad dielom)
+
+Na rozdiel od čisto online naratívnych modulov (mikrostránky, longformy) má mobilný sprievodca v expozícii inú dynamiku pozornosti. V miestnosti už existuje silný „primárny obsah“ — samotné dielo. Digitálna vrstva má byť pomocná: má vedieť rýchlo doručiť kontext, spustiť drobný príbeh, ukázať vzťahy a nechať návštevníka vrátiť sa späť k pohľadu. To je špecifický typ časovania: namiesto lineárnej kapitoly pracujeme s krátkymi vstupmi, mikro-rozhodnutiami a s rytmom pohybu v priestore.
+
+Preto je kľúčové nehľadať len „čo zobrazovať“, ale aj *ako* vyvolať digitálnu vrstvu tak, aby nebola rušivá. Inak povedané: ak má byť naratív situovaný, musí byť situované aj jeho ovládanie.
+
+### Svetová referencia: MAK App ako vzor „jemného“ vstupu do vrstvy
+
+Pri návrhu Atlasu SNG sa pre nás stala dôležitou inšpiráciou aplikácia MAK (MAK App / lab.mak.at). Zaujala najmä tým, že pracuje s prechádzkami (*paths*), umožňuje návštevníkovi zbierať objekty do vlastnej kolekcie a má nezvykle dobrý spôsob zadávania kódu (gesto pripomínajúce „pattern lock“ na zamknutej obrazovke). Dôležité je, že ide o rozhranie, ktoré nevyžaduje, aby človek pri diele „namieril“ telefón a riešil kameru; vstup do obsahu je rýchly, diskrétny a sociálne čitateľný aj pre skupinu.
+
+![MAK app (MAK Design Lab): príklad „post-digitálneho“ sprievodcu, ktorý prepojuje kurátorsky rámcované trasy s jednoduchým, neinvazívnym vstupom do obsahu.](figures/fig-6-4-mak-app.jpg){#fig:mak-app width=100%}
+
+Túto logiku sme nechceli kopírovať. Brali sme ju ako dôkaz, že „kód“ môže byť v galérii menej invazívny než QR a zároveň vie podporiť naratívne vrstvenie: človek stojí pri diele, zadá krátky identifikátor, a okamžite sa ocitne v detaile, ktorý je priestorovo správne ukotvený.
+
+### Prax v lab.SNG: *Atlas SNG* ako post-digitálny sprievodca budovou
+
+V roku 2022 sme dostali príležitosť navrhnúť mobilného sprievodcu pre novú budovu SNG: *Atlas SNG* (`https://atlas.sng.sk`). Cieľ bol od začiatku dvojitý:
+
+1. prepojiť diela vo fyzickej expozícii s digitálnym obsahom tak, aby vstup bol rýchly a nerušil,
+2. vytvoriť platformu pre nenútené „príbehové“ režimy návštevy — vrátane interaktívnych prechádzok typu *choose your own adventure*.
+
+![Atlas SNG: detail diela v mobile so vstupom cez bodkový kód (3×3), ktorý slúži ako tichý most medzi miestom v expozícii a digitálnou vrstvou.](figures/fig-6-4-atlas-sng-code-entry.png){#fig:atlas-sng-code-entry width=100%}
+
+![Použitie v priestore: mobilný sprievodca má fungovať ako krátky „zásah do kontextu“, po ktorom sa pozornosť prirodzene vracia späť k dielu.](figures/fig-6-4-atlas-sng-in-situ.jpg){#fig:atlas-sng-in-situ width=90%}
+
+Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť určiť vlastný rytmus: nie byť ťahaný lineárnym audio-guide scenárom, ale mať možnosť nechať sa „odprevadiť“ k dielam, ktoré dávajú zmysel v rámci témy, nálady alebo zvedavosti. Do digitálnej vrstvy sme preto pridávali videá s komentármi, možnosť ukladať si obľúbené diela a vracať sa k nim neskôr, a napokon aj hravý motív „pátračky“: mesačná téma, ku ktorej boli vybrané súvisiace diela — po ich nazbieraní sa odomkla odmena (káva/nápoj v kaviarni alebo zľava v kníhkupectve). Táto drobnosť je pre mňa dôležitá: digitálna vrstva sa tu neuzatvára sama do seba, ale cielene sa „vracia“ do fyzického sveta ako motivácia k pohybu a pozornosti.
+
+::: {.aside}
+**project card: Atlas SNG**
+
+* *web:* `https://atlas.sng.sk`
+* *open source:* `https://github.com/SlovakNationalGallery/atlas.sng.sk`
+* *stack:* Vue.js + Web umenia API + doplnkové dáta (kódy, videá, „pátračka“)
+* *redakčný workflow:* AirTable ako jednoduché CMS pre netechnických editorov (read/write roly, API napojenie)
+* *vedenie projektu:* Michal Čudrnák
+* *obsah:* Lukáš Štepanovský, Viera Kleinová, Michaela Kováčová, Romana Halgošová, Zuzana Koblišková, Karin Vicianová
+* *dizajn:* Filip Ruisl
+* *vývoj:* Igor Rjabinin, Mayo Horkovič, František Sebestyén, Rastislav Chynoranský, Ernest Walzel
+* *výskum:* Katarína Vass, Jana Šuchová
+:::
+
+### Implementačná poznámka: fyzické ID ako most do API
+
+Technicky je tento typ prepojenia prekvapivo priamočiary: fyzický identifikátor (kód pri diele) sa mapuje na jednoznačný identifikátor diela a ten potom otvára digitálnu vrstvu cez API. Dôležitejšie než samotné API je však to, že vzniká „dvojvrstvový“ dátový model: základné metadáta a vizuálny obsah prichádzajú z Webu umenia, no situačné prvky (kód, video, tematické prechádzky, pátračky, odmeny) žijú v samostatnej edičnej vrstve. V Atlas SNG sme túto vrstvu vedome nebudovali ako vlastné CMS; použili sme AirTable, lebo umožňoval rýchlu správu obsahu ľuďmi mimo vývoja a zároveň sa dal čisto napojiť do aplikácie.
+
+### Prečo „bodky“ (a čo sa ukázalo v praxi)
+
+::: {.aside}
+**prečo bodky namiesto QR**
+
+* QR je vizuálne výrazný a v expozícii často pôsobí rušivo.
+* QR je ťažšie „paralelizovať“ v skupine: kód typicky skenuje jeden človek, kým bodkový kód vie druhý opisovať a skupina ho zadá naraz.
+* v tlmenom svetle je skenovanie nepraktické a svetlo displeja býva rušivé pre okolie; zadanie kódu je diskrétnejšie.
+* kód sa dá zapamätať a dopísať aj počas chôdze k ďalšiemu dielu (čo pri QR nefunguje).
+* 3×3 mriežka dáva 2^9 možností (512; bez „prázdneho“ stavu 511). Keď kódy nie sú „spojité“ ťahy, vieme využiť všetky kombinácie.
+
+:::
+
+Táto voľba sa veľmi dobre overila aj produkčne. Pre označovanie diel stačil papierový „blueprint“ a kruhové nálepky; kódy sa dali vytvárať ad-hoc kýmkoľvek, bez špeciálneho hardvéru a bez zásahu do výstavnej grafiky. V testovaní sa objavili aj drobné, ale výrečné situácie: napríklad rodič ocenil, že keď dieťa odbehlo do vedľajšej miestnosti, stále vedel kód dokončiť „spamäti“ — presne ten typ časovej a priestorovej elasticity, ktorý v expozícii reálne nastáva.
+
+### Poučenie: nie všetky naratívne režimy prežijú realitu expozície
+
+Zaujímavé je, že sa nám nepotvrdilo všetko, čo na papieri znelo dobre. Prechádzky sme časom z aplikácie odstránili a nevrátili. V praxi sa ukázali ako trochu nemotorné — a hlavne, v expozícii je často lepšie, keď sa návštevník pozerá na dielo a nie na displej. Naopak, kódy a návrat k uloženým dielam sa ukázali ako stabilné jadro: podporujú krátke vstupy do kontextu aj neskorší „after-visit“ návrat.
+
+Ak to mám zhrnúť v pojmoch tejto kapitoly: priestorový kontext funguje vtedy, keď digitálna vrstva rešpektuje primát fyzickej skúsenosti. A časový kontext sa zlepšuje vtedy, keď aplikácia vytvára drobné momenty *temporal serendipity* — náhodných návratov, dopísaní, znovu-objavení — bez toho, aby návštevu násilne linearizovala.
