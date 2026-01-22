@@ -214,11 +214,13 @@ Preto je kľúčové nehľadať len „čo zobrazovať“, ale aj *ako* vyvolať
 
 ### Svetová referencia: MAK App ako vzor „jemného“ vstupu do vrstvy
 
-Pri návrhu Atlasu SNG sa pre nás stala dôležitou inšpiráciou aplikácia MAK (MAK App / lab.mak.at). Zaujala najmä tým, že pracuje s prechádzkami (*paths*), umožňuje návštevníkovi zbierať objekty do vlastnej kolekcie a má nezvykle dobrý spôsob zadávania kódu (gesto pripomínajúce „pattern lock“ na zamknutej obrazovke). Dôležité je, že ide o rozhranie, ktoré nevyžaduje, aby človek pri diele „namieril“ telefón a riešil kameru; vstup do obsahu je rýchly, diskrétny a sociálne čitateľný aj pre skupinu.
+Pri návrhu Atlasu SNG sa pre nás stala dôležitou referenciou *MAK LAB APP* (`lab.mak.at`), ktorá vznikla ako digitálne rozšírenie expozície *MAK Design Lab* vo Viedni [@mak2020press]. V práci venovanej prístupnosti múzeí v Rakúsku počas pandémie COVID-19 používa Karolina Duelli tento projekt ako príklad toho, ako sa „dvere múzea“ dajú aspoň čiastočne nahradiť digitálnym rozhraním: ambíciou aplikácie je „teach essential topics for shaping the future in times of digital modernity and climate change“ a jej obsah je použiteľný naprieč zariadeniami (mobil, tablet, laptop), teda aj mimo priamej návštevy [@duelli2021museums, p. 10]. Pandemický kontext je tu dôležitý z dvoch praktických dôvodov. Po prvé, presun na *bring your own device* redukuje závislosť od zdieľaných dotykových kioskov v priestore (ktoré sa v čase hygienických obmedzení stávajú problematické). Po druhé, rozhranie, ktoré funguje aj „z domu“, vytvára kontinuitu kontaktu so zbierkou počas lockdownu a zároveň podporuje návrat k dielam po návšteve — napríklad cez uložené položky alebo cez „hru“ so systémom (v našom prípade sa neskôr ukázalo, že ľudia radi skúšajú zadávať kódy aj naslepo a hádať, aké dielo sa otvorí).
 
-![MAK app (MAK Design Lab): príklad „post-digitálneho“ sprievodcu, ktorý prepojuje kurátorsky rámcované trasy s jednoduchým, neinvazívnym vstupom do obsahu.](figures/fig-6-4-mak-app.jpg){#fig:mak-app width=100%}
+Pre náš kontext však nebol rozhodujúci tematický rámec obsahu, ale forma interakcie: *MAK LAB APP* pracuje s kurátorsky rámcovanými prechádzkami (*paths*), umožňuje vytvárať si vlastnú „kolekciu“ objektov a ponúka nezvykle účinný spôsob zadávania kódu (gesto pripomínajúce *pattern lock* na zamknutej obrazovke). Toto je presne ten typ „post-pandemickej“ robustnosti, ktorý nadväzuje aj na tézu z 5. kapitoly: digitálna dostupnosť je síce kritický základ (bez geografickej bariéry a bez otváracích hodín), ale sama osebe ešte nezaručuje porozumenie ani kvalitnú skúsenosť; je to skôr nové pozadie, v ktorom sa rieši orientácia, kontext a návratnosť pozornosti.
 
-Túto logiku sme nechceli kopírovať. Brali sme ju ako dôkaz, že „kód“ môže byť v galérii menej invazívny než QR a zároveň vie podporiť naratívne vrstvenie: človek stojí pri diele, zadá krátky identifikátor, a okamžite sa ocitne v detaile, ktorý je priestorovo správne ukotvený.
+![MAK app (MAK Design Lab): príklad mobilného sprievodcu, ktorý kombinuje kurátorsky rámcované trasy (paths) s jednoduchým a neinvazívnym vstupom do obsahu.](figures/fig-6-4-mak-app.jpg){#fig:mak-app width=100%}
+
+Dôležité je, že tento model nevyžaduje, aby návštevník pri diele „namieril“ telefón a pracoval s kamerou. Vstup do digitálnej vrstvy je rýchly, diskrétny a zároveň sociálne kompatibilný so skupinovou návštevou: kód je čitateľný pre viacerých ľudí naraz, takže si ho môžu paralelne zadať do vlastných zariadení bez toho, aby sa navzájom blokovali skenovaním (ako pri QR). Práve v tom sme videli prenositeľný princíp: nie kopírovanie konkrétnych funkcií, ale potvrdenie, že fyzické dielo môže mať nenápadný identifikátor, ktorý otvára priestorovo ukotvený detail bez vizuálne agresívneho značenia. Toto je presne ten typ „post-pandemickej“ robustnosti, ktorý nadväzuje aj na tézu z 5. kapitoly: digitálna dostupnosť je dnes súčasťou základného štandardu sprístupňovania zbierok, ale sama osebe ešte nezaručuje porozumenie ani kvalitnú skúsenosť; je to skôr nové pozadie, v ktorom sa rieši orientácia, kontext a návratnosť pozornosti.
 
 ### Prax v lab.SNG: *Atlas SNG* ako post-digitálny sprievodca budovou
 
@@ -244,7 +246,6 @@ Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť ur�
 * *obsah:* Lukáš Štepanovský, Viera Kleinová, Michaela Kováčová, Romana Halgošová, Zuzana Koblišková, Karin Vicianová
 * *dizajn:* Filip Ruisl
 * *vývoj:* Igor Rjabinin, Mayo Horkovič, František Sebestyén, Rastislav Chynoranský, Ernest Walzel
-* *výskum:* Katarína Vass, Jana Šuchová
 :::
 
 ### Implementačná poznámka: fyzické ID ako most do API
@@ -257,7 +258,7 @@ Technicky je tento typ prepojenia prekvapivo priamočiary: fyzický identifikát
 **prečo bodky namiesto QR**
 
 * QR je vizuálne výrazný a v expozícii často pôsobí rušivo.
-* QR je ťažšie „paralelizovať“ v skupine: kód typicky skenuje jeden človek, kým bodkový kód vie druhý opisovať a skupina ho zadá naraz.
+* QR je ťažšie „paralelizovať“ v skupine: kód typicky skenuje jeden človek, kým bodkový kód vie celá skupina zadať naraz.
 * v tlmenom svetle je skenovanie nepraktické a svetlo displeja býva rušivé pre okolie; zadanie kódu je diskrétnejšie.
 * kód sa dá zapamätať a dopísať aj počas chôdze k ďalšiemu dielu (čo pri QR nefunguje).
 * 3×3 mriežka dáva 2^9 možností (512; bez „prázdneho“ stavu 511). Keď kódy nie sú „spojité“ ťahy, vieme využiť všetky kombinácie.
