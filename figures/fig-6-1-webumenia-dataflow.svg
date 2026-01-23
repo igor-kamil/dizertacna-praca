@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+  <defs>
+    <style>
+      /* Matplotlib-ish clean aesthetic */
+      .box { fill: #ffffff; stroke: #2f2f2f; stroke-width: 2; rx: 18; ry: 18; }
+      .title { font-family: DejaVu Sans, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 20px; fill: #2f2f2f; font-weight: 700; }
+      .text { font-family: DejaVu Sans, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 16px; fill: #2f2f2f; }
+      .small { font-family: DejaVu Sans, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 14px; fill: #2f2f2f; }
+      .muted { fill: #555555; }
+
+      .arrow { stroke: #2f2f2f; stroke-width: 2.5; fill: none; }
+      .note { font-family: DejaVu Sans, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 13px; fill: #555555; }
+    </style>
+
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#2f2f2f"/>
+    </marker>
+  </defs>
+
+  <!-- Left: Elasticsearch -->
+  <rect class="box" x="60" y="210" width="220" height="100"/>
+  <text class="title" x="170" y="250" text-anchor="middle">Elasticsearch</text>
+  <text class="small muted" x="170" y="278" text-anchor="middle">index / vyhľadávanie</text>
+
+  <!-- Middle: Web umenia -->
+  <rect class="box" x="360" y="170" width="300" height="180"/>
+  <text class="title" x="510" y="214" text-anchor="middle">Web umenia</text>
+  <text class="text" x="510" y="246" text-anchor="middle">dáta + metadáta + obrázky</text>
+  <text class="small muted" x="510" y="274" text-anchor="middle">„single source of truth“</text>
+  <text class="small muted" x="510" y="302" text-anchor="middle">publikovanie / údržba / stabilné ID</text>
+
+  <!-- Arrow: Elasticsearch -> Web umenia -->
+  <path class="arrow" d="M 280 260 C 310 260, 320 260, 360 260" marker-end="url(#arrowhead)"/>
+
+  <!-- Right: Projects -->
+  <rect class="box" x="770" y="60" width="280" height="90"/>
+  <text class="title" x="910" y="98" text-anchor="middle">Mikrostránky výstav</text>
+  <text class="small muted" x="910" y="126" text-anchor="middle">narácia / scrollytelling</text>
+
+  <rect class="box" x="770" y="175" width="280" height="90"/>
+  <text class="title" x="910" y="213" text-anchor="middle">Plenérizmus</text>
+  <text class="small muted" x="910" y="241" text-anchor="middle">nálady + mapovanie tém</text>
+
+  <rect class="box" x="770" y="290" width="280" height="90"/>
+  <text class="title" x="910" y="328" text-anchor="middle">Atlas SNG</text>
+  <text class="small muted" x="910" y="356" text-anchor="middle">sprievodca v expozícii</text>
+
+  <rect class="box" x="770" y="405" width="280" height="90"/>
+  <text class="title" x="910" y="443" text-anchor="middle">Ďalšie prototypy</text>
+  <text class="small muted" x="910" y="471" text-anchor="middle">recyklácia komponentov</text>
+
+  <!-- Arrows: Web umenia -> Projects (one-way reads) -->
+  <path class="arrow" d="M 660 215 C 705 190, 720 150, 770 105" marker-end="url(#arrowhead)"/>
+  <path class="arrow" d="M 660 245 C 705 240, 720 235, 770 220" marker-end="url(#arrowhead)"/>
+  <path class="arrow" d="M 660 275 C 705 290, 720 310, 770 335" marker-end="url(#arrowhead)"/>
+  <path class="arrow" d="M 660 305 C 705 350, 720 410, 770 450" marker-end="url(#arrowhead)"/>
+
+  <!-- Note -->
+  <text class="note" x="510" y="385" text-anchor="middle">projekty čítajú z API (read-only); zdrojové dáta sa udržiavajú vo Webe umenia</text>
+</svg>

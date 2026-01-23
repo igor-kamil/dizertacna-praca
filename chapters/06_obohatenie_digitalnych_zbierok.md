@@ -2,22 +2,26 @@
 
 ### 6.1 Úvod: Od vyhľadávania k objavovaniu
 
-> “Visitors’ criticisms demand a shift from passive, encyclopaedic exhibitions with curatorial authority, to ones that engage visitors and place them at the centre of focus.” 
+> “Visitors’ criticisms demand a shift from passive, encyclopaedic exhibitions with curatorial authority, to ones that engage visitors and place them at the centre of focus.”
 > — [@popoli_derda_developing_experiences_2021]
 
-Predchádzajúca kapitola pomenovala opakujúce sa limity online zbierok: hierarchie pozornosti, režim vyhľadávania a potrebu „vedieť, čo hľadám“, databázovú izoláciu objektov bez vzťahov, algoritmickú plochosť odporúčaní a systémovú neviditeľnosť veľkých častí zbierok.  Tieto limity spolu vytvárajú prostredie, v ktorom sa naratívna vrstva stráca – nie preto, že by sa stratili dáta, ale preto, že sa oslabí *spôsob čítania* zbierky: súvislosti, poradie, intenzita pozornosti, rytmus objavu.
+Predchádzajúca kapitola pomenovala opakujúce sa limity online zbierok, ktoré sa navonok môžu javiť ako „problém rozhraní“, no v jadre sú problémom *spôsobu čítania* zbierky. Mitchell Whitelaw upozorňuje, že po desaťročiach digitalizácie síce vznikla hojnosť materiálu, ale dominantný režim prístupu – vyhľadávanie – je voči tejto hojnosti neveľkorysý: zadržiava informáciu a vyžaduje otázku. [@whitelaw_generous_interfaces_2015] V praxi sa to prekladá do potreby „vedieť, čo hľadám“, do hierarchií pozornosti, do izolovaného zobrazenia objektov bez vzťahov a často aj do plochých odporúčacích mechanizmov, ktoré zviditeľňujú najmä to, čo už je viditeľné.
 
-Kapitola 6 preto posúva ťažisko od diagnózy k aplikovaným zásahom. Jej cieľom nie je „vylepšiť databázu“, ale ukázať, ako môže dizajn rozhraní, naratívne vrstvenie a premyslené použitie technológií obnoviť moment prekvapenia, kontextu a *serendipity* – teda prechod od *hľadania* k *objavovaniu*.
+Tento posun je užitočné čítať aj cez Manovicha: online zbierka je typicky databáza a používateľ sa v skutočnosti nestretáva so „zbierkou“, ale s konkrétnou interpretáciou databázy cez rozhranie. [@manovich_language_new_media_2001] Ak je hlavným režimom katalógový záznam a vyhľadávacie pole, naratívna vrstva sa prirodzene zredukuje na to, čo sa dá stabilne zapísať do polí a filtrov. Nestrácajú sa dáta, oslabuje sa kontext, poradie, intenzita pozornosti a rytmus objavu.
+
+Kapitola 6 preto posúva ťažisko od diagnózy k aplikovaným zásahom. Jej cieľom nie je „vylepšiť databázu“, ale ukázať, ako môže dizajn rozhraní, naratívne vrstvenie a premyslené použitie technológií obnovovať moment prekvapenia, kontextu a *serendipity* – teda prechod od *hľadania* k *objavovaniu*. Východiskom je pritom logika veľkorysých rozhraní: najprv ukázať možnosti, vzorky a vzťahy, až potom vyžadovať otázku. [@whitelaw_generous_interfaces_archival_2012; @whitelaw_generous_interfaces_2015]
 
 Zvolená forma kapitoly je zámerne praktická. Každá podkapitola má:
 
-* stručne pomenovaný problém alebo *challenge* (zvyčajne priamo nadväzujúci na limity z kapitoly 5),
-* svetovú referenciu (nie ako „vzory na kopírovanie“, ale ako overený jazyk riešenia),
+* stručne pomenovaný problém (spravidla priamo nadväzujúci na limity z kapitoly 5),
+* svetovú referenciu (nie ako vzor na kopírovanie, ale ako overený jazyk riešenia),
 * lokálnu implementáciu z praxe lab.SNG (s dôrazom na to, čo sa reálne dalo zaviesť, udržať a škálovať),
 * krátku technickú poznámku (nie návod, skôr čitateľná mapa rozhodnutí),
 * a *project card* ako kompaktný záznam: účel, kontext, role, stack, dáta, repozitár.
 
-Dôležitý rámec: väčšina uvedených projektov stavia na Webe umenia ako na infraštruktúre a zdroji dát. Praktický efekt je jednoduchý – nové rozhrania nemusia „znovu nahrávať“ diela, stačí pracovať s jednoznačnými identifikátormi a cez API ťahať aktuálne metadáta aj kvalitnú vizuálnu reprezentáciu.  V tomto zmysle je kapitola zároveň argumentom, že *in-house* vývoj a malé „odbočky“ nemusia oslabovať jadro; naopak, môžu ho dlhodobo kultivovať.
+Dôležitý rámec: väčšina uvedených projektov stavia na Webe umenia ako na infraštruktúre a zdroji dát. Nové rozhrania tak nemusia „znovu nahrávať“ diela – pracujú s jednoznačnými identifikátormi a cez API ťahajú aktuálne metadáta aj vizuálnu reprezentáciu. Tento princíp zároveň podporuje *in-house* prístup: menšie „odbočky“ nemusia oslabovať jadro, ale môžu sa stať spôsobom, ako ho dlhodobo testovať, kultivovať a postupne dopĺňať o prenositeľné komponenty.
+
+![Dátový tok: Elasticsearch → Web umenia → (API, read-only) → satelitné projekty. Projekty čítajú z API; zdrojové dáta sa udržiavajú vo Webe umenia.](figures/fig-6-1-webumenia-dataflow.svg){#fig:webumenia-dataflow width=90%}
 
 ## 6.2 Veľkorysé rozhrania
 
@@ -31,20 +35,22 @@ Vyhľadávacie pole je dobrý sluha vtedy, keď už poznám správne slová. V d
 Dôležité je, že veľkorysosť nie je univerzálna šablóna. Má byť tesne previazaná s povahou zbierky a s tým, čo je pre ňu prirodzene čitateľné. Preto sa veľkorysé rozhrania častejšie rodia ako *bespoke* riešenia: vyžadujú dizajnérske a kurátorské rozhodnutia, ktoré sa zvyčajne nedajú „kúpiť“ spolu s off-the-shelf systémom na správu zbierok. [@whitelaw_generous_interfaces_2015; @schema2019_gist_generous]
 
 ::: {.aside}
-princípy veľkorysého rozhrania (Haskiya)
+princípy veľkorysého rozhrania:
 
 * *show first, don’t ask* (najprv ukáž, až potom pýtaj)
 * *provide samples and clues* (pracuj so vzorkami z obsahu, nie iba s metadátami)
 * *show relationships* (odhaľ vzťahy medzi vlastnosťami zbierky)
 * *provide rich primary content* (doruč sľub rozhrania kvalitou primárneho obsahu)
-[@europeana2019_generousinterfaces]
+
+ — [@haskiya2019evaluation]
 :::
+
 
 ## Referenčný projekt zo sveta: *Dive into Color* (Cooper Hewitt Labs)
 
 *Dive into Color* je interaktívna časová os, ktorá umožňuje prechádzať zbierku Cooper Hewitt podľa farieb, farebných harmónií a času. Kľúčové je, že používateľ nevstupuje cez otázku, ale cez mapu možností: rozhranie najprv ukáže štruktúru a vizuálne „vzorky“ kolekcie, a až potom umožní spresňovať výber. [@vane2018_making_diveintocolor]
 
-Je to ukážkovo veľkorysé rozhranie v tom, že navigačný jazyk nie je odvodený z katalógovej logiky (autor, technika, inventár), ale z vlastnosti, ktorá je prirodzene čitateľná aj bez expertízy a zároveň má zmysel pre daný typ zbierky: farba je pre dizajnérsku kolekciu legitímny „prvý dotyk“. Rozhranie potom dokáže robiť aj to, čo search typicky nevie: umožní vnímať zhluky, výnimky, časové posuny a vizuálne príbuznosti ešte predtým, než sa používateľ rozhodne, čo vlastne hľadá. [@vane2018_making_diveintocolor; @vane_diveintocolor_project]
+Je to príklad veľkorysého rozhrania v tom, že navigačný jazyk nie je odvodený z katalógovej logiky (autor, technika, inventár), ale z vlastnosti, ktorá je prirodzene čitateľná aj bez expertízy a zároveň má zmysel pre daný typ zbierky: farba je pre dizajnérsku kolekciu legitímny „prvý dotyk“. Rozhranie potom dokáže robiť aj to, čo search typicky nevie: umožní vnímať zhluky, výnimky, časové posuny a vizuálne príbuznosti ešte predtým, než sa používateľ rozhodne, čo vlastne hľadá. [@vane2018_making_diveintocolor; @vane_diveintocolor_project]
 
 ![*Dive into Color* (Cooper Hewitt Labs): vstup cez farebné harmónie a časovú os.](figures/fig-6-2-dive-into-color-ui.png){#fig:dive-into-color-ui width=90%}
 
@@ -92,9 +98,9 @@ Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*.
 
 ## Porovnanie a prenositeľné poučenie
 
-*Dive into Color* ukazuje veľkorysé rozhranie postavené na vlastnosti, ktorá sa dá vo veľkom rozsahu extrahovať a škálovať (farba + čas). [@vane2018_making_diveintocolor] *Plenérizmus* ukazuje veľkorysé rozhranie postavené na kategórii, ktorá je tematicky presná, no vyžaduje ľudské rozhodnutia (nálada). Tento rozdiel je podstatný, lebo naznačuje, že „veľkorysosť“ sa dá dosiahnuť dvoma cestami: buď cez výpočtovo dostupnú vlastnosť zbierky, alebo cez kurátorsky pomenovaný jazyk, ktorý má oporu v téme a sprievodných textoch.
+*Dive into Color* ukazuje veľkorysé rozhranie postavené na vlastnosti, ktorú možno vo veľkom rozsahu extrahovať a škálovať (farba + čas) [@vane2018_making_diveintocolor]. *Plenérizmus* ukazuje veľkorysé rozhranie postavené na kategórii, ktorá je tematicky presná, no vyžaduje ľudské rozhodnutia a redakčnú disciplínu (nálada). Tento rozdiel je podstatný, lebo naznačuje, že „veľkorysosť“ sa dá dosiahnuť dvoma cestami: buď cez výpočtovo dostupnú vlastnosť zbierky, alebo cez kurátorsky pomenovaný jazyk, ktorý má oporu v téme a sprievodných textoch.
 
-Pre handbook si z toho beriem jednu jednoduchú vetu: veľkorysé rozhranie vzniká vtedy, keď si inštitúcia trúfne pomenovať *navigačný jazyk zbierky* a dá mu takú formu, aby používateľ najprv videl možnosti a až potom musel vedieť otázku. [@europeana2019_generousinterfaces]
+Pre účely tejto kapitoly je podstatné jedno: veľkorysé rozhranie vzniká vtedy, keď si inštitúcia trúfne pomenovať *navigačný jazyk zbierky* a dá mu takú formu, aby používateľ najprv videl možnosti a až potom musel vedieť otázku [@europeana2019_generousinterfaces]. Zároveň však platí, že samotné „ukázanie možností“ ešte automaticky nevytvára porozumenie. Veľkorysé rozhranie znižuje bariéru vstupu a pomáha objavovať, no kontext a interpretácia často vznikajú až v ďalšej vrstve – v krátkych kurátorských vstupoch, mikropríbehoch, vysvetľujúcich prepojeniach a edične kontrolovaných rámcoch. Práve preto ďalšia podkapitola presúva pozornosť od navigačného jazyka k naratívnym modulom: k tomu, ako sa k „objavovaniu“ dopĺňa čitateľný význam.
 
 ## 6.3 Naratívne moduly a kurátorské vrstvy
 ### *Scrollytelling a výstavné mikrostránky ako publikačná vrstva nad zbierkou*
@@ -218,10 +224,12 @@ Všetky tieto mikrostránky dnes fungujú aj ako referenčný zdroj. To je pre m
 
 Ak má výstavná mikrostránka prežiť, musí sa správať naraz ako publikácia aj ako produkt. Ako publikácia potrebuje editáciu, tón, štruktúru a archív. Ako produkt potrebuje infraštruktúru, údržbu, stabilné adresy a jasné vlastníctvo. Tate týmto smerom ukazuje veľmi praktickú cestu: mikrostránky netreba len tvoriť, ale aj archivovať ako záznamy, inak sa naratívna vrstva stratí tichšie než samotná výstava. [@tate_archiving_intermedia_microsite_2021]
 
+Táto skúsenosť ukazuje ešte jednu vec: naratívna vrstva nemôže žiť iba na mikrostránkach. V expozícii sa číta inak — po útržkoch a v pohybe, s pozornosťou rozdelenou medzi dielo, priestor a ľudí okolo. Preto ďalšia podkapitola presúva dôraz z publikovania na situovanie: ako prepojiť fyzické miesto s digitálnym obsahom tak, aby fungoval aj v časovej logike návštevy.
+
 ## 6.4 Priestorový a časový kontext (spojenie fyzického a digitálneho)
 
 > “‘Post-digital’ thus refers to a state in which the disruption brought upon by digital information technology has already occurred.” 
-> [@Cramer2015]
+> [@Cramer2015, p. 17]
 
 Cramer tým nepriamo pripomína jednu praktickú vec: prepojenie „digitálneho“ a „fyzického“ dnes často nie je špeciálny efekt, ale základná podmienka čitateľnosti. Návštevník má v ruke mobil, v priestore stojí pred dielom, a prirodzene očakáva, že medzi týmito dvoma režimami bude existovať most. Pre galériu to znamená posun v naratívnej práci: ak online zbierka trpí stratou kontextu, jednou z ciest je *situovaný storytelling* — naratív zakotvený v mieste a v prítomnosti, ktorý vzniká priamo „pri diele“, nie až pri domácom čítaní katalogizačného záznamu.
 
@@ -233,13 +241,13 @@ Preto je kľúčové nehľadať len „čo zobrazovať“, ale aj *ako* vyvolať
 
 ### Svetová referencia: MAK App ako vzor „jemného“ vstupu do vrstvy
 
-Pri návrhu Atlasu SNG sa pre nás stala dôležitou referenciou *MAK LAB APP* (`lab.mak.at`), ktorá vznikla ako digitálne rozšírenie expozície *MAK Design Lab* vo Viedni [@mak2020press]. V práci venovanej prístupnosti múzeí v Rakúsku počas pandémie COVID-19 používa Karolina Duelli tento projekt ako príklad toho, ako sa „dvere múzea“ dajú aspoň čiastočne nahradiť digitálnym rozhraním: ambíciou aplikácie je „teach essential topics for shaping the future in times of digital modernity and climate change“ a jej obsah je použiteľný naprieč zariadeniami (mobil, tablet, laptop), teda aj mimo priamej návštevy [@duelli2021museums, p. 10]. Pandemický kontext je tu dôležitý z dvoch praktických dôvodov. Po prvé, presun na *bring your own device* redukuje závislosť od zdieľaných dotykových kioskov v priestore (ktoré sa v čase hygienických obmedzení stávajú problematické). Po druhé, rozhranie, ktoré funguje aj „z domu“, vytvára kontinuitu kontaktu so zbierkou počas lockdownu a zároveň podporuje návrat k dielam po návšteve — napríklad cez uložené položky alebo cez „hru“ so systémom (v našom prípade sa neskôr ukázalo, že ľudia radi skúšajú zadávať kódy aj naslepo a hádať, aké dielo sa otvorí).
+Pri návrhu Atlasu SNG sa pre nás stala dôležitou referenciou *MAK LAB APP* (`lab.mak.at`), ktorá vznikla ako digitálne rozšírenie expozície *MAK Design Lab* vo Viedni [@mak2020press]. V práci venovanej prístupnosti múzeí v Rakúsku počas pandémie COVID-19 používa Karolina Duelli tento projekt ako príklad toho, ako sa „dvere múzea“ dajú aspoň čiastočne nahradiť digitálnym rozhraním: ambíciou aplikácie je „teach essential topics for shaping the future in times of digital modernity and climate change“ a jej obsah je použiteľný naprieč zariadeniami (mobil, tablet, laptop), teda aj mimo priamej návštevy [@duelli2021museums, p. 10]. Pandemický kontext je tu dôležitý z dvoch konkrétnych dôvodov. Po prvé, presun na *bring your own device* znižuje závislosť od zdieľaných dotykových kioskov v priestore (ktoré sa v čase hygienických obmedzení stávajú problematické). Po druhé, rozhranie, ktoré funguje aj „z domu“, vytvára kontinuitu kontaktu so zbierkou počas lockdownu a podporuje návrat k dielam po návšteve — napríklad cez uložené položky alebo cez „hru“ so systémom (v našom prípade sa neskôr ukázalo, že ľudia radi skúšajú zadávať kódy aj naslepo a hádať, aké dielo sa otvorí).
 
-Pre náš kontext však nebol rozhodujúci tematický rámec obsahu, ale forma interakcie: *MAK LAB APP* pracuje s kurátorsky rámcovanými prechádzkami (*paths*), umožňuje vytvárať si vlastnú „kolekciu“ objektov a ponúka nezvykle účinný spôsob zadávania kódu (gesto pripomínajúce *pattern lock* na zamknutej obrazovke). Toto je presne ten typ „post-pandemickej“ robustnosti, ktorý nadväzuje aj na tézu z 5. kapitoly: digitálna dostupnosť je síce kritický základ (bez geografickej bariéry a bez otváracích hodín), ale sama osebe ešte nezaručuje porozumenie ani kvalitnú skúsenosť; je to skôr nové pozadie, v ktorom sa rieši orientácia, kontext a návratnosť pozornosti.
+Pre náš kontext však nebol rozhodujúci tematický rámec obsahu, ale forma interakcie: *MAK LAB APP* pracuje s kurátorsky rámcovanými prechádzkami (*paths*), umožňuje vytvárať si vlastnú „kolekciu“ objektov a ponúka nezvykle účinný spôsob zadávania kódu (gesto pripomínajúce *pattern lock* na zamknutej obrazovke). Tento typ rozhrania zároveň dobre nadväzuje na tézu z 5. kapitoly: digitálna dostupnosť sa stala súčasťou základného štandardu sprístupňovania zbierok, ale sama osebe ešte nezaručuje porozumenie ani kvalitnú skúsenosť; je to skôr nové pozadie, v ktorom sa rieši orientácia, kontext a návratnosť pozornosti.
 
 ![MAK app (MAK Design Lab): príklad mobilného sprievodcu, ktorý kombinuje kurátorsky rámcované trasy (paths) s jednoduchým a neinvazívnym vstupom do obsahu.](figures/fig-6-4-mak-app.jpg){#fig:mak-app width=100%}
 
-Dôležité je, že tento model nevyžaduje, aby návštevník pri diele „namieril“ telefón a pracoval s kamerou. Vstup do digitálnej vrstvy je rýchly, diskrétny a zároveň sociálne kompatibilný so skupinovou návštevou: kód je čitateľný pre viacerých ľudí naraz, takže si ho môžu paralelne zadať do vlastných zariadení bez toho, aby sa navzájom blokovali skenovaním (ako pri QR). Práve v tom sme videli prenositeľný princíp: nie kopírovanie konkrétnych funkcií, ale potvrdenie, že fyzické dielo môže mať nenápadný identifikátor, ktorý otvára priestorovo ukotvený detail bez vizuálne agresívneho značenia. Toto je presne ten typ „post-pandemickej“ robustnosti, ktorý nadväzuje aj na tézu z 5. kapitoly: digitálna dostupnosť je dnes súčasťou základného štandardu sprístupňovania zbierok, ale sama osebe ešte nezaručuje porozumenie ani kvalitnú skúsenosť; je to skôr nové pozadie, v ktorom sa rieši orientácia, kontext a návratnosť pozornosti.
+Dôležité je, že tento model nevyžaduje, aby návštevník pri diele „namieril“ telefón a pracoval s kamerou. Vstup do digitálnej vrstvy je rýchly, diskrétny a sociálne kompatibilný so skupinovou návštevou: kód je čitateľný pre viacerých ľudí naraz, takže si ho môžu paralelne zadať do vlastných zariadení bez toho, aby sa navzájom blokovali skenovaním (ako pri QR). Práve v tom sme videli prenositeľný princíp: nie kopírovanie konkrétnych funkcií, ale potvrdenie, že fyzické dielo môže mať nenápadný identifikátor, ktorý otvára priestorovo ukotvený detail bez vizuálne agresívneho značenia.
 
 ### Prax v lab.SNG: *Atlas SNG* ako post-digitálny sprievodca budovou
 
@@ -269,9 +277,11 @@ Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť ur�
 
 ### Implementačná poznámka: fyzické ID ako most do API
 
-Technicky je tento typ prepojenia prekvapivo priamočiary: fyzický identifikátor (kód pri diele) sa mapuje na jednoznačný identifikátor diela a ten potom otvára digitálnu vrstvu cez API. Dôležitejšie než samotné API je však to, že vzniká „dvojvrstvový“ dátový model: základné metadáta a vizuálny obsah prichádzajú z Webu umenia, no situačné prvky (kód, video, tematické prechádzky, pátračky, odmeny) žijú v samostatnej edičnej vrstve. V Atlas SNG sme túto vrstvu vedome nebudovali ako vlastné CMS; použili sme AirTable, lebo umožňoval rýchlu správu obsahu ľuďmi mimo vývoja a zároveň sa dal čisto napojiť do aplikácie.
+Technicky je tento typ prepojenia dosť priamočiary: fyzický identifikátor (kód pri diele) sa mapuje na jednoznačný identifikátor diela a ten potom otvára digitálnu vrstvu cez API. Dôležitejšie než samotné API je však to, že vzniká „dvojvrstvový“ dátový model: základné metadáta a vizuálny obsah prichádzajú z Webu umenia, no situačné prvky (kód, video, tematické prechádzky, pátračky, odmeny) žijú v samostatnej edičnej vrstve. V Atlas SNG sme túto vrstvu vedome nebudovali ako vlastné CMS; použili sme AirTable, lebo umožňoval rýchlu správu obsahu ľuďmi mimo vývoja a zároveň sa dal čisto napojiť do aplikácie.
 
 ### Prečo „bodky“ (a čo sa ukázalo v praxi)
+
+![Označenie diel pre vstup do digitálnej vrstvy: bodkový kód v Atlase SNG (vľavo) v porovnaní s typickým QR značením v expozícii (vpravo). Zdroj obrázkov: Atlas SNG [@sngAtlasPage]; QR príklad [@qrgatewaySelfGuidedTours].](figures/fig-6-4-codes-diptych.jpg){#fig:atlas-vs-qr width=100%}
 
 ::: {.aside}
 **prečo bodky namiesto QR**
@@ -281,7 +291,6 @@ Technicky je tento typ prepojenia prekvapivo priamočiary: fyzický identifikát
 * v tlmenom svetle je skenovanie nepraktické a svetlo displeja býva rušivé pre okolie; zadanie kódu je diskrétnejšie.
 * kód sa dá zapamätať a dopísať aj počas chôdze k ďalšiemu dielu (čo pri QR nefunguje).
 * 3×3 mriežka dáva 2^9 možností (512; bez „prázdneho“ stavu 511). Keď kódy nie sú „spojité“ ťahy, vieme využiť všetky kombinácie.
-
 :::
 
 Táto voľba sa veľmi dobre overila aj produkčne. Pre označovanie diel stačil papierový „blueprint“ a kruhové nálepky; kódy sa dali vytvárať ad-hoc kýmkoľvek, bez špeciálneho hardvéru a bez zásahu do výstavnej grafiky. V testovaní sa objavili aj drobné, ale výrečné situácie: napríklad rodič ocenil, že keď dieťa odbehlo do vedľajšej miestnosti, stále vedel kód dokončiť „spamäti“ — presne ten typ časovej a priestorovej elasticity, ktorý v expozícii reálne nastáva.
@@ -292,7 +301,7 @@ Zaujímavé je, že sa nám nepotvrdilo všetko, čo na papieri znelo dobre. Pre
 
 Ak to mám zhrnúť v pojmoch tejto kapitoly: priestorový kontext funguje vtedy, keď digitálna vrstva rešpektuje primát fyzickej skúsenosti. A časový kontext sa zlepšuje vtedy, keď aplikácia vytvára drobné momenty *temporal serendipity* — náhodných návratov, dopísaní, znovu-objavení — bez toho, aby návštevu násilne linearizovala.
 
-## 6.5 Vizuálne akcentovanie a podobnosť: od *faciet* k *machine vision* (AI ako nový „spôsob čítania“ zbierok)
+## 6.5 Vizuálna podobnosť a AI: od filtrov k objavovaniu príbuznosti (od *facets* k *machine vision*)
 
 Textové vyhľadávanie a kurátorské kategórie nás v online zbierkach držia v režime *viem, čo hľadám*: autor, názov, obdobie, technika, ikonografický motív. V praxi je to účinné, ale zároveň to zužuje pole možných objavov – najmä tam, kde je naratívna vrstva oslabená alebo úplne chýba. Ak je dielo v rozhraní redukované na reprodukciu + inventárne minimum, používateľ sa ťažko „zachytí“ o niečo, čo by ho viedlo ďalej. Jedna z ciest, ako znovu otvoriť priestor pre serendipitu, je doplniť textové indexy o vizuálne indexy: farbu, tvar, ornament, rytmus, kompozíciu – teda vlastnosti, ktoré sa v dejinách umenia bežne používajú pri formálnej analýze, ale v online rozhraniach sú často neprítomné.
 
@@ -300,7 +309,7 @@ V posledných rokoch sa tento prístup posúva od jednoduchých filtrov (*facets
 
 ### Svetová referencia: Cooper Hewitt Labs (farba a tvar ako navigácia)
 
-Dobrou „pred-AI“ referenciou sú experimenty Cooper Hewitt Labs, ktoré dlhodobo skúšajú, čo sa stane, keď sa zmení primárny index prehliadania zbierok. Namiesto tém a autorov ponúkli napríklad prehliadanie podľa farby (*browse by color*) [@cooperhewitt2013giv] a neskôr projekt *Dive into Color*, ktorý prepája farbu, farebné harmónie a čas [@vane2018dive]. Paralelne vznikali aj pokusy o čítanie zbierky cez tvarové vlastnosti a „shape browsing“ [@ridge2012shape].
+Dobrou „pred-AI“ referenciou sú experimenty Cooper Hewitt Labs, ktoré dlhodobo skúšajú, čo sa stane, keď sa zmení primárny index prehliadania zbierok. Namiesto tém a autorov ponúkli napríklad prehliadanie podľa farby (*browse by color*) [@cooperhewitt2013giv] a neskôr projekt *Dive into Color*, ktorý prepája farbu, farebné harmónie a čas [@vane2018_making_diveintocolor]. Paralelne vznikali aj pokusy o čítanie zbierky cez tvarové vlastnosti a „shape browsing“ [@ridge2012shape].
 
 Podstatné je, že nejde o „dekoratívne filtre“. Je to zámerná zmena epistemického režimu rozhrania: farba a tvar sa stávajú legitímnou cestou, ako sa v zbierke orientovať aj bez predchádzajúceho kontextu. V prostredí galérie je to mimoriadne relevantné: návštevník často nevie pomenovať, čo ho pri diele zaujalo, ale vie to rozpoznať, keď to uvidí znova v inom objekte.
 
@@ -308,7 +317,7 @@ Podstatné je, že nejde o „dekoratívne filtre“. Je to zámerná zmena epis
 
 Akonáhle sa podobnosť počíta algoritmicky, vstupuje do hry problém „čiernej skrinky“: model nerozhoduje neutrálne, ale podľa skúsenosti, ktorú získal z tréningových dát a z kategórií, ktoré do sveta vkladáme my. Crawford a Paglen to v *Excavating AI* formulujú priamo: tréningové datasety nie sú len „surovina“ pre algoritmy, ale aj politika – rozhodovanie o tom, čo obrázky znamenajú a akú sociálnu prácu tieto reprezentácie vykonávajú [@crawford2019excavating].
 
-Pre múzeá je toto dvojnásob citlivé, pretože mnohé bežné modely strojového videnia stoja na datasetoch typu ImageNet a na architektúrach, ktoré z neho vyrástli (napr. *ResNet*) [@russakovsky2015ilsvrc; @he2016resnet]. Tieto datasety reprezentujú predovšetkým „súčasný svet“ a jeho kategórie – preto pri historických dielach vznikajú komické aj systematické omyly (svätožiary ako klobúky, anjeli ako vtáky), ale dôležitejšie: vznikajú aj sociálne a demografické skreslenia, ktoré sa ukazujú napríklad pri komerčných klasifikátoroch pohlavia a farby pleti [@buolamwini2018gendershades]. V múzejnom kontexte sa tak „podobnosť“ nikdy nesmie tváriť ako objektívna pravda – je to návrh na objavovanie, ktorý musí byť čitateľne rámovaný, auditovateľný a v ideálnom prípade doplnený o vysvetlenie (prečo sa tieto dve veci stretli vedľa seba).
+Pre múzeá je toto dvojnásob citlivé, pretože mnohé bežné modely strojového videnia stoja na datasetoch typu ImageNet a na architektúrach, ktoré z neho vyrástli (napr. *ResNet*) [@russakovsky2015ilsvrc; @he2016resnet]. Tieto datasety reprezentujú predovšetkým „súčasný svet“ a jeho kategórie – preto pri historických dielach vznikajú komické aj systematické omyly (svätožiary ako klobúky, anjeli ako vtáky) [@pilka2022digitalcurator, s. 90–93], ale dôležitejšie: vznikajú aj sociálne a demografické skreslenia, ktoré sa ukazujú napríklad pri komerčných klasifikátoroch pohlavia a farby pleti [@buolamwini2018gendershades]. V múzejnom kontexte sa tak „podobnosť“ nikdy nesmie tváriť ako objektívna pravda – je to návrh na objavovanie, ktorý musí byť čitateľne rámovaný, auditovateľný a v ideálnom prípade doplnený o vysvetlenie (prečo sa tieto dve veci stretli vedľa seba).
 
 V literatúre o AI v múzeách sa opakovane objavuje aj druhý praktický problém: AI býva izolovaná do pilotov, ktoré nie sú prepojené s jadrom digitálnej infraštruktúry múzea a po skončení projektu zostane iba demo. Ako sektorová mapa a reflexia AI ukazujú, udržateľnosť často naráža na kapacity, dátovú pripravenosť a na to, či má inštitúcia zadefinované, čo vlastne chce AI dosiahnuť (výskum? prístupnosť? objavovanie? interné procesy?) [@thiel2023aiinmuseums]. Súvisiaci prúd kritiky „black-box“ kultúry v digitálnych nástrojoch (aj v kultúrnej pamäti) zdôrazňuje potrebu dokumentovať rozhodnutia, zviditeľňovať skryté predpoklady a navrhovať rozhrania tak, aby používateľ vedel, kedy ide o fakt a kedy o strojový odhad [@cernaSkrinka2022blackbox].
 
@@ -325,7 +334,7 @@ V literatúre o AI v múzeách sa opakovane objavuje aj druhý praktický probl�
 * *vzťah k SNG:* otvorenosť dát umožnila zahrnutie diel SNG do experimentu; projekt sa stal aj praktickým kontaktným bodom pre spoluprácu
 :::
 
-Na opačnom póle „samoúčelnej AI“ stojí projekt *Digital Curator* Lukáša Pilku, ktorý ukazuje, že pri dobre zvolenom rámci môže automatická analýza vytvárať prekvapivo presvedčivé vizuálne a symbolické konštelácie naprieč zbierkami – nie ako autoritatívna interpretácia, ale ako nástroj na kurátorské kladenie otázok a generovanie nových ciest čítania [@pilkaDigitalCuratorSite; @thiel2023aiinmuseums]. Pre mňa je na tomto projekte podstatné najmä to, že „kurátorovanie“ sa tu nedeje magicky v modeli, ale v dizajne celého systému: v tom, čo sa meria, ako sa to vizualizuje a aké typy spojení sa používateľovi ponúknu.
+Na opačnom póle „samoúčelnej AI“ stojí projekt *Digital Curator* Lukáša Pilku, ktorý ukazuje, že pri dobre zvolenom rámci môže automatická analýza vytvárať prekvapivo presvedčivé vizuálne a symbolické konštelácie naprieč zbierkami – nie ako autoritatívna interpretácia, ale ako nástroj na kurátorské kladenie otázok a generovanie nových ciest čítania [@pilka2022digitalcurator; @pilkaDigitalCuratorSite; @thiel2023aiinmuseums]. Pre mňa je na tomto projekte podstatné najmä to, že „kurátorovanie“ sa tu nedeje magicky v modeli, ale v dizajne celého systému: v tom, čo sa meria, ako sa to vizualizuje a aké typy spojení sa používateľovi ponúknu.
 
 Zároveň je pre SNG dôležité aj praktické prepojenie: otvorenosť dát umožnila, že vybrané diela zo zbierok SNG sa mohli stať súčasťou experimentu, a teda aj súčasťou širšieho stredoeurópskeho vizuálneho priestoru, v ktorom sa historické vplyvy a motivické migrácie často ukážu zreteľnejšie než v izolovaných národných databázach.
 
@@ -373,7 +382,7 @@ Kľúčové je, že tento mechanizmus sa dá chápať ako rozšírenie kurátors
 
 Pre tému straty naratívnej vrstvy je vizuálna podobnosť užitočná práve tým, že nevyžaduje, aby bol príbeh dopísaný vopred. Je to generátor možností: namiesto jedného správneho čítania ponúka pole príbuzností, ktoré sa dajú následne kurátorsky pomenovať, komentovať alebo nechať otvorené. Zároveň však prináša novú povinnosť: pomenovať hranice algoritmu, priznať jeho skreslenia a nenechať ho tváriť sa ako „neutrálny zrak“ [@crawford2019excavating; @buolamwini2018gendershades].
 
-Tu sa podľa mňa priamo stretáva táto podkapitola s tézami z kapitoly 5: ak online zbierky strácajú *wow moment* tým, že z diel robia izolované záznamy bez situovania, potom vizuálna podobnosť je jeden z mála mechanizmov, ktorý vie vytvoriť „nové situovanie“ – nie cez lineárny príbeh, ale cez sieť príbuzností. Otázka, ktorú si tu kladiem (a ktorú by som v ďalšej kapitole už testoval experimentom), znie: *kedy sa podobnosť stáva zmysluplnou skúsenosťou a kedy len nekonečným scrollom?* A čo musí urobiť rozhranie, aby človeka viedlo späť k dielu – nie preč od neho.
+Tu sa podľa mňa priamo stretáva táto podkapitola s tézami z kapitoly 5: ak online zbierky strácajú *wow moment* tým, že z diel robia izolované záznamy bez situovania, potom vizuálna podobnosť je jeden z mechanizmov, ktorý vie vytvoriť „nové situovanie“ – nie cez lineárny príbeh, ale cez sieť príbuzností. Otázka, ktorú si tu kladiem (a ktorú by som v ďalšej kapitole už testoval experimentom), znie: *kedy sa podobnosť stáva zmysluplnou skúsenosťou a kedy len nekonečným scrollom?* A čo musí urobiť rozhranie, aby človeka viedlo späť k dielu – nie preč od neho.
 
 ## 6.6 Záver: Odbočky, ktoré zlepšujú jadro
 
