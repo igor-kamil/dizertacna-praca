@@ -256,8 +256,6 @@ V roku 2022 sme dostali príležitosť navrhnúť mobilného sprievodcu pre nov�
 1. prepojiť diela vo fyzickej expozícii s digitálnym obsahom tak, aby vstup bol rýchly a nerušil,
 2. vytvoriť platformu pre nenútené „príbehové“ režimy návštevy — vrátane interaktívnych prechádzok typu *choose your own adventure*.
 
-![Atlas SNG: detail diela v mobile so vstupom cez bodkový kód (3×3), ktorý slúži ako tichý most medzi miestom v expozícii a digitálnou vrstvou.](figures/fig-6-4-atlas-sng-code-entry.png){#fig:atlas-sng-code-entry width=100%}
-
 ![Použitie v priestore: mobilný sprievodca má fungovať ako krátky „zásah do kontextu“, po ktorom sa pozornosť prirodzene vracia späť k dielu.](figures/fig-6-4-atlas-sng-in-situ.jpg){#fig:atlas-sng-in-situ width=90%}
 
 Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť určiť vlastný rytmus: nie byť ťahaný lineárnym audio-guide scenárom, ale mať možnosť nechať sa „odprevadiť“ k dielam, ktoré dávajú zmysel v rámci témy, nálady alebo zvedavosti. Do digitálnej vrstvy sme preto pridávali videá s komentármi, možnosť ukladať si obľúbené diela a vracať sa k nim neskôr, a napokon aj hravý motív „pátračky“: mesačná téma, ku ktorej boli vybrané súvisiace diela — po ich nazbieraní sa odomkla odmena (káva/nápoj v kaviarni alebo zľava v kníhkupectve). Táto drobnosť je pre mňa dôležitá: digitálna vrstva sa tu neuzatvára sama do seba, ale cielene sa „vracia“ do fyzického sveta ako motivácia k pohybu a pozornosti.
@@ -295,6 +293,13 @@ Technicky je tento typ prepojenia dosť priamočiary: fyzický identifikátor (k
 
 Táto voľba sa veľmi dobre overila aj produkčne. Pre označovanie diel stačil papierový „blueprint“ a kruhové nálepky; kódy sa dali vytvárať ad-hoc kýmkoľvek, bez špeciálneho hardvéru a bez zásahu do výstavnej grafiky. V testovaní sa objavili aj drobné, ale výrečné situácie: napríklad rodič ocenil, že keď dieťa odbehlo do vedľajšej miestnosti, stále vedel kód dokončiť „spamäti“ — presne ten typ časovej a priestorovej elasticity, ktorý v expozícii reálne nastáva.
 
+::: {#fig:atlas-sng-flow .figure}
+![](figures/fig-6-4-atlas-1-kod.jpg){width=49%} ![](figures/fig-6-4-atlas-2-detail.jpg){width=49%}
+
+Ovládací „flow“ v Atlase SNG: zadanie bodkového kódu (vľavo) a detail diela s rozšíreným kontextom (karta autora, sprievodné video z inštalácie v expozícii a prepojenie na Web umenia) (vpravo).
+:::
+
+
 ### Poučenie: nie všetky naratívne režimy prežijú realitu expozície
 
 Zaujímavé je, že sa nám nepotvrdilo všetko, čo na papieri znelo dobre. Prechádzky sme časom z aplikácie odstránili a nevrátili. V praxi sa ukázali ako trochu nemotorné — a hlavne, v expozícii je často lepšie, keď sa návštevník pozerá na dielo a nie na displej. Naopak, kódy a návrat k uloženým dielam sa ukázali ako stabilné jadro: podporujú krátke vstupy do kontextu aj neskorší „after-visit“ návrat.
@@ -321,10 +326,10 @@ Pre múzeá je toto dvojnásob citlivé, pretože mnohé bežné modely strojov�
 
 V literatúre o AI v múzeách sa opakovane objavuje aj druhý praktický problém: AI býva izolovaná do pilotov, ktoré nie sú prepojené s jadrom digitálnej infraštruktúry múzea a po skončení projektu zostane iba demo. Ako sektorová mapa a reflexia AI ukazujú, udržateľnosť často naráža na kapacity, dátovú pripravenosť a na to, či má inštitúcia zadefinované, čo vlastne chce AI dosiahnuť (výskum? prístupnosť? objavovanie? interné procesy?) [@thiel2023aiinmuseums]. Súvisiaci prúd kritiky „black-box“ kultúry v digitálnych nástrojoch (aj v kultúrnej pamäti) zdôrazňuje potrebu dokumentovať rozhodnutia, zviditeľňovať skryté predpoklady a navrhovať rozhrania tak, aby používateľ vedel, kedy ide o fakt a kedy o strojový odhad [@cernaSkrinka2022blackbox].
 
-### Kurátorský protipól: *Digital Curator* (Lukáš Pilka) – keď AI vytvára zmysluplné „konštelácie“
+### Kurátorský protipól: *Digital Curator* – keď AI vytvára zmysluplné „konštelácie“
 
 ::: {.aside}
-**project card: Digital Curator (Lukáš Pilka)**
+**project card: Digital Curator**
 
 * *názov:* Digital Curator
 * *URL:* <https://digitalcurator.art>

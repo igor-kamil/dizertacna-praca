@@ -2,19 +2,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
   <defs>
     <style>
-      /* Matplotlib-ish clean aesthetic */
+      /* Typography: prefer Charter if available; otherwise fall back to generic serif */
       .box { fill: #ffffff; stroke: #2f2f2f; stroke-width: 2; rx: 18; ry: 18; }
-      .title { font-family: DejaVu Sans, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 20px; fill: #2f2f2f; font-weight: 700; }
-      .text { font-family: DejaVu Sans, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 16px; fill: #2f2f2f; }
-      .small { font-family: DejaVu Sans, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 14px; fill: #2f2f2f; }
+      .title { font-family: Charter, "Bitstream Charter", serif; font-size: 20px; fill: #2f2f2f; font-weight: 700; }
+      .text  { font-family: Charter, "Bitstream Charter", serif; font-size: 16px; fill: #2f2f2f; }
+      .small { font-family: Charter, "Bitstream Charter", serif; font-size: 14px; fill: #2f2f2f; }
       .muted { fill: #555555; }
 
-      .arrow { stroke: #2f2f2f; stroke-width: 2.5; fill: none; }
-      .note { font-family: DejaVu Sans, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 13px; fill: #555555; }
+      /* Softer arrows */
+      .arrow { stroke: #2f2f2f; stroke-width: 2.0; fill: none; }
+      .note  { font-family: Charter, "Bitstream Charter", serif; font-size: 13px; fill: #555555; }
     </style>
 
-    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
-      <polygon points="0 0, 12 4, 0 8" fill="#2f2f2f"/>
+    <!-- Smaller, less prominent arrowhead -->
+    <marker id="arrowhead" markerWidth="9" markerHeight="6" refX="8.2" refY="3" orient="auto">
+      <polygon points="0 0, 9 3, 0 6" fill="#2f2f2f"/>
     </marker>
   </defs>
 
