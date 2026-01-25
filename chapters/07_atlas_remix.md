@@ -1,0 +1,18 @@
+# 7. Atlas Re/mix — od digitálnej zbierky k tvorivému nástroju
+
+### 7.1 Koncepčný rámec: význam medzi obrazmi
+
+> “With the picture atlas *Mnemosyne*, Warburg created an «iconology of intervals» where meaning arose in-between the images.”
+> — Simen Joachim Helsvig, *Kunstkritikk* (2015) [@kunstkritikk2015]
+
+Atlas re/mix vznikol z potreby nájsť iný spôsob, ako vstúpiť do online zbierky. V bežných rozhraniach človek zväčša postupuje cez vyhľadávanie, filtre a katalógové poradie. Takýto prístup je účinný, keď vieme, čo hľadáme. Keď však nevieme, alebo keď chceme skôr objavovať než verifikovať, rozhranie nás často vedie po predvídateľných cestách. Výsledkom je pocit, že zbierka je síce rozsiahla, ale vstup do nej je úzky.
+
+Warburgova predstava „ikonológie intervalov“ je pre tento projekt dôležitá práve tým, že presúva pozornosť z jednotlivého obrazu na vzťah medzi obrazmi. Neberiem ju ako historický návod, ako robiť výklad. Beriem ju ako pracovný princíp: zmysel môže vzniknúť v medzere medzi dvoma obrazmi, v ich vedomom položení vedľa seba, v montáži. To je aj základný formát Atlas re/mix: nevyrába „výsledok“ v podobe nájdeného diela, ale ponúka dvojicu, ktorú návštevník buď prijme, alebo odmietne.
+
+Hlavná otázka projektu sa preto dá povedať jednoducho: môže vyhľadávanie podľa vizuálnej podobnosti otvoriť taký typ objavu, ktorý nie je len formálnou zhodou, ale spustí interpretáciu? V praxi ma zaujíma moment, keď sa z náhodného návrhu stane osobné „áno, toto spolu drží“. Niekedy to vznikne cez farbu alebo tvar. Niekedy cez náladu. A niekedy cez konkrétnu situáciu používateľa, ktorú si nesie na fotke z miesta, dňa alebo práce. Vtedy podobnosť nie je cieľ. Je len prvý impulz. To podstatné sa odohrá v hlave, keď sa spojenie začne čítať ako krátky príbeh alebo ako nový spôsob vnímania diela.
+
+Zároveň sa tu otvára otázka, ktorá je blízko Warburgovej montáži aj dnešnému *remixu*: či takéto skladanie existujúcich diel vytvára „nové dielo“, alebo skôr nový spôsob čítania. V rámci Atlas re/mix sa prikláňam k druhej možnosti. Diptych chápem ako dočasnú, používateľskú interpretáciu. Je to gesto a stopa skúsenosti, nie náhrada originálu. Napriek tomu je dôležité priznať autorský rozmer: používateľ vyberá, rozhoduje a pomenúva spojivo. Tým sa posúva z pasívneho prehliadača do roly spolutvorcu významu. V ďalších častiach kapitoly sa k tomu vrátim cez praktické otázky kurátorského rámca a cez to, ako sa tento „interval“ dá udržať aj vo fyzickej inštalácii.
+
+Projekt zároveň stojí na existujúcej infraštruktúre. Atlas re/mix je experimentálne rozhranie nad dátami z Webu umenia (webumenia.sk). [@webumeniaSite] V demoverzii pracuje so zúženým korpusom, aby bol objav čitateľný aj pri krátkom kontakte, a aby sa dalo lepšie sledovať, čo presne spúšťa „zmysluplné“ spojenia. Technicky je to dôležité aj preto, že prototypovanie podobnostného vyhľadávania je citlivé na kvalitu dát a na spôsob, ako sa diela do systému dostávajú. Web umenia zároveň poskytuje otvorený vývojový kontext (napr. verejné repozitáre projektu), na ktorý sa tento experiment dá napojiť. [@webumenia_elasticsearch_public_api_wiki_2020]
+
+Dôležitá je aj časová rovina: dnes existuje funkčná demoverzia a prebieha testovanie. Fyzická výstava je plánovaná na jún 2026, teda v čase obhajoby. To znamená, že kapitola pracuje s dvoma stavmi naraz. Opisuje hotové rozhodnutia v prototypovej interakcii a zároveň pomenúva, čo sa ešte len navrhne a overí v priestore. Tento „rozostavaný“ stav nie je slabina, ale súčasť prístupu *research through design*: prototyp slúži na to, aby sa dal pomenovať a zmerať práve ten moment objavu, ktorý online katalógy často nevedia vyvolať bez toho, aby používateľ presne vedel, čo hľadá.
