@@ -1,6 +1,6 @@
 # Dizertačná práca: Online art collections as containers of visual storytelling
 
-![Progress](https://img.shields.io/badge/Writing%20Progress-90%20pages%20%7C%20goal:%2053%20(ON%20TRACK)-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Writing%20Progress-92%20pages%20%7C%20goal:%2058%20(ON%20TRACK)-brightgreen?style=for-the-badge)
 
 - **Autor:** Igor Rjabinin
 - **Školiteľ:** András Cséfalvay
@@ -36,41 +36,36 @@ Súčasná verzia rozvíja tieto otázky v špecifickom prostredí **online gal�
 
 ## Generovanie PDF
 
-**Požiadavky:** Pandoc + XeLaTeX (macOS: `brew install pandoc` + [TinyTeX](https://yihui.org/tinytex/) )
+**Požiadavky:** Pandoc + XeLaTeX (macOS: `brew install pandoc` + [TinyTeX](https://yihui.org/tinytex/) ) + Ghostscript (pre kompresiu).
 
 **TeX balíky (TinyTeX):**
 
 ```bash
 tlmgr install hyphen-slovak
 tlmgr install collection-langczechslovak
+tlmgr install newunicodechar microtype xevlna tcolorbox etoolbox caption placeins enumitem
 ```
 
 ```bash
 chmod +x build.sh      # prvýkrát
-./build.sh             # vytvorí dissertation.pdf (default: /ebook compression)
+./build.sh             # vytvorí dissertation.pdf
 ```
+
+### Konfigurácia
+
+- `pandoc/defaults.yaml` – hlavné nastavenia Pandocu (formát, filtre, metadáta)
+- `pandoc/preamble.tex` – LaTeX konfigurácia (typografia, vizuálne boxy, fonty)
 
 ### Možnosti kompresie PDF
 
-PDF sa automaticky komprimuje pomocou Ghostscript. Dostupné možnosti (od najkomprimovanejších po najkvalitnejšie):
+PDF sa automaticky komprimuje pomocou Ghostscript (`gs`). Predvolená kvalita je `/ebook`.
 
 ```bash
 ./build.sh                      # default: /ebook (stredná kompresia)
 PDFSETTINGS=/screen ./build.sh  # najväčšia kompresia (najnižšia kvalita)
-PDFSETTINGS=/ebook ./build.sh   # stredná kompresia (default)
 PDFSETTINGS=/printer ./build.sh # vyššia kvalita
-PDFSETTINGS=/prepress ./build.sh # najvyššia kvalita (najmenšia kompresia)
-FULL=1 ./build.sh               # bez kompresie (plná kvalita, bez Ghostscript)
-```
-
-### Ďalšie možnosti
-
-Bibliografia: generuje sa **automaticky na konci dokumentu** (vyžaduje `references.bib`).
-
-Vypnúť bibliografiu (ak to dočasne potrebuješ):
-
-```bash
-ENABLE_BIB=0 ./build.sh
+PDFSETTINGS=/prepress ./build.sh # najvyššia kvalita (približuje sa originálu)
+FULL=1 ./build.sh               # bez kompresie (úplne preskočí Ghostscript)
 ```
 
 ## Spúšťanie skriptov

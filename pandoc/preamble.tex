@@ -12,6 +12,15 @@
 % Prevent single-letter prepositions/conjunctions at line ends.
 \usepackage{xevlna}
 
+% --- Typography improvements ---
+\usepackage{enumitem}
+\setlist{nosep} % Compact lists by default
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-} % Better line breaks in URLs
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom % Better than forcing vertical stretch between paragraphs
+
 \usepackage{xcolor}
 \usepackage[most]{tcolorbox}
 \tcbset{before skip=8pt, after skip=8pt}
@@ -56,4 +65,10 @@
 
 \usepackage{graphicx}
 \setkeys{Gin}{width=\linewidth, height=0.7\textheight, keepaspectratio}
+
+% --- Font Configuration ---
+\usepackage{fontspec}
+\setmainfont{Async Sans}[StylisticSet=1]
+\setsansfont{Async Sans}[StylisticSet=1]
+\setmonofont{Menlo}
 
