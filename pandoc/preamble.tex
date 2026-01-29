@@ -1,4 +1,4 @@
-% LaTeX preamble for dissertation PDF build (used by Pandoc)
+% LaTeX preamble for dissertation PDF build
 
 \usepackage{newunicodechar}
 \newunicodechar{→}{\ensuremath{\rightarrow}}
@@ -6,69 +6,111 @@
 \usepackage{polyglossia}
 \setmainlanguage{slovak}
 
-% Better paragraph shaping (limited support in XeLaTeX).
+% --- Typography & Layout ---
 \usepackage{microtype}
-
-% Prevent single-letter prepositions/conjunctions at line ends.
-\usepackage{xevlna}
-
-% --- Typography improvements ---
+\usepackage{xevlna} % Fix single letter prepositions
 \usepackage{enumitem}
-\setlist{nosep} % Compact lists by default
-\usepackage{url}
-\def\UrlBreaks{\do\/\do-} % Better line breaks in URLs
-\widowpenalty=10000
-\clubpenalty=10000
-\raggedbottom % Better than forcing vertical stretch between paragraphs
+\setlist{nosep}
+\raggedbottom
 
-\usepackage{xcolor}
-\usepackage[most]{tcolorbox}
-\tcbset{before skip=8pt, after skip=8pt}
-% Allow environment-specific tweaks in aside.
-\usepackage{etoolbox}
-% Enable captions outside floats (used inside aside).
+% --- Fonts ---
+\usepackage{fontspec}
+
+% Main font configuration
+\setmainfont{Setup Serif}[
+  UprightFont = *,
+  BoldFont = SetupSerif-Medium,
+  ItalicFont = SetupSerif-RegularItalic,
+  BoldItalicFont = SetupSerif-MediumItalic, % Fallback for bold italic
+]
+
+\setsansfont{Async Sans}
+\setmonofont{Menlo}[Scale=0.9]
+
+% Helper for Medium weight (used in headings)
+\newfontfamily\fontMedium{SetupSerif-Medium}
+
+% --- Headings ---
+\usepackage{titlesec}
+
+% Chapter: Huge, Medium
+\titleformat{\chapter}[display]
+  {\fontMedium\huge}
+  {\thechapter}{20pt}{\Huge}
+
+% Section: Large, Medium
+\titleformat{\section}
+  {\fontMedium\Large}
+  {\thesection}{1em}{}
+
+% Subsection: Normalsize, Medium
+\titleformat{\subsection}
+  {\fontMedium\large}
+  {\thesubsection}{1em}{}
+
+% --- Figures & Captions ---
 \usepackage{caption}
-% Prevent floats from crossing aside boxes.
 \usepackage{placeins}
-% Print-oriented aside box:
-% - subtle background tint
-% - single left rule instead of a full frame
-\newtcolorbox{aside}{%
-  enhanced,
-  breakable,
-  sharp corners,
-  colback=black!2,
-  colframe=black!40,
-  boxrule=0pt,
-  borderline west={0.6pt}{0pt}{black!45},
-  left=3mm,right=2mm,
-  top=1.5mm,bottom=1.5mm,
-  before skip=10pt,after skip=10pt,
-  before upper=\small
+\usepackage{graphicx}
+
+\captionsetup{
+  font={small,stretch=1.1},
+  labelfont={bf},       % Bold label (e.g. Figure 1)
+  labelsep=quad,        % Space after label
+  justification=raggedright,
+  singlelinecheck=false,
+  margin=0pt
 }
 
-% Inside aside boxes, turn figure floats into inline figures to avoid
-% LaTeX float errors while keeping captions.
-\AtBeginEnvironment{aside}{%
+% Default image settings
+\setkeys{Gin}{width=\linewidth, height=0.75\textheight, keepaspectratio}
+
+% --- Boxes (Aside & Quote) ---
+\usepackage[most]{tcolorbox}
+\usepackage{etoolbox}
+
+% Quote: Minimalist left bar
+\renewenvironment{quote}{%
+  \begin{tcolorbox}[
+    blanker,
+    borderline west={1pt}{0pt}{black}, % Thin line on left
+    left=1.5em,
+    before skip=1em,
+    after skip=1em,
+    fontupper=\small
+  ]
+}{\end{tcolorbox}}
+\renewenvironment{quotation}{\begin{quote}}{\end{quote}}
+
+% Aside: Clean top/bottom lines, no background
+\newtcolorbox{aside}{
+  enhanced,
+  breakable,
+  frame hidden,        % No frame
+  colback=white,       % White background
+  toprule=0.5pt,       % Top line
+  bottomrule=0.5pt,    % Bottom line
+  sharp corners,
+  left=0pt, right=0pt,
+  top=1em, bottom=1em,
+  before skip=1.5em, after skip=1.5em,
+  fonttitle=\fontMedium,
+  coltitle=black,
+  attach title to upper={\par\medskip}
+}
+
+% Handle figures inside Aside environments
+\AtBeginEnvironment{aside}{
   \FloatBarrier
-  \renewenvironment{figure}[1][]{%
-    \begin{center}%
-    \captionsetup{type=figure}%
-  }{%
-    \end{center}%
-  }%
+  \renewenvironment{figure}[1][]{
+    \center
+    \captionsetup{type=figure}
+  }{\endcenter}
 }
 \AfterEndEnvironment{aside}{\FloatBarrier}
 
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+
 \usepackage{tikz}
-\usetikzlibrary{positioning}
-
-\usepackage{graphicx}
-\setkeys{Gin}{width=\linewidth, height=0.7\textheight, keepaspectratio}
-
-% --- Font Configuration ---
-\usepackage{fontspec}
-\setmainfont{Async Sans}[StylisticSet=1]
-\setsansfont{Async Sans}[StylisticSet=1]
-\setmonofont{Menlo}
-
+\usetikzlibrary{positioning, arrows.meta, shapes, calc}
