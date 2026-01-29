@@ -17,7 +17,12 @@ rm -f "${merged_md}"
 
 # Collect chapters in lexical order and merge.
 shopt -s nullglob
-chapters=("${chapters_dir}"/*.md)
+# Use CHAPTER_PATTERN env var to build only specific chapters (e.g. CHAPTER_PATTERN="06" ./build.sh)
+pattern="${CHAPTER_PATTERN:-*}"
+chapters=("${chapters_dir}"/${pattern}_*.md)
+if [[ "${pattern}" == "*" ]]; then
+    chapters=("${chapters_dir}"/*.md)
+fi
 shopt -u nullglob
 
 if (( ${#chapters[@]} == 0 )); then
