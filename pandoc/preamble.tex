@@ -82,16 +82,15 @@
 }{\end{tcolorbox}}
 \renewenvironment{quotation}{\begin{quote}}{\end{quote}}
 
-% Aside: Clean top/bottom lines, no background
+% Aside: Borders all around, no background
 \newtcolorbox{aside}{
   enhanced,
   breakable,
-  frame hidden,        % No frame
   colback=white,       % White background
-  toprule=0.5pt,       % Top line
-  bottomrule=0.5pt,    % Bottom line
+  colframe=black,      % Border color
+  boxrule=0.5pt,       % Border thickness
   sharp corners,
-  left=0pt, right=0pt,
+  left=1em, right=1em, % Padding for borders
   top=1em, bottom=1em,
   before skip=1.5em, after skip=1.5em,
   fonttitle=\fontMedium,
