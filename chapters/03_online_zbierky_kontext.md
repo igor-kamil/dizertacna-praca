@@ -441,7 +441,7 @@ Tento paralelizmus neviedol k jednoduchej duplicite riešení, ale skôr k vznik
 
 V tomto kontexte mohol Web umenia vznikať relatívne organicky, ako projekt vyrastajúci „odspodu“ z konkrétnej inštitucionálnej praxe. Absencia silného projektového rámca a nižšia miera programovej zaviazanosti vytvárali priestor pre iteráciu, experimentovanie a postupné vyzrievanie rozhrania aj dátových rozhodnutí. Skúsenosť z prostredia SNG naznačuje, že práve tento typ pracovných podmienok umožňuje, aby sa digitálne riešenia formovali ako dlhodobejší proces, a nie ako jednorazový výstup viazaný na projektové obdobie.
 
-### 3.4.6 Vznik lab.SNG (2010–2015): in-house ako stratégia
+### 3.4.6 Vznik lab.SNG (2010–2015): in-house ako stratégia {#sec:labsng-vznik}
 
 #### 3.4.6.1 Prečo in-house?
 
