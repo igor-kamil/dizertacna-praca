@@ -1,0 +1,30 @@
+# Pandoc defaults for dissertation build
+from: markdown+tex_math_dollars+raw_tex
+to: pdf
+pdf-engine: xelatex
+top-level-division: chapter
+
+# Metadata & Variables
+metadata:
+  reference-section-title: Zoznam použitej literatúry
+
+variables:
+  documentclass: report
+  fontsize: 11pt
+  lang: sk-SK
+  geometry:
+    - margin=3cm
+    - heightrounded
+
+# Bibliography
+citeproc: true
+bibliography: [references.bib]
+csl: style.csl
+
+# Filters
+filters:
+  - pandoc/filters/aside.lua
+
+# LaTeX Preamble
+include-in-header:
+  - pandoc/preamble.tex
