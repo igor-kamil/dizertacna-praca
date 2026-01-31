@@ -1,6 +1,6 @@
 # 2 Metodológia {#sec:metodologia}
 
-## 2.1 Metodický rámec práce {#sec:metodologia-21}
+## 2.1 Metodologický rámec práce {#sec:metodologia-21}
 
 Táto dizertácia je *praxou vedený výskum* a zároveň *umelecký výskum*: problém straty naratívnej vrstvy v online zbierkach skúmam tak, že navrhujem, prototypujem a overujem alternatívne rozhrania. Rozhranie tu nie je len „výstup“, ale výskumný nástroj – cez konkrétne návrhové rozhodnutia testujem, ako sa mení čítanie zbierky, možnosti interpretácie a objavovania. Poznanie preto nevzniká iba v texte, ale aj vo výskumných artefaktoch: prototypoch, implementáciách, dokumentovaných voľbách a reakciách používateľov.
 
@@ -28,7 +28,7 @@ Dôležité je, že nejde primárne o kvantitatívny výskum. Keďže skúmané 
 
 Praktická časť vznikala v prostredí *lab.SNG* ako inštitucionálneho rámca digitálneho R&D (vývoja, ktorý má zároveň výskumné ambície). V tejto kapitole ho uvádzam len ako výskumné prostredie; jeho vznik, rolu a vnútorné fungovanie rozoberám samostatne v neskorších kapitolách, aby sa metodologický rámec zbytočne nemiešal s inštitucionálnou históriou.
 
-Takto nastavený metodický rámec umožňuje, aby sa praktické kapitoly dali čítať ako séria prípadových štúdií *research through design*: každé rozhranie je pokusom „premiestniť“ naratív z textovej vrstvy do interakcie, vizuality, susedstiev diel a kurátorsky nastavenej navigácie – a zároveň je materiálom, na ktorom sa dá presne ukázať, čo daná voľba robí s významom, objavovaním a porozumením.
+Takto nastavený Metodologický rámec umožňuje, aby sa praktické kapitoly dali čítať ako séria prípadových štúdií *research through design*: každé rozhranie je pokusom „premiestniť“ naratív z textovej vrstvy do interakcie, vizuality, susedstiev diel a kurátorsky nastavenej navigácie – a zároveň je materiálom, na ktorom sa dá presne ukázať, čo daná voľba robí s významom, objavovaním a porozumením.
 
 ## 2.2 Pozícia autora a prostredie {#sec:metodologia-22}
 
@@ -47,7 +47,7 @@ Napokon, táto pozícia prirodzene vedie k dvojitému hodnoteniu rozhraní. Na j
 
 * *lab.SNG* bola platforma Slovenskej národnej galérie zameraná na skúmanie možností využitia digitálnych technológií v galerijnej a muzeálnej praxi (júl 2013 – marec 2025). [@labSNGSite]
 * V tejto práci vystupuje predovšetkým ako *výskumné prostredie* pre dlhodobú iteráciu: umožňovalo prototypovanie, nasadzovanie a spätnú väzbu v reálnych podmienkach inštitúcie.
-* Jej vznik, rolu a vnútorné fungovanie rozoberám samostatne (pozri sekciu @sec:labsng-vznik) a v praktických kapitolách 4–6 cez konkrétne projekty, aby sa metodologický rámec zbytočne nemiešal s inštitucionálnou históriou.
+* Jej vznik, rolu a vnútorné fungovanie rozoberám samostatne (pozri sekciu [vznik lab.SNG](#sec:labsng-vznik)) a v praktických kapitolách 4–6 cez konkrétne projekty, aby sa metodologický rámec zbytočne nemiešal s inštitucionálnou históriou.
 :::
 
 ## 2.3 Materiál a dáta {#sec:metodologia-23}
@@ -55,6 +55,8 @@ Napokon, táto pozícia prirodzene vedie k dvojitému hodnoteniu rozhraní. Na j
 Materiál práce tvorí kombinácia troch typov podkladov, ktoré sa v praktických kapitolách (4–7) prepájajú: dáta zbierok tvoria korpus pre rozhrania, dáta z interakcií slúžia ako spätná väzba pre iteráciu a technické artefakty dokumentujú rozhodnutia a limity implementácie.
 
 Prvým sú dáta digitálnych zbierok: reprodukcie diel a metadáta, ktoré umožňujú budovať rozhrania nad existujúcimi kolekciami. V praxi to zahŕňa aj rozhodnutia o rozsahu korpusu, kvalite obrázkov, dostupnosti polí a licenčných obmedzeniach. Pracujem so konkrétnymi exportmi (snapshotmi) dát a pri kľúčových výstupoch uvádzam, z akého stavu dát a akých polí vychádzajú. V tomto bode nadväzujem na diskusiu o dokumentácii zbierok a jej vplyve na použiteľnosť kolekcie. [@cameron_museum_collections_documentation_2010]
+
+![*Public domain* v praxi: Josef Čapek, *11. Povídání o pejskovi a kočičce* (okolo 1928), SNG, K 8576; stiahnutie reprodukcie vo vysokom rozlíšení na Web umenia.](figures/fig-2-3-psicek-a-macicka.png){#fig:public-domain-capek width=100%}
 
 Druhým typom sú dáta vznikajúce v interakcii: uložené výstupy používateľov, krátke zdôvodnenia, tagy a pozorovania facilitátora. Nepracujem s nimi ako s reprezentatívnou vzorkou populácie, ale ako s dokumentáciou interpretačných ciest a ako so spätnou väzbou pre iteráciu návrhu. Záznamy používam v anonymizovanej podobe a bez zberu citlivých osobných údajov; ich účelom je porozumenie mechanizmom interpretácie v konkrétnom scenári. V rámci Atlas re/mix je základnou jednotkou záznamu diptych vytvorený používateľom a doplnený minimálnym vysvetlením: aké prepojenie vnímal a či vnímal prvok objavu.
 
@@ -88,7 +90,7 @@ Etická časť sa týka najmä dvoch oblastí. Prvou je práca s dátami a práv
 
 Druhou oblasťou je práca s návštevníckymi vstupmi. Ak prototyp pracuje s fotografiou z telefónu alebo so skenovaným predmetom, ide často o osobný materiál. V takom prípade je dôležité minimalizovať osobné identifikátory, zvoliť primeranú dobu uchovávania, zrozumiteľne komunikovať účel zberu a rozlišovať medzi tým, čo je potrebné pre výskumné overenie a čo by už bolo zbytočným zásahom do súkromia. Pri návrhu rozhraní zároveň beriem do úvahy širšie inštitucionálne záväzky starostlivosti o používateľov a o dáta, ktoré v digitálnych systémoch vznikajú. [@dekker_networks_of_care_2022]
 
-Napokon, etickým aj metodickým aspektom je transparentnosť algoritmických zásahov. Aj jednoduché pravidlá (napr. na zvyšovanie variability odporúčaní) menia to, čo používateľ vidí, a tým ovplyvňujú interpretáciu. V práci preto tieto zásahy pomenúvam a pri návrhoch do ďalšej iterácie zvažujem, ako ich sprístupniť tak, aby boli pre návštevníka čitateľné a férové.
+Napokon, etickým aj metodologickým aspektom je transparentnosť algoritmických zásahov. Aj jednoduché pravidlá (napr. na zvyšovanie variability odporúčaní) menia to, čo používateľ vidí, a tým ovplyvňujú interpretáciu. V práci preto tieto zásahy pomenúvam a pri návrhoch do ďalšej iterácie zvažujem, ako ich sprístupniť tak, aby boli pre návštevníka čitateľné a férové.
 
 ## 2.6 Kľúčové pojmy a pracovné definície {#sec:metodologia-26}
 
