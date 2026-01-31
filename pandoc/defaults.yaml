@@ -5,8 +5,16 @@ pdf-engine: xelatex
 top-level-division: chapter
 
 # Metadata & Variables
+metadata-files:
+  - pandoc/metadata.yaml
 metadata:
   reference-section-title: Zoznam použitej literatúry
+  toc-title: Obsah
+
+template: pandoc/template.tex
+toc: true
+toc-depth: 2
+
 
 variables:
   documentclass: report
