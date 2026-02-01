@@ -32,13 +32,13 @@ Práve vďaka tejto skúsenosti som si postupne uvedomil, že ak má byť táto 
 
 Pôvodná predstava výsledného projektu bola pritom konkrétna: sprievodca galériou Atlas SNG. Tento zámer sa však časom vyvíjal vlastnou cestou a stal sa len jednou vrstvou širšieho skúmania online zbierok. Popri tom na mňa pôsobilo aj prostredie Vysokej školy výtvarných umení v Bratislave: možnosť byť súčasťou ateliérových konzultácií mi umožnila zblízka pozorovať iné tempo tvorby, iné formy argumentácie a aj istú „zdravú drzosť“ v experimentovaní. Táto skúsenosť ma viedla k tomu, aby som prototypy rozhraní nevnímal iba ako nástroje optimalizácie, ale aj ako výskumné situácie: miesta, kde sa dá skúmať pozornosť, interpretácia a vznik významu v priamom kontakte s konkrétnym spôsobom prechádzania zbierky.
 
-## 1.3 Pozícia autora: medzi inštitúciou, vývojom a výskumom
+## 1.3 Autorská perspektíva: prax zvnútra aj zvonku
 
-V tejto práci vystupujem v hybridnej pozícii autora, ktorý sa pohybuje medzi vývojom, kurátorskou logikou a dizajnom rozhraní. Časť materiálu vznikla „zvnútra“ inštitúcie (lab.SNG, webumenia.sk), časť mimo nej — najmä v neskoršom experimente, ktorý vzniká už po mojom odchode z tímu. Táto dvojitá perspektíva je dôležitá, pretože problém naratívnej vrstvy má vždy aj organizačný rozmer: inak sa navrhuje, keď je tím stabilný a má čas na iterácie, a inak, keď je potrebné systém udržať v prevádzke a preniesť ho do neistého obdobia.
+V tejto práci vystupujem v hybridnej pozícii autora, ktorý sa pohybuje medzi vývojom, kurátorskou logikou a dizajnom rozhraní. Časť materiálu vznikla „zvnútra“ inštitúcie (lab.SNG, webumenia.sk), časť mimo nej — najmä v neskoršom experimente, ktorý vzniká už po mojom odchode z tímu. Táto dvojitá perspektíva je podstatná, pretože problém naratívnej vrstvy má aj organizačný rozmer: inak sa navrhuje v prostredí stabilného tímu a iterácií, a inak v situácii, keď je prioritou udržať systém v prevádzke a preniesť ho do neistého obdobia.
 
-Táto pozícia umožňuje opísať technické rozhodnutia ako súčasť kurátorského aparátu (nie ako neutrálne implementačné detaily). Zároveň však prináša riziká: slepé miesta autora zvnútra inštitúcie, sklon k preferovaniu určitých prístupov a obmedzenú generalizáciu pozorovaní. Preto v metodologickej kapitole explicitne pracujem s reflexivitou, s dokumentovaním rozhodnutí a s pomenovaním limitov.
+Táto pozícia mi umožňuje vidieť technické rozhodnutia ako súčasť kurátorského aparátu, nie iba ako implementačné detaily. Zároveň si uvedomujem, že ide o perspektívu viazanú na konkrétny kontext a konkrétnu infraštruktúru. Metodologické dôsledky tejto pozície a limity, ktoré z nej vyplývajú, rozoberám v kapitole 2.
 
-V tejto súvislosti uvádzam aj motivačnú myšlienku, ktorú tu parafrázujem podľa Daniela Pastirčáka: úspechy síce zvykneme oslavovať, no ich poučenie býva často ťažko prenositeľné a neraz závisí od náhody; práve pri neúspechoch a stratách však človek naráža na svoje hranice a môže sa odraziť k obratu (*metanoia*) — k zmene smerovania, ktorá vedie k intenzívnejšej transformácii. V čase písania tejto práce ešte nemám odstup, aby som dôsledky nedávnych udalostí dokázal vyhodnotiť. Mám však jasno v tom, že práve nedostatok času na reflexiu bol dlhodobo slabým miestom mojej praxe: v období intenzívneho vývoja bolo vždy jednoduchšie pustiť sa do ďalšieho projektu, než systematicky popísať a odovzdať poznanie z predchádzajúcich. Táto dizertácia je pokusom túto medzeru zaceliť.
+V tejto súvislosti uvádzam aj motivačnú myšlienku, ktorú tu parafrázujem podľa Daniela Pastirčáka: úspechy síce zvykneme oslavovať, no ich poučenie býva často ťažko prenositeľné; práve pri neúspechoch a stratách však človek naráža na svoje hranice a môže sa odraziť k obratu (*metanoia*) — k zmene smerovania, ktorá vedie k hlbšej transformácii. V čase písania tejto práce ešte nemám odstup, aby som dôsledky nedávnych udalostí dokázal vyhodnotiť. Mám však jasno v tom, že práve nedostatok času na reflexiu bol dlhodobo slabým miestom mojej praxe: v období intenzívneho vývoja bolo vždy jednoduchšie pustiť sa do ďalšieho projektu, než systematicky popísať a odovzdať poznanie z predchádzajúcich. Táto dizertácia je pokusom túto medzeru zaceliť.
 
 ## 1.4 Problém a výskumné otázky
 
@@ -52,11 +52,13 @@ Z tohto problému vyplývajú hlavné výskumné otázky:
 
 Popri nich sledujem aj sprievodnú otázku, ktorá sa viaže k dovetku „v dobe beznádeje“: čo znamená navrhovať digitálne zbierky ako infraštruktúry, ktoré majú prežiť obdobia neistoty, a aké typy „starostlivosti“ (technickej, organizačnej, publikačnej) si to vyžaduje.
 
-## 1.5 Prístup, materiál a metódy
+## 1.5 Ako čítať praktické kapitoly
 
-Práca kombinuje analytický a praktický postup. Opiera sa o tri typy materiálu: (1) texty a rámce o digitálnych zbierkach, rozhraniach a naratíve, (2) inštitucionálnu a technickú dokumentáciu týkajúcu sa webumenia.sk a súvisiacich aplikácií, (3) prototypy a situačné overenia, ktoré chápem ako výskumné artefakty v prístupe *research through design*.
+Táto práca kombinuje analýzu existujúcich prístupov s praktickými zásahmi do rozhraní a s prototypovaním. V praktických kapitolách (4–7) preto postupujem tak, že pri každom rozhraní alebo funkcii vždy ukazujem: aký problém rieši, aký typ čítania zbierky umožňuje, aké má predpoklady (dáta, infraštruktúra, tím), a aké kompromisy prináša.
 
-Dôležitou súčasťou argumentu sú aj technické artefakty (kód, konfigurácie, vizualizácie), ktoré slúžia ako kontrolovateľná stopa rozhodnutí. Nejde mi o to vytvoriť „univerzálne riešenie“ pre všetky zbierky, ale pomenovať prenositeľné princípy a ukázať ich na konkrétnych prípadoch: kde fungujú, kde zlyhávajú a aké kompromisy prinášajú.
+Ako materiál mi slúžia tri typy zdrojov: (1) odborná literatúra a rámce o digitálnych zbierkach, rozhraniach a naratíve, (2) inštitucionálna a technická dokumentácia týkajúca sa webumenia.sk a súvisiacich aplikácií, (3) prototypy a ich použitie v konkrétnych situáciách. Podrobné metodologické zdôvodnenie, spôsob práce a limity uvádzam v kapitole 2.
+
+Ambíciou práce nie je ponúknuť univerzálny návod na tvorbu online zbierok. Snažím sa však, aby výsledok bol použiteľný aj ako praktický zdroj: pomenúvať opakujúce sa dizajnové dilemy, ukazovať konkrétne stratégie práce s kontextom a upozorňovať na riziká rozhranových a algoritmických zásahov. Princípy, ktoré v práci formulujem, sú určené na adaptáciu, nie na mechanické kopírovanie.
 
 ## 1.6 Štruktúra práce: tri celky, jedna línia
 
@@ -66,7 +68,7 @@ Práca pozostáva z troch celkov, ktoré na seba nadväzujú, no každý z nich 
 2. Druhý celok opisuje vývoj a prax predovšetkým v prostredí lab.SNG: webumenia.sk, jeho slabiny a aplikácie, ktoré sa pokúšali tieto slabiny adresovať návrhom rozhraní a publikovaním (kapitoly 4–6).
 3. Tretí celok predstavuje samostatný experiment, ktorý vzniká v čase, keď už nie som súčasťou lab.SNG: Atlas Re/mix ako test alternatívneho vstupu do zbierky a ako návrh tvorivého scenára práce s dielami (kapitola 7).
 
-Metodologický rámec a kľúčové pojmy zavádzam v kapitole 2. Na ňu nadväzuje historicko-inštitucionálny kontext online zbierok (kapitola 3), technická analýza princípov a architektúry Webu umenia (kapitola 4), diskusia o limitoch reprezentácie a o súčasnej debate (kapitola 5) a kapitola o prístupoch k obohateniu a reinterpretácii digitálnych zbierok (kapitola 6). Práca vyústi do experimentu Atlas Re/mix (kapitola 7), ktorý slúži ako praktický test a zároveň ako návrh situovaného rozhranového scenára práce so zbierkou.
+Metodologický rámec a kľúčové pojmy zavádzam v kapitole 2. Na ňu nadväzuje historicko-inštitucionálny kontext online zbierok (kapitola 3), technická analýza princípov a architektúry Webu umenia (kapitola 4), diskusia o limitoch reprezentácie a o súčasnej debate (kapitola 5) a kapitola o prístupoch k obohateniu a reinterpretácii digitálnych zbierok (kapitola 6). Práca vyústi do experimentu Atlas Re/mix (kapitola 7), ktorý ukazuje jeden z možných spôsobov, ako vstúpiť do zbierky mimo katalógového režimu a ako cez rozhranie skladať nové súvislosti.
 
 [^gen]: Pojem *generatívna skutočnosť* je súčasťou registrovaného názvu témy. V texte ho nepoužívam ako samostatný teoretický rámec; ťažisko práce je v otázke naratívnej vrstvy online zbierok a v návrhu rozhraní, ktoré umožňujú význam čitateľne skladať.
 [^kusa]: K odvolaniu Alexandry Kusej 7. augusta 2024 pozri napr. STVR, „Martina Šimkovičová odvolala riaditeľku SNG Alexandru Kusú“ (7. 8. 2024): https://spravy.stvr.sk/2024/08/ministerku-simkovicova-odvolala-generalnu-riaditelku-slovenskej-narodnej-galerie/

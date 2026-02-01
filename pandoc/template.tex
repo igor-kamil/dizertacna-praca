@@ -87,7 +87,9 @@ $if(title)$
     \vspace{0.5cm}
     {\Large\itshape $subtitle$ \par}
     $endif$
-    \vspace{2cm}
+    \vspace{1cm}
+    {\Large $if(genre)$$genre$$else$Dizertačná práca$endif$ \par}
+    \vspace{1cm}
     {\Large\bfseries $for(author)$$author$$sep$, $endfor$ \par}
     \vfill
     \begin{flushleft} \large
