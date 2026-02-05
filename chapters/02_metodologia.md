@@ -134,3 +134,11 @@ Mechanizmus, ktorý na základe pravidiel alebo modelu navrhuje „ďalšie“ p
 
 *embeddingy*
 Vektorové reprezentácie (napr. obrazov alebo textov), ktoré umožňujú porovnávať podobnosť položiek výpočtovo. V práci sa objavujú najmä ako technický prostriedok pre vizuálnu alebo sémantickú podobnosť; metodicky sú dôležité tým, že menia to, čo systém považuje za „blízke“ a tým ovplyvňujú možné susedstvá diel.
+
+## 2.7 Od teoretických rámcov k výskumnému artefaktu: Atlas Re/mix
+
+Teoretické rámce v práci používam ako orientačné osi, ktoré potom preverujem v návrhu rozhraní. Preto má experiment Atlas Re/mix (kapitola 7) dvojitú rolu: je digitálnym dielom aj výskumným prototypom.
+
+Manovich mi poskytuje základné napätie medzi databázou a naratívom: online zbierky prirodzene podporujú vyhľadávanie a rovnocenné položky, kým súvislosť vzniká až cez navrhnuté trajektórie, väzby a čitateľné pravidlá prepojenia. Whitelaw na tento problém reaguje v jazyku rozhraní: *generous interfaces* posúvajú dôraz od „polož otázku“ k „ukáž obraz zbierky“ a ponúkajú viacero ciest vstupu. Dekker dopĺňa perspektívu starostlivosti: digitálne systémy a diela prežívajú len vďaka sieťam ľudí, nástrojov a postupov, ktoré umožňujú pokračovať aj v podmienkach organizačných zmien.
+
+Atlas Re/mix tieto osi prevádza do konkrétnych rozhodnutí v rozhraní a umožňuje sledovať, či navrhnuté prístupy skutočne otvárajú zbierku aj mimo katalógového režimu. Ako dôkazy používam zdokumentované trajektórie práce so zbierkou, interpretácie reakcií a porovnanie variantov návrhu.

@@ -7,9 +7,11 @@
 
 ![Pop-up testovanie Atlas re/mix v Hájovni (Banská Štiavnica, 25. 1. 2026): základné pracovisko a miesto interakcie.](figures/fig-7-0-hajovna-popup-installation-table.jpg){#fig:hajovna-table width=80%}
 
+Kapitola pracuje s dvoma stavmi projektu, ktoré od seba jasne odlišujem. Prvým je demoverzia rozhrania a jej krátke testovanie v pop-up inštalácii (Hájovňa, Banská Štiavnica, 25. 1. 2026). Druhým je návrh fyzickej inštalácie plánovanej na jún 2026 v Prüger-Wallnerovej záhrade (Prügerke). V texte preto striedam opis toho, čo už viem ukázať na prototype, a návrh toho, čo sa ešte len materializuje v priestore. Súčasťou plánovanej inštalácie je aj zvuková vrstva: ku každému diptychu má vzniknúť jednoduchý soundscape poskladaný z terénnych nahrávok z Prügerky (zvukový rámec pripravuje Jonatán Pastirčák). Podrobnejšie sa jej venujem v časti [Kurátorský rámec a návrh fyzickej inštalácie](#sec:atlas-75). 
+
 Táto kapitola je praktickou odpoveďou na problém, ktorý v práci opisujem ako stratu naratívnej vrstvy v online zbierkach. Namiesto dopĺňania ďalších textov skúšam zmeniť samotný vstup do zbierky. Návštevník nezačína tým, že vie, čo hľadá. Začína tým, čo práve žije: prinesie do systému svoju situáciu vo forme fotografie alebo nájdeného predmetu. Z toho potom vzniká diptych a krátke pomenovanie prepojenia.
 
-Do návrhu inštalácie v Prüger-Wallnerovej záhrade (Prügerke) chcem vložiť ešte jeden dôležitý moment: zmenu tempa. Hneď pri vstupe do záhrady má návštevník dostať výzvu, aby spomalil a prešiel do režimu potulovania sa. Nie presun z bodu A do bodu B, ale krátka prechádzka, v ktorej si človek môže všimnúť detail, ktorý ho zastaví. Tento detail (predmet, stopa, textúra, farba) sa potom stáva vstupom do zbierky.
+Do návrhu inštalácie v Prügerke chcem vložiť ešte jeden dôležitý moment: zmenu tempa. Hneď pri vstupe do záhrady má návštevník dostať výzvu, aby spomalil a prešiel do režimu potulovania sa. Nie presun z bodu A do bodu B, ale krátka prechádzka, v ktorej si človek môže všimnúť detail, ktorý ho zastaví. Tento detail (predmet, stopa, textúra, farba) sa potom stáva vstupom do zbierky.
 
 ::: {.aside #aside:flanerie}
 **Flâneur a flânerie**
@@ -17,13 +19,19 @@ Do návrhu inštalácie v Prüger-Wallnerovej záhrade (Prügerke) chcem vloži�
 *Flâneur* je postava človeka, ktorý sa pohybuje bez pevného cieľa a všíma si drobnosti, rytmus a náhody. *Flânerie* je tento spôsob chôdze a vnímania. V kontexte Atlas re/mix ide o pracovnú metódu: spomaliť, nechať sa viesť zaujímavým detailom a až potom vstúpiť do zbierky.
 :::
 
-V tejto kapitole preto používam rámec umeleckého výskumu ako metodický nástroj: prototyp (rozhranie a situácia v priestore) beriem ako spôsob, ako klásť otázky a získavať poznanie priamo cez návrh a skúšanie. Takéto chápanie sa prekrýva s prístupom *research through design* [@frayling_research_in_art_and_design_1994] a s diskusiami o epistemológii umeleckej praxe. [@zervan_mitasova_umelecky_vyskum_v_diskusii_2025; @tkacik_2025_implikuje_epistemologiu]
+V tejto kapitole preto používam rámec umeleckého výskumu ako metodický nástroj: prototyp (rozhranie a situácia v priestore) beriem ako spôsob, ako klásť otázky a získavať poznanie priamo cez návrh a skúšanie. Takéto chápanie sa prekrýva s prístupom *research through design* [@frayling_research_in_art_and_design_1994] a s diskusiami o epistemológii umeleckej praxe [@zervan_mitasova_umelecky_vyskum_v_diskusii_2025; @tkacik_2025_implikuje_epistemologiu].
 
 Praktickú časť rámujem tromi výskumnými otázkami. Pomáhajú mi udržať smer, aby z prototypu nevznikla len funkčná aplikácia, ale argument, ktorý sa dá obhájiť v rámci práce.
 
+::: {.aside #aside:diptych}
+**Ako vyzerá výstup (diptych) a čo používateľ robí**
+
+*Diptych* v Atlas re/mix je dvojica obrazov vedľa seba: osobný vstup návštevníka (fotografia z telefónu alebo zachytenie nájdeného predmetu) a reprodukcia diela zo zbierky. Interakcia má jednoduchý sled krokov: používateľ vloží vstupný obraz, systém ponúkne viac kandidátov podľa vizuálnej podobnosti, používateľ medzi nimi listuje a vyberie jeden „match“. Následne k dvojici pridá krátke odôvodnenie (1–3 tagy a prípadne jednu vetu pomenovania prepojenia). Systém teda navrhuje susedstvá; diptych vzniká až rozhodnutím a pomenovaním zo strany človeka.
+:::
+
 1. *Ako sa dá vstúpiť do online zbierky inak než cez vyhľadávanie, filtre a katalógové poradie?*
 
-   Atlas re/mix odpovedá rozhraním, ktoré začína osobným vstupom (fotografia z prostredia) a pokračuje výberom z ponúkaných spojení podľa vizuálnej podobnosti. Navigácia cez kategórie sa tu posúva do úzadia. Do popredia ide rozhodnutie používateľa.
+   Atlas re/mix odpovedá rozhraním, ktoré začína osobným vstupom (fotografia z prostredia) a pokračuje výberom z ponúkaných spojení podľa vizuálnej podobnosti, až kým si používateľ neuloží zvolenú dvojicu obrazov (diptych). Navigácia cez kategórie sa tu posúva do úzadia. Do popredia ide rozhodnutie používateľa.
 
 
 2. *Môže takýto vstup podporiť vznik významu, ktorý aspoň čiastočne nahrádza chýbajúcu naratívnu vrstvu?*
@@ -35,8 +43,6 @@ Praktickú časť rámujem tromi výskumnými otázkami. Pomáhajú mi udržať 
 
    Túto otázku viažem na serendipitu a na „prelomenie“ predvídateľných ciest v zbierke. Zaujíma ma, či návštevník vníma výsledok ako objav, a či by sa k nemu bežným spôsobom vôbec dostal.
 
-Kapitola pracuje s dvoma stavmi projektu, ktoré od seba jasne odlišujem. Prvým je demoverzia rozhrania a jej krátke testovanie v pop-up inštalácii (Hájovňa, Banská Štiavnica, 25. 1. 2026). Druhým je návrh fyzickej inštalácie plánovanej na jún 2026. V texte preto striedam opis toho, čo už viem ukázať na prototype, a návrh toho, čo sa ešte len materializuje v priestore. Súčasťou plánovanej inštalácie je aj zvuková vrstva: ku každému diptychu má vzniknúť jednoduchý soundscape poskladaný z terénnych nahrávok z Prügerky (zvukový rámec pripravuje Jonatán Pastirčák). Podrobnejšie sa jej venujem v časti [Kurátorský rámec a návrh fyzickej inštalácie](#sec:atlas-75).
-
 ## 7.1 Koncepčný rámec: význam medzi obrazmi {#sec:atlas-71}
 > “With the picture atlas *Mnemosyne*, Warburg created an «iconology of intervals» where meaning arose in-between the images.”
 > — Simen Joachim Helsvig, *Kunstkritikk* (2015) [@kunstkritikk2015]
@@ -47,6 +53,10 @@ Warburgova predstava „ikonológie intervalov“ je pre tento projekt inšpirat
 
 Hlavná otázka projektu je jednoduchá: môže vyhľadávanie podľa vizuálnej podobnosti otvoriť taký typ objavu, ktorý nie je len formálnou zhodou, ale spustí interpretáciu? V praxi ma zaujíma chvíľa, keď sa z návrhu systému stane osobné „áno, toto spolu funguje“. Niekedy k tomu vedie farba alebo tvar. Niekedy nálada. Často však rozhoduje situácia používateľa, ktorá je prítomná vo vstupnej fotke: miesto, deň, práca, drobný nález. V takom momente podobnosť nie je cieľ. Je to prvý impulz. To podstatné sa deje až potom, keď si človek začne spojenie vysvetľovať a pomenúvať.
 
+Kým sa vrátim k otázke autorstva pri *remixe*, zhrniem koncepčné rozhodnutia, na ktorých Atlas re/mix stojí. Ako základnú formu porovnávania som zvolil diptych, pretože je to najmenšia čitateľná jednotka „montáže“: umožňuje vidieť dve veci naraz, udržať medzi nimi napätie a zároveň nevytvárať dojem uzavretého príbehu. Zvažoval som aj iné formy (koláž z viacerých diel, mapu vzťahov), no tie buď príliš rýchlo produkujú autoritatívny „výsledok“, alebo vyžadujú od používateľa dlhšiu orientáciu v systéme. Diptych naopak podporuje rýchle rozhodnutie a krátke pomenovanie prepojenia — gesto, ktoré je ľahké spraviť a ľahké opustiť.
+
+Ako zdroj diel pracujem so zbierkou Webu umenia, pretože mi umožňuje testovať tento typ vstupu na konkrétnom korpuse, ktorý je pre mňa dlhodobo pracovným prostredím a zároveň má charakter online zbierky: obrazové reprodukcie, metadáta a katalógový režim, voči ktorému sa tu vyhraňujem. A napokon: používateľské pomenovania typu „farby“, „nálady“ či „textúry“ do systému vkladám preto, že sprostredkúvajú prechod medzi výpočtovým návrhom podobnosti a ľudskou interpretáciou. Vizuálna podobnosť môže ponúknuť kandidátov, ale až jazyk kategórií a nálad umožňuje, aby sa z ponúknutej zhody stal čitateľný vzťah.
+
 Tu sa prirodzene otvára aj otázka, ktorá sa pri montáži a *remixe* objavuje často: či skladanie existujúcich diel vytvára „nové dielo“, alebo skôr nový spôsob čítania. V rámci Atlas re/mix sa prikláňam k druhej možnosti. Diptych chápem ako dočasnú používateľskú interpretáciu. Je to gesto a stopa skúsenosti, nie náhrada originálu. Zároveň tu vzniká autorský moment: používateľ rozhoduje, čo prijme, a jednou vetou určuje, v čom spojenie spočíva. Význam teda nevzniká v algoritme, ale v kombinácii návrhu systému a interpretácie človeka. Neskôr sa k tomu vrátim v časti [Kurátorský rámec a návrh fyzickej inštalácie](#sec:atlas-75), kde riešim, ako sa dá „interval“ udržať aj vo fyzickom priestore.
 
 Projekt stojí na existujúcej infraštruktúre. Atlas re/mix je experimentálne rozhranie nad dátami z Webu umenia (webumenia.sk). [@webumeniaSite] V demoverzii pracujem so zúženým korpusom, aby bol objav čitateľný aj pri krátkom kontakte a aby sa dalo lepšie sledovať, čo spúšťa „fungujúce“ spojenia. Zároveň je to pragmatické rozhodnutie: prototypovanie podobnostného vyhľadávania je citlivé na kvalitu reprodukcií, na konzistenciu dát a na spôsob, akým sa diela do systému načítajú. Web umenia poskytuje aj otvorený vývojový kontext, na ktorý sa dá tento experiment technicky napojiť. [@webumenia_elasticsearch_public_api_wiki_2020]
@@ -56,14 +66,20 @@ Dôležitá je aj časová rovina. V čase písania kapitoly existuje funkčná 
 ## 7.2 Dizajn interakcie: od situácie k diptychu {#sec:atlas-72}
 Demoverziu Atlas re/mix som pripravil ako overenie dvoch vecí naraz. Prvou bola technická stránka podobnostného vyhľadávania: po skúsenosti s projektom *ornament-explorer* som mal dôveru v princíp, ale nevedel som, aké výsledky bude dávať na reprodukciách z Webu umenia. Druhou bola interakcia: či sa dá z osobného vstupu (fotografia alebo nájdený predmet) spraviť jasný a opakovateľný proces, ktorý vedie k diptychu a krátkemu pomenovaniu prepojenia.
 
-### Testovacia sada: Edmund Gwerk
+### Testovacia sada: Edmund Gwerk {#sec:atlas-721}
 
-Pre pilotnú fázu projektu som korpus zúžil na tvorbu Edmunda Gwerka. Táto voľba nebola len pragmatickým rozhodnutím s cieľom zvýšiť čitateľnosť experimentu, ale vychádzala z hlbšej väzby na lokalitu Banskej Štiavnice, kde prebiehalo prvé testovanie. Gwerkova tvorba ponúka potrebnú vizuálnu diverzitu — od realistických zátiší a portrétov až po expresívne diela.
+Pre pilotnú fázu som potreboval z praktických dôvodov menší, uzavretý korpus: aby sa dalo rýchlo iterovať, pripravovať dáta do offline režimu a zároveň sledovať, či je princíp diptychu čitateľný aj pri krátkom kontakte. Pri výbere autora však nešlo len o pragmatiku. Voľba Edmunda Gwerka bola pre mňa takmer okamžitá, pretože sa v nej stretli miesto testovania, osobná skúsenosť a lokálny naratív, ktorý som v tom čase intenzívne prechádzal.
+
+V januári 2025 som bol v Banskej Štiavnici na študijnom pobyte venovanom výskumu k dizertácii. V tom istom období som čítal knihu Anny Gruskovej *Tichý pobyt na ulici Gwerkovej-Göllnerovej*[@gruskova_tichy_pobyt_na_2022] a zároveň som sa pohyboval po miestach, ktoré text pomenúva. Táto situácia pre mňa prepojila viacero vrstiev, ktoré dovtedy existovali vedľa seba: (a) osobné vzťahy a rozhovory viazané na Štiavnicu, (b) priamu skúsenosť s Gwerkovými dielami z miestnej expozície, (c) príbeh Alžbety Göllnerovej-Gwerkovej ako silnej lokálnej figúry. Nešlo mi o to „vysvetľovať“ Gwerka, ani robiť kunsthistorické závery. Skôr o to, že práve v tejto konštelácii sa diela prestali správať ako izolované reprodukcie a začali pre mňa fungovať ako čitateľná sieť súvislostí: miesto – pamäť – vzťahy – strata – pokračovanie.
+
+Z metodologického hľadiska to bol presne ten typ situovanosti, ktorý Atlas re/mix potrebuje. Projekt nestojí na tom, že algoritmus určí „správne“ dielo; stojí na tom, že používateľ dokáže návrh prijať alebo odmietnuť a jednou vetou pomenovať, v čom spojenie spočíva. Preto som chcel, aby prvé testovanie prebehlo na korpuse, ktorý má šancu byť pre časť publika lokálne ukotvený – a nie len formálne rôznorodý.
+
+Zároveň platí aj pragmatická rovina: na Webe umenia je pri Gwerkovi dostupných 225 diel, čo je stále dosť na objavovanie, ale ešte zvládnuteľné na prípravu demoverzie.[@webumenia_katalog_gwerk] V katalógovom režime však aj tak často vidíme opakovane tie isté „vstupy“ (pretože rozhranie prirodzene vedie cez vyhľadávanie, filtre a stabilné poradie). Atlas re/mix skúša tento návyk narušiť: k dielu sa neprichádza cez meno autora alebo názov, ale cez osobný vstup (fotografia, nájdený detail) a cez prekvapivé susedstvá navrhnuté podľa vizuálnej podobnosti.
 
 ::: {.aside #aside:gwerk}
-**Edmund Gwerk a Banská Štiavnica**
+**Edmund Gwerk a Alžbeta Göllnerová-Gwerková (lokálne ukotvenie korpusu)**
 
-Demoverzia pracovala s dielami Edmunda Gwerka (1895–1956), maliara, reštaurátora a historika umenia pôsobiaceho aj v Banskej Štiavnici. [@webumeniaGwerk3433] V pracovnej sade bolo v čase prototypovania 188 položiek s reprodukciou. V lokálnom kontexte Štiavnice je dôležitá aj jeho manželka, literárna historička a prekladateľka Alžbeta Göllnerová-Gwerková. [@gruskova_tichy_pobyt_na_2022]
+Edmund Gwerk (*15. 2. 1895, Banská Štiavnica – †4. 12. 1956, Bratislava) bol maliar, krajinár, reštaurátor a historik umenia; v databáze je pri ňom evidovaných 225 diel a medzi miestami pôsobenia/štúdia sú uvedené Budapešť, Praha a Banská Štiavnica [@webumeniaGwerk3433]. V lokálnom kontexte Štiavnice je dôležitá aj jeho manželka Alžbeta Göllnerová-Gwerková (1905–1944), ktorej príbeh a stopy v meste sú ústredným rámcom knihy Anny Gruskovej *Tichý pobyt na ulici Gwerkovej-Göllnerovej* [@gruskova_tichy_pobyt_na_2022]. Pre Atlas re/mix je táto dvojica relevantná nie ako kunsthistorický „výklad“, ale ako príklad toho, ako sa diela a ich čítanie môžu viazať na miesto, pamäť a konkrétnu situáciu čitateľa.
 :::
 
 ### Vstup: koláž na stole alebo „posledná fotka“
@@ -145,7 +161,7 @@ Demoverziu Atlas re/mix som prvýkrát nasadil v pop-up inštalácii v kultúrno
 
 Podmienky boli improvizačné a do veľkej miery určovali aj priebeh testu. Počas dňa pršalo, takže zber predmetov v exteriéri (flâneursky režim a nález v okolí) sa dal realizovať len obmedzene. Osvetlený stôl s objektmi bol k dispozícii, ale v praxi sa častejšie pracovalo s fotografiou z telefónu. Fotku účastníci posielali cez AirDrop alebo WhatsApp a ja som ju nahrával do aplikácie (offline režim bol nutný kvôli nestabilnému pripojeniu; dáta aj embeddingy boli pripravené vopred).
 
-Vzorka bola malá: vzniklo 18 uložených diptychov od 14 ľudí. Tento rozsah nepovažujem za slabinu, pokiaľ zostanem pri tom, čo sa z neho dá poctivo vyčítať: základné typy asociácií, praktické limity rozhrania a prvé indikácie, či rozhranie podporuje objavovanie inak než bežný katalóg.
+Vzorka bola malá: vzniklo 18 uložených diptychov od 14 ľudí. Tento rozsah nepovažujem za slabinu, pokiaľ zostanem pri tom, čo sa z neho dá poctivo vyčítať: základné typy asociácií, praktické limity rozhrania a prvé indikácie, či rozhranie podporuje objavovanie inak než bežný katalóg. 
 
 ### Čo sa zaznamenávalo (stručný protokol)
 
