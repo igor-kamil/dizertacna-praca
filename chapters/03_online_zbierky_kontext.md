@@ -25,7 +25,7 @@ Digitálna transformácia múzeí a galérií však nevznikla ako náhly alebo r
 
 ### 3.1.1 Pred-digitálne evidenčné praxe: stabilita, štandardy a obmedzenia
 
-V Slovenskej národnej galérii sa od 70. rokov postupne budovala rozsiahla kartotéka – centrálny katalóg výtvarného umenia, v ktorom každý záznam pozostával z dokumentačnej karty s odborným popisom diela a z priloženej čiernobielej fotografie. Tento systém umožňoval jednotnú evidenciu, porovnateľnosť údajov a odborné rešerše naprieč inštitúciami ešte dlho pred nástupom digitálnych databáz. 
+V Slovenskej národnej galérii sa od 70. rokov postupne budovala rozsiahla kartotéka – centrálny katalóg výtvarného umenia, v ktorom každý záznam pozostával z dokumentačnej karty s odborným popisom diela a z priloženej čiernobielej fotografie. Tento systém umožňoval jednotnú evidenciu, porovnateľnosť údajov a odborné rešerše naprieč inštitúciami ešte dlho pred nástupom digitálnych databáz.
 
 Ako uvádzajú *Bahurinská a Bohumelová*, základné kritériá pre vytváranie záznamov o zbierkových predmetoch sa zásadne nemenili celé desaťročia a boli overené dlhodobou praxou [@bahurinska_bohumelova_evidence_kapitola_nd]. Tieto štandardy boli zámerne faktické a uniformné — ich cieľom bolo zabezpečiť spoľahlivú identifikáciu diela, umožniť vyhľadávanie a podporiť odborný výskum.
 
@@ -35,7 +35,7 @@ Každá zmena v údajoch vyžadovala manuálny zásah a aktualizácie boli časo
 Nasledujúca fotografia zachytáva fyzickú podobu centrálneho katalógu výtvarného umenia v Slovenskej národnej galérii, ktorý dodnes existuje a v obmedzenej miere sa stále používa ako referenčný archív.
 
 ![Centrálny katalóg výtvarného umenia v Slovenskej národnej galérii.
-Kartotéka s dokumentačnými lístkami, budovaná od roku 1979, zachytáva evidenciu diel galérií a aj múzeí. 
+Kartotéka s dokumentačnými lístkami, budovaná od roku 1979, zachytáva evidenciu diel galérií a aj múzeí.
 Katalóg fyzicky existuje a je dodnes používaný ako referenčný archív.
 Foto: autor, 13. august 2015.](figures/fig-3-1-centralny-katalog-kartoteka-sng-2015.png){#fig:centralny-katalog}
 
@@ -131,7 +131,7 @@ Prvá dekáda digitalizácie bola založená na štandardizácii metadát.
 
 Medzinárodným referenčným rámcom pre tieto snahy sú štandardy ICOM – CIDOC, ktoré od 90. rokov formujú teoretické aj praktické prístupy k modelovaniu múzejných dát, ich interoperabilite a dlhodobej udržateľnosti. Práve CIDOC konceptuálne ovplyvnil viaceré národné aj nadnárodné dátové modely využívané pri digitalizácii kultúrneho dedičstva.
 
-V našom kontexte mali špeciálne význam nasledovné štandardy: 
+V našom kontexte mali špeciálne význam nasledovné štandardy:
 
 #### LIDO (Lightweight Information Describing Objects)
 
@@ -492,13 +492,13 @@ Príbeh Web umenia tak nie je len príbehom technologického projektu, ale aj pr
 
 Vznik Web umenia často pôsobí ako prirodzené pokračovanie CEDVU: ak existuje centrálna databáza, zdá sa logické sprístupniť ju. Historická realita je však odlišná. Web umenia nevznikol ako súčasť strategických plánov SNG či ministerstva, ani ako „front-end“ k novému informačnému systému. Bol výsledkom dvoch síl, ktoré sa stretli v správnej chvíli: technologickej pripravenosti ISG-CEDVU a potreby hľadať spôsob, ako prezentovať zbierky v prostredí, ktoré sa rýchlo menilo.
 
-![Transformácia reprezentácie jedného zbierkového diela v digitálnom prostredí Slovenskej národnej galérie. 
-Sekvencia zobrazuje postupný prechod od analógovej evidencie k rozhraním orientovaným na obraz a interakciu: 
-(A) kartotékový lístok v centrálnom katalógu (cca 1979), 
-(B) záznam v systéme Micro CDS/ISIS (1992), 
-(C) záznam v systéme CEDVU (2013), 
-(D) detail diela na pôvodnej verzii webumenia.sk (2014), 
-(E) detail diela na súčasnej verzii webumenia.sk (2018), 
+![Transformácia reprezentácie jedného zbierkového diela v digitálnom prostredí Slovenskej národnej galérie.
+Sekvencia zobrazuje postupný prechod od analógovej evidencie k rozhraním orientovaným na obraz a interakciu:
+(A) kartotékový lístok v centrálnom katalógu (cca 1979),
+(B) záznam v systéme Micro CDS/ISIS (1992),
+(C) záznam v systéme CEDVU (2013),
+(D) detail diela na pôvodnej verzii webumenia.sk (2014),
+(E) detail diela na súčasnej verzii webumenia.sk (2018),
 (F) detail diela v režime priblíženia prostredníctvom IIIF (IIPImage + OpenSeadragon).](figures/fig-3-5-webumenia-transformacia-diela.png){#fig-3-5-webumenia-transformacia-diela}
 
 

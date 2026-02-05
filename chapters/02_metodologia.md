@@ -43,11 +43,11 @@ V inštitucionálnom prostredí má moja rola ešte jednu špecifickú vlastnos�
 Napokon, táto pozícia prirodzene vedie k dvojitému hodnoteniu rozhraní. Na jednej strane prinášam orientáciu na operacionalizáciu: hľadať metódy, metriky a testy tam, kde dávajú zmysel (napr. pri vyhľadávaní, indexácii, viditeľnosti položiek). Na druhej strane prax v *GLAM* prostredí opakovane ukazuje, že podstatná časť návštevníckej skúsenosti nie je plne merateľná: ide o tempo, zvedavosť, prekvapenie, schopnosť vytvoriť si vlastné pomenovanie vzťahu. Preto v praktických kapitolách pracujem aj s kvalitatívnymi signálmi a so situovaným pozorovaním toho, či rozhranie podporuje interpretáciu a „čítanie“ diel, nie iba ich technickú dostupnosť.
 
 ::: {.aside #aside:labsng}
-*lab.SNG v skratke*
+**lab.SNG v skratke**
 
-* *lab.SNG* bola platforma Slovenskej národnej galérie zameraná na skúmanie možností využitia digitálnych technológií v galerijnej a muzeálnej praxi (júl 2013 – marec 2025). [@labSNGSite]
-* V tejto práci vystupuje predovšetkým ako *výskumné prostredie* pre dlhodobú iteráciu: umožňovalo prototypovanie, nasadzovanie a spätnú väzbu v reálnych podmienkach inštitúcie.
-* Jej vznik, rolu a vnútorné fungovanie rozoberám samostatne (pozri sekciu [vznik lab.SNG](#sec:labsng-vznik)) a v praktických kapitolách 4–6 cez konkrétne projekty, aby sa metodologický rámec zbytočne nemiešal s inštitucionálnou históriou.
+- *lab.SNG* bola platforma Slovenskej národnej galérie zameraná na skúmanie možností využitia digitálnych technológií v galerijnej a muzeálnej praxi (júl 2013 – marec 2025). [@labSNGSite]
+- V tejto práci vystupuje predovšetkým ako *výskumné prostredie* pre dlhodobú iteráciu: umožňovalo prototypovanie, nasadzovanie a spätnú väzbu v reálnych podmienkach inštitúcie.
+- Jej vznik, rolu a vnútorné fungovanie rozoberám samostatne (pozri sekciu [vznik lab.SNG](#sec:labsng-vznik)) a v praktických kapitolách 4–6 cez konkrétne projekty, aby sa metodologický rámec zbytočne nemiešal s inštitucionálnou históriou.
 :::
 
 ## 2.3 Materiál a dáta {#sec:metodologia-23}
@@ -63,7 +63,7 @@ Druhým typom sú dáta vznikajúce v interakcii: uložené výstupy používate
 Tretím typom sú technické artefakty: zdrojový kód, skripty, konfigurácie a grafy. V praktických kapitolách sú tieto prvky chápané ako súčasť argumentu: ukazujú, ktoré rozhodnutia boli potrebné, kde vznikajú limity a čo je možné replikovať v iných prostrediach. Zároveň slúžia ako kontrolovateľná stopa toho, ako boli niektoré tvrdenia operacionalizované (napr. výber polí, pravidlá filtrovania a spôsob výpočtov).
 
 ::: {.aside #aside:open-repo}
-*Otvorený repozitár a reprodukovateľnosť*
+**Otvorený repozitár a reprodukovateľnosť**
 
 Text práce, vybrané vstupné dáta a skripty na generovanie grafov sú publikované v otvorenom repozitári. Repozitár slúži ako doplnková dokumentácia k metodológii: umožňuje čitateľovi overiť niektoré tvrdenia a reprodukovať vizualizácie z rovnakých vstupov (v rámci licenčných obmedzení dát a reprodukcií). [@rjabinin_dizertacna_praca_repo_2026]
 :::
@@ -96,41 +96,41 @@ Napokon, etickým aj metodologickým aspektom je transparentnosť algoritmickýc
 
 Táto sekcia slúži ako čitateľská pomôcka. Pojmy uvádzam v pracovnom význame, v akom ich používam v praktických kapitolách; nejde o úplné definície v zmysle encyklopédie.
 
-*naratívna vrstva*  
+*naratívna vrstva*
 Naratív tu nepoužívam ako synonymum kauzálneho príbehu. Naratívnu vrstvu chápem ako spúšťač asociácií a ako súbor väzieb, ktoré sa odohrávajú v hlave návštevníka pri strete s dielom alebo so zostavou diel. Je to vrstva čítania, ktorá vzniká z kontextu, vzťahov a interpretácie. V digitálnej zbierke môže byť oslabená tým, že rozhranie uprednostní databázový režim (vyhľadávanie, filtre, katalóg) pred režimom, ktorý podporuje porovnávanie, prechádzanie a významové susedstvá. [@manovich_database_symbolic_form_1999; @manovich_language_new_media_2001]
 
-*objav*  
+*objav*
 Objavom rozumiem situáciu, keď používateľ nájde dielo alebo spojenie diel bez toho, aby ho presne hľadal. Nie je to náhoda bez významu, ale moment, keď sa z návrhu systému stane osobné rozhodnutie. V praxi je to často spojené s minimálnym pomenovaním prepojenia, ktoré dáva dvojici alebo zostave zmysel.
 
-*serendipita*  
+*serendipita*
 Serendipitu používam ako označenie pre užitočnú náhodu v rámci navrhnutých podmienok. Nie je to vlastnosť algoritmu samotného, ale vlastnosť situácie, v ktorej sa stretáva návrh systému, výber korpusu a konkrétna skúsenosť používateľa. Ako kultúrny rámec pre tento typ skúsenosti mi slúži aj motív „zablúdenia“ a spomalenia, ktorý umožňuje prepnúť z režimu účelového vyhľadávania do režimu vnímania. [@solnit2006]
 
-*rozhranie*  
+*rozhranie*
 Rozhranie nechápem len ako vizuálny layout. Zahŕňa aj dátové a algoritmické vrstvy, ktoré určujú, čo sa dá nájsť a akým spôsobom. Rozhranie je preto aj kurátorská operácia: nastavuje viditeľnosť, poradie a možné susedstvá diel. [@whitelaw_generous_interfaces_2015]
 
-*GLAM*  
+*GLAM*
 Skratka pre *Galleries, Libraries, Archives, Museums*. Používam ju ako pomenovanie inštitucionálneho prostredia, v ktorom sa stretáva kurátorská prax, verejná služba, infraštruktúra dát a dlhodobá starostlivosť o zbierky.
 
-*R&D*  
+*R&D*
 Skratka pre *research and development*. V texte označuje režim práce, kde cieľom nie je len prevádzkový „vývoj produktu“, ale aj skúšanie prístupov, prototypovanie a formulovanie prenositeľných zistení pre ďalšie použitie v inštitúcii.
 
-*open-source*  
+*open-source*
 Označenie pre softvér, ktorého zdrojový kód je verejne dostupný a používanie/modifikácia sú upravené licenciou. V práci ho používam najmä vo vzťahu k transparentnosti implementácie a k možnosti overenia niektorých krokov (v rozsahu, ktorý umožňujú licencie dát a reprodukcií).
 
-*otvorené dáta*  
+*otvorené dáta*
 Dáta publikované tak, aby ich bolo možné zmysluplne znovu použiť (typicky vrátane licenčných podmienok a technickej dostupnosti). V kontexte zbierok ide najmä o metadáta a prípadne reprodukcie, ak to dovolí právny režim. [@openglam_principles_2018]
 
-*public domain (voľné dielo)*  
+*public domain (voľné dielo)*
 Označenie pre diela, na ktoré sa už nevzťahuje autorskoprávna ochrana (najčastejšie preto, že uplynula doba trvania majetkových práv). V práci týmto pojmom označujem situácie, keď je možné používať reprodukcie diel bez potreby licenčného súhlasu autora alebo dedičov; prakticky to ovplyvňuje, či môžu byť reprodukcie zverejnené, archivované a zahrnuté do otvoreného repozitára. Pojem používam striktne pre stav autorských práv k dielu; nevylučuje existenciu ďalších obmedzení viazaných na konkrétnu reprodukciu alebo zmluvné podmienky inštitúcie.
 
-*metadáta*  
+*metadáta*
 Štruktúrované informácie o dielach (napr. autor, datovanie, technika, predmetové heslá, proveniencia), ktoré umožňujú vyhľadávanie, filtrovanie, prepojovanie a interpretáciu. V práci zdôrazňujem, že metadáta nie sú neutrálne: ich kvalita a štruktúra priamo ovplyvňujú, aké naratívne väzby je možné v rozhraní vytvoriť alebo sprostredkovať.
 
-*korpus*  
+*korpus*
 Výber (subset) diel a metadát, s ktorým prototyp pracuje. Korpus je metodické rozhodnutie: určuje rozsah, reprezentatívnosť, ale aj to, aké väzby majú šancu vzniknúť (napr. cez dostupné polia, jazyk a kvalitu reprodukcií).
 
-*odporúčací systém*  
+*odporúčací systém*
 Mechanizmus, ktorý na základe pravidiel alebo modelu navrhuje „ďalšie“ položky (diela) k aktuálnemu výberu. V práci ho chápem ako vrstvu, ktorá spoluurčuje viditeľnosť a môže vytvárať skreslenia (napr. stabilizovať populárne položky alebo opakovať podobné typy diel). [@abdollahpouri_unfairness_popularity_bias_2019]
 
-*embeddingy*  
+*embeddingy*
 Vektorové reprezentácie (napr. obrazov alebo textov), ktoré umožňujú porovnávať podobnosť položiek výpočtovo. V práci sa objavujú najmä ako technický prostriedok pre vizuálnu alebo sémantickú podobnosť; metodicky sú dôležité tým, že menia to, čo systém považuje za „blízke“ a tým ovplyvňujú možné susedstvá diel.

@@ -131,7 +131,7 @@ Krátke zhrnutie motivácie, výskumných otázok, použitej metodológie (mixed
 
 ---
 
-## 4. Pod povrchom rozhrania: technológie a princípy Web umenia
+## 4. Pod povrchom rozhrania: technológie a princípy Webu umenia
 
 ### 4.1 Architektúra ako filozofia
 - Východisková téza: architektúra nie je neutrálna – technické rozhodnutia formujú spôsob, akým používateľ vníma dielo.  
@@ -440,4 +440,3 @@ Zamyslenie nad publikovaním (otvorením, sprístupnením, zdieľaním kódu, d�
 4.  Užívateľská štúdia dokumentujúca dopad navrhovaných rozhraní na discoverability a naratívne spojenia.
     
 5.  Výstava/aplikačný deployment ako dôkaz koncepcie (public outreach).
-    

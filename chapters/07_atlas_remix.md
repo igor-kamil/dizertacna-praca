@@ -12,7 +12,7 @@ Táto kapitola je praktickou odpoveďou na problém, ktorý v práci opisujem ak
 Do návrhu inštalácie v Prüger-Wallnerovej záhrade (Prügerke) chcem vložiť ešte jeden dôležitý moment: zmenu tempa. Hneď pri vstupe do záhrady má návštevník dostať výzvu, aby spomalil a prešiel do režimu potulovania sa. Nie presun z bodu A do bodu B, ale krátka prechádzka, v ktorej si človek môže všimnúť detail, ktorý ho zastaví. Tento detail (predmet, stopa, textúra, farba) sa potom stáva vstupom do zbierky.
 
 ::: {.aside #aside:flanerie}
-*Flâneur a flânerie*
+**Flâneur a flânerie**
 
 *Flâneur* je postava človeka, ktorý sa pohybuje bez pevného cieľa a všíma si drobnosti, rytmus a náhody. *Flânerie* je tento spôsob chôdze a vnímania. V kontexte Atlas re/mix ide o pracovnú metódu: spomaliť, nechať sa viesť zaujímavým detailom a až potom vstúpiť do zbierky.
 :::
@@ -61,7 +61,7 @@ Demoverziu Atlas re/mix som pripravil ako overenie dvoch vecí naraz. Prvou bola
 Pre pilotnú fázu projektu som korpus zúžil na tvorbu Edmunda Gwerka. Táto voľba nebola len pragmatickým rozhodnutím s cieľom zvýšiť čitateľnosť experimentu, ale vychádzala z hlbšej väzby na lokalitu Banskej Štiavnice, kde prebiehalo prvé testovanie. Gwerkova tvorba ponúka potrebnú vizuálnu diverzitu — od realistických zátiší a portrétov až po expresívne diela.
 
 ::: {.aside #aside:gwerk}
-*Edmund Gwerk a Banská Štiavnica*
+**Edmund Gwerk a Banská Štiavnica**
 
 Demoverzia pracovala s dielami Edmunda Gwerka (1895–1956), maliara, reštaurátora a historika umenia pôsobiaceho aj v Banskej Štiavnici. [@webumeniaGwerk3433] V pracovnej sade bolo v čase prototypovania 188 položiek s reprodukciou. V lokálnom kontexte Štiavnice je dôležitá aj jeho manželka, literárna historička a prekladateľka Alžbeta Göllnerová-Gwerková. [@gruskova_tichy_pobyt_na_2022]
 :::
@@ -89,7 +89,7 @@ Rozhranie tým drží jasné rozdelenie rolí: systém navrhuje kandidátov, čl
 V praxi bolo dôležité, aby sa odporúčané diela príliš neopakovali. Mal som obavu najmä pri skenovaní objektov na stole (koláže z dostupných predmetov), že systém bude kvôli podobným vstupom ukazovať stále tie isté diela. Preto som do demoverzie doplnil jednoduchý mechanizmus, ktorý dočasne znevýhodnil nedávno zobrazené diela, aby sa odporúčania pri podobných vstupoch príliš neopakovali.
 
 ::: {.aside #aside:variabilita}
-*Poznámka: variabilita odporúčaní a transparentnosť poradia*  
+**Poznámka: variabilita odporúčaní a transparentnosť poradia**
 
 Do demoverzie som pridal jednoduché pravidlo „negatívneho hodnotenia“: diela, ktoré sa zobrazili v posledných krokoch, sa dočasne znevýhodnili, aby sa pri podobných vstupoch príliš neopakovali. Toto pravidlo zvýšilo variabilitu návrhov a podporilo objavovanie, zároveň však menilo poradie kandidátov spôsobom, ktorý nie je pre používateľa priamo viditeľný. V ďalšej iterácii bude vhodné tento zásah spraviť transparentnejším (napr. ako prepínateľný režim alebo stručné vysvetlenie v rozhraní).
 :::
@@ -104,15 +104,15 @@ V časti 7.2 som popísal, ako interakciu vidí návštevník. Tu rozoberám tec
 <!--![Making-of demoverzie Atlas re/mix počas vývoja v Banskej Štiavnici.](figures/fig-7-3-making-of-prototype-banska-stiavnica.jpg){#fig:atlas-remix-making-of width=90%}-->
 
 ::: {.aside #aside:tech-demo}
-*Technologická karta demoverzie (25. 1. 2026)*
+**Technologická karta demoverzie (25. 1. 2026)**
 
-- backend: Laravel (PHP)  
-- frontend: Livewire  
-- prevádzka: offline (lokálny server + lokálna databáza)  
-- dáta: Web umenia stiahnuté vopred (reprodukcie + metadáta) [@webumeniaSite]  
-- embedding: CLIP; embeddingy diel dávkovo vypočítané vopred, embedding vstupu počítaný v Pythone volanom z Laravelu  
-- index: PostgreSQL + pgvector  
-- výstup: top-*k* kandidátov zoradených podľa podobnosti + uloženie zvoleného diptychu a krátke odôvodnenie  
+- backend: Laravel (PHP)
+- frontend: Livewire
+- prevádzka: offline (lokálny server + lokálna databáza)
+- dáta: Web umenia stiahnuté vopred (reprodukcie + metadáta) [@webumeniaSite]
+- embedding: CLIP; embeddingy diel dávkovo vypočítané vopred, embedding vstupu počítaný v Pythone volanom z Laravelu
+- index: PostgreSQL + pgvector
+- výstup: top-*k* kandidátov zoradených podľa podobnosti + uloženie zvoleného diptychu a krátke odôvodnenie
 :::
 
 ### Dáta a offline režim

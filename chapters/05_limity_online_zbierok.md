@@ -1,6 +1,6 @@
 # 5. Digitálne zbierky umenia: súčasná diskusia a limity reprezentácie
 
-> Decades of digitisation have made a wealth of digital cultural material available online. Yet search — the dominant interface to these collections — is incapable of representing this abundance. Search is ungenerous: it withholds information, and demands a query. 
+> Decades of digitisation have made a wealth of digital cultural material available online. Yet search — the dominant interface to these collections — is incapable of representing this abundance. Search is ungenerous: it withholds information, and demands a query.
 > [@whitelaw_generous_interfaces_2015]
 
 ## 5.1 Úvod: od otvorenosti k zahlteniu
@@ -11,7 +11,7 @@ Verejne financované inštitúcie mohli zrazu napĺňať svoju misiu „sprístu
 S odstupom času sa však ukazuje, že otvorenosť nie je koncový stav.
 Je to začiatok novej situácie, v ktorej dostupnosť prestáva byť výhodou a stáva sa samozrejmým pozadím. V tomto pozadí sa mení otázka: už nejde o to, či sa k dielu viem dostať, ale či mu dokážem porozumieť, zaradiť ho a prepojiť s inými. Prístup nie je to isté ako porozumenie.
 
-Whitelaw to formuluje cez napätie medzi digitálnou hojnosťou a rozhraním, ktoré k nej najčastejšie používame. Po desaťročiach digitalizácie je kultúrny materiál online bohatý a rozsiahly, no vyhľadávanie ako dominantný spôsob prístupu túto hojnosť nedokáže reprezentovať. Vyhľadávanie je neveľkorysé (v zmysle Whitelawovho *ungenerous*): informáciu zadržiava a vyžaduje otázku. 
+Whitelaw to formuluje cez napätie medzi digitálnou hojnosťou a rozhraním, ktoré k nej najčastejšie používame. Po desaťročiach digitalizácie je kultúrny materiál online bohatý a rozsiahly, no vyhľadávanie ako dominantný spôsob prístupu túto hojnosť nedokáže reprezentovať. Vyhľadávanie je neveľkorysé (v zmysle Whitelawovho *ungenerous*): informáciu zadržiava a vyžaduje otázku.
 Podobná únava z nadbytku sa dnes prejavuje naprieč internetom: v spravodajstve, mailoch, ponukách, notifikáciách a nekonečných feedoch. Digitálne prostredie zvyšuje dostupnosť, ale zároveň zvyšuje nároky na orientáciu a výber.
 
 Pre online zbierky umenia má tento jav špecifickú podobu.
@@ -19,17 +19,17 @@ Nie je to len informačný prebytok, ale prebytok významov, ktoré potrebujú r
 
 Štatistiky návštevnosti v praxi často ukazujú jednoduchý paradox: rast rozsahu zbierky automaticky neprináša rast rozmanitosti používateľskej skúsenosti. Čím je kolekcia väčšia, tým viac sa prejavuje potreba navigácie, rámcov a vedenia pozornosti. Bez nich sa pozornosť ľahko koncentruje do úzkeho výseku diel, opakuje sa a skracuje. Zbierka síce rastie, no používateľ sa môže stále pohybovať v podobnej slučke: niekoľko vstupov, niekoľko zachytených položiek, zvyšok zostáva mimo jeho trajektórie.
 
-Do toho vstupuje ešte jedna nepríjemná skúsenosť, ktorá sa v online prostredí ľahko prehliadne: z pohľadu používateľa môže „online dostupnosť“ pôsobiť plocho a zameniteľne.  
+Do toho vstupuje ešte jedna nepríjemná skúsenosť, ktorá sa v online prostredí ľahko prehliadne: z pohľadu používateľa môže „online dostupnosť“ pôsobiť plocho a zameniteľne.
 Prečo by si mal pozrieť výber diel na Web umenia a nie rovno Google Arts & Culture? Na úrovni základných gest je skúsenosť podobná: obrazovka, reprodukcia, vyhľadávanie, scrolovanie, preklik na detail, niekoľko návrhov „ďalšieho“. Rozdiely, ktoré sú pre inštitúciu zásadné – kurátorský výber, lokálny kontext, kvalita metadát a zodpovednosť za interpretáciu – sa v takomto režime nepresadia automaticky. Ak majú byť čitateľné, musia byť navrhnuté ako súčasť prechádzania zbierkou, nie len ako informácie pri položke.
 
-Keď sa diela menia na dáta, mení sa aj spôsob, akým môže vzniknúť naratív. Nejde len o to, či je k dielu pripojený text. Ide o to, aké vzťahy sú v dátach a rozhraní vôbec umožnené, aké trajektórie sa dajú prejsť, a aký typ pozornosti tieto trajektórie podporujú. Manovichova opozícia databázy a naratívu je tu užitočná ako rámec: databáza uprednostňuje výber a prechod medzi jednotkami, kým naratív vyžaduje vedenie, skladanie a zmysluplné napätie medzi prvkami. 
+Keď sa diela menia na dáta, mení sa aj spôsob, akým môže vzniknúť naratív. Nejde len o to, či je k dielu pripojený text. Ide o to, aké vzťahy sú v dátach a rozhraní vôbec umožnené, aké trajektórie sa dajú prejsť, a aký typ pozornosti tieto trajektórie podporujú. Manovichova opozícia databázy a naratívu je tu užitočná ako rámec: databáza uprednostňuje výber a prechod medzi jednotkami, kým naratív vyžaduje vedenie, skladanie a zmysluplné napätie medzi prvkami.
 
 Táto kapitola má diagnostický charakter.
 Nejde o odmietnutie digitalizácie ani o nostalgický návrat k fyzickému múzeu. Ide o pomenovanie limitov, ktoré sa opakovane objavujú v praxi a v odbornej diskusii, a ktoré formujú spôsob, akým sa umenie v digitálnom prostredí „rozpráva“.
 
 Otázka, ktorú si kapitola nesie, je jednoduchá: aký typ naratívu vzniká, keď sa diela menia na dáta?
 
-V nasledujúcich podkapitolách preto rozoberám opakujúce sa limity online zbierok: hierarchie pozornosti, režim vyhľadávania a potrebu „vedieť, čo hľadám“, databázovú izoláciu objektov bez vzťahov, algoritmickú plochosť odporúčaní a systémovú neviditeľnosť veľkých častí zbierok. 
+V nasledujúcich podkapitolách preto rozoberám opakujúce sa limity online zbierok: hierarchie pozornosti, režim vyhľadávania a potrebu „vedieť, čo hľadám“, databázovú izoláciu objektov bez vzťahov, algoritmickú plochosť odporúčaní a systémovú neviditeľnosť veľkých častí zbierok.
 Cieľom nie je zostaviť zoznam chýb, ale popísať, ako tieto limity spolu vytvárajú prostredie, v ktorom sa naratívna vrstva stráca.
 
 ## 5.2 Long tail a hierarchie pozornosti
@@ -49,7 +49,7 @@ Sľub *long tail* má zároveň aj kritikov. Anita Elberse na dátach z mediáln
 V GLAM diskusii sa *long tail* objavuje priamo, často ako praktická úloha: ako dostať pozornosť aj k objektom, ktoré by inak zostali mimo záujmu. V múzejnom prostredí to explicitne tematizuje napríklad Sebastian Chan pri rozhraní kolekcií a používateľských vstupoch [@chan2007tagging]. Europeana zas pracuje s formuláciou, že jej prínos je aj v objavovaní long tail kultúrneho dedičstva, teda v sprístupňovaní *niche* položiek, ktoré inde na internete nie sú ľahko nájditeľné [@europeana2016contentstrategy]. Empirické štúdie zároveň ukazujú, že využívanie kolekcií (onsite aj online) býva nerovnomerné a že distribúcia pozornosti má často výraznú „hlavu“ a dlhý chvost [@navarreteborowiecki2016; @navarrete2018].
 
 ::: {.aside}
-*Long tail graf* (niekedy aj *hokejkový graf*) je jednoduchá vizualizácia nerovnosti pozornosti.
+***Long tail graf* (niekedy aj *hokejkový graf*) je jednoduchá vizualizácia nerovnosti pozornosti.**
 
 Na osi x sú diela zoradené podľa poradia návštevnosti (od najnavštevovanejšieho po najmenej navštevované). Na osi y je počet zobrazení (napr. *view_count*). Typicky vznikne strmý pokles na začiatku a dlhý chvost nízko navštevovaných položiek. Pri veľkých rozdieloch sa často používa logaritmická mierka osi y.
 :::
@@ -199,7 +199,7 @@ Nie preto, že by inštitúcia mala rezignovať na rámec, ale preto, že obeh v
 
 Tento pohľad zároveň presúva dôraz z „dokonalého rozhrania“ na dlhodobejšiu prácu:
 udržiavať zmysel, dopĺňať väzby, opravovať údaje, kultivovať autority, dokumentovať rozhodnutia, a vytvárať formáty, ktoré vedia niesť interpretáciu.
-Barok v tejto súvislosti rámcuje publikovanie ako formu starostlivosti: výber, tvarovanie a prepojenie materiálov dokáže z fragmentov urobiť čitateľnú trajektóriu.  
+Barok v tejto súvislosti rámcuje publikovanie ako formu starostlivosti: výber, tvarovanie a prepojenie materiálov dokáže z fragmentov urobiť čitateľnú trajektóriu.
 
 ## 5.7 Záver: otvorené otázky
 

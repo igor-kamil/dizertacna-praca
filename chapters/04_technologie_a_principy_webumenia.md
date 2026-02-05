@@ -18,7 +18,7 @@ Táto kapitola sa preto nepozerá na technológie ako na neutrálnu infraštrukt
 
 Cieľom tejto kapitoly je ukázať, ako sa abstraktné pojmy ako otvorenosť, prepojenosť či serendipita premietli do konkrétnej technickej architektúry. Zároveň pripravuje pôdu pre nasledujúce kapitoly, ktoré sa budú pýtať, čo sa s takto navrhnutou infraštruktúrou dá robiť ďalej – ako z nej vytvárať nové formy naratívu, interpretácie a tvorivého použitia digitálnych zbierok.
 
-## 4.1 Architektúra ako rámec možností
+## 4.1 Webová architektúra ako rámec možností
 
 Keď hovorím o „architektúre", nemyslím tým len technický diagram komponentov. Myslím tým spôsob, akým systém organizuje možnosti: čo sa dá prepojiť, čo sa dá nájsť, čo sa dá preskakovať, čo sa používateľovi podsunie ako samozrejmé. Aj preto mi sedí názov tejto časti – architektúra tu nechápem ako technický diagram, ale ako súbor rozhodnutí, ktoré určujú, aký typ čítania zbierky systém podporuje.
 
@@ -27,11 +27,11 @@ Tento rozmer architektúry sa ukázal hneď po mojom nástupe do SNG. Web umenia
 Preto sme zvolili opatrnejší postup: začať znova jednoduchšie, a rýchlo. Prvý prototyp vznikol ako Laravel aplikácia s MySQL – nie preto, že by to bol jediný správny stack, ale preto, že v tom čase umožňoval rýchle iterácie a zároveň bol pre tím príjemný na prácu. Výber nástrojov bol u nás od začiatku aj otázkou motivácie: ak je proces vývoja príliš ťažkopádny, rýchlo sa vytratí chuť skúšať nové veci. Laravel bol vtedy relatívne „čerstvý" a zaujímavý framework, a aj to hralo rolu – systém sa nerodil len z povinnosti, ale aj z radosti z remesla.
 
 ::: {.aside}
-Poznámka z praxe: experimentovanie, nástroje a „pikniky" v lab.SNG
+**Poznámka z praxe: experimentovanie, nástroje a „pikniky" v lab.SNG**
 
 Pri návrhu architektúry Web umenia sa postupne ukázalo, že technické rozhodnutia nemožno oddeliť od spôsobu práce tímu. Preto sme si v lab.SNG vytvorili jednoduché, no dlhodobo funkčné pravidlo:
 
-- *Malé projekty* slúžili ako priestor na experimentovanie – skúšali sme nové frameworky, knižnice alebo prístupy bez očakávania okamžitého „produkčného" výsledku.  
+- *Malé projekty* slúžili ako priestor na experimentovanie – skúšali sme nové frameworky, knižnice alebo prístupy bez očakávania okamžitého „produkčného" výsledku.
 - *Väčšie projekty* sa naopak opierali o už overené nástroje a riešenia, kde bola dôležitejšia stabilita než novota.
 
 Aby sa poznatky z experimentov nestrácali, zaviedli sme krátke interné stretnutia, neformálne nazývané *„pikniky"*. Išlo o približne 30-minútové zdieľania, kde sa tímu sprostredkovalo, čo nový nástroj alebo prístup priniesol — vrátane situácií, keď sa ukázal ako slepá ulička.
@@ -72,7 +72,7 @@ Ak má táto podkapitola niečo uzavrieť, tak len pracovnou vetou: architektúr
 
 ## 4.2 Technické prostredie a dátová infraštruktúra
 
-> *"The spice must flow."*  
+> *"The spice must flow."*
 > — Frank Herbert, *Dune* [@herbert_dune_1965]
 
 Web umenia nevznikol ako samostatná databáza, ale ako vrstva nad už existujúcou infraštruktúrou. Jeho základom bola a dodnes je *CEDVU – centrálna evidencia diel výtvarného umenia*, ktorá v slovenskom kontexte dlhodobo funguje ako primárny referenčný systém. V praxi to znamená, že CEDVU predstavuje *single source of truth* pre základné kunsthistorické údaje: autorstvo, datovanie, techniku, vlastníctvo, inventárne čísla a odborné poznámky.
@@ -81,20 +81,20 @@ Táto rola sa však s postupným rozvojom Webu umenia začala meniť. Ako sa do 
 
 Toto rozhodnutie malo niekoľko praktických dôsledkov. Každá zapojená galéria funguje ako samostatný OAI-PMH provider a sama určuje, ktoré diela sprístupní, v akom rozsahu a s akou mierou detailu. Web umenia sa tak stalo agregátorom, nie centrálnym editorom dát. Import prebieha prostredníctvom interného modulu prezývaného *spice-harvester* (pozri [@herbert_dune_1965]), ktorý odkazuje na zber „toho hodnotného", čo môže z existujúcich interných systémov vstúpiť do verejného priestoru.
 
-![Spice harvester – interný modul Webu umenia pre zber a aktualizáciu dát z CEDVU.  
+![Spice harvester – interný modul Webu umenia pre zber a aktualizáciu dát z CEDVU.
 Názov je vedomým odkazom na román *Dune* Franka Herberta.](figures/fig-4-2-spice-harvester.jpg){#fig:spiceharvester}
 
 ::: {.aside}
-Poznámka k terminológii: „harvest" a *spice-harvester*
+**Poznámka k terminológii: „harvest" a *spice-harvester***
 
-V kontexte Webu umenia sa pojem *harvest* nepoužíva v zmysle jednorazového importu dát.  
+V kontexte Webu umenia sa pojem *harvest* nepoužíva v zmysle jednorazového importu dát.
 Označuje *priebežný zber a aktualizáciu záznamov* prostredníctvom protokolu OAI-PMH, ktorý umožňuje získavať iba tie položky, ktoré sa od posledného zberu zmenili. Tento havest beží priebežne a spúšťa sa automaticky.
 :::
 
 
 Na úrovni uloženia digitálnych objektov stojí v pozadí *Fedora Commons* — robustný repozitárny systém orientovaný na dlhodobú archiváciu, verziovanie a prácu s otvorenými formátmi. Fedora sa v tomto nastavení neukázala ako ideálny nástroj pre priame online použitie; jej sila je skôr v stabilite a sledovaní zmien než v rýchlom doručovaní obsahu. Web umenia preto funguje ako *derivačná vrstva*, ktorá z archivovaných dát vytvára prevádzkovateľnú podobu pre verejné rozhranie. Obrazové dáta sú pritom servírované cez samostatný image server (IIP), čo umožňuje vysoké rozlíšenia aj hlboký zoom bez toho, aby bol zaťažený samotný repozitár.
 
-![Prepojenie CEDVU, OAI-PMH providerov a Webu umenia.  
+![Prepojenie CEDVU, OAI-PMH providerov a Webu umenia.
 Dáta nie sú čítané priamo, ale sprostredkovane cez harvestovací proces.](figures/fig-4-4-oai-pmh-architecture.svg){#fig:oai-pmh}
 
 Z pohľadu architektúry sa Web umenia postupne ustálilo ako *viacvrstvový systém*, hoci nie vždy striktne oddelený. Na najnižšej úrovni sa nachádzajú dáta: metadáta diel, médiá, autoritné záznamy a pomocné štruktúry (napríklad pre geografiu alebo taxonómie). Nad nimi stojí aplikačná vrstva, ktorá zabezpečuje indexáciu, vyhľadávanie a sprístupňovanie dát prostredníctvom rôznych rozhraní. Prezentačná vrstva — webové rozhranie, mapy, kolekcie či tematické články — potom tieto dáta prekladá do konkrétnej používateľskej skúsenosti.
@@ -153,7 +153,7 @@ Elasticsearch sa tak postupne stal viac než len vyhľadávacím modulom. Väč�
 
 
 ::: {.aside}
-Čo je Elasticsearch (a prečo ho tu vôbec máme)
+**Čo je Elasticsearch (a prečo ho tu vôbec máme)**
 
 Elasticsearch je špecializovaný vyhľadávací systém, ktorý slúži na rýchle prehľadávanie veľkého množstva textových a štruktúrovaných dát. Na rozdiel od klasickej databázy nie je určený na „uchovávanie pravdy", ale na *rýchle čítanie, triedenie a porovnávanie* údajov.
 
@@ -168,7 +168,7 @@ Prakticky to znamená, že:
 - detail diela sa vždy zobrazuje z databázy,
 - zoznamy diel, autorov, výsledky vyhľadávania či odporúčania sú čítané z Elasticsearchu, aby boli okamžité.
 
-Elasticsearch umožňuje veci, ktoré by boli v bežnej databáze pomalé alebo technicky komplikované:  
+Elasticsearch umožňuje veci, ktoré by boli v bežnej databáze pomalé alebo technicky komplikované:
 prácu so synonymami, jazykovou analýzou, váhami polí, kombinovanými dotazmi či „nepresným" vyhľadávaním podľa významu, nie len presnej zhody.
 :::
 
@@ -181,11 +181,9 @@ Základom sa stal modul LemmaGen Analysis for Elasticsearch [@hyza_elasticsearch
 , ktorý umožňuje lematizáciu.
 
 ::: {.aside}
-
-Lemmatizácia
+**Lemmatizácia**
 
 Lemmatizácia je proces, pri ktorom sa jednotlivé tvary slova (napríklad rôzne pády, čísla či rody) vracajú na ich základnú, slovníkovú podobu, tzv. lemma. Na rozdiel od jednoduchšieho stemmingu, ktorý len skracuje slová na ich koreň (často s chybami), lematizácia zohľadňuje gramatický a významový kontext slova. Pri slovenčine je tento rozdiel zásadný – slová ako „hrad", „hradu", „hrade" sa považujú za rovnaký pojem, čo zvyšuje kvalitu vyhľadávania v jazyku s bohatou flexiou.
-
 :::
 
 K tomu pribudli stopwords zo starších open-source zoznamov a synonymá prevzaté z OpenOffice, ktoré sa postupne upravovali podľa reálneho správania používateľov. Výsledkom bol samostatný balík `elasticsearch-slovencina` [@slovaknationalgallery_elasticsearch_slovencina]
@@ -260,9 +258,9 @@ Otvorenie zdrojového kódu tak nebolo jednorazovým gestom, ale postupným posu
 Tento posun však zároveň kladie ďalšie otázky: čo všetko je ešte možné otvoriť a kde už treba byť opatrný. Kód sa dá zdieľať pomerne priamo, no pri dátach – dielach, obrazoch, metadátach – vstupujú do hry právne, etické aj inštitucionálne záväzky. Tým sa otvorenosť prirodzene presúva od vývoja k starostlivosti o dáta a ich používanie, čo je témou nasledujúcej časti.
 
 ::: aside
-### Open-source v praxi (lab.SNG)
+**Open-source v praxi (lab.SNG)**
 
-Od roku 2014 do roku 2025 publikovala Slovenská národná galéria  
+Od roku 2014 do roku 2025 publikovala Slovenská národná galéria
 66 otvorených repozitárov na platforme GitHub.
 
 Repozitáre zahŕňajú:
@@ -275,10 +273,9 @@ Repozitáre zahŕňajú:
 Nešlo o systematickú stratégiu „produkcie open-source", ale o postupné prijatie princípu,
 že digitálna infraštruktúra verejnej inštitúcie má byť čitateľná, znovupoužiteľná
 a dlhodobo udržiavateľná aj mimo pôvodného tímu.
-
 :::
 
-![Prehľad verejných repozitárov Slovenskej národnej galérie na platforme GitHub.  
+![Prehľad verejných repozitárov Slovenskej národnej galérie na platforme GitHub.
 Otvorený vývoj tu funguje ako forma dokumentácie, komunikácie a dlhodobej starostlivosti o digitálnu infraštruktúru.](figures/fig-4-5-github-sng-public-repositories.png){#fig:github-sng-opensource}
 
 ### 4.6 Data governance a licencovanie
@@ -289,9 +286,9 @@ Už pri spustení Webu umenia v roku 2015 sa Slovenská národná galéria — s
 
 Popri týchto obavách však existovala aj jednoduchá a veľmi praktická skúsenosť: obrázky diel zo zbierok SNG — aj zbierok iných galérií — už dávno kolovali internetom. Často v nízkej kvalite, s nesprávnymi farbami, deformáciami, niekedy dokonca zrkadlovo otočené alebo odfotené mobilným telefónom priamo v expozícii. V online prostredí sa nikto na nič nepýta; obrazy sa šíria samovoľne, bez kontextu a bez kontroly.
 
-![Porovnanie digitálnych reprodukcií toho istého diela v rôznej kvalite:  
-(a) nízke rozlíšenie a otočený obraz – https://www.artwallgallery.cz/cs/projekt/koneksn,  
-(b) posunuté farby – https://www.pohrebnictvo.sk/smrt-slovenskych-dobrovolnikov/,  
+![Porovnanie digitálnych reprodukcií toho istého diela v rôznej kvalite:
+(a) nízke rozlíšenie a otočený obraz – https://www.artwallgallery.cz/cs/projekt/koneksn,
+(b) posunuté farby – https://www.pohrebnictvo.sk/smrt-slovenskych-dobrovolnikov/,
 (c) vysoké rozlíšenie – inštitucionálna digitálna reprodukcia (SNG / Web umenia ).](figures/fig-4-6-SVK_SNG.O_5301-reproduction-quality-comparison.png){ width=100% }
 
 V tomto svetle sa otázka sprístupnenia hi-res reprodukcií začala javiť inak. Ak je inštitúcia vlastníkom diela a jeho digitalizácia bola financovaná z verejných zdrojov, má zmysel skrývať kvalitné dáta na interných diskoch, zatiaľ čo verejný priestor zapĺňajú nekvalitné kópie? Práve tu sa technická otázka kvality prelína s otázkou autority a reprezentácie: kto má určovať, ktorá digitálna verzia diela je referenčná?
@@ -301,8 +298,7 @@ Silným argumentom sa stal aj často citovaný príklad Rijksmusea, známy ako p
 Postupne sa ukázalo, že sprístupňovanie kvalitných digitálnych reprodukcií nie je stratou kontroly, ale jej presunom. Inštitúcia síce nemôže zabrániť ďalšiemu šíreniu, úpravám či remixom, no môže jasne definovať zdroj, kontext a referenčnú podobu diela. Web umenia preto od začiatku dopĺňal diela o kanonické URL, generovanie citácie a jemné dizajnové mechanizmy, ktoré podporovali korektné používanie bez represívnych obmedzení.
 
 ::: {.aside}
-
-Internetová kultúra, remix a strata kontroly
+**Internetová kultúra, remix a strata kontroly**
 
 Pri sprístupňovaní digitálnych reprodukcií je dôležité uvedomiť si zmenu povahy internetu ako média. To, čo by v ére tlače bolo nepredstaviteľné – že by si médium či vydavateľ bez súhlasu inštitúcie zobral reprodukciu diela a voľne ju šíril – je dnes bežnou praxou. V online prostredí sa obrazy šíria rýchlo, často bez uvedenia zdroja, v rôznych kvalitách, úpravách a kontextoch.
 
@@ -313,12 +309,11 @@ Digitálne obrazy sa totiž môžu stať čímkoľvek – vrátane mémov, kolá
 Z vlastnej skúsenosti môžem povedať, že nás v SNG teší, keď sa diela z Webu umenia objavujú v médiách – napríklad ako vizuálne metafory v správach o počasí, politike či spoločenských udalostiach. Často dokážu sprostredkovať význam presnejšie než neutrálna ilustračná fotografia. Práve opakované videnie diel – ich cirkulácia – ovplyvňuje ich popularitu, hodnotu aj interpretáciu. Mémová kultúra o tom vie svoje.
 
 Tento postoj sa napokon pretavil aj do aktívnej podpory remixu. Podobne ako Rijksmuseum so svojím Rijksstudio, aj SNG prostredníctvom Lab.SNG a festivalu Sensorium vyzývala umelcov a dizajnérov, aby voľne remixovali diela z Webu umenia – od klasikov slovenskej moderny až po starú grafiku. Remix tu neznamená znehodnotenie, ale pokračovanie života diela v súčasnej vizuálnej kultúre.
-
 :::
 
-![Použitie diela *Na rodnej hrude* od Jozefa Hanulu v politickom komentári  
-na webe Cynickej obludy [@cynickaobluda_zmatok_v_argumentacii_2015].  
-Pôvodné dielo: *Na rodnej hrude* (1908), Jozef Hanula  
+![Použitie diela *Na rodnej hrude* od Jozefa Hanulu v politickom komentári
+na webe Cynickej obludy [@cynickaobluda_zmatok_v_argumentacii_2015].
+Pôvodné dielo: *Na rodnej hrude* (1908), Jozef Hanula
 [@hanula_na_rodnej_hrude_1908], Slovenská národná galéria.](./figures/fig-4-6-cynicka-obluda-utecenci.png){#fig:cynicka-obluda-hanula width=50%}
 
 
@@ -326,7 +321,7 @@ Otázka otvorenosti sa zároveň netýkala len diel samotných, ale aj rozdielny
 
 Sprístupňovanie diel v otvorenom režime nevyhnutne viedlo aj ku konfliktom — najmä s kolektívnymi správcami práv, ako je LITA. Tento spor nebol výnimočný, ale symptomatický: ukázal napätie medzi tradičným modelom správy práv a realitou digitálneho prostredia. Dôležité však je, že viedol k vyjasneniu legislatívnych rámcov aj k zmenám v akvizičnej praxi, kde sa dnes explicitne rieši súhlas so zverejnením diel v online prostredí.
 
-V tomto zmysle nadobúda otvorenosť aj etický rozmer. Ako upozorňuje Merete Sanderhoff, zdieľanie kultúrnych dát nie je len otázkou prístupu, ale aj starostlivosti — o kontext, o autorov, o publikum aj o budúce použitia [@sanderhoff_sharing_caring_openness_2014]. 
+V tomto zmysle nadobúda otvorenosť aj etický rozmer. Ako upozorňuje Merete Sanderhoff, zdieľanie kultúrnych dát nie je len otázkou prístupu, ale aj starostlivosti — o kontext, o autorov, o publikum aj o budúce použitia [@sanderhoff_sharing_caring_openness_2014].
 
 Annet Dekker tento pohľad ďalej rozvíja prostredníctvom konceptu *networks of care*, v ktorom chápe digitálne infraštruktúry ako vzťahové siete ľudí, inštitúcií a technických systémov. Starostlivosť v nich podľa nej „*is not taken on by isolated individuals, but spread out over a wide range of people, tools and infrastructures*“ [@dekker_networks_of_care_2022, p. 192].
 
