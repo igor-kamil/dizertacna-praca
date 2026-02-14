@@ -89,7 +89,7 @@ Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*.
 - *dáta a zdroj:* diela z Webu umenia cez API; nad nimi ručne vytvorené tagy (*motív / nálada / počasie*)
 - *rozhranie a režim:* touch-first, výstup do detailu a zoomu; možnosť pokračovať na mobile (QR)
 - *technológie a stack:* Laravel + Vue.js
-- *repozitár (open source):* `https://github.com/SlovakNationalGallery/plenerizmus.sng.sk`
+- *repozitár:* <https://github.com/SlovakNationalGallery/plenerizmus.sng.sk>
 - *poznámky k implementácii:* kurátorské tagovanie je súčasťou „navigačného jazyka“, nie len doplnkové metadáta
 :::
 
@@ -165,31 +165,34 @@ Pre mňa je to argument, že výstavné mikrostránky treba brať ako publikačn
 
 ### Prax v SNG: mikrostránky ako „lego“ nad Webom umenia
 
-V SNG bola dlhodobo možnosť zapojiť lab.SNG do výstav: niekedy cez onsite prvky (interaktívne prehliadače skicárov, porovnania pred/po reštaurovaní, hravé rozhrania), inokedy cez dedikované mikrostránky. Už od skorých projektov (napr. `https://dvekrajiny.sng.sk/` [@dvekrajiny_sng_2014]) sa postupne ustálil prístup, v ktorom sa tvorba novej mikrostránky mení na skladanie z recyklovateľných komponentov — tak trochu ako lego.
+V SNG bola dlhodobo možnosť zapojiť lab.SNG do výstav: niekedy cez onsite prvky (interaktívne prehliadače skicárov, porovnania pred/po reštaurovaní, hravé rozhrania), inokedy cez dedikované mikrostránky. Už od skorých projektov (napr. <https://dvekrajiny.sng.sk/> [@dvekrajiny_sng_2014]) sa postupne ustálil prístup, v ktorom sa tvorba novej mikrostránky mení na skladanie z recyklovateľných komponentov — tak trochu ako lego.
 
 Jedna z praktických podmienok bola, že každá mikrostránka žije ako *subdoména pod sng.sk*. Pre mňa to nie je maličkosť; je to spôsob, ako znížiť riziko, že projekt skončí len preto, že niekde „vyprší doména“. Táto obava nie je hypotetická — aj v našom prostredí existujú staršie projekty, ktoré zanikli práve takto, bez veľkého dramatického momentu, len tichým vyhasnutím infraštruktúry (napr. webstránka k projektu "*Prerušená pieseň*").
 
 Časom sa ustálil aj technologický stack. Používali sme open-source flat-file CMS Grav (`getgrav.org`) ako redakčné prostredie. Výhoda bola dvojitá: po prvé, obsah sa dal editovať ako publikácia (sekcie, kapitoly, tonalita). Po druhé, diela sa nemuseli znovu nahrávať — v mikrostránke stačilo použiť jednoznačný identifikátor a cez API Webu umenia natiahnuť vždy aktuálne metadáta aj najkvalitnejšiu vizuálnu reprezentáciu. Pre tento typ publikovania sme zároveň vyvinuli embedovateľný zoom (opäť z webumenia.sk), aby sa čitateľ mohol ponoriť do detailu bez opustenia príbehu.
 
-V tejto línii vznikli výstavné longformy ako `https://mzo.sng.sk` a `https://senxskutocnost.sng.sk`. Slúžili na zakontextovanie výstavy, sprístupnenie materiálu a najmä na „off-site“ skúsenosť: po návšteve výstavy sa dalo v téme pokračovať a študovať ju v pokoji, s detailom a vysvetlením.
+V tejto línii vznikli výstavné longformy ako <https://mzo.sng.sk> a <https://senxskutocnost.sng.sk>. Slúžili na zakontextovanie výstavy, sprístupnenie materiálu a najmä na „off-site“ skúsenosť: po návšteve výstavy sa dalo v téme pokračovať a študovať ju v pokoji, s detailom a vysvetlením.
 
 Dôležitý most bol aj jazyk. Kurátorské podklady často prirodzene smerujú k odbornej presnosti. Pre internet sme potrebovali udržať korektnosť, ale nájsť čitateľný tón a formát. V našom workflow sa preto ustálilo pravidlo: kurátori dodali podklady a editorský tím ich prepísal do webového jazyka. V praxi tento „tone of voice“ (často práve vďaka editácii Lukáša Štepanovského) dal mikrostránkam osobité čaro a čitateľnosť.
 
 ::: {.aside}
 **karta projektu: SNG storytellingové mikrostránky (skupina)**
 
-- *projekty:* `https://mzo.sng.sk`, `https://senxskutocnost.sng.sk`, `https://1989.sng.sk`
+- *projekty*:
+  - <https://mzo.sng.sk>
+  - <https://senxskutocnost.sng.sk>
+  - <https://1989.sng.sk>
 - *forma:* longform + kapitoly + diela z API + embed zoom
 - *stack:* Grav (flat-file CMS) + Web umenia API + zoom komponent
 - *workflow:* kurátorské podklady → edičný prepis → publikovanie ako web
-- *open source:* repozitáre doplnené pri jednotlivých projektoch
+- *repozitár:* doplnené pri jednotlivých projektoch
 :::
 
 ![Porovnanie storytellingových mikrostránok SNG: *mzo.sng.sk*, *senxskutocnost.sng.sk* a *1989.sng.sk* (úvodné obrazovky; spoločný „publishing“ jazyk, rozdielne vizuálne identity).](figures/fig-6-3-sng_storytelling_triptych.png){#fig:sng-storytelling-triptych width=100%}
 
 ### Prípadová štúdia: čisto online výstava k výročiu Novembra 1989
 
-Postupne sme získali aj reputáciu na to, aby si galéria trúfla na čisto online výstavu k výročiu Novembra 1989. Tak vznikol projekt *Čas-opis 1989* (`https://1989.sng.sk`), ktorý dostal plnohodnotné promo ako iné výstavy — vrátane vizuálneho zásahu na fasáde SNG.
+Postupne sme získali aj reputáciu na to, aby si galéria trúfla na čisto online výstavu k výročiu Novembra 1989. Tak vznikol projekt *Čas-opis 1989* (<https://1989.sng.sk>), ktorý dostal plnohodnotné promo ako iné výstavy — vrátane vizuálneho zásahu na fasáde SNG.
 
 ![*Čas-opis 1989* medzi dvoma médiami: promo na fasáde SNG (fyzický priestor) a podstránka "Cenzúra" na *1989.sng.sk* (digitálny priestor). Plagátová estetika funguje na oboch stranách ako spoločný vizuálny jazyk — v meste ako signál výstavy, na webe ako rozhranie pre „nástenky“ a skladanie materiálov v duchu roku 1989.](figures/fig-6-3-sng_1989_diptych_fasada_web.png){#fig:sng-1989-diptych width=100%}
 
@@ -199,8 +202,8 @@ Súčasťou webu je zdigitalizovaný denník výtvarníka Júliusa Kollera, ktor
 ::: {.aside}
 **karta projektu: 1989.sng.sk**
 
-- *web:* `https://1989.sng.sk`
-- *repozitár:* `https://github.com/SlovakNationalGallery/1989.sng.sk`
+- *web:* <https://1989.sng.sk>
+- *repozitár:* <https://github.com/SlovakNationalGallery/1989.sng.sk>
 - *projektový tím:* Michal Čudrnák, Petra Hanáková, Lukáš Štepanovský, Zuzana Koblišková, Philo van Kemenade
 - *vývoj webu:* Igor Rjabinin, Ernest Walzel, Martin Havala (lab.SNG)
 - *vizuál/web dizajn:* Peter Gála
@@ -239,7 +242,7 @@ Dôležité je, že tento model nevyžaduje, aby návštevník pri diele „nami
 
 ### Prax v lab.SNG: *Atlas SNG* ako post-digitálny sprievodca budovou
 
-V roku 2022 sme dostali príležitosť navrhnúť mobilného sprievodcu pre novú budovu SNG: *Atlas SNG* (`https://atlas.sng.sk`). Cieľ bol od začiatku dvojitý:
+V roku 2022 sme dostali príležitosť navrhnúť mobilného sprievodcu pre novú budovu SNG: *Atlas SNG* (<https://atlas.sng.sk>). Cieľ bol od začiatku dvojitý:
 
 1. prepojiť diela vo fyzickej expozícii s digitálnym obsahom tak, aby vstup bol rýchly a nerušil,
 2. vytvoriť platformu pre nenútené „príbehové“ režimy návštevy — vrátane interaktívnych prechádzok typu *choose your own adventure*.
@@ -251,9 +254,9 @@ Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť ur�
 ::: {.aside}
 **karta projektu: Atlas SNG**
 
-- *web:* `https://atlas.sng.sk`
+- *web:* <https://atlas.sng.sk>
 - *účel a kontext použitia:* mobilný sprievodca galériou určený na použitie počas návštevy
-- *repozitár:* `https://github.com/SlovakNationalGallery/atlas.sng.sk`
+- *repozitár:* <https://github.com/SlovakNationalGallery/atlas.sng.sk>
 - *stack:* Vue.js + Web umenia API + doplnkové dáta (kódy, videá, „pátračka“)
 - *redakčný workflow:* AirTable ako jednoduché CMS pre netechnických editorov (read/write roly, API napojenie)
 - *vedenie projektu:* Michal Čudrnák
@@ -346,7 +349,7 @@ Digital Curator: (vľavo) naratívne rámovanie „cestovania“ diel medzi zbie
 
 - *názov:* Ornament Explorer
 - *URL:* <http://ornament-explorer.mkg-hamburg.de>
-- *repozitár (open source):* <https://github.com/igor-kamil/mkg-ornament>
+- *repozitár:* <https://github.com/igor-kamil/mkg-ornament>
 - *inštitúcia / kontext:* MK&G Hamburg, NEO Lab; nadväzuje na prototyp *Objektforscher* (Data Exploration Sprint)
 - *vznik / nasadenie:* prototyp → nasadenie v expozícii *Ornament: Exemplary Beauty* (dotykový displej v priestore)
 - *cieľ:* hravé a intuitívne objavovanie ~12 000 objektov súvisiacich s ornamentom cez vizuálnu podobnosť a tematické skupiny
