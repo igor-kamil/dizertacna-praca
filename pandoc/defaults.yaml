@@ -27,7 +27,8 @@ variables:
 # Bibliography
 citeproc: true
 bibliography: [references.bib]
-csl: style.csl
+# csl: pandoc/chicago-author-date.csl
+csl: pandoc/style.csl
 
 # Filters
 filters:
