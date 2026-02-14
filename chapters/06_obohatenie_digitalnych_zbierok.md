@@ -9,17 +9,13 @@ Predchádzajúca kapitola pomenovala opakujúce sa limity online zbierok, ktoré
 
 Tento posun je užitočné čítať aj cez Manovicha: online zbierka je typicky databáza a používateľ sa v skutočnosti nestretáva so „zbierkou“, ale s konkrétnou interpretáciou databázy cez rozhranie. [@manovich_language_new_media_2001] Ak je hlavným režimom katalógový záznam a vyhľadávacie pole, naratívna vrstva sa prirodzene zredukuje na to, čo sa dá stabilne zapísať do polí a filtrov. Nestrácajú sa dáta, oslabuje sa kontext, poradie, intenzita pozornosti a rytmus objavu.
 
-Kapitola 6 preto posúva ťažisko od diagnózy k aplikovaným zásahom. Jej cieľom nie je „vylepšiť databázu“, ale ukázať, ako môže dizajn rozhraní, naratívne vrstvenie a premyslené použitie technológií obnovovať moment prekvapenia, kontextu a *serendipity* – teda prechod od *hľadania* k *objavovaniu*. Východiskom je pritom logika veľkorysých rozhraní: najprv ukázať možnosti, vzorky a vzťahy, až potom vyžadovať otázku. [@whitelaw_generous_interfaces_archival_2012; @whitelaw_generous_interfaces_2015]
+Kapitola 6 preto posúva ťažisko od diagnózy k aplikovaným zásahom. Jej cieľom nie je „vylepšiť databázu“, ale ukázať, ako môže dizajn rozhraní, naratívne vrstvenie a premyslené použitie technológií obnovovať moment prekvapenia, kontextu a *serendipity* – teda prechod od *hľadania* k *objavovaniu*. Východiskom je pritom logika veľkorysých rozhraní: najprv ukázať možnosti, vzorky a vzťahy, až potom vyžadovať otázku. [@whitelaw_generous_interfaces_archival_2012; @whitelaw_generous_interfaces_2015] Tomuto posunu zodpovedá aj kompozícia kapitoly.
 
-Zvolená forma kapitoly je zámerne praktická. Každá podkapitola má:
+Podkapitoly sú preto komponované ako séria opakovateľných „modelových situácií“. Najprv vždy stručne pomenujem problém (spravidla priamo nadväzujúci na limity pomenované v kapitole 5) a ukážem, prečo sa v online zbierkach prejavuje práve takto. Následne pridám jednu svetovú referenciu – nie ako vzor na kopírovanie, ale ako overený jazyk riešenia, ktorý pomáha spresniť, čo presne robí zásah účinným (a v čom môže byť prenositeľný).
 
-* stručne pomenovaný problém (spravidla priamo nadväzujúci na limity z kapitoly 5),
-* svetovú referenciu (nie ako vzor na kopírovanie, ale ako overený jazyk riešenia),
-* lokálnu implementáciu z praxe lab.SNG (s dôrazom na to, čo sa reálne dalo zaviesť, udržať a škálovať),
-* krátku technickú poznámku (nie návod, skôr čitateľná mapa rozhodnutí),
-* a *project card* ako kompaktný záznam: účel, kontext, role, stack, dáta, repozitár.
+Na tento rámec potom nadväzujú praktické realizácie, na ktorých som sa priamo podieľal — väčšinou v rámci lab.SNG, prípadne v spolupráci mimo neho. Podstatné je držať sa toho, čo sa reálne dalo zaviesť, udržať a ďalej rozvíjať – teda aj s obmedzeniami inštitúcie, rozpočtu, ľudí a času. Aby text neostal len pri „príbehu projektu“, každá podkapitola má aj krátku technickú poznámku: nie ako návod, ale ako čitateľnú mapu rozhodnutí. V nej je jasné, čo bolo potrebné vyriešiť, čo sa zámerne zjednodušilo a kde sú miesta, ktoré sa môžu časom vypýtať späť (napríklad údržbou, závislosťami alebo nárokmi na dáta). Napokon sú jednotlivé realizácie zhrnuté do kompaktných *project card*, ktoré slúžia ako rýchly záznam parametrov projektu – účel, kontext použitia, roly, použité technológie, dáta a repozitár – aby sa k nim čitateľ vedel vrátiť aj bez čítania celej podkapitoly.
 
-Dôležitý rámec: väčšina uvedených projektov stavia na Webe umenia ako na infraštruktúre a zdroji dát. Nové rozhrania tak nemusia „znovu nahrávať“ diela – pracujú s jednoznačnými identifikátormi a cez API ťahajú aktuálne metadáta aj vizuálnu reprezentáciu. Tento princíp zároveň podporuje *in-house* prístup: menšie „odbočky“ nemusia oslabovať jadro, ale môžu sa stať spôsobom, ako ho dlhodobo testovať, kultivovať a postupne dopĺňať o prenositeľné komponenty.
+Za týmto výberom je ešte jeden praktický dôvod: väčšina uvedených projektov stojí na Webe umenia ako na infraštruktúre a zdroji dát. Nové rozhrania teda nemusia „znovu nahrávať“ diela – pracujú s jednoznačnými identifikátormi a cez API si berú aktuálne metadáta aj vizuálnu reprezentáciu. Tento princíp podporuje *in-house* prístup: menšie „odbočky“ nemusia oslabovať hlavný produkt, ale môžu fungovať ako bezpečný priestor na testovanie a kultivovanie nápadov, ktoré sa neskôr dajú preniesť späť do primárneho rozhrania alebo zdieľať ako použiteľné komponenty.
 
 ![Dátový tok: Elasticsearch → Web umenia → (API, read-only) → satelitné projekty. Projekty čítajú z API; zdrojové dáta sa udržiavajú vo Webe umenia.](figures/fig-6-1-webumenia-dataflow.svg){#fig:webumenia-dataflow width=90%}
 
@@ -72,11 +68,11 @@ Je to príklad veľkorysého rozhrania v tom, že navigačný jazyk nie je odvod
 
 #### Keď sa do zbierky vstupuje cez *náladu*
 
-*Plenérizmus* vznikol z praktickej potreby výstavy: diel je veľa, no fyzický priestor má limit. Kurátorka (Katarína Beňová) navrhla, aby sa „nezmestiteľná“ časť výberu sprístupnila na Webe umenia a dala sa prehliadať na veľkej dotykovej obrazovke pri vstupe do expozície. V tejto fáze to ešte vyzeralo ako bežná online kolekcia.
+*Plenérizmus* vznikol z praktickej potreby výstavy: diel je veľa, no fyzický priestor má svoje limity. Kurátorka (Katarína Beňová) navrhla, aby sa „nezmestiteľná“ časť výberu sprístupnila na Webe umenia a zároveň bola dostupná aj priamo v expozícii – na veľkej dotykovej obrazovke pri vstupe. Východiskový návrh preto pripomínal bežnú online kolekciu: zoznam diel, ktoré si návštevník môže prezerať popri fyzickej návšteve.
 
-Zlom nastal pri hľadaní vhodného vstupu. Nechcel som, aby dotyková obrazovka skončila ako veľký zoznam, v ktorom sa pozornosť vždy zlomí na prvých položkách. Z rozhovorov s galerijnou pedagogikou prišlo slovo, ktoré presne sedelo na tematiku plenéru: nejde len o motív, ale o zachytenie *nálady* (*stimmung*), prchavého dojmu. Tento jazyk mal oporu aj v dobových zápisníkoch a denníkoch. A tak sa dizajnová otázka otočila: čo ak sa do kolekcie nevstupuje cez autora či názov, ale cez náladu?
+Zlom nastal pri hľadaní vhodnej „vstupnej brány“. Nechcel som, aby dotyková obrazovka skončila ako veľký zoznam, v ktorom sa pozornosť vždy zlomí na prvých položkách. V rozhovoroch s kolegami z oddelenia galerijnej pedagogiky sa opakovane objavil jazyk, ktorý k plenéru sedel presnejšie než autori alebo názvy: nejde len o motív, ale o zachytenie *nálady* (*stimmung*), prchavého dojmu. Tento spôsob uvažovania má oporu aj v dobových textoch – mnohí z autorov si viedli pomerne bohaté denníky a zápisníky, ktoré nezaznamenávajú iba „čo“ videli, ale aj *ako* sa menil účinok krajiny v závislosti od svetla, hmly, chladu či oblačnosti. Munkácsy napríklad opisuje tú istú krajinu v rôznych podmienkach: „Videl som tú krajinu v plnom slnku… a tiež pod závojom oblakov bez jediného tieňa…“ (Munkácsy Mihály). V takomto horizonte prestáva byť cieľom „čo najvernejšie“ zachytenie scény a do popredia sa dostáva atmosféra – účinok situácie v konkrétnom čase a počasí. A dizajnová otázka sa tým prirodzene otočila: čo ak sa do kolekcie nevstupuje cez autora či názov, ale cez náladu?
 
-Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*. Diela boli ručne otagované týmito kategóriami a cez API Webu umenia sa skladali dotazy tak, aby zvolená kombinácia priviedla návštevníka k jednému konkrétnemu dielu. Tento „mechanizmus výberu“ vytvára dva efekty, ktoré v search režime často chýbajú: pocit prekvapenia (zbierka odpovedá inak, než čakám) a pocit objavu (výsledok nie je len správna odpoveď, ale nový obraz, ku ktorému som sa nedostal cez meno autora). Súčasťou rozhrania boli aj krátke citáty zo zápisníkov, ktoré návštevníka naladia na spôsob čítania diel ako záznamu dojmu, nie iba katalógového objektu.
+Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*. Diela boli ručne otagované týmito kategóriami a cez API Webu umenia sa skladali dotazy tak, aby zvolená kombinácia priviedla návštevníka k jednému konkrétnemu dielu. Tento „mechanizmus výberu“ vytvára dva efekty, ktoré v search režime často chýbajú: pocit prekvapenia (zbierka odpovedá inak, než čakám) a pocit objavu (výsledok nie je len správna odpoveď, ale nový obraz, ku ktorému som sa nedostal cez meno autora). Pre ilustráciu a „naladenie“ na tento spôsob čítania sme do rozhrania pridali aj krátke citáty z denníkov a zápisníkov, ktoré sa návštevníkovi náhodne zobrazujú a pripomínajú, že tieto obrazy nevznikali len ako záznam motívu, ale ako pokus zachytiť účinok chvíle.
 
 ![*plenerizmus.sng.sk*: výber podľa *motívu*, *nálady* a *počasia* ako vstup do kolekcie (kiosk režim).](figures/fig-6-2-plenerizmus-ui.png){#fig:plenerizmus-ui width=90%}
 
@@ -92,6 +88,7 @@ Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*.
 - *výskumný vstup:* rozhovory s galerijnou pedagogikou (Peter Pivoda, Miroslava Mišová) ako zdroj konceptu „nálady“
 - *dáta a zdroj:* diela z Webu umenia cez API; nad nimi ručne vytvorené tagy (*motív / nálada / počasie*)
 - *rozhranie a režim:* touch-first, výstup do detailu a zoomu; možnosť pokračovať na mobile (QR)
+- *technológie a stack:* Laravel + Vue.js
 - *repozitár (open source):* `https://github.com/SlovakNationalGallery/plenerizmus.sng.sk`
 - *poznámky k implementácii:* kurátorské tagovanie je súčasťou „navigačného jazyka“, nie len doplnkové metadáta
 :::
@@ -255,7 +252,8 @@ Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť ur�
 **project card: Atlas SNG**
 
 - *web:* `https://atlas.sng.sk`
-- *open source:* `https://github.com/SlovakNationalGallery/atlas.sng.sk`
+- *účel a kontext použitia:* mobilný sprievodca galériou určený na použitie počas návštevy
+- *repozitár:* `https://github.com/SlovakNationalGallery/atlas.sng.sk`
 - *stack:* Vue.js + Web umenia API + doplnkové dáta (kódy, videá, „pátračka“)
 - *redakčný workflow:* AirTable ako jednoduché CMS pre netechnických editorov (read/write roly, API napojenie)
 - *vedenie projektu:* Michal Čudrnák
@@ -320,7 +318,7 @@ V literatúre o AI v múzeách sa opakovane objavuje aj druhý praktický probl�
 ### Kurátorský protipól: *Digital Curator* – keď AI vytvára zmysluplné „konštelácie“
 
 ::: {.aside}
-**project card: Digital Curator**
+**Referenčný príklad: Digital Curator**
 
 - *názov:* Digital Curator
 - *URL:* <https://digitalcurator.art>
@@ -354,6 +352,7 @@ Digital Curator: (vľavo) naratívne rámovanie „cestovania“ diel medzi zbie
 - *cieľ:* hravé a intuitívne objavovanie ~12 000 objektov súvisiacich s ornamentom cez vizuálnu podobnosť a tematické skupiny
 - *tím (research & development):* Michal Čudrnák, Igor Rjabinin, Philo van Kemenade, František Sebestyén
 - *technológie:* Laravel; Python; Weaviate (vektorová databáza / similarity search)
+- *dáta a zdroj*: CSV export z interného CMS MK&G + obrazové súbory (priradené k záznamom)
 - *interakčný model:* horizontálne „podľa podobnosti“ (vektorový priestor), vertikálne „podľa času“ (metadáta)
 - *výstup pre používateľa:* prekvapivé príbuznosti ornamentu naprieč storočiami, materiálmi a typmi objektov
 :::
