@@ -12,7 +12,7 @@ metadata:
   toc-title: Obsah
 
 template: pandoc/template.tex
-toc: true
+toc: false
 toc-depth: 2
 
 
