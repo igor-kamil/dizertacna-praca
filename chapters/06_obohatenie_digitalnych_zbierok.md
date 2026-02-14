@@ -13,7 +13,7 @@ Kapitola 6 preto posúva ťažisko od diagnózy k aplikovaným zásahom. Jej cie
 
 Podkapitoly sú preto komponované ako séria opakovateľných „modelových situácií“. Najprv vždy stručne pomenujem problém (spravidla priamo nadväzujúci na limity pomenované v kapitole 5) a ukážem, prečo sa v online zbierkach prejavuje práve takto. Následne pridám jednu svetovú referenciu – nie ako vzor na kopírovanie, ale ako overený jazyk riešenia, ktorý pomáha spresniť, čo presne robí zásah účinným (a v čom môže byť prenositeľný).
 
-Na tento rámec potom nadväzujú praktické realizácie, na ktorých som sa priamo podieľal — väčšinou v rámci lab.SNG, prípadne v spolupráci mimo neho. Podstatné je držať sa toho, čo sa reálne dalo zaviesť, udržať a ďalej rozvíjať – teda aj s obmedzeniami inštitúcie, rozpočtu, ľudí a času. Aby text neostal len pri „príbehu projektu“, každá podkapitola má aj krátku technickú poznámku: nie ako návod, ale ako čitateľnú mapu rozhodnutí. V nej je jasné, čo bolo potrebné vyriešiť, čo sa zámerne zjednodušilo a kde sú miesta, ktoré sa môžu časom vypýtať späť (napríklad údržbou, závislosťami alebo nárokmi na dáta). Napokon sú jednotlivé realizácie zhrnuté do kompaktných *project card*, ktoré slúžia ako rýchly záznam parametrov projektu – účel, kontext použitia, roly, použité technológie, dáta a repozitár – aby sa k nim čitateľ vedel vrátiť aj bez čítania celej podkapitoly.
+Na tento rámec potom nadväzujú praktické realizácie, na ktorých som sa priamo podieľal — väčšinou v rámci lab.SNG, prípadne v spolupráci mimo neho. Podstatné je držať sa toho, čo sa reálne dalo zaviesť, udržať a ďalej rozvíjať – teda aj s obmedzeniami inštitúcie, rozpočtu, ľudí a času. Aby text neostal len pri „príbehu projektu“, každá podkapitola má aj krátku technickú poznámku: nie ako návod, ale ako čitateľnú mapu rozhodnutí. V nej je jasné, čo bolo potrebné vyriešiť, čo sa zámerne zjednodušilo a kde sú miesta, ktoré sa môžu časom vypýtať späť (napríklad údržbou, závislosťami alebo nárokmi na dáta). Napokon sú jednotlivé realizácie zhrnuté do kompaktných *kariet projektu*, ktoré fungujú ako štandardizovaný záznam ich základných parametrov – účelu, kontextu použitia, zapojených rolí, použitých technológií, dát a repozitára.
 
 Za týmto výberom je ešte jeden praktický dôvod: väčšina uvedených projektov stojí na Webe umenia ako na infraštruktúre a zdroji dát. Nové rozhrania teda nemusia „znovu nahrávať“ diela – pracujú s jednoznačnými identifikátormi a cez API si berú aktuálne metadáta aj vizuálnu reprezentáciu. Tento princíp podporuje *in-house* prístup: menšie „odbočky“ nemusia oslabovať hlavný produkt, ale môžu fungovať ako bezpečný priestor na testovanie a kultivovanie nápadov, ktoré sa neskôr dajú preniesť späť do primárneho rozhrania alebo zdieľať ako použiteľné komponenty.
 
@@ -53,7 +53,7 @@ Je to príklad veľkorysého rozhrania v tom, že navigačný jazyk nie je odvod
 ![*Dive into Color* v expozícii: dotykové rozhranie ako „kolekčný prehľad“ v priestore.](figures/fig-6-2-dive-into-color-in-situ.jpg){#fig:dive-into-color-insitu width=90%}
 
 ::: {.aside}
-**Project: Dive into Color**
+**karta projektu: Dive into Color**
 
  - *názov projektu:* *Dive into Color*
  - *účel a kontext použitia:* explorácia zbierky podľa farby; vystavené v rámci výstavy *Saturated: The Allure and Science of Color*
@@ -80,7 +80,7 @@ Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*.
 
 
 ::: {.aside}
-**Project card: plenerizmus.sng.sk**
+**karta projektu: plenerizmus.sng.sk**
 
 - *názov projektu:* *plenerizmus.sng.sk*
 - *účel a kontext použitia:* doplnok k výstave „Z akadémie do prírody. Podoby krajinomaľby v strednej Európe 1860–1890“; dotykový kiosk pri vstupe
@@ -89,7 +89,7 @@ Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*.
 - *dáta a zdroj:* diela z Webu umenia cez API; nad nimi ručne vytvorené tagy (*motív / nálada / počasie*)
 - *rozhranie a režim:* touch-first, výstup do detailu a zoomu; možnosť pokračovať na mobile (QR)
 - *technológie a stack:* Laravel + Vue.js
-- *repozitár (open source):* `https://github.com/SlovakNationalGallery/plenerizmus.sng.sk`
+- *repozitár:* <https://github.com/SlovakNationalGallery/plenerizmus.sng.sk>
 - *poznámky k implementácii:* kurátorské tagovanie je súčasťou „navigačného jazyka“, nie len doplnkové metadáta
 :::
 
@@ -165,31 +165,34 @@ Pre mňa je to argument, že výstavné mikrostránky treba brať ako publikačn
 
 ### Prax v SNG: mikrostránky ako „lego“ nad Webom umenia
 
-V SNG bola dlhodobo možnosť zapojiť lab.SNG do výstav: niekedy cez onsite prvky (interaktívne prehliadače skicárov, porovnania pred/po reštaurovaní, hravé rozhrania), inokedy cez dedikované mikrostránky. Už od skorých projektov (napr. `https://dvekrajiny.sng.sk/` [@dvekrajiny_sng_2014]) sa postupne ustálil prístup, v ktorom sa tvorba novej mikrostránky mení na skladanie z recyklovateľných komponentov — tak trochu ako lego.
+V SNG bola dlhodobo možnosť zapojiť lab.SNG do výstav: niekedy cez onsite prvky (interaktívne prehliadače skicárov, porovnania pred/po reštaurovaní, hravé rozhrania), inokedy cez dedikované mikrostránky. Už od skorých projektov (napr. <https://dvekrajiny.sng.sk/> [@dvekrajiny_sng_2014]) sa postupne ustálil prístup, v ktorom sa tvorba novej mikrostránky mení na skladanie z recyklovateľných komponentov — tak trochu ako lego.
 
 Jedna z praktických podmienok bola, že každá mikrostránka žije ako *subdoména pod sng.sk*. Pre mňa to nie je maličkosť; je to spôsob, ako znížiť riziko, že projekt skončí len preto, že niekde „vyprší doména“. Táto obava nie je hypotetická — aj v našom prostredí existujú staršie projekty, ktoré zanikli práve takto, bez veľkého dramatického momentu, len tichým vyhasnutím infraštruktúry (napr. webstránka k projektu "*Prerušená pieseň*").
 
 Časom sa ustálil aj technologický stack. Používali sme open-source flat-file CMS Grav (`getgrav.org`) ako redakčné prostredie. Výhoda bola dvojitá: po prvé, obsah sa dal editovať ako publikácia (sekcie, kapitoly, tonalita). Po druhé, diela sa nemuseli znovu nahrávať — v mikrostránke stačilo použiť jednoznačný identifikátor a cez API Webu umenia natiahnuť vždy aktuálne metadáta aj najkvalitnejšiu vizuálnu reprezentáciu. Pre tento typ publikovania sme zároveň vyvinuli embedovateľný zoom (opäť z webumenia.sk), aby sa čitateľ mohol ponoriť do detailu bez opustenia príbehu.
 
-V tejto línii vznikli výstavné longformy ako `https://mzo.sng.sk` a `https://senxskutocnost.sng.sk`. Slúžili na zakontextovanie výstavy, sprístupnenie materiálu a najmä na „off-site“ skúsenosť: po návšteve výstavy sa dalo v téme pokračovať a študovať ju v pokoji, s detailom a vysvetlením.
+V tejto línii vznikli výstavné longformy ako <https://mzo.sng.sk> a <https://senxskutocnost.sng.sk>. Slúžili na zakontextovanie výstavy, sprístupnenie materiálu a najmä na „off-site“ skúsenosť: po návšteve výstavy sa dalo v téme pokračovať a študovať ju v pokoji, s detailom a vysvetlením.
 
 Dôležitý most bol aj jazyk. Kurátorské podklady často prirodzene smerujú k odbornej presnosti. Pre internet sme potrebovali udržať korektnosť, ale nájsť čitateľný tón a formát. V našom workflow sa preto ustálilo pravidlo: kurátori dodali podklady a editorský tím ich prepísal do webového jazyka. V praxi tento „tone of voice“ (často práve vďaka editácii Lukáša Štepanovského) dal mikrostránkam osobité čaro a čitateľnosť.
 
 ::: {.aside}
-**project card: SNG storytellingové mikrostránky (skupina)**
+**karta projektu: SNG storytellingové mikrostránky (skupina)**
 
-- *projekty:* `https://mzo.sng.sk`, `https://senxskutocnost.sng.sk`, `https://1989.sng.sk`
+- *projekty*:
+  - <https://mzo.sng.sk>
+  - <https://senxskutocnost.sng.sk>
+  - <https://1989.sng.sk>
 - *forma:* longform + kapitoly + diela z API + embed zoom
 - *stack:* Grav (flat-file CMS) + Web umenia API + zoom komponent
 - *workflow:* kurátorské podklady → edičný prepis → publikovanie ako web
-- *open source:* repozitáre doplnené pri jednotlivých projektoch
+- *repozitár:* doplnené pri jednotlivých projektoch
 :::
 
 ![Porovnanie storytellingových mikrostránok SNG: *mzo.sng.sk*, *senxskutocnost.sng.sk* a *1989.sng.sk* (úvodné obrazovky; spoločný „publishing“ jazyk, rozdielne vizuálne identity).](figures/fig-6-3-sng_storytelling_triptych.png){#fig:sng-storytelling-triptych width=100%}
 
 ### Prípadová štúdia: čisto online výstava k výročiu Novembra 1989
 
-Postupne sme získali aj reputáciu na to, aby si galéria trúfla na čisto online výstavu k výročiu Novembra 1989. Tak vznikol projekt *Čas-opis 1989* (`https://1989.sng.sk`), ktorý dostal plnohodnotné promo ako iné výstavy — vrátane vizuálneho zásahu na fasáde SNG.
+Postupne sme získali aj reputáciu na to, aby si galéria trúfla na čisto online výstavu k výročiu Novembra 1989. Tak vznikol projekt *Čas-opis 1989* (<https://1989.sng.sk>), ktorý dostal plnohodnotné promo ako iné výstavy — vrátane vizuálneho zásahu na fasáde SNG.
 
 ![*Čas-opis 1989* medzi dvoma médiami: promo na fasáde SNG (fyzický priestor) a podstránka "Cenzúra" na *1989.sng.sk* (digitálny priestor). Plagátová estetika funguje na oboch stranách ako spoločný vizuálny jazyk — v meste ako signál výstavy, na webe ako rozhranie pre „nástenky“ a skladanie materiálov v duchu roku 1989.](figures/fig-6-3-sng_1989_diptych_fasada_web.png){#fig:sng-1989-diptych width=100%}
 
@@ -197,10 +200,10 @@ Postupne sme získali aj reputáciu na to, aby si galéria trúfla na čisto onl
 Súčasťou webu je zdigitalizovaný denník výtvarníka Júliusa Kollera, ktorý detailne zapisoval udalosti dní okolo Novembra. Tu sme vedome využili „internetové“ vlastnosti publikačnej vrstvy. Jednou z nich bol crowdsourcing: prepisy skenovaných textov vytvárali dobrovoľníci, ktorí sa prihlásili cez výzvu na sociálnych sieťach. Druhou nuansou bola temporalita: od septembra do decembra stránka na úvodnej obrazovke zobrazuje „rovnaký deň“, ale v roku 1989 (vrátane počasia a udalostí), čím vzniká zvláštny efekt opakovania tém naprieč časom. A tretím prvkom boli interaktívne „nástenky“ k témam, ktoré sa dali skladať z podkladov cez vlastný vizuálny editor (s vedomým odkazom na plagátovú estetiku revolúcie).
 
 ::: {.aside}
-**project card: 1989.sng.sk**
+**karta projektu: 1989.sng.sk**
 
-- *web:* `https://1989.sng.sk`
-- *repozitár:* `https://github.com/SlovakNationalGallery/1989.sng.sk`
+- *web:* <https://1989.sng.sk>
+- *repozitár:* <https://github.com/SlovakNationalGallery/1989.sng.sk>
 - *projektový tím:* Michal Čudrnák, Petra Hanáková, Lukáš Štepanovský, Zuzana Koblišková, Philo van Kemenade
 - *vývoj webu:* Igor Rjabinin, Ernest Walzel, Martin Havala (lab.SNG)
 - *vizuál/web dizajn:* Peter Gála
@@ -239,7 +242,7 @@ Dôležité je, že tento model nevyžaduje, aby návštevník pri diele „nami
 
 ### Prax v lab.SNG: *Atlas SNG* ako post-digitálny sprievodca budovou
 
-V roku 2022 sme dostali príležitosť navrhnúť mobilného sprievodcu pre novú budovu SNG: *Atlas SNG* (`https://atlas.sng.sk`). Cieľ bol od začiatku dvojitý:
+V roku 2022 sme dostali príležitosť navrhnúť mobilného sprievodcu pre novú budovu SNG: *Atlas SNG* (<https://atlas.sng.sk>). Cieľ bol od začiatku dvojitý:
 
 1. prepojiť diela vo fyzickej expozícii s digitálnym obsahom tak, aby vstup bol rýchly a nerušil,
 2. vytvoriť platformu pre nenútené „príbehové“ režimy návštevy — vrátane interaktívnych prechádzok typu *choose your own adventure*.
@@ -249,11 +252,11 @@ V roku 2022 sme dostali príležitosť navrhnúť mobilného sprievodcu pre nov�
 Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť určiť vlastný rytmus: nie byť ťahaný lineárnym audio-guide scenárom, ale mať možnosť nechať sa „odprevadiť“ k dielam, ktoré dávajú zmysel v rámci témy, nálady alebo zvedavosti. Do digitálnej vrstvy sme preto pridávali videá s komentármi, možnosť ukladať si obľúbené diela a vracať sa k nim neskôr, a napokon aj hravý motív „pátračky“: mesačná téma, ku ktorej boli vybrané súvisiace diela — po ich nazbieraní sa odomkla odmena (káva/nápoj v kaviarni alebo zľava v kníhkupectve). Táto drobnosť je pre mňa dôležitá: digitálna vrstva sa tu neuzatvára sama do seba, ale cielene sa „vracia“ do fyzického sveta ako motivácia k pohybu a pozornosti.
 
 ::: {.aside}
-**project card: Atlas SNG**
+**karta projektu: Atlas SNG**
 
-- *web:* `https://atlas.sng.sk`
+- *web:* <https://atlas.sng.sk>
 - *účel a kontext použitia:* mobilný sprievodca galériou určený na použitie počas návštevy
-- *repozitár:* `https://github.com/SlovakNationalGallery/atlas.sng.sk`
+- *repozitár:* <https://github.com/SlovakNationalGallery/atlas.sng.sk>
 - *stack:* Vue.js + Web umenia API + doplnkové dáta (kódy, videá, „pátračka“)
 - *redakčný workflow:* AirTable ako jednoduché CMS pre netechnických editorov (read/write roly, API napojenie)
 - *vedenie projektu:* Michal Čudrnák
@@ -277,7 +280,7 @@ Technicky je tento typ prepojenia dosť priamočiary: fyzický identifikátor (k
 - QR je ťažšie „paralelizovať“ v skupine: kód typicky skenuje jeden človek, kým bodkový kód vie celá skupina zadať naraz.
 - v tlmenom svetle je skenovanie nepraktické a svetlo displeja býva rušivé pre okolie; zadanie kódu je diskrétnejšie.
 - kód sa dá zapamätať a dopísať aj počas chôdze k ďalšiemu dielu (čo pri QR nefunguje).
-- 3×3 mriežka dáva 2^9 možností (512; bez „prázdneho“ stavu 511). Keď kódy nie sú „spojité“ ťahy, vieme využiť všetky kombinácie.
+- 3×3 mriežka dáva $2^9$ možností (512; bez „prázdneho“ stavu 511). Keď kódy nie sú „spojité“ ťahy, vieme využiť všetky kombinácie.
 :::
 
 Táto voľba sa veľmi dobre overila aj produkčne. Pre označovanie diel stačil papierový „blueprint“ a kruhové nálepky; kódy sa dali vytvárať ad-hoc kýmkoľvek, bez špeciálneho hardvéru a bez zásahu do výstavnej grafiky. V testovaní sa objavili aj drobné, ale výrečné situácie: napríklad rodič ocenil, že keď dieťa odbehlo do vedľajšej miestnosti, stále vedel kód dokončiť „spamäti“ — presne ten typ časovej a priestorovej elasticity, ktorý v expozícii reálne nastáva.
@@ -301,17 +304,17 @@ Textové vyhľadávanie a kurátorské kategórie nás v online zbierkach držia
 
 V posledných rokoch sa tento prístup posúva od jednoduchých filtrov (*facets*) k strojovému videniu a vektorovým reprezentáciám obrazov: namiesto „nájdi červené“ sa pýtame „nájdi príbuzné“ – diela, ktoré sa podobajú spôsobom, ktorý nevieme dopredu pomenovať jedným slovom. V tejto podkapitole preto *faceting* a vizuálnu podobnosť zámerne rámujem ako vstupnú bránu k AI v múzeách: nie ako marketingové „AI features“, ale ako konkrétny mechanizmus, ktorý môže doplniť chýbajúci *wow moment* a obnoviť objavovanie v situáciách, kde samotné metadáta nestačia.
 
-### Svetová referencia: Cooper Hewitt Labs (farba a tvar ako navigácia)
+### Svetová referencia: Cooper Hewitt Labs – vizuálne vlastnosti ako navigačný jazyk (pozri 6.2)
 
-Dobrou „pred-AI“ referenciou sú experimenty Cooper Hewitt Labs, ktoré dlhodobo skúšajú, čo sa stane, keď sa zmení primárny index prehliadania zbierok. Namiesto tém a autorov ponúkli napríklad prehliadanie podľa farby (*browse by color*) [@cooperhewitt2013giv] a neskôr projekt *Dive into Color*, ktorý prepája farbu, farebné harmónie a čas [@vane2018_making_diveintocolor]. Paralelne vznikali aj pokusy o čítanie zbierky cez tvarové vlastnosti a „shape browsing“ [@ridge2012shape].
+Ako „pred-AI“ predchodcu dnešného podobnostného vyhľadávania sa oplatí spomenúť experimenty Cooper Hewitt Labs, ktoré dlhodobo skúšajú, čo sa stane, keď sa primárny index prehliadania zbierky presunie z tém a autorov na vizuálne vlastnosti. Už skoré prototypy pracovali s prehliadaním podľa farby [@cooperhewitt2013giv] a s čítaním zbierky cez tvarové vlastnosti (*shape browsing*) [@ridge2012shape]. Konkrétnu realizáciu tejto logiky na príklade projektu *Dive into Color* uvádzam v podkapitole 6.2.
 
-Podstatné je, že nejde o „dekoratívne filtre“. Je to zámerná zmena epistemického režimu rozhrania: farba a tvar sa stávajú legitímnou cestou, ako sa v zbierke orientovať aj bez predchádzajúceho kontextu. V prostredí galérie je to mimoriadne relevantné: návštevník často nevie pomenovať, čo ho pri diele zaujalo, ale vie to rozpoznať, keď to uvidí znova v inom objekte.
+Podstatné je, že nejde o „dekoratívne filtre“, ale o zmenu epistemického režimu rozhrania: farba a tvar sa stávajú legitímnou cestou orientácie aj bez predchádzajúceho kontextu. V prostredí galérie je to relevantné najmä preto, že návštevník často nevie pomenovať, čo ho pri diele zaujalo, no dokáže to rozpoznať, keď sa s tým stretne znova v inom objekte.
 
 ### AI ako urýchľovač serendipity – a zároveň zdroj nových rizík
 
 Akonáhle sa podobnosť počíta algoritmicky, vstupuje do hry problém „čiernej skrinky“: model nerozhoduje neutrálne, ale podľa skúsenosti, ktorú získal z tréningových dát a z kategórií, ktoré do sveta vkladáme my. Crawford a Paglen to v *Excavating AI* formulujú priamo: tréningové datasety nie sú len „surovina“ pre algoritmy, ale aj politika – rozhodovanie o tom, čo obrázky znamenajú a akú sociálnu prácu tieto reprezentácie vykonávajú [@crawford2019excavating].
 
-Pre múzeá je toto dvojnásobne citlivé, pretože mnohé bežné modely strojového videnia stoja na datasetoch typu ImageNet a na architektúrach, ktoré z neho vyrástli (napr. *ResNet*) [@russakovsky2015ilsvrc; @he2016resnet]. Tieto datasety reprezentujú predovšetkým „súčasný svet“ a jeho kategórie – preto pri historických dielach vznikajú komické aj systematické omyly (svätožiary ako klobúky, anjeli ako vtáky) [@pilka2022digitalcurator, s. 90–93], ale dôležitejšie: vznikajú aj sociálne a demografické skreslenia, ktoré sa ukazujú napríklad pri komerčných klasifikátoroch pohlavia a farby pleti [@buolamwini2018gendershades]. V múzejnom kontexte sa tak „podobnosť“ nikdy nesmie tváriť ako objektívna pravda – je to návrh na objavovanie, ktorý musí byť čitateľne rámovaný, auditovateľný a v ideálnom prípade doplnený o vysvetlenie (prečo sa tieto dve veci stretli vedľa seba).
+Pre múzeá je toto dvojnásobne citlivé, pretože mnohé bežné modely strojového videnia stoja na datasetoch typu ImageNet a na architektúrach, ktoré z neho vyrástli (napr. *ResNet*) [@russakovsky2015ilsvrc; @he2016resnet]. Tieto datasety reprezentujú predovšetkým „súčasný svet“ a jeho kategórie – preto pri historických dielach vznikajú komické aj systematické omyly (svätožiary ako klobúky, anjeli ako vtáky) [@pilka2022digitalcurator, pp. 90-93], ale dôležitejšie: vznikajú aj sociálne a demografické skreslenia, ktoré sa ukazujú napríklad pri komerčných klasifikátoroch pohlavia a farby pleti [@buolamwini2018gendershades]. V múzejnom kontexte sa tak „podobnosť“ nikdy nesmie tváriť ako objektívna pravda – je to návrh na objavovanie, ktorý musí byť čitateľne rámovaný, auditovateľný a v ideálnom prípade doplnený o vysvetlenie (prečo sa tieto dve veci stretli vedľa seba).
 
 V literatúre o AI v múzeách sa opakovane objavuje aj druhý praktický problém: AI býva izolovaná do pilotov, ktoré nie sú prepojené s jadrom digitálnej infraštruktúry múzea a po skončení projektu zostane iba demo. Ako sektorová mapa a reflexia AI ukazujú, udržateľnosť často naráža na kapacity, dátovú pripravenosť a na to, či má inštitúcia zadefinované, čo vlastne chce AI dosiahnuť (výskum? prístupnosť? objavovanie? interné procesy?) [@thiel2023aiinmuseums]. Súvisiaci prúd kritiky „black-box“ kultúry v digitálnych nástrojoch (aj v kultúrnej pamäti) zdôrazňuje potrebu dokumentovať rozhodnutia, zviditeľňovať skryté predpoklady a navrhovať rozhrania tak, aby používateľ vedel, kedy ide o fakt a kedy o strojový odhad [@cernaSkrinka2022blackbox].
 
@@ -342,11 +345,11 @@ Digital Curator: (vľavo) naratívne rámovanie „cestovania“ diel medzi zbie
 ### Lokálna línia: *Ornament Explorer* (MK&G Hamburg) – podobnosť ako „gesto prechádzky“ v expozícii
 
 ::: {.aside}
-**project card: Ornament Explorer**
+**karta projektu: Ornament Explorer**
 
 - *názov:* Ornament Explorer
 - *URL:* <http://ornament-explorer.mkg-hamburg.de>
-- *repozitár (open source):* <https://github.com/igor-kamil/mkg-ornament>
+- *repozitár:* <https://github.com/igor-kamil/mkg-ornament>
 - *inštitúcia / kontext:* MK&G Hamburg, NEO Lab; nadväzuje na prototyp *Objektforscher* (Data Exploration Sprint)
 - *vznik / nasadenie:* prototyp → nasadenie v expozícii *Ornament: Exemplary Beauty* (dotykový displej v priestore)
 - *cieľ:* hravé a intuitívne objavovanie ~12 000 objektov súvisiacich s ornamentom cez vizuálnu podobnosť a tematické skupiny
@@ -363,7 +366,7 @@ Priamo k téme vizuálnej podobnosti sa viaže aj môj projekt *Ornament Explore
 
 ![Ukážka rozhrania Ornament Explorer: prehliadanie „príbuzných“ objektov bez potreby poznať správne termíny alebo ikonografiu.](figures/fig-6-5-ornament-explorer-ui.png){#fig:ornament-explorer-ui width=100%}
 
-### Implementation note: od *img2vec* k *CLIP* a vektorovej databáze
+### Implementačná poznámka: od *img2vec* k *CLIP* a vektorovej databáze
 
 Technicky sa podobné systémy dnes typicky skladajú z troch krokov:
 

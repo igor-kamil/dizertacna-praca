@@ -459,9 +459,9 @@ Nasledovali „mikrostránky“ pre výstavy — prototypové prostredia, kde sm
 
 Vývoj bol iteratívny, experimentálny a často priamo viazaný na konkrétne kurátorské zadania. Ako som postupne zisťoval, tento proces nebol len technologický: menil spôsob, akým inštitúcia premýšľa o digitálnom obsahu.
 
-Osobitnú rolu v tejto fáze zohral prototyp k výstave *Dve krajiny* (`https://dvekrajiny.sng.sk`), ktorý mimochodom dodnes beží ako samostatný web. Vznikol v situácii, keď ešte nebolo samozrejmé, že SNG „má na to“ nahradiť existujúcu verziu Webu umenia vlastným vývojom; prototyp preto slúžil aj ako praktický argument dovnútra inštitúcie. Od začiatku sa vyvíjal s ambíciou, aby sa stal základom budúceho Webu umenia: implementovali sa v ňom kľúčové vlastnosti ako fazetové filtrovanie, kolekcie a katalógové prehliadanie.
+Osobitnú rolu v tejto fáze zohral prototyp k výstave *Dve krajiny* (<https://dvekrajiny.sng.sk>), ktorý mimochodom dodnes beží ako samostatný web. Vznikol v situácii, keď ešte nebolo samozrejmé, že SNG „má na to“ nahradiť existujúcu verziu Webu umenia vlastným vývojom; prototyp preto slúžil aj ako praktický argument dovnútra inštitúcie. Od začiatku sa vyvíjal s ambíciou, aby sa stal základom budúceho Webu umenia: implementovali sa v ňom kľúčové vlastnosti ako fazetové filtrovanie, kolekcie a katalógové prehliadanie.
 
-Už vtedy sme riešili aj import dát cez OAI-PMH; interný importér sme volali „*spice harvester*“ (v repozitári je aj obrázok: `https://github.com/SlovakNationalGallery/webumenia.sk/blob/main/public/images/spice_harvester.jpg`). Dôležitejšie než interný názov je fakt, že tým vznikol opakovateľný most medzi evidenciou a verejným rozhraním.
+Už vtedy sme riešili aj import dát cez OAI-PMH; interný importér sme volali „*spice harvester*“ (v repozitári je aj obrázok: <https://github.com/SlovakNationalGallery/webumenia.sk/blob/main/public/images/spice_harvester.jpg>). Dôležitejšie než interný názov je fakt, že tým vznikol opakovateľný most medzi evidenciou a verejným rozhraním.
 
 Pri importovaní väčších setov diel prototyp rýchlo narážal na limity výkonu relačnej databázy, najmä pri kombinácii filtrovania a fulltextu. Práve tu sa začal rodiť plán nasadiť *Elasticsearch* ako vyhľadávaciu vrstvu; tejto téme sa vraciam v kapitole 4.
 
