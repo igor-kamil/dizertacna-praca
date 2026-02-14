@@ -1,0 +1,23 @@
+# Pandoc defaults for autoreferat build
+from: markdown+tex_math_dollars+raw_tex
+to: pdf
+pdf-engine: xelatex
+top-level-division: section
+number-sections: false
+
+template: pandoc/template.tex
+toc: false
+
+variables:
+  documentclass: article
+  fontsize: 10pt
+  lang: sk-SK
+  papersize: a5
+  classoption:
+    - oneside
+  geometry:
+    - margin=1.6cm
+    - heightrounded
+
+include-in-header:
+  - pandoc/preamble.tex
