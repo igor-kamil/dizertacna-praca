@@ -88,6 +88,7 @@ Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*.
 - *výskumný vstup:* rozhovory s galerijnou pedagogikou (Peter Pivoda, Miroslava Mišová) ako zdroj konceptu „nálady“
 - *dáta a zdroj:* diela z Webu umenia cez API; nad nimi ručne vytvorené tagy (*motív / nálada / počasie*)
 - *rozhranie a režim:* touch-first, výstup do detailu a zoomu; možnosť pokračovať na mobile (QR)
+- *technológie a stack:* Laravel + Vue.js
 - *repozitár (open source):* `https://github.com/SlovakNationalGallery/plenerizmus.sng.sk`
 - *poznámky k implementácii:* kurátorské tagovanie je súčasťou „navigačného jazyka“, nie len doplnkové metadáta
 :::
@@ -251,7 +252,8 @@ Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť ur�
 **project card: Atlas SNG**
 
 - *web:* `https://atlas.sng.sk`
-- *open source:* `https://github.com/SlovakNationalGallery/atlas.sng.sk`
+- *účel a kontext použitia:* mobilný sprievodca galériou určený na použitie počas návštevy
+- *repozitár:* `https://github.com/SlovakNationalGallery/atlas.sng.sk`
 - *stack:* Vue.js + Web umenia API + doplnkové dáta (kódy, videá, „pátračka“)
 - *redakčný workflow:* AirTable ako jednoduché CMS pre netechnických editorov (read/write roly, API napojenie)
 - *vedenie projektu:* Michal Čudrnák
@@ -316,7 +318,7 @@ V literatúre o AI v múzeách sa opakovane objavuje aj druhý praktický probl�
 ### Kurátorský protipól: *Digital Curator* – keď AI vytvára zmysluplné „konštelácie“
 
 ::: {.aside}
-**project card: Digital Curator**
+**Referenčný príklad: Digital Curator**
 
 - *názov:* Digital Curator
 - *URL:* <https://digitalcurator.art>
@@ -350,6 +352,7 @@ Digital Curator: (vľavo) naratívne rámovanie „cestovania“ diel medzi zbie
 - *cieľ:* hravé a intuitívne objavovanie ~12 000 objektov súvisiacich s ornamentom cez vizuálnu podobnosť a tematické skupiny
 - *tím (research & development):* Michal Čudrnák, Igor Rjabinin, Philo van Kemenade, František Sebestyén
 - *technológie:* Laravel; Python; Weaviate (vektorová databáza / similarity search)
+- *dáta a zdroj*: CSV export z interného CMS MK&G + obrazové súbory (priradené k záznamom)
 - *interakčný model:* horizontálne „podľa podobnosti“ (vektorový priestor), vertikálne „podľa času“ (metadáta)
 - *výstup pre používateľa:* prekvapivé príbuznosti ornamentu naprieč storočiami, materiálmi a typmi objektov
 :::
