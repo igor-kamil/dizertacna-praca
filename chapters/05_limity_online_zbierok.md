@@ -169,7 +169,7 @@ Ak dielo nemá stabilné datovanie, ťažko sa z neho skladá časová trajektó
 Ak sú témy len ako voľné tagy bez kontextu, rozhranie sa bude spoliehať na podobnosť a popularitu.
 Ak nie je jasne oddelené „séria“, „variant“, „reprodukcia“, „detail“, potom deduplikácia a agregácia môžu zjednodušiť práve to, čo je pre interpretáciu podstatné.
 
-Dušan Barok používa pre takéto vrstvy pojem znalostná infraštruktúra a pripomína, že nejde o „fakty v hlavách“, ale o zdieľaný socio-technický systém ľudí, inštitúcií a artefaktov. [@Barok2024Publishing] V jeho opise je dôležitá aj paralela s editovaním: výber, tvarovanie a prepájanie nie sú neutrálne operácie, ale spôsob, ako sa z heterogénnej dokumentácie stáva čitateľný celok.  To, čo robí redaktor v publikácii, robí infraštruktúra v katalógu – len bez toho, aby to tak nazývala.
+Dušan Barok používa pre takéto vrstvy pojem *znalostná infraštruktúra* a pripomína, že nejde o „fakty v hlavách“, ale o zdieľaný socio-technický systém ľudí, inštitúcií a artefaktov. [@Barok2024Publishing] V jeho opise je dôležitá aj paralela s editovaním: výber, tvarovanie a prepájanie nie sú neutrálne operácie, ale spôsob, ako sa z heterogénnej dokumentácie stáva čitateľný celok. To, čo robí redaktor v publikácii, robí infraštruktúra v katalógu – len bez toho, aby to tak nazývala.
 
 > knowledge infrastructures are „robust networks of people, artifacts, and institutions…“ [@Barok2024Publishing; @edwards_vast_machine_computer_2010]
 
