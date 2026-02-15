@@ -56,18 +56,9 @@ Bratislava, február 2026
 \newpage
 \setcounter{page}{1}
 
-# Obsah
-
-1. Abstrakt  
-2. Resumé (English)  
-3. Téma praktickej dizertačnej práce a jej zdôvodnenie  
-4. Cieľ, štruktúra a stručná anotácia písomnej časti dizertačnej práce  
-5. Zoznam študovanej literatúry  
-6. Predstavenie projektu umelecko-vedeckého výskumu  
-7. Zoznam diel
-8. Zoznam výstav, prezentácií, realizácií, projektov a publikácií počas doktorandského štúdia  
-9. Zoznam spoluprác na umelecko-vedeckom výskume a grantovej činnosti  
-10. Najdôležitejšie ohlasy, citácie a ocenenia
+\renewcommand{\contentsname}{Obsah}
+\setcounter{tocdepth}{2}
+\tableofcontents
 
 \newpage
 
@@ -107,6 +98,8 @@ Práca teda prepája kurátorskú prax, technológie a používateľskú skúsen
 
 Z praktického hľadiska je jadrom výskumu návrh rozhraní, ktoré z existujúcej dátovej infraštruktúry dokážu vytvárať čitateľné „susedstvá“ diel: porovnania, tematické zhluky, kontrasty, mikro-kontexty a krátke interpretačné väzby, ktoré nahrádzajú absenciu lineárnej výstavnej dramaturgie. Cieľom nie je nahradiť kurátora algoritmom, ale navrhnúť také spojenia medzi dielami a takú navigáciu, ktoré zviditeľnia možnosti čítania a zároveň ostanú transparentné a udržateľné.
 
+\newpage
+
 # 2. Cieľ, štruktúra a stručná anotácia písomnej časti dizertačnej práce
 
 ## 2.1 Cieľ práce
@@ -134,6 +127,7 @@ Kľúčový argument práce je, že rozhranie preberá v online zbierke rolu „
 
 Práca ukazuje, že vhodne navrhnuté digitálne rozhrania môžu online zbierku transformovať z katalógu na čitateľné rozprávacie prostredie. Nejde o „pridanie príbehu“ vo forme lineárneho textu, ale o vytvorenie podmienok pre nelineárne skladanie významu: cez zrozumiteľné väzby medzi dielami, transparentné pravidlá výberu a rozhrania, ktoré podporujú orientáciu, serendipitu a kontext. 
 
+\newpage
 # 3. Zoznam študovanej literatúry
 
 Nižšie uvádzam výber kľúčovej literatúry, o ktorú sa práca opiera:
@@ -173,6 +167,8 @@ Nižšie uvádzam výber kľúčovej literatúry, o ktorú sa práca opiera:
 * Candy, Linda, and Ernest Edmonds. 2018. "Practice-Based Research in the Creative Arts: Foundations and Futures from the Front Line." *Leonardo* 51 (1): 63-69. https://doi.org/10.1162/LEON_a_01471.
 * Zervan, Marián, and Monika Mitášová, eds. 2025. *Umelecký výskum v diskusii*. Bratislava: Vysoká škola výtvarných umení v Bratislave.
 
+\newpage
+
 # 4. Predstavenie projektu umelecko-vedeckého výskumu
 
 Projekt umelecko-vedeckého výskumu je postavený na prístupe *research through design*: poznanie vzniká cez návrh, prototypovanie, testovanie v situácii použitia a kritickú reflexiu. V tomto rámci je rozhranie zároveň predmetom aj nástrojom výskumu – každé rozhodnutie (čo ukázať, v akom poradí, akými väzbami, s akou mierou vysvetlenia) je hypotéza o tom, ako sa dá v databázovom prostredí skladať význam. 
@@ -190,7 +186,11 @@ Prínos projektu je dvojitý:
 
 Napokon je dôležité pomenovať aj „inštitucionálnu realitu“: naratívna vrstva nevzniká iba na obrazovke. Je dôsledkom infraštruktúry – kvality dát, spôsobu publikovania, údržby kódu, kompetencií a času na iterácie. Praktická časť preto priebežne konfrontuje návrh rozhraní s otázkou udržateľnosti: čo si môže dovoliť malý tím, čo sa dá robiť dlhodobo a čo už vyžaduje zmenu organizačných priorít. 
 
+\newpage
+
 # 5. Zoznam diel
+
+\newpage
 
 # 6. Zoznam výstav, prezentácií, realizácií, projektov a publikácií počas doktorandského štúdia
 
@@ -271,6 +271,8 @@ Poznámka: fotografie sú zoradené podľa diel; pri každom diele je uvedený v
 ![*Sochárske laboratórium*, celkový pohľad na pracovisko / „box“ stanice (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-install-03.jpg){#fig:socharske-3}
 
 ![*Sochárske laboratórium*, detail stanice / rozhrania (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-detail-04.jpg){#fig:socharske-4}
+
+\newpage
 
 # 7. Zoznam spoluprác na umelecko-vedeckom výskume a grantovej činnosti
 
