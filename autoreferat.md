@@ -234,43 +234,81 @@ Poznámka: nižšie uvedené výstupy majú často formu webovej aplikácie, no 
 
 Poznámka: fotografie sú zoradené podľa diel; pri každom diele je uvedený výber 2–4 záberov.
 
+\Needspace{0.82\textheight}
 ### *Water explorer* (MK&G Hamburg, *Water Pressure*, 2024)
 
-![*Water explorer*, detail inštalácie a sprievodného textu „Explore the collection with AI“ (MK\&G Hamburg, 2024).](figures_autoreferat/fig-6-3-water-explorer-mkg-hamburg-2024-detail-01.jpg.jpeg){#fig:water-explorer-1}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\linewidth,height=0.78\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-water-explorer-mkg-hamburg-2024-detail-01.jpg.jpeg}
+\caption{*Water explorer* — detail inštalácie a sprievodného textu „Explore the collection with AI“ (MK\&G Hamburg, 2024).}
+\end{figure}
+\FloatBarrier
+\clearpage
 
+\Needspace{0.82\textheight}
 ### *Ornament explorer* (MK&G Hamburg, *Ornament – Exemplary Beauty*, 2023/2024)
 
-![*Ornament explorer*, pohľad do výstavy s inštalovanou digitálnou stanicou (MK\&G Hamburg).](figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-install-01.jpg){#fig:ornament-explorer-1}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-install-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-visitor-02.jpg}
 
-![*Ornament explorer*, návštevnícka interakcia so stanicou v rámci výstavy (MK\&G Hamburg).](figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-visitor-02.jpg){#fig:ornament-explorer-2}
+\vspace{0.5em}
+\includegraphics[width=0.72\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-web-03.png}
+\caption{*Ornament explorer* — inštalácia, návštevnícka interakcia a dokumentačný screenshot kontextu MK\&G.}
+\end{figure}
+\FloatBarrier
+\clearpage
 
-![Dokumentačný screenshot stránky / kontextu MK\&G (prepojenie na *Ornament explorer*).](figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-web-03.png){#fig:ornament-explorer-3}
-
+\Needspace{0.82\textheight}
 ### *Prostor pro sdílení frustrace!* / *Space for sharing frustration!* (Fotograf Gallery, Praha, 2024)
 
-![Inštalácia diela v priestore výstavy (Fotograf Gallery, Praha).](figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-install-01.jpg){#fig:frustrace-1}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-install-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-install-02.jpg}
 
-![Pohľad z exteriéru / výklad výstavy (Fotograf Gallery, Praha).](figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-install-02.jpg){#fig:frustrace-2}
+\vspace{0.5em}
+\includegraphics[width=0.72\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-poster-03.png}
+\caption{*Prostor pro sdílení frustrace!* / *Space for sharing frustration!* — inštalácia, pohľad z exteriéru a vizuál výstavy *Work in Process*.}
+\end{figure}
+\FloatBarrier
+\clearpage
 
-![Vizuál výstavy *Work in Process* (dokumentačný materiál).](figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-poster-03.png){#fig:frustrace-3}
+\Needspace{0.82\textheight}
+### *Floating arboretum* (Benátky, 2024) — dokumentačné screenshoty rozhrania a výstavný QR vstup
 
-### *Floating arboretum* (Benátky, 2024) — dokumentačné screenshoty rozhrania
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-floating-arboretum-venice-qr.jpg}
 
-![*Floating arboretum*, dokumentačný screenshot: úvodná obrazovka / symbolické „arboretum“.](figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-01.jpg){#fig:floatingarboretum-1}
+\vspace{0.5em}
+\includegraphics[width=0.55\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-04.png}
+\caption{*Floating arboretum* — úvodná obrazovka, výstavné popisky s QR kódmi (odkaz na konkrétnu nahrávku a príbeh ku konkrétnemu stromu) a mobilné rozhranie.}
+\end{figure}
+\FloatBarrier
+\clearpage
 
-![*Floating arboretum*, dokumentačný screenshot: detail príbehu stromu a audio/poetický obsah.](figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-03.jpg){#fig:floatingarboretum-2}
-
-![*Floating arboretum*, dokumentačný screenshot: mobilné rozhranie (detail).](figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-04.png){#fig:floatingarboretum-3}
-
+\Needspace{0.82\textheight}
 ### *Sochárske laboratórium* (GMB, Mirbachov palác) — dokumentácia výstavnej stanice
 
-![*Sochárske laboratórium*, návštevnícka práca pri stanici (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-visitor-01.jpg){#fig:socharske-1}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-visitor-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-process-02.jpg}
 
-![*Sochárske laboratórium*, pracovný proces návštevníkov a materiály na stole (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-process-02.jpg){#fig:socharske-2}
-
-![*Sochárske laboratórium*, celkový pohľad na pracovisko / „box“ stanice (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-install-03.jpg){#fig:socharske-3}
-
-![*Sochárske laboratórium*, detail stanice / rozhrania (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-detail-04.jpg){#fig:socharske-4}
+\vspace{0.5em}
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-install-03.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-detail-04.jpg}
+\caption{*Sochárske laboratórium* — návštevnícka práca, proces, celkový pohľad na stanicu a detail rozhrania.}
+\end{figure}
+\FloatBarrier
 
 \newpage
 
