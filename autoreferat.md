@@ -140,40 +140,38 @@ Nižšie uvádzam výber kľúčovej literatúry, o ktorú sa práca opiera:
 
 ## 3.1 Databáza, naratív a rozhranie ako médium
 
-* Manovich, Lev. *The Language of New Media* [@manovich_language_new_media_2001].
+* Manovich, Lev. 2001. *The Language of New Media*. Cambridge, MA: MIT Press.
 
 ## 3.2 Dizajn rozhraní pre kultúrne zbierky, vizualizácie a orientácia
 
-* Whitelaw, Mitchell. *Generous Interfaces: Interfaces for Digital Cultural Collections* [@whitelaw_generous_interfaces_2015].
-* Vane, Olivia. *Timeline design for visualising cultural heritage data* 
-(PhD, 2019).
+* Whitelaw, Mitchell. 2015. "Generous Interfaces: Interfaces for Digital Cultural Collections." In *Proceedings of the 2015 Museums and the Web Conference*.
+* Vane, Olivia. 2019. *Timeline Design for Visualising Cultural Heritage Data*. PhD thesis.
 
 ## 3.3 Starostlivosť, udržateľnosť a infraštruktúra digitálneho dedičstva
 
-* Dekker, Annet. *Networks of Care: Types, Challenges and Potentialities* [@dekker_networks_of_care_2022].
-* Barok, Dušan. *Publishing as a Conservation Strategy: Platforms, Care and Contemporary Art* [@Barok2024Publishing].
+* Dekker, Annet. 2022. "Networks of Care: Types, Challenges and Potentialities." In *Networks of Care: Politiken Des (Er)Haltens Und (Ent)Sorgens*.
+* Barok, Dušan. 2024. *Publishing as a Conservation Strategy: Platforms, Care and Contemporary Art*. PhD thesis, Universiteit van Amsterdam.
 
 ## 3.4 Múzeá a digitálne prostredie (inštitucionálny a diskurzívny rámec)
 
-* Cameron, Fiona. *Beyond the Cult of the Replicant: Museums and the Digital* [@cameron_beyond_cult_replicant_2007].
-* Bohumelová, Mária (ed.). *Rituál múzea v digitálnom veku* [@bohumelova_ritual_muzea_digitalnom_2015].
-* Sanderhoff, Merete. *Sharing Is Caring: Openness and Sharing in the Cultural Heritage Sector* [@sanderhoff_sharing_caring_openness_2014].
+* Cameron, Fiona. 2007. "Beyond the Cult of the Replicant: Museums and the Digital." In *Museum Revolutions: How Museums Change and Are Changed*. London: Routledge.
+* Bohumelová, Mária, ed. 2015. *Rituál múzea v digitálnom veku*. Bratislava: Slovenská národná galéria.
+* Sanderhoff, Merete. 2014. *Sharing Is Caring: Openness and Sharing in the Cultural Heritage Sector*. Copenhagen: Statens Museum for Kunst.
 
 ## 3.5 Algoritmy, AI a kurátorstvo v dátových zbierkach
 
-* Pilka, Lukáš. *Digitální kurátor: Algoritmy a počítačové vidění ve světě velkých kulturněhistorických dat* [@pilka2022digitalcurator].
-* Horáková, Jana; Kupková, Marika; Szűcsová, Monika (eds.). *The Black Box: Archives and Curatorship in the Age of AI* [@cernaSkrinka2022blackbox].
-* Thiel, Sonja; Bernhardt, Johannes C. (eds.). *AI in Museums: 
-Reflections, Perspectives and Applications* (2024). 
-* Abdollahpouri, Himan et al. *The Unfairness of Popularity Bias in Recommendation* [@abdollahpouri_unfairness_popularity_bias_2019].
-* Chayka, Kyle. *Filterworld: How Algorithms Flattened Culture* [@chayka_filterworld_2024].
-* Chan, Seb. *API and Museum Collections (Cooper Hewitt Context)* [@chan_api_2015].
+* Pilka, Lukáš. 2022. *Digitální kurátor: Algoritmy a počítačové vidění ve světě velkých kulturněhistorických dat*. Disertační práce, Vysoká škola uměleckoprůmyslová v Praze (UMPRUM).
+* Černá skříňka. 2022. *Archives and Curatorship in the Age of AI*. https://cerna-skrinka.cz/data/book/black-box-book.pdf.
+* Thiel, Sonja, and Johannes C. Bernhardt, eds. 2023. *AI in Museums: Reflections, Perspectives and Applications*. Bielefeld: transcript Verlag.
+* Abdollahpouri, Himan, Masoud Mansoury, Robin Burke, and Bamshad Mobasher. 2019. "The Unfairness of Popularity Bias in Recommendation." arXiv:1907.13286. https://doi.org/10.48550/arXiv.1907.13286.
+* Chayka, Kyle. 2024. *Filterworld: How Algorithms Flattened Culture*.
+* Chan, Seb. 2015. "API and Museum Collections (Cooper Hewitt Context)."
 
 ## 3.6 Metodológia praxe ako výskumu a umelecký výskum
 
-* Frayling, Christopher. *Research in Art and Design* [@frayling_research_in_art_and_design_1994].
-* Candy, Linda; Edmonds, Ernest. *Practice-Based Research in the Creative Arts* [@candy_edmonds_practice_based_research_2018].
-* Zervan, Marián; Mitášová, Monika (eds.). *Umelecký výskum v diskusii* [@zervan_mitasova_umelecky_vyskum_v_diskusii_2025].
+* Frayling, Christopher. 1993. *Research in Art and Design*. Volume 1, Number 1 (1993/4). Royal College of Art.
+* Candy, Linda, and Ernest Edmonds. 2018. "Practice-Based Research in the Creative Arts: Foundations and Futures from the Front Line." *Leonardo* 51 (1): 63-69. https://doi.org/10.1162/LEON_a_01471.
+* Zervan, Marián, and Monika Mitášová, eds. 2025. *Umelecký výskum v diskusii*. Bratislava: Vysoká škola výtvarných umení v Bratislave.
 
 # 4. Predstavenie projektu umelecko-vedeckého výskumu
 

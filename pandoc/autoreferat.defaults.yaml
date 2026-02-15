@@ -21,3 +21,4 @@ variables:
 
 include-in-header:
   - pandoc/preamble.tex
+  - pandoc/preamble_autoreferat.tex
