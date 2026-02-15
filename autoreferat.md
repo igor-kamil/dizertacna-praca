@@ -194,6 +194,84 @@ Napokon je dôležité pomenovať aj „inštitucionálnu realitu“: naratívna
 
 # 6. Zoznam výstav, prezentácií, realizácií, projektov a publikácií počas doktorandského štúdia
 
+## 6.1 Výstavy, prezentácie a realizácie
+
+Poznámka: nižšie uvedené výstupy majú často formu webovej aplikácie, no primárne fungujú ako výstavné diela (návštevnícke stanice a rozhrania viazané na konkrétnu výstavu a miesto).
+
+### 2024
+
+* *Water explorer* — digitálne dielo (výstavná interaktívna stanica).  
+  Prezentácia: *Water Pressure – Designing for the Future* (Museum für Kunst und Gewerbe Hamburg, Hamburg, DE), 03/2024–10/2024.  
+  Charakter: prepracovaná aplikácia viazaná na tému vody; technicky nadväzuje na *Ornament explorer*, no ide o samostatnú realizáciu.
+
+* *Floating arboretum* — digitálne dielo / webová aplikácia (primárne používaná na mieste výstavy).  
+  Prezentácia: slovenská reprezentácia na *La Biennale di Venezia* (60. ročník, Československý pavilón, Benátky, IT, 2024).  
+  Charakter: rozhranie pre návštevnícke prepojenie jednotlivých stromov s audio obsahom (skladby viazané ku konkrétnym stromom) a sprievodnými príbehmi.
+
+* *Sochárske laboratórium* — digitálne dielo (digitálna stanica v expozícii).  
+  Umiestnenie: Galéria mesta Bratislavy, Mirbachov palác (interaktívny priestor / ateliér).  
+  Ocenenie: 2. miesto v cene Rady galérií Slovenska *Biela kocka* (edukačný projekt).
+
+* *Prostor pro sdílení frustrace!* / *Space for sharing frustration!* — digitálne dielo.  
+  Prezentácia: *Work in Process* (Fotograf Gallery, Praha, CZ).  
+  Spoluautor: András Cséfalvay.
+
+### 2023
+
+* *Campbell’s soup* / *Cambellova polievka* — digitálne dielo (návštevnícka aplikácia viazaná na expozíciu; dostupná aj v online podobe).  
+  Prezentácia: *Vidieť, vidieť a vidieť!* (Slovenská národná galéria – Zvolenský zámok, 11. 5. 2023).  
+  Kurátorstvo: Eva S. Kotláriková; spoluautorky: Eva S. Kotláriková, Barbara Burianová.
+
+* *Ornament explorer* — digitálne dielo / webová aplikácia (výstavná návštevnícka stanica).  
+  Prezentácia: *Ornament – Exemplary Beauty* (Museum für Kunst und Gewerbe Hamburg, Hamburg, DE), 2023–2024.  
+  Spoluautori: Philo Van Kemenade, Michal Čudrnák.
+
+## 6.2 Publikácie počas doktorandského štúdia (výber)
+
+* Grasse, Marleen; Van Kemenade, Philo; Rjabinin, Igor; Schmidt, Antje. *Feed your curiosity — Exploring one ornament at a time.* In: *NEO Collections* (MK&G Hamburg), 2024, s. 1–8 [online]. (CREPČ: I3_002).
+
+## 6.3 Obrazová dokumentácia (výber)
+
+Poznámka: fotografie sú zoradené podľa diel; pri každom diele je uvedený výber 2–4 záberov.
+
+### *Water explorer* (MK&G Hamburg, *Water Pressure*, 2024)
+
+![*Water explorer*, detail inštalácie a sprievodného textu „Explore the collection with AI“ (MK\&G Hamburg, 2024).](figures_autoreferat/fig-6-3-water-explorer-mkg-hamburg-2024-detail-01.jpg.jpeg){#fig:water-explorer-1}
+
+### *Ornament explorer* (MK&G Hamburg, *Ornament – Exemplary Beauty*, 2023/2024)
+
+![*Ornament explorer*, pohľad do výstavy s inštalovanou digitálnou stanicou (MK\&G Hamburg).](figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-install-01.jpg){#fig:ornament-explorer-1}
+
+![*Ornament explorer*, návštevnícka interakcia so stanicou v rámci výstavy (MK\&G Hamburg).](figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-visitor-02.jpg){#fig:ornament-explorer-2}
+
+![Dokumentačný screenshot stránky / kontextu MK\&G (prepojenie na *Ornament explorer*).](figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-web-03.png){#fig:ornament-explorer-3}
+
+### *Prostor pro sdílení frustrace!* / *Space for sharing frustration!* (Fotograf Gallery, Praha, 2024)
+
+![Inštalácia diela v priestore výstavy (Fotograf Gallery, Praha).](figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-install-01.jpg){#fig:frustrace-1}
+
+![Pohľad z exteriéru / výklad výstavy (Fotograf Gallery, Praha).](figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-install-02.jpg){#fig:frustrace-2}
+
+![Vizuál výstavy *Work in Process* (dokumentačný materiál).](figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-poster-03.png){#fig:frustrace-3}
+
+### *Floating arboretum* (Benátky, 2024) — dokumentačné screenshoty rozhrania
+
+![*Floating arboretum*, dokumentačný screenshot: úvodná obrazovka / symbolické „arboretum“.](figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-01.jpg){#fig:floatingarboretum-1}
+
+![*Floating arboretum*, dokumentačný screenshot: detail príbehu stromu a audio/poetický obsah.](figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-03.jpg){#fig:floatingarboretum-2}
+
+![*Floating arboretum*, dokumentačný screenshot: mobilné rozhranie (detail).](figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-04.png){#fig:floatingarboretum-3}
+
+### *Sochárske laboratórium* (GMB, Mirbachov palác) — dokumentácia výstavnej stanice
+
+![*Sochárske laboratórium*, návštevnícka práca pri stanici (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-visitor-01.jpg){#fig:socharske-1}
+
+![*Sochárske laboratórium*, pracovný proces návštevníkov a materiály na stole (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-process-02.jpg){#fig:socharske-2}
+
+![*Sochárske laboratórium*, celkový pohľad na pracovisko / „box“ stanice (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-install-03.jpg){#fig:socharske-3}
+
+![*Sochárske laboratórium*, detail stanice / rozhrania (GMB, Mirbachov palác).](figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-detail-04.jpg){#fig:socharske-4}
+
 # 7. Zoznam spoluprác na umelecko-vedeckom výskume a grantovej činnosti
 
 # 8. Najdôležitejšie ohlasy, citácie a ocenenia
