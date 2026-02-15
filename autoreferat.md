@@ -66,7 +66,7 @@ Bratislava, február 2026
 
 Táto dizertačná práca skúma stratu naratívnej vrstvy v online zbierkach umenia a možnosti, ako s týmto deficitom pracovať prostredníctvom dizajnu rozhraní a kurátorsko-technických stratégií. Východiskom je autorská skúsenosť z digitálneho R&D prostredia *lab.SNG*, kde sa stretáva publikačná infraštruktúra zbierok, vývoj, dizajn a interpretácia. Online zbierka tu často funguje primárne ako databáza: umožňuje rýchly prístup k dielam cez vyhľadávanie, filtre a izolované záznamy, no oslabuje kontext, susedstvá a postupné skladanie významu, ktoré vo fyzickej galérii vznikajú prirodzene.
 
-Metodologicky práca vychádza z prístupu *research through design*: poznanie vzniká cez návrh, prototypovanie, nasadenie a kritickú reflexiu konkrétnych riešení. Formuluje tri výskumné otázky: ako vstupovať do online zbierky inak než cez vyhľadávanie a katalógové poradie; aké dizajnové a algoritmické postupy môžu podporiť vznik významu aj pri databázovej štruktúre; a ako tieto postupy navrhovať tak, aby zostali čitateľné, udržateľné a férové voči dielam aj návštevníkom. Praktická časť vyúsťuje do experimentálneho prototypu, ktorý testuje "rozprávanie z databázy" cez generovanie susedstiev, porovnaní a krátkych interpretačných väzieb medzi dielami.
+Metodologicky práca vychádza z prístupu *research through design*: poznanie vzniká cez návrh, prototypovanie, nasadenie a kritickú reflexiu konkrétnych riešení. Formuluje tri výskumné otázky: ako vstupovať do online zbierky inak než cez vyhľadávanie a katalógové poradie; aké dizajnové a algoritmické postupy môžu podporiť vznik významu aj pri databázovej štruktúre; a ako tieto postupy navrhovať tak, aby zostali čitateľné, udržateľné a férové voči dielam aj návštevníkom. Praktická časť vyúsťuje do experimentálneho prototypu, ktorý testuje naratívne čítanie databázy cez generovanie susedstiev, porovnaní a krátkych interpretačných väzieb medzi dielami.
 
 Výsledkom práce je súbor prenositeľných princípov a odporúčaní pre múzeá a galérie, ako navrhovať online zbierky tak, aby nefungovali len ako evidenčný katalóg, ale aj ako zrozumiteľný vstup do súvislostí, vzťahov a významu.
 
@@ -78,9 +78,10 @@ Výsledkom práce je súbor prenositeľných princípov a odporúčaní pre múz
 
 This dissertation examines the loss of narrative layers in online art collections and explores ways to address this deficit through interface design and curatorial-technical strategies. It is grounded in the author's experience in the digital R&D environment of *lab.SNG*, where publishing infrastructure, development, design, and interpretation intersect. In this context, the online collection often operates primarily as a database: it enables fast access to artworks through search, filters, and isolated records, yet tends to weaken context, adjacency, and the gradual construction of meaning that naturally emerges in physical gallery settings.
 
-Methodologically, the dissertation follows a *research through design* approach: knowledge is produced through design, prototyping, deployment, and critical reflection on concrete solutions. It formulates three research questions: how to enter an online collection beyond search and catalog order; which design and algorithmic strategies can support meaning-making within a database structure; and how to design these strategies so they remain legible, sustainable, and fair to both artworks and visitors. The practical part culminates in an experimental prototype that tests "storytelling from the database" through generated adjacencies, comparisons, and short interpretive links between artworks.
+Methodologically, the dissertation follows a *research through design* approach: knowledge is produced through design, prototyping, deployment, and critical reflection on concrete solutions. It formulates three research questions: how to enter an online collection beyond search and catalog order; which design and algorithmic strategies can support meaning-making within a database structure; and how to design these strategies so they remain legible, sustainable, and fair to both artworks and visitors. The practical part culminates in an experimental prototype that tests narrative readings of a database through generated adjacencies, comparisons, and short interpretive links between artworks.
 
 The outcome is a set of transferable principles and recommendations for museums and galleries on how to design online collections that function not only as inventory catalogs, but also as legible entry points into relations, contexts, and meaning.
+
 
 **Keywords:** online art collections, digital narratives, visual interfaces, storytelling, generous interfaces, digital humanities
 
@@ -232,7 +233,7 @@ Poznámka: nižšie uvedené výstupy majú často formu webovej aplikácie, no 
 
 ## 6.3 Obrazová dokumentácia (výber)
 
-Poznámka: fotografie sú zoradené podľa diel; pri každom diele je uvedený výber 2–4 záberov.
+Poznámka: fotografie sú zoradené podľa diel.
 
 \Needspace{0.82\textheight}
 ### *Water explorer* (MK&G Hamburg, *Water Pressure*, 2024)
@@ -314,4 +315,23 @@ Poznámka: fotografie sú zoradené podľa diel; pri každom diele je uvedený v
 
 # 7. Zoznam spoluprác na umelecko-vedeckom výskume a grantovej činnosti
 
+* **MK\&G Hamburg (NEO Lab) — stáž / spolupráca v rámci Data Exploration Sprint.**  
+  Zameranie: výskum a prototypovanie spôsobov „data exploration“ nad digitálnymi zbierkami a návštevnícke rozhrania pre prácu s kolekciou (prepojenie kurátorského rámca, dizajnu rozhraní a technického vývoja).
+
+* **Oponentúra bakalárskej práce — Alexandra Dyalee.**  
+  Práca: *Fractal dimension of 23 selected images, 18 with a mathematical theme* (FMFI UK, 2023).
+
+* Prednáška „webumenia vs. *generous interface*“ v rámci predmetu *Vizuálne dáta kultúrneho dedičstva* (FMFI UK, Bratislava, 6. 5. 2025).
+
+* Hosťovanie na predmete *Praktikum* (FMFI UK, Bratislava, SK) : 28. 9. 2023; 8. 10. 2024.
+
+* Pozvanie na prezentáciu umeleckého výskumu v rámci odbornej udalosti siete rakúskych múzeí (Museumsbund Österreich): *KI-Anwendungen in den Sammlungen: Quo vadis?*, 15. 4. 2026
+
+
 # 8. Najdôležitejšie ohlasy, citácie a ocenenia
+
+* Národná cena za dizajn 2024 — ocenenie pre projekt *Atlas SNG* (komunikačný/digitálny dizajn; podľa zverejnených výsledkov a sprievodných materiálov súťaže).
+
+* 2. miesto v cene Rady galérií Slovenska *Biela kocka* — projekt *Sochárske laboratórium* (edukačný projekt)
+
+* Nominácia a finalista: *DigAMus Award 2024* — *Ornament explorer*
