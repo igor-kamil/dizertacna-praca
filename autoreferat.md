@@ -99,8 +99,6 @@ Práca teda prepája kurátorskú prax, technológie a používateľskú skúsen
 
 Z praktického hľadiska je jadrom výskumu návrh rozhraní, ktoré z existujúcej dátovej infraštruktúry dokážu vytvárať čitateľné „susedstvá“ diel: porovnania, tematické zhluky, kontrasty, mikro-kontexty a krátke interpretačné väzby, ktoré nahrádzajú absenciu lineárnej výstavnej dramaturgie. Cieľom nie je nahradiť kurátora algoritmom, ale navrhnúť také spojenia medzi dielami a takú navigáciu, ktoré zviditeľnia možnosti čítania a zároveň ostanú transparentné a udržateľné.
 
-\newpage
-
 # 2. Cieľ, štruktúra a stručná anotácia písomnej časti dizertačnej práce
 
 ## 2.1 Cieľ práce
@@ -128,7 +126,6 @@ Kľúčový argument práce je, že rozhranie preberá v online zbierke rolu „
 
 Práca ukazuje, že vhodne navrhnuté digitálne rozhrania môžu online zbierku transformovať z katalógu na čitateľné rozprávacie prostredie. Nejde o „pridanie príbehu“ vo forme lineárneho textu, ale o vytvorenie podmienok pre nelineárne skladanie významu: cez zrozumiteľné väzby medzi dielami, transparentné pravidlá výberu a rozhrania, ktoré podporujú orientáciu, serendipitu a kontext. 
 
-\newpage
 # 3. Zoznam študovanej literatúry
 
 Nižšie uvádzam výber kľúčovej literatúry, o ktorú sa práca opiera:
@@ -136,37 +133,49 @@ Nižšie uvádzam výber kľúčovej literatúry, o ktorú sa práca opiera:
 ## 3.1 Databáza, naratív a rozhranie ako médium
 
 * Manovich, Lev. 2001. *The Language of New Media*. Cambridge, MA: MIT Press.
+* Manovich, Lev. 1999. "Database as Symbolic Form." *Convergence* 5 (2): 80-99. https://doi.org/10.1177/135485659900500206.
+* Drucker, Johanna. 2011. "Humanities Approaches to Interface Theory." *Culture Machine* 12.
+* Drucker, Johanna. 2014. *Graphesis: Visual Forms of Knowledge Production*. Cambridge, MA: Harvard University Press.
+* Deleuze, Gilles, and Felix Guattari. 1987. *A Thousand Plateaus: Capitalism and Schizophrenia*. Minneapolis: University of Minnesota Press.
 
 ## 3.2 Dizajn rozhraní pre kultúrne zbierky, vizualizácie a orientácia
 
 * Whitelaw, Mitchell. 2015. "Generous Interfaces: Interfaces for Digital Cultural Collections." In *Proceedings of the 2015 Museums and the Web Conference*.
 * Vane, Olivia. 2019. *Timeline Design for Visualising Cultural Heritage Data*. PhD thesis.
+* Popoli, Zoi, and Izabela Derda. 2021. "Developing Experiences: Creative Process behind the Design and Production of Immersive Exhibitions." *Museum Management and Curatorship* 36 (4): 384-402. https://doi.org/10.1080/09647775.2021.1909491.
 
 ## 3.3 Starostlivosť, udržateľnosť a infraštruktúra digitálneho dedičstva
 
 * Dekker, Annet. 2022. "Networks of Care: Types, Challenges and Potentialities." In *Networks of Care: Politiken Des (Er)Haltens Und (Ent)Sorgens*.
 * Barok, Dušan. 2024. *Publishing as a Conservation Strategy: Platforms, Care and Contemporary Art*. PhD thesis, Universiteit van Amsterdam.
+* Valeonti, Foteini, Melissa Terras, and Andrew Hudson-Smith. 2019. "How Open Is OpenGLAM? Identifying Barriers to Commercial and Non-Commercial Reuse of Digitised Art Images." *Journal of Documentation* 76 (1): 1-26. https://doi.org/10.1108/JD-06-2019-0109.
+* Ondrejčeková, Zora. 1979. *Pravidlá katalogizácie umeleckých diel*. Bratislava: Slovenská národná galéria.
 
 ## 3.4 Múzeá a digitálne prostredie (inštitucionálny a diskurzívny rámec)
 
 * Cameron, Fiona. 2007. "Beyond the Cult of the Replicant: Museums and the Digital." In *Museum Revolutions: How Museums Change and Are Changed*. London: Routledge.
 * Bohumelová, Mária, ed. 2015. *Rituál múzea v digitálnom veku*. Bratislava: Slovenská národná galéria.
 * Sanderhoff, Merete. 2014. *Sharing Is Caring: Openness and Sharing in the Cultural Heritage Sector*. Copenhagen: Statens Museum for Kunst.
+* Cameron, Fiona, and Sarah Kenderdine, eds. 2007. *Theorizing Digital Cultural Heritage: A Critical Discourse*. Cambridge, MA: MIT Press.
+* Gombrich, E. H. 2001. *Příběh umění*. Praha: Argo, Mladá fronta.
 
 ## 3.5 Algoritmy, AI a kurátorstvo v dátových zbierkach
 
 * Pilka, Lukáš. 2022. *Digitální kurátor: Algoritmy a počítačové vidění ve světě velkých kulturněhistorických dat*. Disertační práce, Vysoká škola uměleckoprůmyslová v Praze (UMPRUM).
 * Černá skříňka. 2022. *Archives and Curatorship in the Age of AI*. https://cerna-skrinka.cz/data/book/black-box-book.pdf.
 * Thiel, Sonja, and Johannes C. Bernhardt, eds. 2023. *AI in Museums: Reflections, Perspectives and Applications*. Bielefeld: transcript Verlag.
-* Abdollahpouri, Himan, Masoud Mansoury, Robin Burke, and Bamshad Mobasher. 2019. "The Unfairness of Popularity Bias in Recommendation." arXiv:1907.13286. https://doi.org/10.48550/arXiv.1907.13286.
+* Abdollahpouri, Himan, Masoud Mansoury, Robin Burke, and Bamshad Mobasher. 2019. "The Unfairness of Popularity Bias in Recommendation." arXiv:1907.13286.  
+  DOI: \url{https://doi.org/10.48550/arXiv.1907.13286}.
 * Chayka, Kyle. 2024. *Filterworld: How Algorithms Flattened Culture*.
 * Chan, Seb. 2015. "API and Museum Collections (Cooper Hewitt Context)."
+* Anderson, Chris. 2004. "The Long Tail." *Wired*.
 
 ## 3.6 Metodológia praxe ako výskumu a umelecký výskum
 
 * Frayling, Christopher. 1993. *Research in Art and Design*. Volume 1, Number 1 (1993/4). Royal College of Art.
 * Candy, Linda, and Ernest Edmonds. 2018. "Practice-Based Research in the Creative Arts: Foundations and Futures from the Front Line." *Leonardo* 51 (1): 63-69. https://doi.org/10.1162/LEON_a_01471.
 * Zervan, Marián, and Monika Mitášová, eds. 2025. *Umelecký výskum v diskusii*. Bratislava: Vysoká škola výtvarných umení v Bratislave.
+* Arlander, Anette. 2016. *Artistic Research and/as Interdisciplinarity*. Porto: Faculty of Fine Arts University of Porto.
 
 \newpage
 
