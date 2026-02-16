@@ -68,6 +68,28 @@ PDFSETTINGS=/prepress ./build.sh # najvyššia kvalita (približuje sa originál
 FULL=1 ./build.sh               # bez kompresie (úplne preskočí Ghostscript)
 ```
 
+## Generovanie autoreferátu
+
+Autoreferát má samostatný build skript a jeden zdrojový súbor:
+
+- `autoreferat.md` - hlavný vstup (text + titulné strany + obrazová príloha)
+- `build_autoreferat.sh` - build do `autoreferat.pdf`
+- `pandoc/autoreferat.defaults.yaml` - A5 nastavenia pre autoreferát
+
+```bash
+chmod +x build_autoreferat.sh   # prvýkrát
+./build_autoreferat.sh          # vytvorí autoreferat.pdf
+```
+
+Voliteľné režimy kompresie sú rovnaké:
+
+```bash
+PDFSETTINGS=/screen ./build_autoreferat.sh
+PDFSETTINGS=/printer ./build_autoreferat.sh
+PDFSETTINGS=/prepress ./build_autoreferat.sh
+FULL=1 ./build_autoreferat.sh
+```
+
 ## Spúšťanie skriptov
 
 Príklad (Python, venv + requirements):

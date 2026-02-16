@@ -1,0 +1,409 @@
+\thispagestyle{empty}
+\begin{center}
+{\Large Vysoká škola výtvarných umení v Bratislave\par}
+\vspace{1.2cm}
+{\large Študijný odbor: Umenie\par}
+{\large Študijný program: Digitálne umenia\par}
+\vspace{1.8cm}
+{\LARGE \textbf{Autoreferát dizertačnej práce}\par}
+\vspace{1.2cm}
+{\Large Digitálne naratívy, ne-lineárne príbehy a generatívna skutočnosť v dobe beznádeje\par}
+\vspace{0.4cm}
+{\large Online zbierky umenia ako prostredia vizuálneho rozprávania\par}
+\vspace{1.6cm}
+\end{center}
+
+\begin{flushleft}
+\textbf{Doktorand:} Mgr. Igor Rjabinin \\
+\textbf{Školiteľ:} doc. Mgr. art. András Cséfalvay, ArtD. \\
+\textbf{Školiteľ-konzultant:} doc. Mgr. Zuzana Panák Husárová, PhD. \\
+\end{flushleft}
+
+\vfill
+\begin{center}
+Bratislava, február 2026
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+\textbf{Forma štúdia:} denná
+
+\vspace{0.6cm}
+\textbf{Pracovisko:} Platforma digitálne umenia
+
+\vspace{0.8cm}
+\textbf{Navrhovaní oponenti:}
+
+\vspace{0.3cm}
+1.\ \dotfill
+
+\vspace{0.45cm}
+2.\ \dotfill
+
+\vspace{0.45cm}
+3.\ \dotfill
+
+\vspace{0.8cm}
+\textbf{Odborová rada pre doktorandské štúdium}
+
+študijný program Výtvarné umenie (VUd.14/VUde.14)
+
+\vspace{0.6cm}
+\textbf{Predseda odborovej rady:} prof. Boris Kvasnica, akad. maliar
+
+\textbf{Pracovisko predsedu odborovej rady:} Katedra reštaurovania
+
+\newpage
+\setcounter{page}{1}
+
+\renewcommand{\contentsname}{Obsah}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\newpage
+
+# Abstrakt
+
+Táto dizertačná práca skúma stratu naratívnej vrstvy v online zbierkach umenia a možnosti, ako s týmto deficitom pracovať prostredníctvom dizajnu rozhraní a kurátorsko-technických stratégií. Východiskom je autorská skúsenosť z digitálneho R&D prostredia *lab.SNG*, kde sa stretáva publikačná infraštruktúra zbierok, vývoj, dizajn a interpretácia. Online zbierka tu často funguje primárne ako databáza: umožňuje rýchly prístup k dielam cez vyhľadávanie, filtre a izolované záznamy, no oslabuje kontext, susedstvá a postupné skladanie významu, ktoré vo fyzickej galérii vznikajú prirodzene.
+
+Metodologicky práca vychádza z prístupu *research through design*: poznanie vzniká cez návrh, prototypovanie, nasadenie a kritickú reflexiu konkrétnych riešení. Formuluje tri výskumné otázky: ako vstupovať do online zbierky inak než cez vyhľadávanie a katalógové poradie; aké dizajnové a algoritmické postupy môžu podporiť vznik významu aj pri databázovej štruktúre; a ako tieto postupy navrhovať tak, aby zostali čitateľné, udržateľné a férové voči dielam aj návštevníkom. Praktická časť vyúsťuje do experimentálneho prototypu, ktorý testuje naratívne čítanie databázy cez generovanie susedstiev, porovnaní a krátkych interpretačných väzieb medzi dielami.
+
+Výsledkom práce je súbor prenositeľných princípov a odporúčaní pre múzeá a galérie, ako navrhovať online zbierky tak, aby nefungovali len ako evidenčný katalóg, ale aj ako zrozumiteľný vstup do súvislostí, vzťahov a významu.
+
+**Kľúčové slová:** online zbierky umenia, digitálne naratívy, vizuálne rozhrania, storytelling, generous interfaces, digitálne humanitné vedy
+
+\newpage
+
+# Abstract (English)
+
+This dissertation examines the loss of narrative layers in online art collections and explores ways to address this deficit through interface design and curatorial-technical strategies. It is grounded in the author's experience in the digital R&D environment of *lab.SNG*, where publishing infrastructure, development, design, and interpretation intersect. In this context, the online collection often operates primarily as a database: it enables fast access to artworks through search, filters, and isolated records, yet tends to weaken context, adjacency, and the gradual construction of meaning that naturally emerges in physical gallery settings.
+
+Methodologically, the dissertation follows a *research through design* approach: knowledge is produced through design, prototyping, deployment, and critical reflection on concrete solutions. It formulates three research questions: how to enter an online collection beyond search and catalog order; which design and algorithmic strategies can support meaning-making within a database structure; and how to design these strategies so they remain legible, sustainable, and fair to both artworks and visitors. The practical part culminates in an experimental prototype that tests narrative readings of a database through generated adjacencies, comparisons, and short interpretive links between artworks.
+
+The outcome is a set of transferable principles and recommendations for museums and galleries on how to design online collections that function not only as inventory catalogs, but also as legible entry points into relations, contexts, and meaning.
+
+
+**Keywords:** online art collections, digital narratives, visual interfaces, storytelling, generous interfaces, digital humanities
+
+\newpage
+
+# 1. Téma praktickej dizertačnej práce a jej zdôvodnenie
+
+Praktická časť dizertačnej práce sa zameriava na stratu naratívnej vrstvy v online zbierkach umenia a na možnosti, ako tento deficit kompenzovať návrhom digitálnych rozhraní. Východiskom je pozorovanie, že v kamennej galérii vzniká „príbeh zbierky“ aj bez toho, aby bol explicitne napísaný: cez výber, poradie, susedstvá diel, texty, architektúru a situáciu návštevy. V online prostredí tieto rámce nie sú dané; musia byť navrhnuté a implementované ako dátové väzby, pravidlá navigácie a vrstvy interpretácie v rozhraní. Inými slovami, online zbierka nie je neutrálny katalóg: spôsob, akým prekladá databázu do skúsenosti používateľa, priamo určuje, či sa v nej dá skladať význam. 
+
+Teoreticky sa práca opiera o napätie medzi databázou a naratívom, ktoré Lev Manovich opisuje ako jednu zo základných vlastností digitálnych médií: databáza podporuje prehľadávanie a rovnocennosť položiek, kým naratív predpokladá trajektóriu, poradie a skladanie súvislosti.   Praktický problém online zbierok potom nie je len „málo textu“, ale najmä „málo čitateľných väzieb“: návštevník síce môže prechádzať záznamy, no často nemá oporu v tom, prečo sú veci vedľa seba, čím sú podobné alebo čím sú v konflikte. Ak sa vzťahy medzi dielami redukujú na technické filtre a izolované detailové stránky, interpretácia sa deleguje na používateľa bez toho, aby systém ponúkol zrozumiteľné „pravidlá čítania“. 
+
+Táto téma je relevantná aj preto, že online zbierky dnes suplujú nielen prístup k dielam, ale v rastúcej miere aj verejnú pamäť a autoritu inštitúcie. Skúsenosť Slovenskej národnej galérie ukazuje, že digitálne sprístupnenie môže byť motivované veľmi konkrétnymi limitmi fyzickej prevádzky: v čase, keď bola väčšina budov galérie zatvorená a z veľkej zbierky bolo možné vystaviť len fragment, vznikla ambícia sprístupňovať diela online vo vysokom rozlíšení a pod verejnou licenciou.  Zároveň sa tu ukázal dôležitý organizačný moment: rozhodnutie budovať a rozvíjať platformu interne, aby know-how zostávalo v inštitúcii a umožňovalo iteráciu, experiment a dlhodobú starostlivosť o infraštruktúru. 
+
+Práca teda prepája kurátorskú prax, technológie a používateľskú skúsenosť, ale robí to polemicky: odmieta predstavu, že „sprístupnenie dát“ automaticky znamená „sprístupnenie významu“. Otázka neznie len ako publikovať záznamy, ale ako navrhnúť rozhranie tak, aby návštevník dokázal vstúpiť do zbierky aj bez presnej otázky, aby získal orientáciu, kontext a možnosť skladať súvislosti. V tomto bode je dôležitý aj koncept *generous interfaces* (Whitelaw): rozhrania, ktoré namiesto toho, aby od používateľa okamžite vyžadovali dopyt, najprv ukážu „tvar“ a bohatstvo zbierky a ponúknu viaceré vstupy do jej štruktúry.  
+
+Z praktického hľadiska je jadrom výskumu návrh rozhraní, ktoré z existujúcej dátovej infraštruktúry dokážu vytvárať čitateľné „susedstvá“ diel: porovnania, tematické zhluky, kontrasty, mikro-kontexty a krátke interpretačné väzby, ktoré nahrádzajú absenciu lineárnej výstavnej dramaturgie. Cieľom nie je nahradiť kurátora algoritmom, ale navrhnúť také spojenia medzi dielami a takú navigáciu, ktoré zviditeľnia možnosti čítania a zároveň ostanú transparentné a udržateľné.
+
+# 2. Cieľ, štruktúra a stručná anotácia písomnej časti dizertačnej práce
+
+## 2.1 Cieľ práce
+
+Cieľom písomnej časti dizertačnej práce je:
+
+1. analyzovať, prečo online zbierky umenia strácajú naratívnu vrstvu (t. j. podmienky, v ktorých sa význam skladá cez poradie, susedstvá a rámce čítania),
+2. pomenovať limity databázového režimu prezerania (vyhľadávanie, filtre, izolované záznamy) a jeho dôsledky pre interpretáciu a objavovanie,
+3. navrhnúť dizajnové a metodologické princípy, ktoré podporujú vznik súvislostí medzi dielami v nelineárnom prostredí,
+4. overiť tieto princípy v praktickom prototypovaní rozhraní a zhrnúť prenositeľné odporúčania pre kultúrne inštitúcie.
+
+Kľúčový argument práce je, že rozhranie preberá v online zbierke rolu „rozprávača“ – nie textového, ale topologického: rozpráva vzťahmi, filtrami, výbermi a dynamikou prezerania. 
+
+## 2.2 Štruktúra práce
+
+Štruktúra kombinuje teoretický rámec, analýzy prípadových štúdií, technologicko-metodologickú časť a reflexiu praktického výskumu:
+
+* teoretická časť: databáza vs. naratív, rozhranie ako kultúrna technológia, limity vyhľadávania ako dominantného vstupu do zbierky, a koncepty „štedrých“ rozhraní, ktoré podporujú orientáciu a prehľad; 
+* analytická časť: rozbor spôsobov, akými sú dnes online zbierky typicky navrhnuté (katalógová logika, filtrovanie, odporúčanie), a kde presne sa v tomto režime stráca čitateľná súvislosť; 
+* metodologická časť: prístup *research through design* a praxou vedený výskum, kde prototypy rozhraní nie sú len výstup, ale výskumný nástroj; poznanie vzniká v návrhových rozhodnutiach, implementácii, testovaní a kritickej reflexii; 
+* praktická časť: návrh a prototypovanie rozhraní nad existujúcou infraštruktúrou online zbierky, vrátane vytvárania mikro-kontextov a nových „susedstiev“ diel, a ich priebežné overovanie;
+* záver: syntéza princípov, hraníc a odporúčaní pre prax (čo je prenositeľné, čo je viazané na konkrétnu infraštruktúru, a kde naráža dizajn na organizačné a udržateľnostné limity). 
+
+## 2.3 Stručná anotácia
+
+Práca ukazuje, že vhodne navrhnuté digitálne rozhrania môžu online zbierku transformovať z katalógu na čitateľné rozprávacie prostredie. Nejde o „pridanie príbehu“ vo forme lineárneho textu, ale o vytvorenie podmienok pre nelineárne skladanie významu: cez zrozumiteľné väzby medzi dielami, transparentné pravidlá výberu a rozhrania, ktoré podporujú orientáciu, serendipitu a kontext. 
+
+# 3. Zoznam študovanej literatúry
+
+Nižšie uvádzam výber kľúčovej literatúry, o ktorú sa práca opiera:
+
+## 3.1 Databáza, naratív a rozhranie ako médium
+
+* Manovich, Lev. 2001. *The Language of New Media*. Cambridge, MA: MIT Press.
+* Manovich, Lev. 1999. "Database as Symbolic Form." *Convergence* 5 (2): 80-99. https://doi.org/10.1177/135485659900500206.
+* Drucker, Johanna. 2011. "Humanities Approaches to Interface Theory." *Culture Machine* 12.
+* Drucker, Johanna. 2014. *Graphesis: Visual Forms of Knowledge Production*. Cambridge, MA: Harvard University Press.
+* Deleuze, Gilles, and Felix Guattari. 1987. *A Thousand Plateaus: Capitalism and Schizophrenia*. Minneapolis: University of Minnesota Press.
+
+## 3.2 Dizajn rozhraní pre kultúrne zbierky, vizualizácie a orientácia
+
+* Whitelaw, Mitchell. 2015. "Generous Interfaces: Interfaces for Digital Cultural Collections." In *Proceedings of the 2015 Museums and the Web Conference*.
+* Vane, Olivia. 2019. *Timeline Design for Visualising Cultural Heritage Data*. PhD thesis.
+* Popoli, Zoi, and Izabela Derda. 2021. "Developing Experiences: Creative Process behind the Design and Production of Immersive Exhibitions." *Museum Management and Curatorship* 36 (4): 384-402. https://doi.org/10.1080/09647775.2021.1909491.
+
+## 3.3 Starostlivosť, udržateľnosť a infraštruktúra digitálneho dedičstva
+
+* Dekker, Annet. 2022. "Networks of Care: Types, Challenges and Potentialities." In *Networks of Care: Politiken Des (Er)Haltens Und (Ent)Sorgens*.
+* Barok, Dušan. 2024. *Publishing as a Conservation Strategy: Platforms, Care and Contemporary Art*. PhD thesis, Universiteit van Amsterdam.
+* Valeonti, Foteini, Melissa Terras, and Andrew Hudson-Smith. 2019. "How Open Is OpenGLAM? Identifying Barriers to Commercial and Non-Commercial Reuse of Digitised Art Images." *Journal of Documentation* 76 (1): 1-26. https://doi.org/10.1108/JD-06-2019-0109.
+* Ondrejčeková, Zora. 1979. *Pravidlá katalogizácie umeleckých diel*. Bratislava: Slovenská národná galéria.
+
+## 3.4 Múzeá a digitálne prostredie (inštitucionálny a diskurzívny rámec)
+
+* Cameron, Fiona. 2007. "Beyond the Cult of the Replicant: Museums and the Digital." In *Museum Revolutions: How Museums Change and Are Changed*. London: Routledge.
+* Bohumelová, Mária, ed. 2015. *Rituál múzea v digitálnom veku*. Bratislava: Slovenská národná galéria.
+* Sanderhoff, Merete. 2014. *Sharing Is Caring: Openness and Sharing in the Cultural Heritage Sector*. Copenhagen: Statens Museum for Kunst.
+* Cameron, Fiona, and Sarah Kenderdine, eds. 2007. *Theorizing Digital Cultural Heritage: A Critical Discourse*. Cambridge, MA: MIT Press.
+* Gombrich, E. H. 2001. *Příběh umění*. Praha: Argo, Mladá fronta.
+
+## 3.5 Algoritmy, AI a kurátorstvo v dátových zbierkach
+
+* Pilka, Lukáš. 2022. *Digitální kurátor: Algoritmy a počítačové vidění ve světě velkých kulturněhistorických dat*. Disertační práce, Vysoká škola uměleckoprůmyslová v Praze (UMPRUM).
+* Černá skříňka. 2022. *Archives and Curatorship in the Age of AI*. https://cerna-skrinka.cz/data/book/black-box-book.pdf.
+* Thiel, Sonja, and Johannes C. Bernhardt, eds. 2023. *AI in Museums: Reflections, Perspectives and Applications*. Bielefeld: transcript Verlag.
+* Abdollahpouri, Himan, Masoud Mansoury, Robin Burke, and Bamshad Mobasher. 2019. "The Unfairness of Popularity Bias in Recommendation." arXiv:1907.13286.  
+  DOI: \url{https://doi.org/10.48550/arXiv.1907.13286}.
+* Chayka, Kyle. 2024. *Filterworld: How Algorithms Flattened Culture*.
+* Chan, Seb. 2015. "API and Museum Collections (Cooper Hewitt Context)."
+* Anderson, Chris. 2004. "The Long Tail." *Wired*.
+
+## 3.6 Metodológia praxe ako výskumu a umelecký výskum
+
+* Frayling, Christopher. 1993. *Research in Art and Design*. Volume 1, Number 1 (1993/4). Royal College of Art.
+* Candy, Linda, and Ernest Edmonds. 2018. "Practice-Based Research in the Creative Arts: Foundations and Futures from the Front Line." *Leonardo* 51 (1): 63-69. https://doi.org/10.1162/LEON_a_01471.
+* Zervan, Marián, and Monika Mitášová, eds. 2025. *Umelecký výskum v diskusii*. Bratislava: Vysoká škola výtvarných umení v Bratislave.
+* Arlander, Anette. 2016. *Artistic Research and/as Interdisciplinarity*. Porto: Faculty of Fine Arts University of Porto.
+
+\newpage
+
+# 4. Predstavenie projektu umelecko-vedeckého výskumu
+
+Projekt umelecko-vedeckého výskumu je postavený na prístupe *research through design*: poznanie vzniká cez návrh, prototypovanie, testovanie v situácii použitia a kritickú reflexiu. V tomto rámci je rozhranie zároveň predmetom aj nástrojom výskumu – každé rozhodnutie (čo ukázať, v akom poradí, akými väzbami, s akou mierou vysvetlenia) je hypotéza o tom, ako sa dá v databázovom prostredí skladať význam. 
+
+Praktická časť vychádza z existujúcej infraštruktúry online zbierky (dáta, API, obrazové služby) a kladie si otázku, ako z nej generovať čitateľné susedstvá diel, porovnania a krátke interpretačné premostenia bez toho, aby vznikol dojem autoritatívnej „jedinej“ dramaturgie. V prototypoch preto nejde o to, aby systém „rozprával príbeh“ namiesto kurátora, ale aby poskytol podmienky pre nelineárne čítanie: aby bolo zrejmé, prečo sú diela prepojené, aký typ väzby je použitý (časová, autorská, ikonografická, materiálová, inštitucionálna, publikačná), a čo všetko sa dá v zbierke čítať ako kontext. 
+
+Súčasťou praktického rámca je aj skúsenosť s formátmi, ktoré už dnes v SNG fungujú ako „nosiče príbehu“ nad databázou: storytellingové mikrostránky postavené na dlhšom texte, kapitolách a vkladaní diel z API (napr. *mzo.sng.sk*, *senxskutocnost.sng.sk*, *1989.sng.sk*). Tento formát ukazuje, že naratívna vrstva sa dá v digitálnom prostredí budovať aj publikačne – cez autorské rámce a rytmus čítania – pričom databáza dodáva rozsah, prepojiteľnosť a znovupoužiteľnosť obsahu. 
+
+Výskum zároveň sleduje aj riziká dátovej prevádzky a „hladkých“ algoritmických skratiek. V online zbierkach je lákavé nahradiť kontext odporúčaniami typu „podobné diela“, no tieto mechanizmy môžu systematicky zvýhodňovať populárne položky (*popularity bias*) a znižovať rozmanitosť objavovania. Preto praktická časť pracuje s požiadavkou férovosti a transparentnosti: ak rozhranie používa algoritmický výber, musí byť čitateľné, čo sa deje a prečo; ak vytvára serendipitu, musí byť navrhnutá tak, aby nebola len náhodou „v rámci toho istého“. 
+
+Prínos projektu je dvojitý:
+
+1. metodologický: ukazuje, ako sa dá v prostredí kultúrnej inštitúcie robiť praxou vedený výskum tak, aby prototypy boli argumentom (nie iba „produktom“) a aby výsledkom boli prenositeľné princípy návrhu rozhraní;  
+2. praktický: formuluje sadu čitateľných postupov pre digitálne rozhrania online zbierok, ktoré zvyšujú orientáciu návštevníka v kontexte súčasného výtvarného umenia a dizajnu – nie zväčšovaním množstva informácií, ale zlepšovaním skladania súvislostí.
+
+Napokon je dôležité pomenovať aj „inštitucionálnu realitu“: naratívna vrstva nevzniká iba na obrazovke. Je dôsledkom infraštruktúry – kvality dát, spôsobu publikovania, údržby kódu, kompetencií a času na iterácie. Praktická časť preto priebežne konfrontuje návrh rozhraní s otázkou udržateľnosti: čo si môže dovoliť malý tím, čo sa dá robiť dlhodobo a čo už vyžaduje zmenu organizačných priorít. 
+
+\newpage
+
+# 5. Zoznam realizácií, projektov a publikácií počas doktorandského štúdia
+
+## 5.1 Výstavy, prezentácie a realizácie
+
+Poznámka: nižšie uvedené výstupy majú často formu webovej aplikácie, no primárne fungujú ako výstavné diela (rozhrania viazané na konkrétnu výstavu a miesto).
+
+### 2024
+
+* *Water explorer* — digitálne dielo (výstavná interaktívna stanica).  
+  Prezentácia: *Water Pressure – Designing for the Future* (Museum für Kunst und Gewerbe Hamburg, Hamburg, DE), 03/2024–10/2024.  
+  Charakter: prepracovaná aplikácia viazaná na tému vody; technicky nadväzuje na *Ornament explorer*, no ide o samostatnú realizáciu.
+
+* *Floating arboretum* — digitálne dielo / webová aplikácia (primárne používaná na mieste výstavy).  
+  Prezentácia: slovenská reprezentácia na *La Biennale di Venezia* (60. ročník, Československý pavilón, Benátky, IT, 2024).  
+  Charakter: rozhranie pre návštevnícke prepojenie jednotlivých stromov s audio obsahom (skladby viazané ku konkrétnym stromom) a sprievodnými príbehmi. 
+  Spoluautori: Gorazd Ratulovský, Alena Pôbišová, František Michal Sebestyén.
+
+* *Sochárske laboratórium* — digitálne dielo (digitálna stanica v expozícii).  
+  Umiestnenie: Galéria mesta Bratislavy, Mirbachov palác (interaktívny priestor / ateliér).  
+  Ocenenie: 2. miesto v cene Rady galérií Slovenska *Biela kocka* (edukačný projekt). 
+  Spoluautori: Samuel Antol, Vendy Kováčová, František Sebestyén, Gorazd Ratulovský.
+
+* *Prostor pro sdílení frustrace!* / *Space for sharing frustration!* — digitálne dielo.  
+  Prezentácia: *Work in Process* (Fotograf Gallery, Praha, CZ).  
+  Spoluautor: András Cséfalvay.
+
+### 2023
+
+* *Campbell’s soup* / *Cambellova polievka* — digitálne dielo (návštevnícka aplikácia viazaná na expozíciu; dostupná aj v online podobe).  
+  Prezentácia: *Vidieť, vidieť a vidieť!* (Slovenská národná galéria – Zvolenský zámok, 11. 5. 2023).  
+  Kurátorstvo: Eva S. Kotláriková; spoluautorky: Eva S. Kotláriková, Barbara Burianová.
+
+* *Ornament explorer* — digitálne dielo / webová aplikácia (výstavná návštevnícka stanica).  
+  Prezentácia: *Ornament – Exemplary Beauty* (Museum für Kunst und Gewerbe Hamburg, Hamburg, DE), 2023–2024.  
+  Spoluautori: Philo Van Kemenade, Michal Čudrnák.
+
+## 5.2 Rozhrania a prototypy pre prepojenie online zbierky s fyzickou expozíciou
+
+### 2023
+
+* *Atlas SNG* (atlas.sng.sk) — mobilné rozhranie pre návštevu expozícií SNG, webová aplikácia optimalizovaná pre telefón; prepojenie online zbierky s fyzickým priestorom prostredníctvom zadania kódu objektu a kontextových vrstiev na detaile diela (umiestnenie v budove, interpretácia, prepojenia na ďalší obsah). Spustené 2023.
+  Rola: hlavný vývoj, spolupráca na koncepcii.
+  Charakter: výstup výskumu zameraného na obnovu naratívnej vrstvy zbierky v situácii návštevy v budove galérie (prepojenie fyzickej prítomnosti diela s jeho digitálnymi súvislosťami).
+
+## 5.3 Experimentálne prototypy
+
+### 2026
+
+* *Atlas Re/mix* — demo / prototyp, pop-up inštalácia v Hájovni (Banská Štiavnica); experimentálne rozhranie nad zbierkovými dátami zamerané na autorskú prácu s väzbami medzi objektmi (párovanie, asociácie) a explicitné ukazovanie mechanizmu skladania súvislostí.
+  Rola: koncept a vývoj.
+  Charakter: experiment za hranicou nutnej utilitárnosti inštitucionálneho produktu; overovanie možností rozhrania ako nositeľa naratívnej vrstvy.
+
+### 2026 (pripravované)
+
+* (plánované) výstava / inštalácia, Prügerka, jún 2026 — praktická realizácia nadväzujúca na dizertačný výskum; situovaná práca v priestoroch *Záhrada* a *Domček*.
+  Stav: príprava / koncept.
+  Charakter: finálne overenie navrhovaných princípov v podmienkach výstavnej inštalácie.
+
+## 5.4 Publikácie počas doktorandského štúdia (výber)
+
+* Grasse, Marleen; Van Kemenade, Philo; Rjabinin, Igor; Schmidt, Antje. *Feed your curiosity — Exploring one ornament at a time.* In: *NEO Collections* (MK&G Hamburg), 2024, s. 1–8 [online]. (CREPČ: I3_002).
+
+## 5.5 Obrazová dokumentácia (výber)
+
+Poznámka: fotografie sú zoradené podľa diel.
+
+<!--\Needspace{0.82\textheight}
+### *Water explorer* (MK&G Hamburg, *Water Pressure*, 2024)
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\linewidth,height=0.78\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-water-explorer-mkg-hamburg-2024-detail-01.jpg.jpeg}
+\caption{\emph{Water explorer} — detail inštalácie a sprievodného textu „Explore the collection with AI“ (MK\&G Hamburg, 2024).}
+\end{figure}
+\FloatBarrier
+\clearpage-->
+
+<!--\Needspace{0.82\textheight}-->
+### *Ornament explorer* (MK&G Hamburg, *Ornament – Exemplary Beauty*, 2023/2024)
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-install-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-visitor-02.jpg}
+
+\vspace{0.5em}
+\includegraphics[width=0.72\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-web-03.png}
+\caption{\emph{Ornament explorer} — inštalácia, návštevnícka interakcia a dokumentačný screenshot kontextu MK\&G.}
+\end{figure}
+\FloatBarrier
+\clearpage
+
+\Needspace{0.82\textheight}
+### *Prostor pro sdílení frustrace!* / *Space for sharing frustration!* (Fotograf Gallery, Praha, 2024)
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-install-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-install-02.jpg}
+
+\vspace{0.5em}
+\includegraphics[width=0.72\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-poster-03.png}
+\caption{\emph{Prostor pro sdílení frustrace!} / \emph{Space for sharing frustration!} — inštalácia, pohľad z exteriéru a vizuál výstavy \emph{Work in Process}.}
+\end{figure}
+\FloatBarrier
+\clearpage
+
+\Needspace{0.82\textheight}
+### *Floating arboretum* (Benátky, 2024) — dokumentačné screenshoty rozhrania a výstavný QR vstup
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-floating-arboretum-venice-qr.jpg}
+
+\vspace{0.5em}
+\includegraphics[width=0.55\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-04.png}
+\caption{\emph{Floating arboretum} — úvodná obrazovka, výstavné popisky s QR kódmi (odkaz na konkrétnu nahrávku a príbeh ku konkrétnemu stromu) a mobilné rozhranie.}
+\end{figure}
+\FloatBarrier
+\clearpage
+
+\Needspace{0.82\textheight}
+### *Sochárske laboratórium* (GMB, Mirbachov palác) — dokumentácia výstavnej stanice
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-visitor-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-process-02.jpg}
+
+\vspace{0.5em}
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-install-03.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-detail-04.jpg}
+\caption{\emph{Sochárske laboratórium} — návštevnícka práca, proces, celkový pohľad na stanicu a detail rozhrania.}
+\end{figure}
+\FloatBarrier
+
+\newpage
+
+\Needspace{0.82\textheight}
+
+### *Atlas SNG* (SNG, Vodné kasárne, Bratislava) — dokumentácia mobilného rozhrania v expozícii
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-4-atlas-sng-2023-kod-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-4-atlas-sng-2023-detail-02.jpg}
+
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-4-atlas-sng-2023-in-situ-02.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-4-atlas-sng-2023-in-situ-04.jpg}
+\caption{\emph{Atlas SNG} — zadanie kódu objektu, detail diela s kontextovými vrstvami, ukážka používateľského rozhrania a použitie v priestore expozície.}
+\end{figure}
+\FloatBarrier
+
+\newpage
+
+\Needspace{0.82\textheight}
+
+### *Atlas Re/mix* (Hájovňa) — dokumentácia pop-up inštalácie
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-7-0-atlas-remix-hajovna-2024-install-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-7-0-atlas-remix-hajovna-2024-user-02.jpg}
+
+\vspace{0.5em}
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-7-0-atlas-remix-2024-diptych-stopy-03.png}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-7-0-atlas-remix-2024-diptych-list-04.png}
+\caption{\emph{Atlas Re/mix} — inštalácia (pracovný stôl), interakcia návštevníka a ukážky párovania (diptychy) vrátane zobrazenia sprievodných metadát.}
+\end{figure}
+\FloatBarrier
+
+\newpage
+
+# 6. Zoznam spoluprác na umelecko-vedeckom výskume a grantovej činnosti
+
+* **MK\&G Hamburg (NEO Lab) — stáž / spolupráca v rámci Data Exploration Sprint.**  
+  Zameranie: výskum a prototypovanie spôsobov „data exploration“ nad digitálnymi zbierkami a návštevnícke rozhrania pre prácu s kolekciou (prepojenie kurátorského rámca, dizajnu rozhraní a technického vývoja).
+
+* **Oponentúra bakalárskej práce — Alexandra Dyalee.**  
+  Práca: *Fractal dimension of 23 selected images, 18 with a mathematical theme* (FMFI UK, 2023).
+
+* Prednáška „webumenia vs. *generous interface*“ v rámci predmetu *Vizuálne dáta kultúrneho dedičstva* (FMFI UK, Bratislava, 6. 5. 2025).
+
+* Hosťovanie na predmete *Praktikum* (FMFI UK, Bratislava, SK) : 28. 9. 2023; 8. 10. 2024.
+
+* Pozvanie na prezentáciu umeleckého výskumu v rámci odbornej udalosti siete rakúskych múzeí (Museumsbund Österreich): *KI-Anwendungen in den Sammlungen: Quo vadis?*, 15. 4. 2026
+
+* KEGA č.: 004UK-4/2024 — *DICH: Digitalizácia kultúrneho dedičstva* (Univerzita Komenského v Bratislave, FMFI UK; trvanie: 2024–2026).
+  Spolupráca: kapitola „Vizualizácia a prezentácia digitalizovaného kultúrneho dedičstva“ v pripravovanej odbornej knihe projektu (zameranie na spôsoby prezentácie digitalizovaných zbierok a ich sprístupnenie používateľom).
+
+
+# 7. Najdôležitejšie ohlasy, citácie a ocenenia
+
+* Národná cena za dizajn 2024 — ocenenie pre projekt *Atlas SNG* (komunikačný/digitálny dizajn; podľa zverejnených výsledkov a sprievodných materiálov súťaže).
+
+* 2. miesto v cene Rady galérií Slovenska *Biela kocka* — projekt *Sochárske laboratórium* (edukačný projekt)
+
+* Nominácia a finalista: *DigAMus Award 2024* — *Ornament explorer*
