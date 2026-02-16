@@ -212,11 +212,13 @@ Poznámka: nižšie uvedené výstupy majú často formu webovej aplikácie, no 
 
 * *Floating arboretum* — digitálne dielo / webová aplikácia (primárne používaná na mieste výstavy).  
   Prezentácia: slovenská reprezentácia na *La Biennale di Venezia* (60. ročník, Československý pavilón, Benátky, IT, 2024).  
-  Charakter: rozhranie pre návštevnícke prepojenie jednotlivých stromov s audio obsahom (skladby viazané ku konkrétnym stromom) a sprievodnými príbehmi.
+  Charakter: rozhranie pre návštevnícke prepojenie jednotlivých stromov s audio obsahom (skladby viazané ku konkrétnym stromom) a sprievodnými príbehmi. 
+  Spoluautori: Gorazd Ratulovský, Alena Pôbišová, František Michal Sebestyén.
 
 * *Sochárske laboratórium* — digitálne dielo (digitálna stanica v expozícii).  
   Umiestnenie: Galéria mesta Bratislavy, Mirbachov palác (interaktívny priestor / ateliér).  
-  Ocenenie: 2. miesto v cene Rady galérií Slovenska *Biela kocka* (edukačný projekt).
+  Ocenenie: 2. miesto v cene Rady galérií Slovenska *Biela kocka* (edukačný projekt). 
+  Spoluautori: Samuel Antol, Vendy Kováčová, František Sebestyén, Gorazd Ratulovský.
 
 * *Prostor pro sdílení frustrace!* / *Space for sharing frustration!* — digitálne dielo.  
   Prezentácia: *Work in Process* (Fotograf Gallery, Praha, CZ).  
@@ -393,6 +395,9 @@ Poznámka: fotografie sú zoradené podľa diel.
 * Hosťovanie na predmete *Praktikum* (FMFI UK, Bratislava, SK) : 28. 9. 2023; 8. 10. 2024.
 
 * Pozvanie na prezentáciu umeleckého výskumu v rámci odbornej udalosti siete rakúskych múzeí (Museumsbund Österreich): *KI-Anwendungen in den Sammlungen: Quo vadis?*, 15. 4. 2026
+
+* KEGA č.: 004UK-4/2024 — *DICH: Digitalizácia kultúrneho dedičstva* (Univerzita Komenského v Bratislave, FMFI UK; trvanie: 2024–2026).
+  Spolupráca: kapitola „Vizualizácia a prezentácia digitalizovaného kultúrneho dedičstva“ v pripravovanej odbornej knihe projektu (zameranie na spôsoby prezentácie digitalizovaných zbierok a ich sprístupnenie používateľom).
 
 
 # 7. Najdôležitejšie ohlasy, citácie a ocenenia
