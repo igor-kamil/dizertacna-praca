@@ -189,15 +189,11 @@ Napokon je dôležité pomenovať aj „inštitucionálnu realitu“: naratívna
 
 \newpage
 
-# 5. Zoznam diel
+# 5. Zoznam realizácií, projektov a publikácií počas doktorandského štúdia
 
-\newpage
+## 5.1 Výstavy, prezentácie a realizácie
 
-# 6. Zoznam výstav, prezentácií, realizácií, projektov a publikácií počas doktorandského štúdia
-
-## 6.1 Výstavy, prezentácie a realizácie
-
-Poznámka: nižšie uvedené výstupy majú často formu webovej aplikácie, no primárne fungujú ako výstavné diela (návštevnícke stanice a rozhrania viazané na konkrétnu výstavu a miesto).
+Poznámka: nižšie uvedené výstupy majú často formu webovej aplikácie, no primárne fungujú ako výstavné diela (rozhrania viazané na konkrétnu výstavu a miesto).
 
 ### 2024
 
@@ -227,26 +223,48 @@ Poznámka: nižšie uvedené výstupy majú často formu webovej aplikácie, no 
   Prezentácia: *Ornament – Exemplary Beauty* (Museum für Kunst und Gewerbe Hamburg, Hamburg, DE), 2023–2024.  
   Spoluautori: Philo Van Kemenade, Michal Čudrnák.
 
-## 6.2 Publikácie počas doktorandského štúdia (výber)
+## 5.2 Rozhrania a prototypy pre prepojenie online zbierky s fyzickou expozíciou
+
+### 2023
+
+* *Atlas SNG* (atlas.sng.sk) — mobilné rozhranie pre návštevu expozícií SNG, webová aplikácia optimalizovaná pre telefón; prepojenie online zbierky s fyzickým priestorom prostredníctvom zadania kódu objektu a kontextových vrstiev na detaile diela (umiestnenie v budove, interpretácia, prepojenia na ďalší obsah). Spustené 2023.
+  Rola: hlavný vývoj, spolupráca na koncepcii.
+  Charakter: výstup výskumu zameraného na obnovu naratívnej vrstvy zbierky v situácii návštevy v budove galérie (prepojenie fyzickej prítomnosti diela s jeho digitálnymi súvislosťami).
+
+## 5.3 Experimentálne prototypy
+
+### 2026
+
+* *Atlas Re/mix* — demo / prototyp, pop-up inštalácia v Hájovni (Banská Štiavnica); experimentálne rozhranie nad zbierkovými dátami zamerané na autorskú prácu s väzbami medzi objektmi (párovanie, asociácie) a explicitné ukazovanie mechanizmu skladania súvislostí.
+  Rola: koncept a vývoj.
+  Charakter: experiment za hranicou nutnej utilitárnosti inštitucionálneho produktu; overovanie možností rozhrania ako nositeľa naratívnej vrstvy.
+
+### 2026 (pripravované)
+
+* (plánované) výstava / inštalácia, Prügerka, jún 2026 — praktická realizácia nadväzujúca na dizertačný výskum; situovaná práca v priestoroch *Záhrada* a *Domček*.
+  Stav: príprava / koncept.
+  Charakter: finálne overenie navrhovaných princípov v podmienkach výstavnej inštalácie.
+
+## 5.4 Publikácie počas doktorandského štúdia (výber)
 
 * Grasse, Marleen; Van Kemenade, Philo; Rjabinin, Igor; Schmidt, Antje. *Feed your curiosity — Exploring one ornament at a time.* In: *NEO Collections* (MK&G Hamburg), 2024, s. 1–8 [online]. (CREPČ: I3_002).
 
-## 6.3 Obrazová dokumentácia (výber)
+## 5.5 Obrazová dokumentácia (výber)
 
 Poznámka: fotografie sú zoradené podľa diel.
 
-\Needspace{0.82\textheight}
+<!--\Needspace{0.82\textheight}
 ### *Water explorer* (MK&G Hamburg, *Water Pressure*, 2024)
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.92\linewidth,height=0.78\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-water-explorer-mkg-hamburg-2024-detail-01.jpg.jpeg}
-\caption{*Water explorer* — detail inštalácie a sprievodného textu „Explore the collection with AI“ (MK\&G Hamburg, 2024).}
+\caption{\emph{Water explorer} — detail inštalácie a sprievodného textu „Explore the collection with AI“ (MK\&G Hamburg, 2024).}
 \end{figure}
 \FloatBarrier
-\clearpage
+\clearpage-->
 
-\Needspace{0.82\textheight}
+<!--\Needspace{0.82\textheight}-->
 ### *Ornament explorer* (MK&G Hamburg, *Ornament – Exemplary Beauty*, 2023/2024)
 
 \begin{figure}[H]
@@ -257,7 +275,7 @@ Poznámka: fotografie sú zoradené podľa diel.
 
 \vspace{0.5em}
 \includegraphics[width=0.72\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-ornament-explorer-mkg-hamburg-2023-web-03.png}
-\caption{*Ornament explorer* — inštalácia, návštevnícka interakcia a dokumentačný screenshot kontextu MK\&G.}
+\caption{\emph{Ornament explorer} — inštalácia, návštevnícka interakcia a dokumentačný screenshot kontextu MK\&G.}
 \end{figure}
 \FloatBarrier
 \clearpage
@@ -273,7 +291,7 @@ Poznámka: fotografie sú zoradené podľa diel.
 
 \vspace{0.5em}
 \includegraphics[width=0.72\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-space-for-sharing-frustration-fotograf-prague-2024-poster-03.png}
-\caption{*Prostor pro sdílení frustrace!* / *Space for sharing frustration!* — inštalácia, pohľad z exteriéru a vizuál výstavy *Work in Process*.}
+\caption{\emph{Prostor pro sdílení frustrace!} / \emph{Space for sharing frustration!} — inštalácia, pohľad z exteriéru a vizuál výstavy \emph{Work in Process}.}
 \end{figure}
 \FloatBarrier
 \clearpage
@@ -289,7 +307,7 @@ Poznámka: fotografie sú zoradené podľa diel.
 
 \vspace{0.5em}
 \includegraphics[width=0.55\linewidth,height=0.35\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-floating-arboretum-venice-2024-screenshot-04.png}
-\caption{*Floating arboretum* — úvodná obrazovka, výstavné popisky s QR kódmi (odkaz na konkrétnu nahrávku a príbeh ku konkrétnemu stromu) a mobilné rozhranie.}
+\caption{\emph{Floating arboretum} — úvodná obrazovka, výstavné popisky s QR kódmi (odkaz na konkrétnu nahrávku a príbeh ku konkrétnemu stromu) a mobilné rozhranie.}
 \end{figure}
 \FloatBarrier
 \clearpage
@@ -307,13 +325,53 @@ Poznámka: fotografie sú zoradené podľa diel.
 \includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-install-03.jpg}
 \hfill
 \includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-3-socharske-laboratorium-gmb-bratislava-2024-detail-04.jpg}
-\caption{*Sochárske laboratórium* — návštevnícka práca, proces, celkový pohľad na stanicu a detail rozhrania.}
+\caption{\emph{Sochárske laboratórium} — návštevnícka práca, proces, celkový pohľad na stanicu a detail rozhrania.}
 \end{figure}
 \FloatBarrier
 
 \newpage
 
-# 7. Zoznam spoluprác na umelecko-vedeckom výskume a grantovej činnosti
+\Needspace{0.82\textheight}
+
+### *Atlas SNG* (SNG, Vodné kasárne, Bratislava) — dokumentácia mobilného rozhrania v expozícii
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-4-atlas-sng-2023-kod-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-4-atlas-sng-2023-detail-02.jpg}
+
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-4-atlas-sng-2023-in-situ-02.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-6-4-atlas-sng-2023-in-situ-04.jpg}
+\caption{\emph{Atlas SNG} — zadanie kódu objektu, detail diela s kontextovými vrstvami, ukážka používateľského rozhrania a použitie v priestore expozície.}
+\end{figure}
+\FloatBarrier
+
+\newpage
+
+\Needspace{0.82\textheight}
+
+### *Atlas Re/mix* (Hájovňa) — dokumentácia pop-up inštalácie
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-7-0-atlas-remix-hajovna-2024-install-01.jpg}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-7-0-atlas-remix-hajovna-2024-user-02.jpg}
+
+\vspace{0.5em}
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-7-0-atlas-remix-2024-diptych-stopy-03.png}
+\hfill
+\includegraphics[width=0.49\linewidth,height=0.34\textheight,keepaspectratio]{figures_autoreferat/fig-7-0-atlas-remix-2024-diptych-list-04.png}
+\caption{\emph{Atlas Re/mix} — inštalácia (pracovný stôl), interakcia návštevníka a ukážky párovania (diptychy) vrátane zobrazenia sprievodných metadát.}
+\end{figure}
+\FloatBarrier
+
+\newpage
+
+# 6. Zoznam spoluprác na umelecko-vedeckom výskume a grantovej činnosti
 
 * **MK\&G Hamburg (NEO Lab) — stáž / spolupráca v rámci Data Exploration Sprint.**  
   Zameranie: výskum a prototypovanie spôsobov „data exploration“ nad digitálnymi zbierkami a návštevnícke rozhrania pre prácu s kolekciou (prepojenie kurátorského rámca, dizajnu rozhraní a technického vývoja).
@@ -328,7 +386,7 @@ Poznámka: fotografie sú zoradené podľa diel.
 * Pozvanie na prezentáciu umeleckého výskumu v rámci odbornej udalosti siete rakúskych múzeí (Museumsbund Österreich): *KI-Anwendungen in den Sammlungen: Quo vadis?*, 15. 4. 2026
 
 
-# 8. Najdôležitejšie ohlasy, citácie a ocenenia
+# 7. Najdôležitejšie ohlasy, citácie a ocenenia
 
 * Národná cena za dizajn 2024 — ocenenie pre projekt *Atlas SNG* (komunikačný/digitálny dizajn; podľa zverejnených výsledkov a sprievodných materiálov súťaže).
 
