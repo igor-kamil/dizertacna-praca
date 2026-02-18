@@ -1,6 +1,7 @@
 # 1 Úvod {#sec:uvod}
 
-> “With new media, the content of the work and the interface are separated.” [@manovich_language_new_media_2001]
+> As a cultural form, the database represents the world as a list of items, and it refuses to order this list. In contrast, a narrative creates a cause-and-effect trajectory of seemingly unordered items (events). Therefore, database and narrative are natural enemies. Competing for the same territory of human culture, each claims an exclusive right to make meaning out of the world.  
+> — [@manovich_language_new_media_2001, p. 225]
 
 V kamennej galérii sa príbeh zbierky skladá aj bez toho, aby sme ho tak nazvali: cez výber, poradie, susedstvá diel, texty, architektúru a spoločnú situáciu návštevy. V online prostredí tieto veci nie sú dané. Musia sa rozhodnúť a spraviť — v dátach, v pravidlách prepojení a najmä v rozhraní. Keď sa obsah oddelí od rozhrania, neexistuje neutrálne „sprístupnenie“: vždy ide o konkrétny spôsob, ako databázu previesť do skúsenosti návštevníka. Táto práca skúma, čo sa v tomto preklade stráca a ako sa dajú navrhovať rozhrania, ktoré podporujú nelineárne čítanie, objavovanie a vznik súvislostí.
 
@@ -21,6 +22,8 @@ Súčasťou problému je aj to, že digitálne zbierky majú tendenciu „zrovn�
 Dovetok *v dobe beznádeje* v názve práce používam ako pomenovanie krehkého kontextu, v ktorom sa digitálne zbierky prevádzkujú. Kultúrne inštitúcie sú vystavené organizačnej neistote, personálnym stratám a politickým tlakom. V takomto prostredí sa otázka naratívnej vrstvy spája aj s otázkou udržateľnosti: ako navrhovať digitálne systémy tak, aby prežili zmeny vedenia, rozpočtové šoky či výpadky tímov, a zároveň nestratili schopnosť sprostredkovať význam. Tento pohľad sa dá čítať aj cez optiku starostlivosti: Annet Dekker v koncepte *networks of care* ukazuje, že dlhodobé fungovanie digitálnych diel a infraštruktúr stojí na sieťach ľudí, nástrojov a postupov, ktoré umožňujú pokračovať aj vtedy, keď sa menia roly, odchádzajú jednotlivci alebo sa rozpadá stabilné zázemie [@dekker_networks_of_care_2022].
 
 Konkrétne udalosti rokov 2024–2025 v Slovenskej národnej galérii tento rámec zviditeľnili aj mimo odbornej debaty. V auguste 2024 bola z funkcie odvolaná generálna riaditeľka Alexandra Kusá[^kusa] a začiatkom roka 2025 oznámila približne stovka zamestnancov a zamestnankýň svoj odchod k 1. aprílu 2025.[^odchody] V čase písania tejto práce nemám historický odstup, aby som dokázal dôsledky týchto udalostí vyhodnotiť v dlhom trvaní. Mám však priamu skúsenosť, že takéto situácie menia perspektívu: digitálne zbierky prestávajú byť len „ďalším projektom“ a stávajú sa infraštruktúrou pamäti, o ktorú je potrebné sa starať aj v podmienkach, ktoré si tím nevybral.
+
+![Udalosti po odvolaní vedenia SNG: verejné protesty a vizuálne artikulovanie krízy v inštitúcii.](figures/fig-1-1-sng-crisis-diptych.jpg){#fig:sng-crisis width=100%}
 
 ## 1.2 Motivácia a výskumné pozadie: od vývoja k reflexii
 

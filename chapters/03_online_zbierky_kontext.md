@@ -441,6 +441,8 @@ V momente, keď sa ukázalo, že dáta možno exportovať a zobrazovať mimo int
 
 Spätným pohľadom možno povedať, že Web umenia vznikol skôr z *prevádzkovej potreby a presvedčenia o zmysluplnosti otvorenia dát* než z formálneho poverenia. Práve táto okolnosť mu umožnila fungovať ako experimentálny projekt, ktorý nevychádzal z hotovej stratégie, ale z každodennej práce s infraštruktúrou a z testovania možností, ktoré existujúce dáta postupne ponúkali.
 
+![Spustenie novej verzie webumenia.sk (11. 6. 2015): pozvánka na uvedenie (vľavo) a tlačová konferencia k spusteniu (vpravo).](figures/fig-3-0-webumenia-launch-diptych.jpg){#fig:webumenia-launch-2015 width=100%}
+
 ### 3.5.2 Technologické pozadie: Fedora Commons a prvé integračné pokusy
 
 Ak prvotný impulz Webu umenia vyrástol z evidenčnej praxe, jeho technologické zázemie sa začalo formovať už v odlišnom režime digitálnej produkcie. Projekt Digitálna galéria (2012–2015) priniesol masívnu vlnu digitalizácie a zároveň zásadné rozhodnutie: vybudovať repozitár digitálnych objektov na báze *Fedora Commons* — teda oddeliť ukladanie a správu súborov od katalogačného systému.
@@ -493,6 +495,8 @@ Nová verzia Web umenia (cca 2015–2016) prepojila tieto vrstvy do jedného roz
 Tým, že Web umenia začal uvažovať o rozhraní ako o priestore interpretácie, posunul diskusiu o digitálnych zbierkach na inú rovinu. Zbierka tu prestáva fungovať ako statický súbor jednotlivých diel a nadobúda podobu dynamickej konštrukcie, v ktorej sa význam formuje priamo v procese sprístupňovania. Metadáta v tomto kontexte neplnia len opisnú alebo evidenčnú funkciu, ale podieľajú sa na vytváraní príbehov o dielach a ich vzájomných vzťahoch. Spôsoby vyhľadávania a prehliadania zároveň aktívne konštruujú prepojenia, prostredníctvom ktorých je zbierka čitateľná, zatiaľ čo dizajn rozhrania sprostredkováva odborné rozhodnutia, ktoré by v tradičnom múzejnom prostredí zostávali skryté. Technický vývoj sa tak prirodzene stáva súčasťou interpretačného procesu.
 
 V tomto nastavení sa ukazuje, že digitálne platformy nezviditeľňujú len samotné diela, ale aj vnútornú logiku ich výberu, spôsob katalogizácie, mieru konzistentnosti opisov či rozhodnutia, ktoré na prvý pohľad pôsobia marginálne – napríklad poradie zobrazovaných polí alebo výber vzťahov, ktoré sú používateľovi ponúknuté ako primárne. Digitálne rozhranie tu funguje ako interpretácia nie preto, že by bolo explicitne koncipované ako kurátorský výklad, ale preto, že pôsobí ako technický aktér so svojimi vlastnými obmedzeniami, možnosťami a predpokladmi, ktoré spoluurčujú výslednú podobu naratívu.
+
+![Web umenia ako rozhranie (nie len katalóg): úvodná stránka ako *discovery* vstup (vľavo) a „Čo je Web umenia?“ ako vysvetľujúca infraštruktúrna vrstva projektu (vpravo).](figures/fig-3-0-webumenia-home-about-diptych.jpg){#fig:webumenia-home-about width=100%}
 
 ### 3.5.7 Záver: Web umenia ako produkt aj symptóm
 

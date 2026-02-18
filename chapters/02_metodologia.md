@@ -50,6 +50,8 @@ Napokon, táto pozícia prirodzene vedie k dvojitému hodnoteniu rozhraní. Na j
 - Jej vznik, rolu a vnútorné fungovanie rozoberám samostatne (pozri sekciu [vznik lab.SNG](#sec:labsng-vznik)) a v praktických kapitolách 4–6 cez konkrétne projekty, aby sa metodologický rámec zbytočne nemiešal s inštitucionálnou históriou.
 :::
 
+![lab.SNG ako *in-house* digitálne *R\&D*: vizuálna identita lab.sng.sk (vľavo) a inštalácia s dotykovým rozhraním na výstave „Uchovávanie sveta – Rituál múzea v digitálnom veku“ (2015) (vpravo).](figures/fig-2-0-lab-sng-inhouse-diptych.jpg){#fig:lab-sng-inhouse width=100%}
+
 ## 2.3 Materiál a dáta {#sec:metodologia-23}
 
 Materiál práce tvorí kombinácia troch typov podkladov, ktoré sa v praktických kapitolách (4–7) prepájajú: dáta zbierok tvoria korpus pre rozhrania, dáta z interakcií slúžia ako spätná väzba pre iteráciu a technické artefakty dokumentujú rozhodnutia a limity implementácie.
