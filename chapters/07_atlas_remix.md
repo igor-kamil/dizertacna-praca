@@ -96,7 +96,7 @@ Interakcia je navrhnutá tak, aby mala jasné rozhodovacie miesto a jasný výst
 1. používateľ vloží vstupný obraz (nahratie fotografie alebo zachytenie objektu),
 2. po kliknutí na tlačidlo *Search this image* systém vyhľadá vizuálne podobné diela v zvolenom korpuse,
 3. používateľ prechádza kandidátov cez *Prev/Next* a hľadá dvojicu, ktorá mu dáva zmysel,
-4. ak nájde *match*, uloží diptych, vyberie 1–3 dôvody „prečo to sedí“ a (voliteľne) doplní jednu vetu.
+4. ak nájde *match*, uloží diptych, vyberie 1–3 dôvody „prečo to sedí“ (tagy z fixnej sady: farba, tvar, textúra, nálada, motív, kontrast, spomienka, miesto, práca, iné) a (voliteľne) doplní jednu vetu.
 
 Rozhranie tým drží jasné rozdelenie rolí: systém navrhuje kandidátov, človek rozhoduje, či vznikol diptych.
 
@@ -161,7 +161,7 @@ Demoverziu Atlas re/mix som prvýkrát nasadil v pop-up inštalácii v kultúrno
 
 Podmienky boli improvizačné a do veľkej miery určovali aj priebeh testu. Počas dňa pršalo, takže zber predmetov v exteriéri (flâneursky režim a nález v okolí) sa dal realizovať len obmedzene. Osvetlený stôl s objektmi bol k dispozícii, ale v praxi sa častejšie pracovalo s fotografiou z telefónu. Fotku účastníci posielali cez AirDrop alebo WhatsApp a ja som ju nahrával do aplikácie (offline režim bol nutný kvôli nestabilnému pripojeniu; dáta aj embeddingy boli pripravené vopred).
 
-Vzorka bola malá: vzniklo 18 uložených diptychov od 14 ľudí. Tento rozsah nepovažujem za slabinu, pokiaľ zostanem pri tom, čo sa z neho dá poctivo vyčítať: základné typy asociácií, praktické limity rozhrania a prvé indikácie, či rozhranie podporuje objavovanie inak než bežný katalóg. 
+Vzorka bola malá: vzniklo 18 uložených diptychov od 15 ľudí. Tento rozsah nepovažujem za slabinu, pokiaľ zostanem pri tom, čo sa z neho dá poctivo vyčítať: základné typy asociácií, praktické limity rozhrania a prvé indikácie, či rozhranie podporuje objavovanie inak než bežný katalóg. 
 
 ### Čo sa zaznamenávalo (stručný protokol)
 
@@ -191,7 +191,7 @@ Dotazník obsahoval tieto položky:
 
 ### Čo sa ukázalo v praxi (prvé pozorovania)
 
-Aj pri malej vzorke bolo vidieť, že „fungujúce“ diptychy sa nerodia iba z vizuálnej podobnosti v úzkom zmysle. Často sa opierajú o jeden dominantný prvok (farba, tvar, textúra), ale význam vzniká až vtedy, keď sa k tomu pripojí situácia návštevníka (konkrétny predmet, práca, počasie, nálada dňa). Inak povedané: podobnosť je spúšťač, nie cieľ.
+Aj pri malej vzorke bolo vidieť, že „fungujúce“ diptychy sa nerodia iba z vizuálnej podobnosti v úzkom zmysle. Často sa opierajú o jeden dominantný prvok (farba, tvar, textúra), ale „sadnú“ až vtedy, keď si ho návštevník preloží cez vlastnú situáciu (konkrétny predmet, práca, počasie, nálada dňa). Podobnosť tu funguje ako návrh — zmysel vzniká až v momente, keď človek rozhodne, že dvojicu prijíma, a vie aspoň stručne pomenovať, prečo.
 
 Nasledujúce príklady nečítam ako výklad Gwerka, ale ako ukážky typov spojenia, ktoré sa v demoverzii objavili.
 
@@ -211,7 +211,7 @@ V odpovediach (tagy + krátke texty) sa pri týchto prípadoch opakovane objavov
 
 ### Limity a čo z toho vyplýva pre ďalšiu iteráciu
 
-Táto demoverzia má jasné limity: malá vzorka, výrazná asistencia (nahrávanie fotiek), zjednodušený vstup (často „posledná fotka“ namiesto flâneurskeho nálezu v priestore) a dočasné pravidlá v odporúčaniach (znevýhodňovanie nedávno zobrazených diel). Zároveň však test ukázal, že princíp diptychu je pre ľudí čitateľný a že aj obmedzený korpus vie produkovať osobné a prekvapivé spojenia.
+Táto demoverzia má jasné limity: malá vzorka, výrazná asistencia (nahrávanie fotiek), zjednodušený vstup (často „posledná fotka“ namiesto flâneurskeho nálezu v priestore) a dočasné pravidlá v odporúčaniach (znevýhodňovanie nedávno zobrazených diel). Zároveň však test ukázal, že princíp diptychu je pre ľudí čitateľný a že aj pri obmedzenom korpuse účastníci dokázali nachádzať osobné a prekvapivé spojenia.
 
 V ďalšej iterácii (jún 2026) bude dôležité presunúť dôraz z asistovaného uploadu na samostatný vstup návštevníka, vrátiť do procesu flâneursky režim v záhrade a prepojiť vizuálny diptych so zvukovou vrstvou (sonifikácia a soundscape z terénnych nahrávok z Prügerky). Tým sa „vstup do zbierky“ prestane odohrávať len na displeji a získa priestorový charakter. Podrobnejšie sa tomu venujem v časti [Kurátorský rámec a návrh fyzickej inštalácie](#sec:atlas-75).
 
@@ -241,9 +241,9 @@ V praktickej rovine to znamená, že výsledky nehodnotím ako štatistický dô
 
 Vrátené k otázkam z úvodu ([7.0](#sec:atlas-70)) sa zatiaľ ukazuje najmä toto.
 
-Po prvé, princíp osobného vstupu funguje ako spúšťač objavovania. Keď návštevník neštartuje z kategórií a filtrov, ale z vlastnej fotografie alebo nájdeného detailu, zbierka sa prestáva javiť ako „niečo mimo mňa“. Aj pri malom korpuse sa objavujú spojenia, ktoré by sa pri bežnom vyhľadávaní pravdepodobne nevynorili. Dôležitý nie je samotný moment podobnosti, ale následný krok: výber a pomenovanie toho, čo tieto dva obrazy spája. Práve tu sa „návšteva online zbierky“ mení na osobnú skúsenosť.
+Po prvé, osobný vstup sa ukázal ako silný spúšťač objavovania. Neznamená to, že kategórie a filtre sú „neosobné“ — aj tie zvyčajne vychádzajú z konkrétnej potreby alebo asociácie. Rozdiel je v tom, že fotografia alebo nájdený detail vnáša do procesu okamžitý kontext „tu a teraz“ a uľahčuje rozhodnutie, či návrh systému prijímam ako diptych. Podstatný je až následný krok: výber kandidáta a pomenovanie toho, čo dvojicu spája. V tomto bode sa interakcia prestáva správať ako rešerš a začne fungovať ako krátky interpretačný akt.
 
-Po druhé, demoverzia naznačila, že význam sa nerodí automaticky z vizuálnej podobnosti. Podobnosť je východiskový impulz. Význam vzniká až vtedy, keď človek nájde spôsob, ako vzťah pomenovať: cez motív, náladu, situáciu, prácu, spomienku alebo miesto. Tento posun je pre tému práce podstatný: naratívna vrstva sa tu nevracia ako dodatočný text, ale ako nutnosť interpretácie vložená priamo do interakcie.
+Po druhé, demoverzia naznačila, že význam sa nerodí automaticky z vizuálnej podobnosti. Podobnosť je východiskový impulz; význam vzniká až vtedy, keď človek nájde jazyk, ako vzťah pomenovať — v tagoch a krátkej vete. Tento posun je pre tému práce podstatný: naratívna vrstva sa tu nevracia ako „ďalší kurátorský text“, ale ako interpretácia vložená priamo do kroku uloženia diptychu.
 
 Zároveň sa ukázali hranice, ktoré treba priznať. Prvou je veľkosť a charakter korpusu: zúženie na jedného autora pomáha čitateľnosti experimentu, ale zároveň obmedzuje typy spojení, ktoré môžu vzniknúť. Druhou je kvalita a povaha vstupných obrazov: mobilné fotky a skeny nesú veľa náhody (svetlo, rozmazanie, kompozícia), čo môže podobnostné vyhľadávanie posunúť k „formálnym rýmom“ bez zmyslu. Tretia hranica je rozdiel medzi podobnosťou a významom. Algoritmus môže ponúknuť kandidáta, ktorý je vizuálne blízky, ale interpretačne prázdny. A naopak, niekedy môže zmysel vzniknúť až na kandidátovi, ktorý nie je „najbližší“ v technickom zmysle. Táto nezhoda nie je chyba; je to priestor pre interpretáciu.
 

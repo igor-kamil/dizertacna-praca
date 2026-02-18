@@ -16,6 +16,7 @@ Output:
 from __future__ import annotations
 
 import argparse
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -26,6 +27,36 @@ import matplotlib.pyplot as plt
 # Set font preference
 plt.rcParams["font.family"] = ["Setup Serif", "serif"]
 plt.rcParams["svg.fonttype"] = "none"
+
+
+def age_sort_key(value: object) -> tuple[int, int]:
+    """Return sortable key for age-range labels (e.g. '< 18', '25-34', '55+')."""
+    text = str(value).strip()
+
+    if not text:
+        return (2, 10_000)
+
+    normalized = text.replace("–", "-").replace("—", "-").replace("−", "-")
+    normalized = re.sub(r"\s+", "", normalized)
+
+    # Buckets below 18 should come first.
+    if normalized.startswith("<"):
+        m = re.search(r"\d+", normalized)
+        return (0, int(m.group()) if m else 0)
+
+    # Buckets above / equal to X (e.g. 55+, 65+).
+    if normalized.endswith("+"):
+        m = re.search(r"\d+", normalized)
+        return (2, int(m.group()) if m else 10_000)
+
+    # Standard ranges (e.g. 25-34): sort by lower bound.
+    m = re.match(r"(\d+)-(\d+)$", normalized)
+    if m:
+        return (1, int(m.group(1)))
+
+    # Fallback for unexpected labels: push to end but keep deterministic order.
+    m = re.search(r"\d+", normalized)
+    return (2, int(m.group()) if m else 10_000)
 
 
 def read_data(path: Path) -> pd.DataFrame:
@@ -63,8 +94,15 @@ def plot_summary(df: pd.DataFrame) -> plt.Figure:
     ]
 
     for ax, (col, chart_title) in zip(ax_list, charts):
-        # Count values, ignoring NaN. Sort ascending so barh plots largest at top.
-        counts = df[col].value_counts().sort_values(ascending=True)
+        # Count values, ignoring NaN.
+        counts = df[col].value_counts()
+
+        # Only age chart uses semantic ordering by age range.
+        if col == "Age Range":
+            counts = counts.reindex(sorted(counts.index, key=age_sort_key))
+        else:
+            # Keep previous behavior for non-age charts.
+            counts = counts.sort_values(ascending=True)
         
         counts.plot(kind="barh", ax=ax, width=0.8)
         
