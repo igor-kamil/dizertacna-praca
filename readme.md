@@ -1,6 +1,6 @@
 # Dizertačná práca: Online art collections as containers of visual storytelling
 
-![Progress](https://img.shields.io/badge/Writing%20Progress-125%20pages%20%7C%20goal:%2064%20(ON%20TRACK)-brightgreen?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Dop%C3%ADsan%C3%A1%20a%20odovzdan%C3%A1-success?style=for-the-badge)
 
 - **Autor:** Igor Rjabinin
 - **Školiteľ:** András Cséfalvay
@@ -103,5 +103,5 @@ python3 scripts/make_longtail_items.py
 
 ## Stav projektu
 
-🟢 *Aktívny výskum a štrukturalizácia textu*  
-Práca je vo fáze prepisu pôvodného rámca (2021) do konkrétnej podoby zameranej na digitálne zbierky a vizuálne rozhrania.
+✅ *Dopísaná a odovzdaná*  
+Aktuálnu verziu textu nájdeš v záložke `Releases` tohto repozitára.
