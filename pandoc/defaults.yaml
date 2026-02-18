@@ -33,6 +33,7 @@ csl: pandoc/style.csl
 # Filters
 filters:
   - pandoc/filters/aside.lua
+  - pandoc/filters/csl_url_wrap.lua
 
 # LaTeX Preamble
 include-in-header:

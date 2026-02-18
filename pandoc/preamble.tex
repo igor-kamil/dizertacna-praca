@@ -110,8 +110,15 @@
 }
 \AfterEndEnvironment{aside}{\FloatBarrier}
 
-\usepackage{url}
-\def\UrlBreaks{\do\/\do-}
+% --- URL line breaking (bibliography-safe) ---
+\usepackage{xurl}
+\urlstyle{same}
+\makeatletter
+% Explicit breakpoints for encoded query URLs (e.g. %5B...%5D)
+\def\UrlBreaks{\do\%\do\/\do-\do\.\do\_\do\?\do\&\do\#\do\=}
+\makeatother
+\setlength{\emergencystretch}{3em}
+\AtBeginEnvironment{CSLReferences}{\sloppy\emergencystretch=3em\relax}
 
 \usepackage{tikz}
 \usetikzlibrary{positioning, arrows.meta, shapes, calc}
