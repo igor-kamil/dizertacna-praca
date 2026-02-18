@@ -29,7 +29,7 @@ Ako uvádzajú *Bahurinská a Bohumelová*, základné kritériá pre vytvárani
 
 Nasledujúca fotografia zachytáva fyzickú podobu papierovej kartotéky v Slovenskej národnej galérii, ktorá dodnes existuje a v obmedzenej miere sa stále používa ako referenčný archív.
 
-![Papierový systém dokumentačných kariet v Slovenskej národnej galérii.
+![Centrálny katalóg v Slovenskej národnej galérii.
 Kartotéka s dokumentačnými lístkami, budovaná od roku 1979, zachytáva evidenciu diel galérií (a v danom období aj múzeí).
 Fyzický katalóg sa dodnes používa ako referenčný archív.
 Foto: autor, 13. august 2015.](figures/fig-3-1-centralny-katalog-kartoteka-sng-2015.png){#fig:centralny-katalog}
@@ -117,40 +117,19 @@ Od prvej verzie portálu v roku 2008 sa Europeana postupne vyvinula z prezentač
 
 ### 3.2.2 Štandardizácia: LIDO, Dublin Core, OAI-PMH
 
-Prvá dekáda digitalizácie bola založená na štandardizácii metadát.
+Prvá dekáda digitalizácie kultúrneho dedičstva bola do veľkej miery prácou so štandardmi metadát a prenosových protokolov. V múzejno-galérijnom prostredí pritom nešlo len o „technickú hygienu“, ale o predpoklad interoperability: ak majú dáta cestovať medzi systémami, agregátormi a verejnými rozhraniami, musia mať dohodnutú štruktúru a minimálny spoločný význam. Medzinárodným referenčným rámcom pre tieto snahy sú štandardy ICOM–CIDOC, ktoré od 90. rokov formujú prístupy k modelovaniu múzejných dát, ich interoperabilite a dlhodobej udržateľnosti.
 
-Medzinárodným referenčným rámcom pre tieto snahy sú štandardy ICOM – CIDOC, ktoré od 90. rokov formujú teoretické aj praktické prístupy k modelovaniu múzejných dát, ich interoperabilite a dlhodobej udržateľnosti. Práve CIDOC konceptuálne ovplyvnil viaceré národné aj nadnárodné dátové modely využívané pri digitalizácii kultúrneho dedičstva.
+V európskom a národnom agregáčnom kontexte sa ako prakticky rozhodujúca ukázala kombinácia troch vrstiev: exportná schéma bohatších múzejných metadát (*LIDO*), minimalistická schéma pre „najnižšie spoločné minimum“ (*Dublin Core*) a mechanizmus zberu dát (*OAI-PMH*). *LIDO* je navrhnuté pre opis múzejných objektov a používa sa ako štandard pre export do Europeany a národných agregátorov; jeho výhodou je šírka a schopnosť uniesť komplexný popis, slabinou vyššia miera abstrakcie, pretože ide o kompromis medzi „interpretatívnymi“ a „transakčnými“ potrebami múzeí [@coburn_lido_2010]. *Dublin Core* vznikol pôvodne ako základný popisný systém pre heterogénne digitálne zdroje [@weibel_dc_1998] a v múzejnom prostredí často funguje ako „núdzová“ interoperabilná vrstva: umožní jednoduché harvestovanie, no zároveň redukuje bohaté metadáta na niekoľko všeobecných polí.
 
-V našom kontexte mali špeciálne význam nasledovné štandardy:
+Samotný prenos dát v agregácii sa dlhodobo opiera o *OAI-PMH*, ktoré Van de Sompel a Lagoze pôvodne navrhli pre akademické repozitáre, no rýchlo sa stalo základom pre Europeanu aj národné digitálne knižnice [@vandesompel_lagoze_oai_pmh_2002]. V praxi práve cez *OAI-PMH* dokáže Web umenia harvestovať údaje z ISG-CEDVU (a rovnako aj od iných poskytovateľov), pričom záznamy o dielach prichádzajú v LIDO alebo Dublin Core a autority sú publikované ako samostatné záznamy v štandarde ULAN. Tento „štandardový“ základ je dôvod, prečo môže byť harvester navrhnutý univerzálnejšie: nie je viazaný na jeden konkrétny interný systém, ale na dohodnuté rozhranie a mapovanie polí, ktoré sa opakuje u rôznych providerov.
 
-#### LIDO (Lightweight Information Describing Objects)
-
-Vznikol pod CIDOC ICOM a publikoval ho G. Coburn a kol.
-LIDO je určený pre múzejné objekty a dodnes sa používa ako štandard pre export dát do Europeany a národných agregátorov.
-
-Výhoda LIDO spočíva v jeho komplexnosti; slabina v jeho abstrakcii. Ako uvádza Coburn, LIDO je kompromis medzi „interpretatívnymi“ a „transakčnými“ potrebami múzeí [@coburn_lido_2010].
-
-#### Dublin Core (DCMI, 1995–)
-
-Dublin Core bol pôvodne navrhnutý ako *„základný popisný systém pre heterogénne digitálne zdroje“* [@weibel_dc_1998].
-V múzejnom prostredí fungoval najmä ako „najnižší spoločný menovateľ“, ktorý umožnil jednoduché harvestovanie, ale redukoval bohaté múzejné metadáta na niekoľko všeobecných polí.
-
-#### OAI-PMH (Open Archives Initiative, 2001)
-
-Ako uvádzajú Van de Sompel a Lagoze, OAI-PMH bol navrhnutý pre akademické repozitáre, no rýchlo sa stal základom pre Europeanu aj národné digitálne knižnice [@vandesompel_lagoze_oai_pmh_2002].
-Bez neho by agregácia v rozsahu miliónov objektov nebola možná.
+Štandardy pôsobia na prvý pohľad nezáživne — sú to pravidlá, obmedzenia a formálne schémy — no v agregácii robia prácu, ktorú by sa dalo nazvať aj formou „kultúrnej diplomacie“. Umožňujú, aby sa inštitúcie s rôznymi dejinami katalogizácie a rôznymi lokálnymi praktikami dokázali rýchlo dohodnúť aspoň na tom, čo znamená základný opis objektu, ako sa dá preniesť a čo sa pri prenose nesmie stratiť. V ďalších častiach kapitoly sa ukáže, že online sprístupnenie nestojí len na samotných dátach, ale na tom, či dokážu prechádzať medzi vrstvami infraštruktúry bez straty významu a bez rozpadu na izolované záznamy.
 
 ### 3.2.3 Repozitáre: Fedora Commons, DSpace a digitálne knižnice
 
-Repozitáre predstavovali technologický krok medzi „internou databázou“ a online zbierkou, ktorá dokáže spravovať viaceré reprezentácie jedného objektu, verziovať ich a sprístupňovať ich rôznym aplikáciám.
+Repozitáre predstavovali technologický krok medzi „internou databázou“ a online zbierkou: umožnili spravovať viacero reprezentácií jedného objektu (súbor, metadáta, odvodeniny), verziovať ich a sprístupňovať ich rôznym aplikáciám. V praxi tým oddelili dve veci, ktoré sa v starších systémoch často miešali: ukladanie a správu digitálneho objektu na jednej strane a prezentačné vrstvy (weby, agregátory, API) na strane druhej.
 
-*Fedora Commons* zaviedla [@lagoze_fedora_2006]:
-
-* koncept *komplexného digitálneho objektu*
-* striktné oddeľovanie dát a aplikácie (model vs. prezentačná vrstva)
-* robustné verziovanie a prácu s viacerými reprezentáciami
-
-Podstatné je, že Fedora nevznikala ako „hotový produkt jednej firmy“, ale ako komunitná infraštruktúra. Aj preto sa v nej silne presadzuje dôraz na dlhodobú uchovateľnosť, interoperabilitu a prenositeľnosť dát medzi rôznymi prezentačnými vrstvami.
+V kultúrnych a akademických inštitúciách sa v tejto oblasti presadili najmä platformy typu *Fedora Commons* a *DSpace*. Fedora zaviedla koncept *komplexného digitálneho objektu*, dôraz na oddelenie dátového modelu od aplikácie a robustné verziovanie [@lagoze_fedora_2006]. DSpace sa naopak často používal ako „hotovejší“ repozitárový rámec pre publikovanie a prevádzku inštitucionálnych knižničných repozitárov. V oboch prípadoch je však dôležitý spoločný posun: repozitár nevzniká ako jednorazová webová aplikácia, ale ako infraštruktúra dlhodobej uchovateľnosti a prenositeľnosti dát medzi rôznymi prezentačnými vrstvami.
 
 ### 3.2.4 Autoritatívne zoznamy: ULAN, AAT, VIAF
 
@@ -209,17 +188,13 @@ Kľúčová bola aj transparentnosť procesu: publikovanie kódov, dátových mo
 
 ### 3.3.4 Science Museum Group: viditeľnosť ako kurátorská otázka
 
-Science Museum Group upozornila na jeden z menej reflektovaných problémov digitálnych zbierok – *nerovnomernú viditeľnosť objektov*. Experiment *Never Been Seen* bol predstavený ako pokus narušiť hierarchiu pozornosti, ktorá vzniká nielen vo fyzických expozíciách, ale aj v samotných procesoch digitalizácie, v metadátach a v online katalógových systémoch. Autori projektu poukazujú na to, že digitalizácia často nevedome reprodukuje tradičné kurátorské výbery: ikonické alebo často vystavované objekty sú sprístupňované ako prvé, zatiaľ čo veľká časť zbierok zostáva nezdigitalizovaná, nedostatočne opísaná alebo prakticky neviditeľná [@smg_neverbeenseen_blog].
+### 3.3.4 Science Museum Group: viditeľnosť ako kurátorská otázka
 
-Experiment tým otvoril zásadnú otázku, ktorá presahuje samotnú technickú rovinu digitalizácie:
-ako poradie digitalizácie, kvalita metadát a spôsob sprístupnenia formujú naratív zbierky?
-Ak sú niektoré objekty systematicky viditeľnejšie než iné, nevzniká neutrálny obraz zbierky, ale selektívny príbeh, v ktorom sa určité línie kultúrnej pamäti opakovane zvýrazňujú a iné zostávajú v úzadí.
+Science Museum Group upozornila na menej reflektovaný problém digitálnych zbierok: *nerovnomernú viditeľnosť objektov*. Experiment *Never Been Seen* vznikol ako pokus narušiť hierarchiu pozornosti, ktorá nevzniká len vo fyzických expozíciách, ale aj v samotných procesoch digitalizácie, v kvalite metadát a v logike online katalógov. Autori projektu tým pripomínajú, že digitalizácia často nevedome reprodukuje tradičné kurátorské výbery: ikonické alebo často vystavované objekty sa sprístupňujú skôr, zatiaľ čo veľká časť zbierok zostáva nezdigitalizovaná, nedostatočne opísaná alebo prakticky neviditeľná [@smg_neverbeenseen_blog].
 
-V kontexte tejto práce je tento moment obzvlášť dôležitý. Digitálny naratív zbierky nie je daný len tým, *čo* inštitúcia vlastní, ale aj tým, *čo* je dostupné, vyhľadateľné a interpretovateľné v online prostredí. Viditeľnosť sa tu stáva kultúrnou a politickou kategóriou – výsledkom konkrétnych rozhodnutí, priorít a technických obmedzení, nie prirodzeným dôsledkom digitalizácie.
+Táto nerovnováha má priamy dopad na to, aký „obraz zbierky“ online rozhranie sprostredkuje. Naratív zbierky sa netvorí len z toho, *čo* inštitúcia vlastní, ale aj z toho, *čo* je dostupné, vyhľadateľné a interpretovateľné. Viditeľnosť sa tak stáva výsledkom priorít a obmedzení (kurátorských aj technických), nie automatickým dôsledkom publikovania.
 
-Pre moju vlastnú prax je na tomto príklade znepokojujúce najmä to, že mnohé objekty prejdú náročným a nákladným procesom digitalizácie, ocitnú sa v online zbierke, no napriek tomu zostávajú prakticky neviditeľné. Sú skryté za rozhraním, utopené v množstve ďalších dát a artefaktov, bez výraznejších vzťahov, kontextu či naratívnych prepojení. Z pohľadu inštitúcie pritom ide o diela, ktoré boli zaradené do zbierky práve preto, že niesli význam pre uchovanie určitej kultúrnej stopy alebo pamäti.
-
-V online prostredí sa však – v kontexte nadprodukcie digitálneho obsahu a pri absencii interpretačných rámcov – môžu tieto objekty stať prakticky neviditeľnými a z hľadiska používateľskej skúsenosti „zbytočnými“. Nie preto, že by postrádali hodnotu, ale preto, že im chýba kontext, ktorý by ich význam sprístupnil. Experiment *Never Been Seen* tak neupozorňuje len na problém digitalizačných priorít, ale aj na širšiu otázku: čo znamená sprístupniť dielo, ak sa s ním nikto nikdy nestretne?
+Mechanizmus, ktorým *Never Been Seen* pracuje s „chvostom“ a hierarchiami pozornosti, rozoberám detailnejšie v časti 5.2.
 
 ### 3.3.5 ACMI: kurátorstvo, technológia a návštevnícka skúsenosť
 
@@ -283,9 +258,9 @@ Jednou z téz tejto kapitoly je, že práve historická vrstvenosť a lokálne k
 
 #### 3.4.1.1 Impulz štátu a potreba centrálneho prehľadu
 
-Vznik Centrálnej evidencie diel výtvarného umenia (CEDVU) v 70. rokoch bol dôsledkom snahy o štandardizáciu a centralizovaný prehľad nad zbierkami v podmienkach normalizácie. Projekt nevznikal ako digitálna iniciatíva — technológie to neumožňovali — ale ako *inštitucionálna stratégia vytvoriť porovnateľný a zlučiteľný súpis zbierkových diel* naprieč galériami (v danom období aj v širšom okruhu pamäťových inštitúcií).
+Vznik Centrálnej evidencie diel výtvarného umenia (CEDVU) v 70. rokoch nadviazal na širší tlak na štandardizáciu evidencie a na potrebu centrálneho prehľadu nad zbierkovými fondmi v podmienkach normalizácie. Nešlo o digitálny projekt, ale o *inštitucionálny rámec, ktorý mal zjednotiť opis a umožniť porovnateľný súpis zbierkových diel* naprieč galériami (a vtedy aj ďalšími pamäťovými inštitúciami).
 
-Hoci išlo o rámec motivovaný administratívnym poriadkom doby, jeho dopady boli ďalekosiahle: vznikol *systém dokumentačných kariet*, ktoré niesli štandardizovaný odborný popis diela a boli dopĺňané obrazovou dokumentáciou. Už v analógovej podobe sa tu nastavuje dvojkoľajnosť, ktorá sa v digitálnom veku opakovane vracia: evidencia ako faktografická báza (identifikácia, kontrola, porovnateľnosť) a obraz ako nenahraditeľná súčasť práce s dielom. Podľa spomienok Jany Bahurinskej sa táto “dvojvrstvovosť” neskôr premietala aj do praktických argumentov, prečo centrálna evidencia nemá byť len textovým zoznamom, ale má udržiavať aj vizuálnu stopu.
+Kľúčovým nástrojom sa stal *Centrálny katalóg* so štandardizovaným odborným popisom a obrazovou dokumentáciou. Táto kombinácia textu a obrazu nastavila praktickú „dvojkoľajnosť“ evidencie, ktorá sa neskôr preniesla aj do digitálnych systémov: údaje slúžia na identifikáciu a kontrolu, no vizuálna stopa zostáva nevyhnutná pre reálnu prácu s dielom. Podľa spomienok Jany Bahurinskej práve táto skúsenosť podporovala argument, že centrálna evidencia nemá byť iba textovým zoznamom, ale má udržiavať aj obrazovú vrstvu.
 
 #### 3.4.1.2 Analógová kartotéka ako priestor práce a poznania
 
@@ -468,11 +443,11 @@ Spätným pohľadom možno povedať, že Web umenia vznikol skôr z *prevádzkov
 
 ### 3.5.2 Technologické pozadie: Fedora Commons a prvé integračné pokusy
 
-Ak prvotný impuls vznikol z evidenčnej praxe, technologické zázemie Webu umenia sa formovalo v už odlišnom prostredí. Projekt Digitálna galéria (2012–2015) priniesol nielen masívnu vlnu digitalizácie, ale aj zásadné rozhodnutie: vybudovať repozitár na báze *Fedora Commons*, technológie, ktorá bola v tom čase rozšírená najmä v akademických a knižničných inštitúciách.
+Ak prvotný impulz Webu umenia vyrástol z evidenčnej praxe, jeho technologické zázemie sa začalo formovať už v odlišnom režime digitálnej produkcie. Projekt Digitálna galéria (2012–2015) priniesol masívnu vlnu digitalizácie a zároveň zásadné rozhodnutie: vybudovať repozitár digitálnych objektov na báze *Fedora Commons* — teda oddeliť ukladanie a správu súborov od katalogačného systému.
 
-Fedora umožňovala uchovávať digitálne objekty (snímky, metadáta, odvodeniny) v podobe, ktorá bola dlhodobo udržateľná, verzovateľná a prepojená s ďalšími systémami. Hoci ISG-CEDVU ostal primárnym miestom katalogizácie, Fedora sa stala úložiskom digitálnych objektov, ktoré bolo možné publikovať smerom von.
+V tejto architektúre zostal ISG-CEDVU primárnym miestom katalogizácie, zatiaľ čo Fedora sa stala úložiskom digitálnych objektov (reprodukcie, odvodeniny, technické a prevádzkové metadáta), ktoré bolo možné kontrolovane publikovať smerom von. Prakticky to znamenalo stabilnejší životný cyklus reprodukcií (kvalita, verzie, odvodeniny pre rôzne použitia) a jasnejšie vzťahy medzi „záznamom o diele“ a jeho digitálnymi reprezentáciami.
 
-To znamenalo, že Web umenia už nestál na ad hoc riešeniach, ale na infraštruktúre, ktorá vedela zabezpečiť kvalitu reprodukcií, ich životný cyklus a vzťahy medzi objektami. Zároveň sa otvorila možnosť API — prístupového rozhrania, ktoré umožnilo vytvárať aplikácie alebo vizualizácie nad dátami. Táto vrstva neskôr zohrá kľúčovú úlohu pri výskume naratívnych možností digitálnych zbierok.
+Zároveň sa tým otvoril priestor pre programové prístupy: ak sú digitálne objekty spravované repozitárom a vystavené cez rozhrania, dajú sa nad nimi stavať ďalšie aplikácie, vizualizácie a experimenty s prepojeniami. Pre túto prácu je podstatné, že nejde len o technický komfort, ale o predpoklad pre neskoršie skúmanie naratívnych vrstiev: bez stabilnej infraštruktúry objektov a ich väzieb sa „príbehové“ rozhrania menia na jednorazové prezentácie bez možnosti údržby a opakovania.
 
 ### 3.5.3 Zmena paradigmy: od evidencie k rozhraniu
 
