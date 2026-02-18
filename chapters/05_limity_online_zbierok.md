@@ -62,7 +62,7 @@ Distribúciu zobrazení v celej zbierke potom sumarizuje *long tail* graf, ktor�
 
 ![Distribúcia pozornosti v online zbierke: poradie diel podľa *view_count* a počet zobrazení. Krivka ukazuje strmý pokles na začiatku a dlhý chvost nízko navštevovaných diel.](figures/fig-5-2-longtail-items.svg){#fig:webumenia-longtail width=90%}
 
-V tomto bode je užitočné pridať krátky prípad *Never Been Seen* zo Science Museum Group. Nástroj pri každom načítaní stránky zobrazí objekt s nulovým počtom zobrazení, čím z neviditeľnosti urobí udalosť a publikačný proces premení na skúsenosť objavu [@smg_neverbeenseen_tool; @smg_neverbeenseen_blog]. V kontexte *long tail* je to presná ilustrácia toho, že objekt môže prejsť náročným pipelineom prípravy, digitalizácie, zápisu a publikovania, a predsa sa nemusí stať súčasťou žiadnej žitej používateľskej trajektórie, ak rozhranie nevytvára mechanizmy stretnutia.
+Ako ukazuje príklad *Never Been Seen* zo Science Museum Group (pozri 3.3.4), nástroj pri každom načítaní stránky zobrazí objekt s nulovým počtom zobrazení, čím z neviditeľnosti urobí udalosť a publikačný proces premení na skúsenosť objavu [@smg_neverbeenseen_tool; @smg_neverbeenseen_blog]. V kontexte *long tail* je to ilustrácia toho, že objekt môže prejsť celým pipelineom prípravy, digitalizácie, zápisu a publikovania, a predsa sa nemusí stať súčasťou žiadnej žitej používateľskej trajektórie, ak rozhranie nevytvára mechanizmy stretnutia.
 
 ![Never Been Seen (Science Museum Group): nástroj, ktorý pri každom načítaní zobrazuje objekt s nulovým počtom zobrazení.](figures/fig-5-2-smg-never-been-seen.png){#fig:smg-never-been-seen width=90%}
 

@@ -14,7 +14,7 @@ Základným nastavením práce je iteratívny cyklus návrhu a overovania:
 2. návrhové obmedzenia (korpus, typ navigácie, typ odporúčania, režim textu/obrazu, podmienky použitia),
 3. prototypovanie variantu rozhrania (ako výskumného artefaktu),
 4. vystavenie prototypu realite (aspoň v minimálnom, ale kontrolovanom scenári použitia),
-5. zber dôkazov (pozorovania interakcie, stopy rozhodovania používateľov, kvalititatívne komentáre, vlastné poznámky z facilitácie, prípadne technické logy podľa možností),
+5. zber dôkazov (pozorovania interakcie, stopy rozhodovania používateľov, kvalitatívne komentáre, vlastné poznámky z facilitácie, prípadne technické logy podľa možností),
 6. reflexia a pomenovanie dôsledkov (čo sa potvrdilo, čo zlyhalo, čo sa ukázalo ako slepá ulička a čo je prenositeľné),
 7. syntéza do návrhových princípov a typológie (cieľom nie je „zvíťaziť“ s jedným riešením, ale vytvoriť mapu rozhodnutí a ich účinkov).
 
@@ -49,6 +49,8 @@ Napokon, táto pozícia prirodzene vedie k dvojitému hodnoteniu rozhraní. Na j
 - V tejto práci vystupuje predovšetkým ako *výskumné prostredie* pre dlhodobú iteráciu: umožňovalo prototypovanie, nasadzovanie a spätnú väzbu v reálnych podmienkach inštitúcie.
 - Jej vznik, rolu a vnútorné fungovanie rozoberám samostatne (pozri sekciu [vznik lab.SNG](#sec:labsng-vznik)) a v praktických kapitolách 4–6 cez konkrétne projekty, aby sa metodologický rámec zbytočne nemiešal s inštitucionálnou históriou.
 :::
+
+![lab.SNG ako *in-house* digitálne *R\&D*: vizuálna identita lab.sng.sk (vľavo) a inštalácia s dotykovým rozhraním na výstave „Uchovávanie sveta – Rituál múzea v digitálnom veku“ (2015) (vpravo).](figures/fig-2-0-lab-sng-inhouse-diptych.jpg){#fig:lab-sng-inhouse width=100%}
 
 ## 2.3 Materiál a dáta {#sec:metodologia-23}
 
