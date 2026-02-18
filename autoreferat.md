@@ -1,24 +1,17 @@
 \thispagestyle{empty}
 \begin{center}
-{\Large Vysoká škola výtvarných umení v Bratislave\par}
-\vspace{1.2cm}
-{\large Študijný odbor: Umenie\par}
-{\large Študijný program: Digitálne umenia\par}
-\vspace{1.8cm}
-{\LARGE \textbf{Autoreferát dizertačnej práce}\par}
-\vspace{1.2cm}
-{\Large Digitálne naratívy, ne-lineárne príbehy a generatívna skutočnosť v dobe beznádeje\par}
-\vspace{0.4cm}
-{\large Online zbierky umenia ako prostredia vizuálneho rozprávania\par}
-\vspace{1.6cm}
+{\large \textbf{VYSOKÁ ŠKOLA VÝTVARNÝCH UMENÍ V BRATISLAVE}\par}
+\vspace{1.4cm}
+{\large Mgr. Igor Rjabinin\par}
+\vspace{1.4cm}
+{\Large \textbf{DIGITÁLNE NARATÍVY, NE-LINEÁRNE PRÍBEHY A GENERATÍVNA SKUTOČNOSŤ V DOBE BEZNÁDEJE}\par}
+\vspace{0.5cm}
+{\large \textbf{ONLINE ZBIERKY UMENIA AKO PROSTREDIA VIZUÁLNEHO ROZPRÁVANIA}\par}
+\vspace{1.4cm}
+{\Large \textbf{Autoreferát dizertačnej práce}\par}
+\vspace{0.5cm}
+{\normalsize na získanie akademického titulu ``artis doctor'' (v skratke ArtD.) v študijnom odbore umenie\par}
 \end{center}
-
-\begin{flushleft}
-\textbf{Doktorand:} Mgr. Igor Rjabinin \\
-\textbf{Školiteľ:} doc. Mgr. art. András Cséfalvay, ArtD. \\
-\textbf{Školiteľ-konzultant:} doc. Mgr. Zuzana Panák Husárová, PhD. \\
-\end{flushleft}
-
 \vfill
 \begin{center}
 Bratislava, február 2026
@@ -26,32 +19,44 @@ Bratislava, február 2026
 
 \newpage
 \thispagestyle{empty}
-\textbf{Forma štúdia:} denná
+\noindent Dizertačná práca bola vypracovaná v externej forme doktorandského štúdia na Vysokej škole výtvarných umení v Bratislave.
 
 \vspace{0.6cm}
-\textbf{Pracovisko:} Platforma digitálne umenia
-
-\vspace{0.8cm}
-\textbf{Navrhovaní oponenti:}
-
-\vspace{0.3cm}
-1.\ \dotfill
+\noindent\textbf{Doktorand:} Mgr. Igor Rjabinin\newline
+\textbf{Adresa pracoviska:} Digitálne umenia, VŠVU
 
 \vspace{0.45cm}
-2.\ \dotfill
+\noindent\textbf{Školiteľ:} doc. Mgr. art. András Cséfalvay, ArtD.\newline
+\textbf{Adresa pracoviska:} Digitálne umenia, VŠVU
 
 \vspace{0.45cm}
-3.\ \dotfill
+\noindent\textbf{Školiteľ-konzultant:} doc. Mgr. Zuzana Panák Husárová, PhD.\newline
+\textbf{Adresa pracoviska:} Digitálne umenia, VŠVU
 
-\vspace{0.8cm}
-\textbf{Odborová rada pre doktorandské štúdium}
+\vspace{0.45cm}
+\noindent\textbf{Oponent/ka:} \dotfill\newline
+\textbf{Adresa pracoviska:}
 
-študijný program Výtvarné umenie (VUd.14/VUde.14)
+\vspace{0.45cm}
+\noindent\textbf{Oponent/ka:} \dotfill\newline
+\textbf{Adresa pracoviska:}
+
+\vspace{0.45cm}
+\noindent\textbf{Oponent/ka:} \dotfill\newline
+\textbf{Adresa pracoviska:}
 
 \vspace{0.6cm}
-\textbf{Predseda odborovej rady:} prof. Boris Kvasnica, akad. maliar
+\noindent\textbf{Autoreferát bol rozoslaný dňa:}
 
-\textbf{Pracovisko predsedu odborovej rady:} Katedra reštaurovania
+\vspace{0.45cm}
+\noindent\textbf{Obhajoba dizertačnej práce sa koná dňa:}
+
+\vspace{0.45cm}
+\noindent pred komisiou pre obhajobu dizertačnej práce v študijnom odbore doktorandského štúdia Umenie, v študijnom programe Výtvarné umenie VUd.14 / VUde.14; vymenovanou predsedom odborovej komisie dňa:
+
+\vspace{0.45cm}
+\noindent\textbf{Predseda odborovej komisie:} prof. Boris Kvasnica, akad. mal.\newline
+\textbf{Adresa pracoviska:} Katedra reštaurovania, VŠVU
 
 \newpage
 \setcounter{page}{1}
