@@ -14,7 +14,7 @@ Základným nastavením práce je iteratívny cyklus návrhu a overovania:
 2. návrhové obmedzenia (korpus, typ navigácie, typ odporúčania, režim textu/obrazu, podmienky použitia),
 3. prototypovanie variantu rozhrania (ako výskumného artefaktu),
 4. vystavenie prototypu realite (aspoň v minimálnom, ale kontrolovanom scenári použitia),
-5. zber dôkazov (pozorovania interakcie, stopy rozhodovania používateľov, kvalititatívne komentáre, vlastné poznámky z facilitácie, prípadne technické logy podľa možností),
+5. zber dôkazov (pozorovania interakcie, stopy rozhodovania používateľov, kvalitatívne komentáre, vlastné poznámky z facilitácie, prípadne technické logy podľa možností),
 6. reflexia a pomenovanie dôsledkov (čo sa potvrdilo, čo zlyhalo, čo sa ukázalo ako slepá ulička a čo je prenositeľné),
 7. syntéza do návrhových princípov a typológie (cieľom nie je „zvíťaziť“ s jedným riešením, ale vytvoriť mapu rozhodnutí a ich účinkov).
 
