@@ -1,0 +1,215 @@
+% LaTeX preamble for publishing PDF build (B5)
+
+\usepackage{newunicodechar}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+
+\usepackage{polyglossia}
+\setmainlanguage{slovak}
+
+% --- Typography & layout ---
+\usepackage{microtype}
+\usepackage{xevlna}
+\usepackage{enumitem}
+\setlist{nosep}
+\raggedbottom
+
+% --- Fonts from repository ---
+\usepackage{fontspec}
+
+\setmainfont{Setup Serif}[
+  Path = fonts/SetupSerif/,
+  Extension = .otf,
+  UprightFont = SetupSerif-Regular,
+  BoldFont = SetupSerif-Medium,
+  ItalicFont = SetupSerif-RegularItalic,
+  BoldItalicFont = SetupSerif-MediumItalic
+]
+
+\setsansfont{Async Sans}[
+  Path = fonts/Async/,
+  Extension = .otf,
+  UprightFont = AsyncSans-Regular,
+  BoldFont = AsyncSans-Bold
+]
+
+\newfontfamily\publishSansMedium{Async Sans}[
+  Path = fonts/Async/,
+  Extension = .otf,
+  UprightFont = AsyncSans-Medium
+]
+\newfontfamily\publishSansBold{Async Sans}[
+  Path = fonts/Async/,
+  Extension = .otf,
+  UprightFont = AsyncSans-Bold
+]
+\newfontfamily\publishSerifBold{Setup Serif}[
+  Path = fonts/SetupSerif/,
+  Extension = .otf,
+  UprightFont = SetupSerif-Medium
+]
+\newfontfamily\publishSerifItalic{Setup Serif}[
+  Path = fonts/SetupSerif/,
+  Extension = .otf,
+  UprightFont = SetupSerif-RegularItalic
+]
+
+\setmonofont{Menlo}[Scale=0.9]
+
+\AtBeginDocument{\fontsize{11pt}{16pt}\selectfont}
+
+% --- Headings ---
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+  {\publishSansBold\fontsize{26pt}{32pt}\selectfont}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\chapter}{0pt}{0pt}{24pt}
+
+\titleformat{\section}
+  {\publishSansBold\fontsize{14pt}{20pt}\selectfont}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\section}{0pt}{16pt}{8pt}
+
+\titleformat{\subsection}
+  {\publishSansBold\fontsize{12pt}{17pt}\selectfont}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\subsection}{0pt}{14pt}{6pt}
+
+% --- Footer markers (updated by Lua filter) ---
+\newcommand{\publishChapterIndex}{}
+\newcommand{\publishChapterTitle}{}
+\newcommand{\publishSetChapterMark}[2]{%
+  \gdef\publishChapterIndex{#1}%
+  \gdef\publishChapterTitle{#2}%
+  \markboth{#2}{#1}%
+}
+\newcommand{\publishIfBlankTF}[3]{%
+  \if\relax\detokenize{#1}\relax #2\else #3\fi
+}
+
+% --- Header/footer layout ---
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\footskip}{12mm}
+
+\fancyfoot[LE]{\publishSansBold\fontsize{9pt}{11pt}\selectfont\thepage}
+\fancyfoot[RO]{\publishSansBold\fontsize{9pt}{11pt}\selectfont\thepage}
+\fancyfoot[RE]{%
+  \publishSansMedium\fontsize{9pt}{11pt}\selectfont
+  \publishIfBlankTF{\publishChapterIndex}{}{Kapitola~\publishChapterIndex}%
+}
+\fancyfoot[LO]{\publishSansMedium\fontsize{9pt}{11pt}\selectfont\publishChapterTitle}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyfoot[LE]{\publishSansBold\fontsize{9pt}{11pt}\selectfont\thepage}
+  \fancyfoot[RO]{\publishSansBold\fontsize{9pt}{11pt}\selectfont\thepage}
+  \fancyfoot[RE]{%
+    \publishSansMedium\fontsize{9pt}{11pt}\selectfont
+    \publishIfBlankTF{\publishChapterIndex}{}{Kapitola~\publishChapterIndex}%
+  }
+  \fancyfoot[LO]{\publishSansMedium\fontsize{9pt}{11pt}\selectfont\publishChapterTitle}
+}
+
+% --- Footnotes ---
+\renewcommand{\footnotesize}{\fontsize{9pt}{11pt}\selectfont}
+\setlength{\skip\footins}{8pt}
+\renewcommand\footnoterule{%
+  \kern -2pt
+  \hrule width \textwidth height 0.5pt
+  \kern 4pt
+}
+
+% --- Figures & captions ---
+\usepackage{caption}
+\usepackage{placeins}
+\usepackage{float}
+\usepackage{needspace}
+\usepackage{graphicx}
+
+\renewcommand{\figurename}{Obrázok}
+\captionsetup{
+  font={stretch=1.0},
+  labelfont={bf},
+  labelsep=space,
+  justification=raggedright,
+  singlelinecheck=false,
+  margin=0pt
+}
+\DeclareCaptionFont{publishcaption}{\fontsize{9pt}{13pt}\selectfont}
+\captionsetup[figure]{
+  font=publishcaption,
+  labelfont={bf},
+  skip=8pt
+}
+
+\setkeys{Gin}{width=\linewidth, height=0.75\textheight, keepaspectratio}
+
+% --- Aside & blockquote ---
+\usepackage[most]{tcolorbox}
+\usepackage{etoolbox}
+
+\renewenvironment{quote}{%
+  \begin{tcolorbox}[
+    blanker,
+    enhanced,
+    borderline west={1pt}{0pt}{black},
+    left=8pt,
+    right=0pt,
+    top=4pt,
+    bottom=4pt,
+    before skip=8pt,
+    after skip=8pt,
+    fontupper=\publishSerifItalic\fontsize{10pt}{15pt}\selectfont
+  ]
+}{\end{tcolorbox}}
+\renewenvironment{quotation}{\begin{quote}}{\end{quote}}
+
+\newtcolorbox{aside}{
+  enhanced,
+  breakable,
+  colback=white,
+  colframe=black,
+  boxrule=1pt,
+  sharp corners,
+  left=12pt,
+  right=12pt,
+  top=12pt,
+  bottom=12pt,
+  before skip=12pt,
+  after skip=12pt,
+  fontupper=\fontsize{11pt}{16pt}\selectfont,
+  overlay={
+    \draw[line width=0.5pt] ([xshift=6pt]frame.north east) -- ([xshift=6pt]frame.south east);
+    \draw[line width=0.5pt] ([yshift=-6pt]frame.south west) -- ([yshift=-6pt]frame.south east);
+  }
+}
+
+\AtBeginEnvironment{aside}{%
+  \FloatBarrier
+  \renewenvironment{figure}[1][]{
+    \center
+    \captionsetup{type=figure}
+  }{\endcenter}
+}
+\AfterEndEnvironment{aside}{\FloatBarrier}
+
+% --- URL line breaking (bibliography-safe) ---
+\usepackage{xurl}
+\urlstyle{same}
+\makeatletter
+\def\UrlBreaks{\do\%\do\/\do-\do\.\do\_\do\?\do\&\do\#\do\=}
+\makeatother
+\AtBeginEnvironment{CSLReferences}{\sloppy\emergencystretch=3em\relax}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning, arrows.meta, shapes, calc}

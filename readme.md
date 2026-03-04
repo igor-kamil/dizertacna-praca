@@ -68,6 +68,29 @@ PDFSETTINGS=/prepress ./build.sh # najvyššia kvalita (približuje sa originál
 FULL=1 ./build.sh               # bez kompresie (úplne preskočí Ghostscript)
 ```
 
+## Generovanie publikačnej verzie (B5)
+
+Publikačná sadzba má samostatný build skript a výstup:
+
+- `build_publish.sh` - build publikačnej verzie
+- `pandoc/publish.defaults.yaml` - B5 konfigurácia
+- `pandoc/preamble_publish.tex` - publikačný layout a typografia
+- výstup: `dissertation.publish.b5.pdf`
+
+```bash
+chmod +x build_publish.sh       # prvýkrát
+./build_publish.sh              # vytvorí dissertation.publish.b5.pdf
+```
+
+Voliteľné režimy kompresie sú rovnaké:
+
+```bash
+PDFSETTINGS=/screen ./build_publish.sh
+PDFSETTINGS=/printer ./build_publish.sh
+PDFSETTINGS=/prepress ./build_publish.sh
+FULL=1 ./build_publish.sh
+```
+
 ## Generovanie autoreferátu
 
 Autoreferát má samostatný build skript a jeden zdrojový súbor:

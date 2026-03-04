@@ -1,0 +1,43 @@
+# Pandoc defaults for dissertation publishing build (B5)
+from: markdown+tex_math_dollars+raw_tex
+to: pdf
+pdf-engine: xelatex
+top-level-division: chapter
+
+metadata-files:
+  - pandoc/metadata.yaml
+metadata:
+  reference-section-title: Zoznam použitej literatúry
+  toc-title: Obsah
+
+template: pandoc/template.tex
+toc: false
+toc-depth: 2
+
+variables:
+  documentclass: report
+  fontsize: 11pt
+  lang: sk-SK
+  papersize: b5
+  geometry:
+    - inner=15mm
+    - outer=15mm
+    - top=15mm
+    - bottom=19mm
+    - includefoot
+    - heightrounded
+
+# Bibliography
+citeproc: true
+bibliography: [references.bib]
+csl: pandoc/style.csl
+
+# Filters
+filters:
+  - pandoc/filters/publish_chapter_marks.lua
+  - pandoc/filters/aside.lua
+  - pandoc/filters/csl_url_wrap.lua
+
+# LaTeX Preamble
+include-in-header:
+  - pandoc/preamble_publish.tex
