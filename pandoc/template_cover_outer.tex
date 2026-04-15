@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{report}
+
+$if(geometry)$
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$endif$
+
+\input{pandoc/preamble.tex}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+
+    {\scshape\Large $if(university)$$university$$else$Vysoká škola výtvarných umení v Bratislave$endif$ \par}
+
+    \vspace{3.2cm}
+
+    {\huge\bfseries $title$ \par}
+
+    $if(subtitle)$
+    \vspace{0.7cm}
+    {\Large\itshape $subtitle$ \par}
+    $endif$
+
+    \vfill
+
+    \begin{flushleft}
+      {\large Bratislava $date$ \par}
+      \vspace{0.3cm}
+      {\large $for(author)$$author$$sep$, $endfor$ \par}
+    \end{flushleft}
+\end{titlepage}
+\end{document}

@@ -1,0 +1,16 @@
+from: markdown
+to: pdf
+pdf-engine: xelatex
+
+metadata-files:
+  - pandoc/metadata.yaml
+
+template: pandoc/template_cover_outer.tex
+
+variables:
+  documentclass: report
+  fontsize: 11pt
+  lang: sk-SK
+  geometry:
+    - margin=3cm
+    - heightrounded
