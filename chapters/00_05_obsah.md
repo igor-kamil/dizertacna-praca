@@ -1,3 +1,3 @@
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{1}
 \tableofcontents
 \clearpage

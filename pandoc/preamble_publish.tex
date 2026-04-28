@@ -228,8 +228,10 @@
   after skip=12pt,
   fontupper=\fontsize{11pt}{16pt}\selectfont,
   overlay={
-    \draw[line width=0.5pt] ([xshift=6pt]frame.north east) -- ([xshift=6pt]frame.south east);
-    \draw[line width=0.5pt] ([yshift=-6pt]frame.south west) -- ([yshift=-6pt]frame.south east);
+    \draw[line width=1pt]
+    ([xshift=6pt,yshift=-10pt]frame.north east) --
+    ([xshift=6pt,yshift=-6pt]frame.south east) --
+    ([xshift=10pt,yshift=-6pt]frame.south west);
   }
 }
 

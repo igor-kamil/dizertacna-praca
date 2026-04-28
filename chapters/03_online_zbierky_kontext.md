@@ -188,8 +188,6 @@ Kľúčová bola aj transparentnosť procesu: publikovanie kódov, dátových mo
 
 ### 3.3.4 Science Museum Group: viditeľnosť ako kurátorská otázka
 
-### 3.3.4 Science Museum Group: viditeľnosť ako kurátorská otázka
-
 Science Museum Group upozornila na menej reflektovaný problém digitálnych zbierok: *nerovnomernú viditeľnosť objektov*. Experiment *Never Been Seen* vznikol ako pokus narušiť hierarchiu pozornosti, ktorá nevzniká len vo fyzických expozíciách, ale aj v samotných procesoch digitalizácie, v kvalite metadát a v logike online katalógov. Autori projektu tým pripomínajú, že digitalizácia často nevedome reprodukuje tradičné kurátorské výbery: ikonické alebo často vystavované objekty sa sprístupňujú skôr, zatiaľ čo veľká časť zbierok zostáva nezdigitalizovaná, nedostatočne opísaná alebo prakticky neviditeľná [@smg_neverbeenseen_blog].
 
 Táto nerovnováha má priamy dopad na to, aký „obraz zbierky“ online rozhranie sprostredkuje. Naratív zbierky sa netvorí len z toho, *čo* inštitúcia vlastní, ale aj z toho, *čo* je dostupné, vyhľadateľné a interpretovateľné. Viditeľnosť sa tak stáva výsledkom priorít a obmedzení (kurátorských aj technických), nie automatickým dôsledkom publikovania.
