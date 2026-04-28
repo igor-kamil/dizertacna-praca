@@ -16,6 +16,8 @@ toc-depth: 2
 
 variables:
   documentclass: report
+  classoption:
+    - twoside
   fontsize: 11pt
   lang: sk-SK
   papersize: b5

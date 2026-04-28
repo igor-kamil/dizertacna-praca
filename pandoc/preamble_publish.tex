@@ -10,6 +10,7 @@
 \usepackage{microtype}
 \usepackage{xevlna}
 \usepackage{enumitem}
+\usepackage{etoolbox}
 \setlist{nosep}
 \raggedbottom
 
@@ -32,6 +33,11 @@
   BoldFont = AsyncSans-Bold
 ]
 
+\newfontfamily\publishSansRegular{Async Sans}[
+  Path = fonts/Async/,
+  Extension = .otf,
+  UprightFont = AsyncSans-Regular
+]
 \newfontfamily\publishSansMedium{Async Sans}[
   Path = fonts/Async/,
   Extension = .otf,
@@ -60,8 +66,27 @@
 % --- Headings ---
 \usepackage{titlesec}
 
+\DeclareRobustCommand{\publishChapterHeading}[3]{%
+  \texorpdfstring{%
+    \raggedright
+    {\publishSansRegular\fontsize{17pt}{20pt}\selectfont Kapitola~#1}%
+    \\[3pt]%
+    {\publishSansBold\fontsize{26pt}{32pt}\selectfont #2}%
+  }{#3}%
+}
+\DeclareRobustCommand{\publishChapterTocHeading}[3]{#3}
+\let\publishOriginalTableOfContents\tableofcontents
+\renewcommand{\tableofcontents}{%
+  {%
+    \renewcommand{\familydefault}{\sfdefault}%
+    \normalfont
+    \let\publishChapterHeading\publishChapterTocHeading
+    \publishOriginalTableOfContents
+  }%
+}
+
 \titleformat{\chapter}[display]
-  {\publishSansBold\fontsize{26pt}{32pt}\selectfont}
+  {\publishSansBold\fontsize{26pt}{32pt}\selectfont\raggedright}
   {}
   {0pt}
   {}
@@ -82,15 +107,24 @@
 \titlespacing*{\subsection}{0pt}{14pt}{6pt}
 
 % --- Footer markers (updated by Lua filter) ---
+\newif\ifpublishHasChapterMark
+\publishHasChapterMarkfalse
 \newcommand{\publishChapterIndex}{}
 \newcommand{\publishChapterTitle}{}
 \newcommand{\publishSetChapterMark}[2]{%
+  \publishHasChapterMarktrue
   \gdef\publishChapterIndex{#1}%
   \gdef\publishChapterTitle{#2}%
   \markboth{#2}{#1}%
 }
-\newcommand{\publishIfBlankTF}[3]{%
-  \if\relax\detokenize{#1}\relax #2\else #3\fi
+\newcommand{\publishClearChapterMark}{%
+  \publishHasChapterMarkfalse
+  \gdef\publishChapterIndex{}%
+  \gdef\publishChapterTitle{}%
+  \markboth{}{}%
+}
+\newcommand{\publishIfChapterMarkTF}[2]{%
+  \ifpublishHasChapterMark #2\else #1\fi
 }
 
 % --- Header/footer layout ---
@@ -104,7 +138,7 @@
 \fancyfoot[RO]{\publishSansBold\fontsize{9pt}{11pt}\selectfont\thepage}
 \fancyfoot[RE]{%
   \publishSansMedium\fontsize{9pt}{11pt}\selectfont
-  \publishIfBlankTF{\publishChapterIndex}{}{Kapitola~\publishChapterIndex}%
+  \publishIfChapterMarkTF{}{Kapitola~\publishChapterIndex}%
 }
 \fancyfoot[LO]{\publishSansMedium\fontsize{9pt}{11pt}\selectfont\publishChapterTitle}
 
@@ -115,7 +149,7 @@
   \fancyfoot[RO]{\publishSansBold\fontsize{9pt}{11pt}\selectfont\thepage}
   \fancyfoot[RE]{%
     \publishSansMedium\fontsize{9pt}{11pt}\selectfont
-    \publishIfBlankTF{\publishChapterIndex}{}{Kapitola~\publishChapterIndex}%
+    \publishIfChapterMarkTF{}{Kapitola~\publishChapterIndex}%
   }
   \fancyfoot[LO]{\publishSansMedium\fontsize{9pt}{11pt}\selectfont\publishChapterTitle}
 }
@@ -156,7 +190,6 @@
 
 % --- Aside & blockquote ---
 \usepackage[most]{tcolorbox}
-\usepackage{etoolbox}
 
 \renewenvironment{quote}{%
   \begin{tcolorbox}[

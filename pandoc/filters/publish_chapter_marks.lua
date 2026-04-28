@@ -1,5 +1,5 @@
 -- Pandoc Lua filter for publishing build:
--- Updates footer chapter markers from level-1 headings.
+-- Updates footer chapter markers and generated chapter headings from level-1 headings.
 
 local function stringify(inlines)
   return pandoc.utils.stringify(inlines or {})
@@ -41,15 +41,31 @@ function Header(el)
   end
 
   if el.classes and el.classes:includes("unlisted") then
-    local clear = pandoc.RawBlock("latex", "\\publishSetChapterMark{}{}")
+    local clear = pandoc.RawBlock("latex", "\\publishClearChapterMark")
     return { clear, el }
   end
 
   local text = trim(stringify(el.content))
   local idx, title = parse_chapter_heading(text)
+  if idx == "" or title == "" then
+    local clear = pandoc.RawBlock("latex", "\\publishClearChapterMark")
+    return { clear, el }
+  end
+
   local mark = pandoc.RawBlock(
     "latex",
     string.format("\\publishSetChapterMark{%s}{%s}", latex_escape(idx), latex_escape(title))
   )
+  el.content = {
+    pandoc.RawInline(
+      "latex",
+      string.format(
+        "\\publishChapterHeading{%s}{%s}{%s}",
+        latex_escape(idx),
+        latex_escape(title),
+        latex_escape(text)
+      )
+    )
+  }
   return { mark, el }
 end
