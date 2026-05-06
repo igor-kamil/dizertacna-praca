@@ -22,7 +22,7 @@ variables:
   lang: sk-SK
   papersize: b5
   geometry:
-    - inner=15mm
+    - inner=21mm
     - outer=15mm
     - top=15mm
     - bottom=19mm
