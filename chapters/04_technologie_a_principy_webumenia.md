@@ -1,4 +1,4 @@
-# 4. Pod povrchom rozhrania: technológie a princípy Web umenia
+# 4. Pod povrchom rozhrania: technológie a princípy Web umenia
 
 ## *Preface*
 
@@ -31,13 +31,14 @@ Preto sme zvolili opatrnejší postup: začať znova jednoduchšie, a rýchlo. P
 
 Pri návrhu architektúry Web umenia sa postupne ukázalo, že technické rozhodnutia nemožno oddeliť od spôsobu práce tímu. Preto sme si v lab.SNG vytvorili jednoduché, no dlhodobo funkčné pravidlo:
 
-- *Malé projekty* slúžili ako priestor na experimentovanie – skúšali sme nové frameworky, knižnice alebo prístupy bez očakávania okamžitého „produkčného" výsledku.
-- *Väčšie projekty* sa naopak opierali o už overené nástroje a riešenia, kde bola dôležitejšia stabilita než novota.
+* *Malé projekty* slúžili ako priestor na experimentovanie – skúšali sme nové frameworky, knižnice alebo prístupy bez očakávania okamžitého „produkčného" výsledku.
+* *Väčšie projekty* sa naopak opierali o už overené nástroje a riešenia, kde bola dôležitejšia stabilita než novota.
 
 Aby sa poznatky z experimentov nestrácali, zaviedli sme krátke interné stretnutia, neformálne nazývané *„pikniky"*. Išlo o približne 30-minútové zdieľania, kde sa tímu sprostredkovalo, čo nový nástroj alebo prístup priniesol — vrátane situácií, keď sa ukázal ako slepá ulička.
 
-Táto prax mala priamy dopad na architektúru systému: podporovala iteratívny vývoj, znižovala strach z neúspechu a pomáhala vnímať vývoj nie ako jednorazovú implementáciu, ale ako *proces učenia sa*, ktorý je nevyhnutný pri navrhovaní digitálnych infraštruktúr v kultúrnej inštitúcii.
+Táto prax mala dopad na architektúru systému: podporovala iteratívny vývoj, znižovala strach z neúspechu a pomáhala vnímať vývoj nie ako jednorazovú implementáciu, ale ako *proces učenia sa*, ktorý je nevyhnutný pri navrhovaní digitálnych infraštruktúr v kultúrnej inštitúcii.
 :::
+
 
 Slepé cesty sa objavili skoro. Napríklad snaha riešiť facety priamo cez MySQL bola chvíľu funkčná, ale pri väčšom objeme dát prestala škálovať. Nebolo to zlyhanie, skôr lacná lekcia: ukázalo sa, ktoré veci sa dajú „urobiť rýchlo" a ktoré treba postaviť na inej vrstve. Práve takto sa architektúra začala skladať: postupne, s testovaním, s návratmi, bez predstavy, že všetko musí byť správne na prvýkrát.
 
@@ -99,7 +100,7 @@ Dáta nie sú čítané priamo, ale sprostredkovane cez harvestovací proces.](f
 
 Z pohľadu architektúry sa Web umenia postupne ustálilo ako *viacvrstvový systém*, hoci nie vždy striktne oddelený. Na najnižšej úrovni sa nachádzajú dáta: metadáta diel, médiá, autoritné záznamy a pomocné štruktúry (napríklad pre geografiu alebo taxonómie). Nad nimi stojí aplikačná vrstva, ktorá zabezpečuje indexáciu, vyhľadávanie a sprístupňovanie dát prostredníctvom rôznych rozhraní. Prezentačná vrstva — webové rozhranie, mapy, kolekcie či tematické články — potom tieto dáta prekladá do konkrétnej používateľskej skúsenosti.
 
-Hranice medzi týmito vrstvami však nikdy neboli úplne ostré. Web umenia vznikalo ako monolitická aplikácia postavená na Laraveli s blade šablónami, kde frontend a backend žili v jednom kóde. API nebolo pôvodne myslené ako primárny spôsob komunikácie, ale skôr ako *praktický nástroj*: na drobné asynchrónne dotazy v rámci aplikácie (napríklad pre podobné diela) a na sprístupnenie dát externým používateľom.
+Hranice medzi týmito vrstvami však nikdy neboli úplne ostré. Web umenia vznikal ako monolitická aplikácia postavená na Laraveli s blade šablónami, kde frontend a backend žili v jednom kóde. API nebolo pôvodne myslené ako primárny spôsob komunikácie, ale skôr ako *praktický nástroj*: na drobné asynchrónne dotazy v rámci aplikácie (napríklad pre podobné diela) a na sprístupnenie dát externým používateľom.
 
 Postupne sa však vyvinuli *tri paralelné spôsoby práce s API*. Prvý slúži interne, tam kde sa to v aplikácii hodí. Druhý — historicky starší — poskytuje komunitné API postavené priamo nad Elasticsearch, využívané hackathonmi, akademickými projektmi aj galériami, ktoré zobrazujú vlastné zbierky cez Web umenia. Tretí, novší prístup (API v2) je určený pre interné aplikácie lab.SNG a pracuje s obohatenými dátami, ktoré kombinujú viacero zdrojov. Táto nejednoznačnosť je dodnes zdrojom istých technických kompromisov, ale zároveň odráža *evolučný charakter* celého systému.
 
@@ -126,27 +127,28 @@ Elasticsearch sa tak postupne stal viac než len vyhľadávacím modulom. Väč�
 
 \begin{figure}[ht]
   \centering
+  \resizebox{\linewidth}{!}{%
   \begin{tikzpicture}[
-    font=\small,
-    node distance=3.2cm,
+    font=\scriptsize,
+    node distance=2.2cm,
     box/.style={
       draw,
       rounded corners,
       align=center,
-      text width=3.2cm,
-      minimum height=1.2cm,
-      inner sep=5pt
+      text width=2.6cm,
+      minimum height=1.0cm,
+      inner sep=3pt
     },
     arrow/.style={->, thick}
   ]
-    \node[box] (db) {Databáza\\{\scriptsize (zdroj evidenčných údajov)}};
-    \node[box, right=of db] (es) {Elasticsearch\\{\scriptsize (index pre vyhľadávanie)}};
-    \node[box, right=of es] (ui) {Webové rozhranie\\{\scriptsize (UI / API)}};
+    \node[box] (db) {Databáza\\{\tiny (evidenčné údaje)}};
+    \node[box, right=of db] (es) {Elasticsearch\\{\tiny (vyhľ. index)}};
+    \node[box, right=of es] (ui) {Webové rozhranie\\{\tiny (UI / API)}};
 
-    \draw[arrow] (db) -- node[midway, above, align=center]{\scriptsize indexovanie\\\scriptsize (priebežná aktualizácia)} (es);
-    \draw[arrow] (es) -- node[midway, below, align=center]{\scriptsize vyhľadávanie, filtre, radenie} (ui);
-  \end{tikzpicture}
-
+    \draw[arrow] (db) -- node[midway, above, align=center]{\tiny indexovanie\\\tiny (priebežne)} (es);
+    \draw[arrow] (es) -- node[midway, below, align=center]{\tiny vyhľadávanie\\\tiny filtre, radenie} (ui);
+  \end{tikzpicture}%
+  }
   \caption{Zjednodušený tok dát: databáza je zdrojom údajov, Elasticsearch slúži ako vyhľadávací index a rozhranie z neho číta zoznamy a výsledky vyhľadávania.}
   \label{fig:db-es-ui}
 \end{figure}

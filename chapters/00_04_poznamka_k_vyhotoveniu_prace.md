@@ -14,4 +14,4 @@ Súčasťou repozitára sú aj vybrané dátové exporty (napr. CSV) a skripty v
 
 ## Sadzba a typografia
 
-Výsledný dokument je sádzaný v \TeX{} a generovanie finálneho PDF je súčasťou zdokumentovaného produkčného postupu v repozitári. Ako hlavné písmo bol použitý Setup Serif (autor Ondrej Jób).
+Výsledný dokument je sádzaný v \TeX{} a generovanie finálneho PDF je súčasťou zdokumentovaného produkčného postupu v repozitári. Pre sadzbu boli použité písma Setup Serif a Async Sans (autor Ondrej Jób).

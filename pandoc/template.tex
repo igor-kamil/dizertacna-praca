@@ -78,33 +78,41 @@ $if(has-frontmatter)$
 $endif$
 $if(title)$
 \begin{titlepage}
-    \centering
-    \vspace*{1cm}
-    {\scshape\Large $if(university)$$university$$else$Vysoká škola výtvarných umení v Bratislave$endif$ \par}
-    \vspace{2cm}
-    {\huge\bfseries $title$ \par}
+    \thispagestyle{empty}
+    \raggedright
+    \vspace*{0.6cm}
+    {\publishSansRegular\fontsize{11pt}{14pt}\selectfont $if(university)$$university$$else$Vysoká škola výtvarných umení v Bratislave$endif$\par}
+
+    \vspace{2.2cm}
+    {\publishSansBold\fontsize{33pt}{37pt}\selectfont $title$\par}
     $if(subtitle)$
-    \vspace{0.5cm}
-    {\Large\itshape $subtitle$ \par}
+    \vspace{0.7cm}
+    {\publishSerifItalic\fontsize{16pt}{21pt}\selectfont $subtitle$\par}
     $endif$
-    \vspace{1cm}
-    {\Large $if(genre)$$genre$$else$Dizertačná práca$endif$ \par}
-    \vspace{1cm}
-    {\Large\bfseries $for(author)$$author$$sep$, $endfor$ \par}
+
+    \vspace{1.5cm}
+    {\publishSansMedium\fontsize{14pt}{18pt}\selectfont $if(genre)$$genre$$else$Dizertačná práca$endif$\par}
+    \vspace{0.3cm}
+    {\publishSansMedium\fontsize{14pt}{18pt}\selectfont $for(author)$$author$$sep$, $endfor$\par}
+
     \vfill
-    \begin{flushleft} \large
+    \begingroup
+    \setlength{\parindent}{0pt}
+    {\publishSansRegular\fontsize{10pt}{14pt}\selectfont
     $if(supervisor)$
-    \textbf{Školiteľ:} $supervisor$ \\
+    Školiteľ:\enspace{\rmfamily $supervisor$}\par
     $endif$
     $if(consultant)$
-    \textbf{Konzultant:} $consultant$ \\
+    Konzultant:\enspace{\rmfamily $consultant$}\par
     $endif$
     $if(field)$
-    \textbf{Odbor:} $field$ \\
+    Odbor:\enspace{\rmfamily $field$}\par
     $endif$
-    \end{flushleft}
-    \vspace{1cm}
-    {\large $date$ \par}
+    }
+    \endgroup
+
+    \vspace{0.6cm}
+    {\publishSansMedium\fontsize{12pt}{14pt}\selectfont $date$\par}
 \end{titlepage}
 $if(abstract)$
 \begin{abstract}
