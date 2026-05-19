@@ -1,105 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1100"
+  height="520"
+  viewBox="0 0 1100 520"
+>
   <defs>
-    <style>
-      :root {
-        --ink: #222222;
-        --muted: #5f5f5f;
-        --line: #2a2a2a;
-        --panel: #ffffff;
-        --soft: #f7f7f7;
-      }
-
-      .canvas {
-        fill: #ffffff;
-      }
-
-      .box {
-        fill: var(--panel);
-        stroke: var(--line);
-        stroke-width: 2;
-        rx: 18;
-        ry: 18;
-      }
-
-      .hub {
-        fill: var(--soft);
-        stroke-width: 2.4;
-      }
-
+    <style type="text/css">
       .title {
         font-family: "Async Sans", sans-serif;
         font-size: 20px;
         font-weight: 700;
-        fill: var(--ink);
+        fill: #222222;
       }
 
       .label {
         font-family: "Async Sans", sans-serif;
         font-size: 14px;
         font-weight: 400;
-        fill: var(--muted);
-      }
-
-      .arrow {
-        stroke: var(--line);
-        stroke-width: 2.1;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        fill: none;
-        marker-end: url(#arrowhead);
-      }
-
-      .api-label-bg {
-        fill: #ffffff;
-        stroke: var(--line);
-        stroke-width: 1.4;
+        fill: #5f5f5f;
       }
 
       .api-label {
         font-family: "Async Sans", sans-serif;
         font-size: 14px;
         font-weight: 700;
-        fill: var(--ink);
+        fill: #222222;
         letter-spacing: 0.3px;
+      }
+
+      .arrow {
+        stroke: #2a2a2a;
+        stroke-width: 2.1;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+        marker-end: url(#arrowhead);
       }
     </style>
 
     <marker
       id="arrowhead"
+      viewBox="0 0 10 8"
       markerWidth="10"
       markerHeight="8"
       refX="9"
       refY="4"
-      orient="auto"
-      markerUnits="strokeWidth">
+      orient="auto">
       <path d="M 0 0 L 10 4 L 0 8 Z" fill="#2a2a2a"/>
     </marker>
   </defs>
 
-  <rect class="canvas" x="0" y="0" width="1100" height="520"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="1100" height="520" fill="#ffffff"/>
 
   <!-- Left source -->
-  <rect class="box" x="60" y="210" width="220" height="100"/>
+  <rect
+    x="60"
+    y="210"
+    width="220"
+    height="100"
+    rx="18"
+    ry="18"
+    fill="#ffffff"
+    stroke="#2a2a2a"
+    stroke-width="2"
+  />
   <text class="title" x="170" y="250" text-anchor="middle">Elasticsearch</text>
   <text class="label" x="170" y="278" text-anchor="middle">index / vyhľadávanie</text>
 
   <!-- Central hub -->
-  <rect class="box hub" x="360" y="185" width="300" height="150"/>
+  <rect
+    x="360"
+    y="185"
+    width="300"
+    height="150"
+    rx="18"
+    ry="18"
+    fill="#f7f7f7"
+    stroke="#2a2a2a"
+    stroke-width="2.4"
+  />
   <text class="title" x="510" y="250" text-anchor="middle">Web umenia</text>
   <text class="label" x="510" y="278" text-anchor="middle">zdrojové dáta + API</text>
 
   <!-- Right projects -->
-  <rect class="box" x="770" y="60" width="280" height="90"/>
+  <rect
+    x="770"
+    y="60"
+    width="280"
+    height="90"
+    rx="18"
+    ry="18"
+    fill="#ffffff"
+    stroke="#2a2a2a"
+    stroke-width="2"
+  />
   <text class="title" x="910" y="112" text-anchor="middle">Mikrostránky výstav</text>
 
-  <rect class="box" x="770" y="175" width="280" height="90"/>
+  <rect
+    x="770"
+    y="175"
+    width="280"
+    height="90"
+    rx="18"
+    ry="18"
+    fill="#ffffff"
+    stroke="#2a2a2a"
+    stroke-width="2"
+  />
   <text class="title" x="910" y="227" text-anchor="middle">Plenérizmus</text>
 
-  <rect class="box" x="770" y="290" width="280" height="90"/>
+  <rect
+    x="770"
+    y="290"
+    width="280"
+    height="90"
+    rx="18"
+    ry="18"
+    fill="#ffffff"
+    stroke="#2a2a2a"
+    stroke-width="2"
+  />
   <text class="title" x="910" y="342" text-anchor="middle">Atlas SNG</text>
 
-  <rect class="box" x="770" y="405" width="280" height="90"/>
+  <rect
+    x="770"
+    y="405"
+    width="280"
+    height="90"
+    rx="18"
+    ry="18"
+    fill="#ffffff"
+    stroke="#2a2a2a"
+    stroke-width="2"
+  />
   <text class="title" x="910" y="440" text-anchor="middle">Dizajn v kocke</text>
   <text class="label" x="910" y="466" text-anchor="middle">a iné aplikácie</text>
 
@@ -113,6 +148,16 @@
   <line class="arrow" x1="660" y1="304" x2="770" y2="450"/>
 
   <!-- API label -->
-  <rect class="api-label-bg" x="684" y="248" width="64" height="24" rx="12" ry="12"/>
+  <rect
+    x="684"
+    y="248"
+    width="64"
+    height="24"
+    rx="12"
+    ry="12"
+    fill="#ffffff"
+    stroke="#2a2a2a"
+    stroke-width="1.4"
+  />
   <text class="api-label" x="716" y="265" text-anchor="middle">API</text>
 </svg>
