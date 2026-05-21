@@ -146,18 +146,4 @@
   <line class="arrow" x1="660" y1="248" x2="770" y2="220"/>
   <line class="arrow" x1="660" y1="276" x2="770" y2="335"/>
   <line class="arrow" x1="660" y1="304" x2="770" y2="450"/>
-
-  <!-- API label -->
-  <rect
-    x="684"
-    y="248"
-    width="64"
-    height="24"
-    rx="12"
-    ry="12"
-    fill="#ffffff"
-    stroke="#2a2a2a"
-    stroke-width="1.4"
-  />
-  <text class="api-label" x="716" y="265" text-anchor="middle">API</text>
 </svg>

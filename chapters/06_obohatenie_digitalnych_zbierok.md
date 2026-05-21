@@ -82,13 +82,11 @@ Výsledné rozhranie stojí na trojici volieb: *motív*, *nálada* a *počasie*.
 ::: {.aside}
 **karta projektu: plenerizmus.sng.sk**
 
-- *názov projektu:* *plenerizmus.sng.sk*
 - *účel a kontext použitia:* doplnok k výstave „Z akadémie do prírody. Podoby krajinomaľby v strednej Európe 1860–1890“; dotykový kiosk pri vstupe
 - *role a autori:* vývoj a dizajn: Igor Rjabinin, Lukáš Štepanovský, Pavlína Morháčová; kurátorka výstavy: Katarína Beňová
 - *výskumný vstup:* rozhovory s galerijnou pedagogikou (Peter Pivoda, Miroslava Mišová) ako zdroj konceptu „nálady“
 - *dáta a zdroj:* diela z Webu umenia cez API; nad nimi ručne vytvorené tagy (*motív / nálada / počasie*)
 - *rozhranie a režim:* touch-first, výstup do detailu a zoomu; možnosť pokračovať na mobile (QR)
-- *technológie a stack:* Laravel + Vue.js
 - *repozitár:* <https://github.com/SlovakNationalGallery/plenerizmus.sng.sk>
 - *poznámky k implementácii:* kurátorské tagovanie je súčasťou „navigačného jazyka“, nie len doplnkové metadáta
 :::
@@ -129,8 +127,6 @@ Druhá referencia je *Bosch. A story in pictures* z Museo del Prado. Prado to ex
 
 ![Rijksmuseum: *Closer to Johannes Vermeer* – digitálny sprievodca k výstave ako samostatná naratívna vrstva.](figures/fig-6-3-rijks_vermeer_hero.png){#fig:rijks-vermeer-hero width=90%}
 
-![Museo del Prado: *Bosch. A story in pictures* – explicitne označený *scrollytelling* formát.](figures/fig-6-3-prado_bosch_scrollytelling.png){#fig:prado-bosch-scrollytelling width=90%}
-
 ::: {.aside}
 **Closer to Johannes Vermeer** [@rijksmuseum_vermeer_hub]
 
@@ -147,6 +143,8 @@ Druhá referencia je *Bosch. A story in pictures* z Museo del Prado. Prado to ex
 - *forma:* interaktívny *scrollytelling* zdroj
 - *silná stránka:* lineárne čítanie + priebežné vizuálne „dôkazy“ a kontext
 :::
+
+![Museo del Prado: *Bosch. A story in pictures* – explicitne označený *scrollytelling* formát.](figures/fig-6-3-prado_bosch_scrollytelling.png){#fig:prado-bosch-scrollytelling width=90%}
 
 ### Limitácia, ktorú si tieto projekty nesú: krehkosť a izolácia
 
@@ -249,8 +247,6 @@ V roku 2022 sme dostali príležitosť navrhnúť mobilného sprievodcu pre nov�
 
 ![Použitie v priestore: mobilný sprievodca má fungovať ako krátky „zásah do kontextu“, po ktorom sa pozornosť prirodzene vracia späť k dielu.](figures/fig-6-4-atlas-sng-in-situ.jpg){#fig:atlas-sng-in-situ width=90%}
 
-Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť určiť vlastný rytmus: nie byť ťahaný lineárnym audio-guide scenárom, ale mať možnosť nechať sa „odprevadiť“ k dielam, ktoré dávajú zmysel v rámci témy, nálady alebo zvedavosti. Do digitálnej vrstvy sme preto pridávali videá s komentármi, možnosť ukladať si obľúbené diela a vracať sa k nim neskôr, a napokon aj hravý motív „pátračky“: mesačná téma, ku ktorej boli vybrané súvisiace diela — po ich nazbieraní sa odomkla odmena (káva/nápoj v kaviarni alebo zľava v kníhkupectve). Táto drobnosť je pre mňa dôležitá: digitálna vrstva sa tu neuzatvára sama do seba, ale cielene sa „vracia“ do fyzického sveta ako motivácia k pohybu a pozornosti.
-
 ::: {.aside}
 **karta projektu: Atlas SNG**
 
@@ -264,6 +260,8 @@ Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť ur�
 - *dizajn:* Filip Ruisl
 - *vývoj:* Igor Rjabinin, Mayo Horkovič, František Sebestyén, Rastislav Chynoranský, Ernest Walzel
 :::
+
+Jadro návrhu bolo v modelovaní tempa a smeru. Návštevník si mal vedieť určiť vlastný rytmus: nie byť ťahaný lineárnym audio-guide scenárom, ale mať možnosť nechať sa „odprevadiť“ k dielam, ktoré dávajú zmysel v rámci témy, nálady alebo zvedavosti. Do digitálnej vrstvy sme preto pridávali videá s komentármi, možnosť ukladať si obľúbené diela a vracať sa k nim neskôr, a napokon aj hravý motív „pátračky“: mesačná téma, ku ktorej boli vybrané súvisiace diela — po ich nazbieraní sa odomkla odmena (káva/nápoj v kaviarni alebo zľava v kníhkupectve). Táto drobnosť je pre mňa dôležitá: digitálna vrstva sa tu neuzatvára sama do seba, ale cielene sa „vracia“ do fyzického sveta ako motivácia k pohybu a pozornosti.
 
 ### Implementačná poznámka: fyzické ID ako most do API
 
@@ -347,7 +345,6 @@ Digital Curator: (vľavo) naratívne rámovanie „cestovania“ diel medzi zbie
 ::: {.aside}
 **karta projektu: Ornament Explorer**
 
-- *názov:* Ornament Explorer
 - *URL:* <http://ornament-explorer.mkg-hamburg.de>
 - *repozitár:* <https://github.com/igor-kamil/mkg-ornament>
 - *inštitúcia / kontext:* MK&G Hamburg, NEO Lab; nadväzuje na prototyp *Objektforscher* (Data Exploration Sprint)
